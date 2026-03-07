@@ -27,6 +27,7 @@
           ✅ 已完成 {{ completedContests }} 个
         </span>
       </div>
+      <div class="text-center text-sm text-gray-500 mt-2">
         <span v-if="lastUpdateTime !== '暂无数据'">最后更新：<span class="font-mono">{{ lastUpdateTime }}</span></span>
         <span v-else class="text-orange-500">⏳ 等待竞赛结束，数据即将更新...</span>
       </div>
