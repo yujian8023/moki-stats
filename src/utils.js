@@ -149,4 +149,92 @@ export function getISOWeek(date = new Date()) {
   return `${d.getUTCFullYear()}-W${weekNo.toString().padStart(2, '0')}`;
 }
 
+/**
+ * 检查 moki 详情是否已存在
+ */
+export function mokiExists(tokenId) {
+  const filePath = path.join(ROOT_DIR, 'data', 'mokis', `${tokenId}.json`);
+  return fs.existsSync(filePath);
+}
+
+/**
+ * 保存 moki 详情
+ */
+export function saveMokiDetails(tokenId, details) {
+  const filePath = path.join(ROOT_DIR, 'data', 'mokis', `${tokenId}.json`);
+  
+  const saved = {
+    tokenId: details.tokenId || tokenId,
+    name: details.name || 'Unknown',
+    element: details.element || 'Unknown',
+    rarity: details.rarity || 'Common',
+    role: details.role || 'Unknown',
+    imageUrl: details.imageUrl || details.image || '',
+    stats: details.stats || {},
+    skills: details.skills || [],
+    fetchedAt: new Date().toISOString()
+  };
+  
+  writeJson(filePath, saved);
+  return saved;
+}
+
+/**
+ * 获取 moki 详情
+ */
+export function getMokiDetails(tokenId) {
+  const filePath = path.join(ROOT_DIR, 'data', 'mokis', `${tokenId}.json`);
+  return readJson(filePath);
+}
+
+/**
+ * 获取所有 moki 详情
+ */
+export function getAllMokiDetails() {
+  const mokisDir = path.join(ROOT_DIR, 'data', 'mokis');
+  ensureDir(mokisDir);
+  
+  const files = fs.readdirSync(mokisDir).filter(f => f.endsWith('.json'));
+  return files.map(f => readJson(path.join(mokisDir, f))).filter(Boolean);
+}
+
+/**
+ * 生成 moki 清单文件（用于网页快速加载）
+ */
+export function generateMokiManifest() {
+  const mokis = getAllMokiDetails();
+  const manifest = {
+    total: mokis.length,
+    generatedAt: new Date().toISOString(),
+    mokis: mokis.map(m => ({
+      tokenId: m.tokenId,
+      name: m.name,
+      element: m.element,
+      rarity: m.rarity,
+      role: m.role,
+      imageUrl: m.imageUrl
+    }))
+  };
+  
+  writeJson(path.join(ROOT_DIR, 'data', 'mokis', 'manifest.json'), manifest);
+  return manifest;
+}
+
+/**
+ * 从 leaderboard 中提取所有 moki IDs
+ */
+export function extractMokiIdsFromLeaderboards(leaderboards) {
+  const mokiIds = new Set();
+  
+  for (const lb of leaderboards) {
+    for (const entry of lb.top50 || []) {
+      for (const mokiId of entry.mokiIds || []) {
+        mokiIds.add(mokiId);
+      }
+    }
+  }
+  
+  return Array.from(mokiIds);
+}
+
 export { ROOT_DIR };

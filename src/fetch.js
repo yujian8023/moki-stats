@@ -6,6 +6,7 @@
  */
 
 import fetch from 'node-fetch';
+import fs from 'fs';
 import {
   readJson,
   writeJson,
@@ -17,7 +18,13 @@ import {
   flattenMoki,
   flattenLeaderboardEntry,
   sleep,
-  ensureDir
+  ensureDir,
+  mokiExists,
+  saveMokiDetails,
+  getMokiDetails,
+  getAllMokiDetails,
+  generateMokiManifest,
+  extractMokiIdsFromLeaderboards
 } from './utils.js';
 import path from 'path';
 
@@ -48,6 +55,49 @@ async function fetchMoki(tokenId) {
   const response = await fetch(url);
   if (!response.ok) return null;
   return await response.json();
+}
+
+/**
+ * 批量获取 Moki 详情
+ */
+async function fetchMokiDetails(tokenIds, showLog = true) {
+  if (showLog) {
+    console.log(`🃏 获取 ${tokenIds.length} 个卡牌详情...`);
+  }
+  
+  let fetched = 0;
+  let skipped = 0;
+  
+  for (const tokenId of tokenIds) {
+    if (mokiExists(tokenId)) {
+      skipped++;
+      continue;
+    }
+    
+    try {
+      await sleep(300); // 避免频率限制
+      const details = await fetchMoki(tokenId);
+      
+      if (details) {
+        saveMokiDetails(tokenId, details);
+        fetched++;
+        if (showLog) {
+          console.log(`  ✅ ${details.name || tokenId}`);
+        }
+      }
+    } catch (error) {
+      console.error(`  ❌ ${tokenId}: ${error.message}`);
+    }
+  }
+  
+  if (showLog) {
+    console.log(`📊 新增：${fetched}个，跳过：${skipped}个\n`);
+  }
+  
+  // 生成清单文件
+  generateMokiManifest();
+  
+  return { fetched, skipped };
 }
 
 /**
@@ -92,9 +142,9 @@ function saveContest(contest) {
 }
 
 /**
- * 保存 leaderboard
+ * 保存 leaderboard 并获取卡牌详情
  */
-function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
+async function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
   const filePath = path.join(process.cwd(), 'data', 'leaderboards', `${contestId}.json`);
   
   const flattened = leaderboard.map((entry, idx) => flattenLeaderboardEntry(entry, idx));
@@ -113,6 +163,14 @@ function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
   
   // 标记已抓取
   markLeaderboardFetched(contestId);
+  
+  // 提取并获取卡牌详情
+  const mokiIds = flattened.flatMap(e => e.mokiIds || []);
+  const uniqueMokiIds = [...new Set(mokiIds)];
+  
+  if (uniqueMokiIds.length > 0) {
+    await fetchMokiDetails(uniqueMokiIds, false);
+  }
   
   return saved;
 }
@@ -212,6 +270,18 @@ const mode = args[0];
 if (mode === '--leaderboards') {
   const ids = args[1]?.split(',') || [];
   mainFetchLeaderboards(ids);
+} else if (mode === '--fetch-mokis') {
+  // 从所有 leaderboard 中提取 moki IDs 并获取详情
+  const leaderboardsDir = path.join(process.cwd(), 'data', 'leaderboards');
+  ensureDir(leaderboardsDir);
+  
+  const files = fs.readdirSync(leaderboardsDir).filter(f => f.endsWith('.json'));
+  const leaderboards = files.map(f => readJson(path.join(leaderboardsDir, f))).filter(Boolean);
+  
+  const mokiIds = extractMokiIdsFromLeaderboards(leaderboards);
+  console.log(`📋 从 ${leaderboards.length} 个排行榜中提取到 ${mokiIds.length} 个卡牌 ID\n`);
+  
+  fetchMokiDetails(mokiIds);
 } else {
   mainFetchContests();
 }
