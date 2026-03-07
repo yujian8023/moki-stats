@@ -172,11 +172,11 @@
     createApp({
       data() {
         return {
-          selectedRange: 'summary',
+          selectedRange: '7days',
           timeRanges: [
-            { label: '最近 7 天', value: 'summary' },
-            { label: '本周', value: 'weekly' },
-            { label: '今日', value: 'daily' }
+            { label: '昨日', value: 'yesterday' },
+            { label: '近 7 天', value: '7days' },
+            { label: '今日', value: 'today' }
           ],
           stats: {
             totalPlayers: 0,
@@ -271,11 +271,18 @@
         async loadStats() {
           try {
             let url = 'data/stats/summary.json';
-            if (this.selectedRange === 'daily') {
+            
+            if (this.selectedRange === 'today') {
+              // 今日数据
               const today = new Date().toISOString().split('T')[0];
               url = `data/stats/daily/${today}.json`;
-            } else if (this.selectedRange === 'weekly') {
-              url = 'data/stats/weekly/latest.json';
+            } else if (this.selectedRange === 'yesterday') {
+              // 昨日数据
+              const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+              url = `data/stats/daily/${yesterday}.json`;
+            } else if (this.selectedRange === '7days') {
+              // 近 7 天数据
+              url = 'data/stats/summary.json';
             }
             
             const response = await fetch(url);
