@@ -259,22 +259,11 @@
         },
         async loadContestInfo() {
           try {
-            // 从 manifest 获取竞赛数量
-            const response = await fetch('data/mokis/manifest.json');
-            if (response.ok) {
-              const data = await response.json();
-              // 简单估算：从卡牌数量推算
-              this.contestCount = Math.max(this.contestCount, 9); // 至少 9 个
-            }
-            
-            // 检查 leaderboard 数量
-            const lbResponse = await fetch('data/leaderboards/.gitkeep');
-            if (!lbResponse.ok) {
-              this.completedContests = 0;
-            }
+            // 直接设置固定值，从代码中获取
+            this.contestCount = 9; // 初始 9 个竞赛
+            this.completedContests = 0; // 还没有完成的竞赛
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
-            // 默认值
             this.contestCount = 9;
             this.completedContests = 0;
           }
