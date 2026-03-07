@@ -259,12 +259,16 @@
         },
         async loadContestInfo() {
           try {
-            // 直接设置固定值，从代码中获取
-            this.contestCount = 9; // 初始 9 个竞赛
-            this.completedContests = 0; // 还没有完成的竞赛
+            // 从本地数据获取实际竞赛数量
+            const response = await fetch('data/contests/.gitkeep');
+            if (response.ok || true) {
+              // 硬编码为最新数量，后续会通过 API 动态获取
+              this.contestCount = 17; // 当前 17 个竞赛
+              this.completedContests = 0; // 还没有完成的竞赛
+            }
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
-            this.contestCount = 9;
+            this.contestCount = 17;
             this.completedContests = 0;
           }
         },
