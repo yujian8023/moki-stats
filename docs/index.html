@@ -259,15 +259,29 @@
         },
         async loadContestInfo() {
           try {
-            // 从本地数据获取实际竞赛数量
-            const response = await fetch('data/contests/.gitkeep');
-            if (response.ok || true) {
-              // 硬编码为最新数量，后续会通过 API 动态获取
-              this.contestCount = 17; // 当前 17 个竞赛
-              this.completedContests = 0; // 还没有完成的竞赛
+            // 动态读取 GitHub 上的竞赛文件数量
+            const response = await fetch('https://api.github.com/repos/yujian8023/moki-stats/contents/data/contests');
+            if (response.ok) {
+              const files = await response.json();
+              const contestFiles = files.filter(f => f.name.endsWith('.json'));
+              this.contestCount = contestFiles.length;
+              
+              // 读取排行榜数量
+              const lbResponse = await fetch('https://api.github.com/repos/yujian8023/moki-stats/contents/data/leaderboards');
+              if (lbResponse.ok) {
+                const lbFiles = await lbResponse.json();
+                this.completedContests = lbFiles.filter(f => f.name.endsWith('.json')).length;
+              } else {
+                this.completedContests = 0;
+              }
+            } else {
+              // API 失败时使用缓存值
+              this.contestCount = 17;
+              this.completedContests = 0;
             }
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
+            // 失败时使用默认值
             this.contestCount = 17;
             this.completedContests = 0;
           }
