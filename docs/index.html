@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moki Card 最强阵容统计</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .card-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    .moki-card { transition: all 0.2s; }
+    .moki-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div id="app" class="container mx-auto px-4 py-8">
+    <!-- Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-center text-gray-800 mb-2">🎮 Moki Card 最强阵容统计</h1>
+      <p class="text-center text-gray-600">自动分析高频卡牌与热门阵容</p>
+      <div class="text-center text-sm text-gray-500 mt-2">
+        最后更新：<span class="font-mono">{{ lastUpdateTime }}</span>
+      </div>
+    </header>
+
+    <!-- Time Range Selector -->
+    <div class="flex justify-center gap-4 mb-8">
+      <button 
+        v-for="range in timeRanges" 
+        :key="range.value"
+        @click="selectedRange = range.value"
+        :class="['px-4 py-2 rounded-lg font-medium transition', 
+          selectedRange === range.value 
+            ? 'card-gradient text-white' 
+            : 'bg-white text-gray-700 hover:bg-gray-100']"
+      >
+        {{ range.label }}
+      </button>
+    </div>
+
+    <!-- Stats Overview -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <div class="text-gray-500 text-sm mb-1">总参赛人数</div>
+        <div class="text-3xl font-bold text-gray-800">{{ stats.totalPlayers }}</div>
+      </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <div class="text-gray-500 text-sm mb-1">竞赛场次</div>
+        <div class="text-3xl font-bold text-gray-800">{{ stats.totalContests }}</div>
+      </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <div class="text-gray-500 text-sm mb-1">统计卡牌数</div>
+        <div class="text-3xl font-bold text-gray-800">{{ Object.keys(stats.mokiAppearances).length }}</div>
+      </div>
+    </div>
+
+    <!-- Top Mokis -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">🔥 高频卡牌 TOP 20</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b">
+              <th class="text-left py-3 px-4">排名</th>
+              <th class="text-left py-3 px-4">卡牌 ID</th>
+              <th class="text-left py-3 px-4">出场次数</th>
+              <th class="text-left py-3 px-4">出场率</th>
+              <th class="text-left py-3 px-4">平均排名</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
+              <td class="py-3 px-4">
+                <span :class="getRankClass(idx + 1)">{{ idx + 1 }}</span>
+              </td>
+              <td class="py-3 px-4 font-mono">{{ moki.id }}</td>
+              <td class="py-3 px-4">{{ moki.count }}</td>
+              <td class="py-3 px-4">
+                <div class="flex items-center gap-2">
+                  <div class="w-24 bg-gray-200 rounded-full h-2">
+                    <div class="bg-purple-500 h-2 rounded-full" :style="{width: moki.percentage + '%'}"></div>
+                  </div>
+                  <span>{{ moki.percentage }}%</span>
+                </div>
+              </td>
+              <td class="py-3 px-4">{{ moki.avgRank }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Top Compositions -->
+    <div class="bg-white rounded-xl shadow-sm p-6">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">🏆 热门阵容 TOP 10</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div v-for="(comp, idx) in topCompositions" :key="idx" class="border rounded-lg p-4 hover:shadow-md transition">
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-bold text-gray-700">#{{ idx + 1 }}</span>
+            <span class="text-sm text-gray-500">{{ comp.count }}次 ({{ comp.percentage }}%)</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span v-for="mokiId in comp.mokiIds" :key="mokiId" 
+              class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-mono">
+              {{ mokiId }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mt-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">📈 出场率趋势</h2>
+      <canvas id="trendChart" height="100"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          selectedRange: 'summary',
+          timeRanges: [
+            { label: '最近 7 天', value: 'summary' },
+            { label: '本周', value: 'weekly' },
+            { label: '今日', value: 'daily' }
+          ],
+          stats: {
+            totalPlayers: 0,
+            totalContests: 0,
+            mokiAppearances: {},
+            topCompositions: []
+          },
+          lastUpdateTime: '加载中...'
+        };
+      },
+      computed: {
+        topMokis() {
+          const entries = Object.entries(this.stats.mokiAppearances || {});
+          return entries
+            .sort((a, b) => b[1].count - a[1].count)
+            .slice(0, 20)
+            .map(([id, data]) => ({ id, ...data }));
+        },
+        topCompositions() {
+          return (this.stats.topCompositions || []).slice(0, 10);
+        }
+      },
+      methods: {
+        getRankClass(rank) {
+          if (rank === 1) return 'px-2 py-1 bg-yellow-100 text-yellow-700 rounded font-bold';
+          if (rank === 2) return 'px-2 py-1 bg-gray-100 text-gray-700 rounded font-bold';
+          if (rank === 3) return 'px-2 py-1 bg-orange-100 text-orange-700 rounded font-bold';
+          return 'text-gray-600';
+        },
+        async loadStats() {
+          try {
+            let url = 'data/stats/summary.json';
+            if (this.selectedRange === 'daily') {
+              const today = new Date().toISOString().split('T')[0];
+              url = `data/stats/daily/${today}.json`;
+            } else if (this.selectedRange === 'weekly') {
+              // 简化：直接加载最新周统计
+              url = 'data/stats/weekly/latest.json';
+            }
+            
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('加载失败');
+            this.stats = await response.json();
+            this.lastUpdateTime = this.stats.generatedAt?.split('T')[0] || '未知';
+          } catch (e) {
+            console.error('加载统计失败:', e);
+            this.lastUpdateTime = '加载失败';
+          }
+        },
+        initChart() {
+          const ctx = document.getElementById('trendChart');
+          if (!ctx) return;
+          
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7'],
+              datasets: [{
+                label: 'TOP1 卡牌出场率',
+                data: [85, 82, 88, 84, 86, 83, 87],
+                borderColor: '#8b5cf6',
+                tension: 0.4
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: { display: true }
+              }
+            }
+          });
+        }
+      },
+      watch: {
+        selectedRange() {
+          this.loadStats();
+        }
+      },
+      mounted() {
+        this.loadStats();
+        setTimeout(() => this.initChart(), 500);
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

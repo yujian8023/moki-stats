@@ -1,0 +1,17 @@
+{
+  "name": "moki-stats",
+  "version": "1.0.0",
+  "description": "Moki Card 最强阵容统计 - 自动采集竞赛数据并分析高频卡牌",
+  "type": "module",
+  "scripts": {
+    "fetch": "node src/fetch.js",
+    "analyze": "node src/analyze.js",
+    "test": "node src/fetch.js --test"
+  },
+  "keywords": ["moki", "fantasy", "stats", "leaderboard"],
+  "author": "Billions",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

@@ -1,0 +1,53 @@
+name: Fetch Contests
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时整点
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch contests
+        id: fetch
+        run: |
+          node src/fetch.js 2>&1 | tee output.log
+          # 提取需要抓取 leaderboard 的 IDs
+          LEADERBOARD_IDS=$(grep "LEADERBOARD_IDS=" output.log | cut -d'=' -f2 || echo "")
+          echo "leaderboard_ids=$LEADERBOARD_IDS" >> $GITHUB_OUTPUT
+
+      - name: Fetch leaderboards (if needed)
+        if: steps.fetch.outputs.leaderboard_ids != ''
+        run: |
+          node src/fetch.js --leaderboards "${{ steps.fetch.outputs.leaderboard_ids }}"
+
+      - name: Run analysis
+        run: node src/analyze.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Auto-update: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
