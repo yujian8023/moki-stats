@@ -302,14 +302,24 @@
           return this.stats.totalPlayers > 0;
         },
         cardCount() {
-          // 兼容新旧字段
-          const mokis = Object.keys(this.stats.mokiAppearances || this.stats.cardAppearances || {}).length;
+          // 兼容新旧字段：优先使用 mokiAppearances，如果没有则使用 cardAppearances
+          let mokis = 0;
+          if (this.stats.mokiAppearances && Object.keys(this.stats.mokiAppearances).length > 0) {
+            mokis = Object.keys(this.stats.mokiAppearances).length;
+          } else if (this.stats.cardAppearances) {
+            mokis = Object.keys(this.stats.cardAppearances).length;
+          }
           const strats = Object.keys(this.stats.strategyAppearances || {}).length;
           return mokis + strats;
         },
         topMokis() {
-          // 兼容新旧字段
-          const cards = this.stats.mokiAppearances || this.stats.cardAppearances || {};
+          // 兼容新旧字段：优先使用 mokiAppearances，如果没有则使用 cardAppearances
+          let cards = {};
+          if (this.stats.mokiAppearances && Object.keys(this.stats.mokiAppearances).length > 0) {
+            cards = this.stats.mokiAppearances;
+          } else if (this.stats.cardAppearances) {
+            cards = this.stats.cardAppearances;
+          }
           return Object.entries(cards)
             .map(([id, data]) => ({ id, ...data }))
             .sort((a, b) => b.count - a.count)
