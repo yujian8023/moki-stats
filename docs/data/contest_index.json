@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "generatedAt": "2026-03-08T07:40:34.716Z",
-  "total": 472,
+  "generatedAt": "2026-03-08T08:47:00.490Z",
+  "total": 481,
   "byStatus": {
     "COMPLETED": 455,
     "LIVE": 1,
-    "OPEN": 8,
+    "OPEN": 17,
     "UPCOMING": 0
   },
   "dateStats": {
-    "today": 25,
+    "today": 34,
     "yesterday": 27,
     "last7Days": 163
   },
@@ -5204,6 +5204,105 @@
       "prizePool": 875,
       "entries": 116,
       "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac69811a5b2d1ecf9e58ff",
+      "name": "50/50 Open 10-Round Ratz Mart",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 2000,
+      "prizePool": 6125,
+      "entries": 0,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac69a8d4869256f9c89e7d",
+      "name": "50/50 Open 10-Round Festival Takoyaki",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 1000,
+      "prizePool": 1750,
+      "entries": 0,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac69c533906ac99f6be975",
+      "name": "50/50 Open 10-Round Larry Eggu",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 400,
+      "prizePool": 1050,
+      "entries": 0,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac69eb1a5b2d1ecf9e5932",
+      "name": "Free 2B + 1R + 1E 10-Round Emblem Sora",
+      "contestStatus": "OPEN",
+      "format": "FREE_ENTRY",
+      "entryFee": 0,
+      "prizePool": 0,
+      "entries": 41,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac6a841a5b2d1ecf9e5980",
+      "name": "Top 20% 2B + 2R 10-Round Field Fortune",
+      "contestStatus": "OPEN",
+      "format": "TOP_20_PCT",
+      "entryFee": 100,
+      "prizePool": 371.88,
+      "entries": 20,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac6b5d1a5b2d1ecf9e5997",
+      "name": "50/50 2B + 2R 10-Round Eggu Field",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 200,
+      "prizePool": 525,
+      "entries": 28,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69ac6ba4d4869256f9c89eda",
+      "name": "50/50 Rare Only 20-Round Leaf Buff",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 300,
+      "prizePool": 1312.5,
+      "entries": 28,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z"
+    },
+    {
+      "_id": "69ac6bd41a5b2d1ecf9e59bd",
+      "name": "50/50 Epic Only 10-Round Artifact Tim",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 400,
+      "prizePool": 1050,
+      "entries": 13,
+      "startDate": "2026-03-08T17:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    },
+    {
+      "_id": "69aca1d129016483191085fa",
+      "name": "Winner-Take-All 2B + 2R 10-Round Fortune Yokai",
+      "contestStatus": "OPEN",
+      "format": "WINNER_TAKE_ALL",
+      "entryFee": 200,
+      "prizePool": 120.75,
+      "entries": 4,
+      "startDate": "2026-03-08T17:00:00.000Z",
       "endDate": "2026-03-08T21:00:00.000Z"
     }
   ]
