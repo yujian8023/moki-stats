@@ -1,14 +1,12 @@
-name: Fetch Contests (Incremental)
+name: Initialize Contests (One-time)
 
 on:
-  schedule:
-    - cron: '6 * * * *'  # 每小时第 6 分钟
-  workflow_dispatch:
+  workflow_dispatch:  # 手动触发
 
 jobs:
-  fetch:
+  init:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     
     steps:
       - name: Checkout
@@ -24,9 +22,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch incremental contests
+      - name: Fetch all contests (initialization)
         run: |
-          node src/fetch.js --incremental
+          node src/fetch.js --all
 
       - name: Fetch moki details
         run: |
@@ -46,6 +44,13 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "📊 Auto-update: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "🎉 Initial data import: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
+      
+      - name: Upload data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: contest-data
+          path: data/
+          retention-days: 30

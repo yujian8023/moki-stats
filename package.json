@@ -1,10 +1,14 @@
 {
   "name": "moki-stats",
-  "version": "1.0.0",
-  "description": "Moki Card 最强阵容统计 - 自动采集竞赛数据并分析高频卡牌",
+  "version": "2.0.0",
+  "description": "Moki Card 最强阵容统计 - 自动采集竞赛数据并分析高频卡牌（重构版）",
   "type": "module",
   "scripts": {
-    "fetch": "node src/fetch.js",
+    "init": "node src/fetch.js --all",
+    "fetch": "node src/fetch.js --incremental",
+    "fetch:all": "node src/fetch.js --all",
+    "fetch:leaderboards": "node src/fetch.js --leaderboards",
+    "stats": "node src/stats.js",
     "analyze": "node src/analyze.js",
     "test": "node src/fetch.js --test"
   },

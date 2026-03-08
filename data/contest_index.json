@@ -1,0 +1,259 @@
+{
+  "version": 2,
+  "generatedAt": "2026-03-08T03:55:15.440Z",
+  "total": 25,
+  "byStatus": {
+    "COMPLETED": 0,
+    "LIVE": 0,
+    "OPEN": 8,
+    "UPCOMING": 0
+  },
+  "dateStats": {
+    "today": 25,
+    "yesterday": 0,
+    "last7Days": 0
+  },
+  "contests": [
+    {
+      "_id": "69ab453c2fd78d57b701b576",
+      "name": "50/50 Open 10-Round Tanuki Tim",
+      "entryFee": 0,
+      "prizePool": 6125,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab456c2fd78d57b701b595",
+      "name": "50/50 Open 10-Round Island Ratz",
+      "entryFee": 0,
+      "prizePool": 1968.75,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab45966390c3ee5abf409b",
+      "name": "50/50 Open 10-Round Archipelago Badlands",
+      "entryFee": 0,
+      "prizePool": 1050,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab45c1dad291fffae4166b",
+      "name": "Free 2B + 2R 10-Round Warrior Hotei",
+      "entryFee": 0,
+      "prizePool": 0,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab45f56390c3ee5abf40be",
+      "name": "50/50 Rare Only 10-Round Temple Belly",
+      "entryFee": 0,
+      "prizePool": 1312.5,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab4617dad291fffae4169d",
+      "name": "Top 20% 2B + 2R Star Cap 10-Round Tamakin Larry",
+      "entryFee": 0,
+      "prizePool": 371.88,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab46612fd78d57b701b5cd",
+      "name": "50/50 Epic Only 20-Round Gate Buff",
+      "entryFee": 0,
+      "prizePool": 875,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab46f16390c3ee5abf40f0",
+      "name": "50/50 2B + 2R 10-Round Koban Bald",
+      "entryFee": 0,
+      "prizePool": 525,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab474a2fd78d57b701b5f2",
+      "name": "Top 10% 2R + 2E 10-Round Teapot Factory",
+      "entryFee": 0,
+      "prizePool": 262.5,
+      "entries": 0,
+      "startDate": "2026-03-07T17:00:00.000Z",
+      "endDate": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "_id": "69ab9dd1438b065c15fe8a41",
+      "name": "50/50 Open 10-Round Eggu Archipelago",
+      "entryFee": 0,
+      "prizePool": 6125,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9df9dd53673741bc404f",
+      "name": "50/50 Open 10-Round Koban Horoki",
+      "entryFee": 0,
+      "prizePool": 1750,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9e0d605054a8129cbe76",
+      "name": "50/50 Open 40-Round Eggu Sora",
+      "entryFee": 0,
+      "prizePool": 787.5,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9e89605054a8129cbe91",
+      "name": "Top 20% Basic Only 10-Round Trap Sparkle",
+      "entryFee": 0,
+      "prizePool": 350,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9eaa605054a8129cbeba",
+      "name": "Free 2B + 1R + 1E 10-Round Anvil Larry",
+      "entryFee": 0,
+      "prizePool": 0,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9ed1dd53673741bc408b",
+      "name": "Top 20% Rare Only 10-Round Island Gacha",
+      "entryFee": 0,
+      "prizePool": 525,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9f0e605054a8129cbef3",
+      "name": "50/50 2B + 2R 10-Round Shapeshifter Mart",
+      "entryFee": 0,
+      "prizePool": 1050,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9f3add53673741bc40ab",
+      "name": "50/50 2R + 2E 10-Round Leaf Temple",
+      "entryFee": 0,
+      "prizePool": 1225,
+      "entries": 0,
+      "startDate": "2026-03-08T01:00:00.000Z",
+      "endDate": "2026-03-08T05:00:00.000Z"
+    },
+    {
+      "_id": "69ab9f87605054a8129cbf0e",
+      "name": "Free No Legendary 10-Round Artifact Takoyaki",
+      "contestStatus": "OPEN",
+      "format": "FREE_ENTRY",
+      "entryFee": 0,
+      "prizePool": 0,
+      "entries": 400,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69ab9fabe976b10272914fea",
+      "name": "50/50 Open 10-Round Tamakin Teapot",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 2000,
+      "prizePool": 6125,
+      "entries": 6,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69ab9fbcdd53673741bc40c7",
+      "name": "50/50 Open 10-Round Snack Bald",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 1000,
+      "prizePool": 1750,
+      "entries": 8,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69aba019e976b1027291500f",
+      "name": "50/50 Open 10-Round Buff Gacha",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 400,
+      "prizePool": 1050,
+      "entries": 43,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69aba042605054a8129cbf45",
+      "name": "Top 20% 2B + 2R Star Cap 10-Round Tamakin Shapeshifter",
+      "contestStatus": "OPEN",
+      "format": "TOP_20_PCT",
+      "entryFee": 100,
+      "prizePool": 350,
+      "entries": 87,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69aba064e976b10272915036",
+      "name": "50/50 Rare Only 10-Round Party Tama",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 200,
+      "prizePool": 612.5,
+      "entries": 235,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69aba0b3605054a8129cbf7e",
+      "name": "50/50 2R + 2E 10-Round Field Tanuki",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 300,
+      "prizePool": 787.5,
+      "entries": 51,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T13:00:00.000Z"
+    },
+    {
+      "_id": "69aba0fd605054a8129cbfad",
+      "name": "50/50 One of each 20-Round Council Factory",
+      "contestStatus": "OPEN",
+      "format": "FIFTY_FIFTY",
+      "entryFee": 400,
+      "prizePool": 875,
+      "entries": 101,
+      "startDate": "2026-03-08T09:00:00.000Z",
+      "endDate": "2026-03-08T21:00:00.000Z"
+    }
+  ]
+}

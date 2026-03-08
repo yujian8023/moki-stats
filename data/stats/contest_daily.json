@@ -1,0 +1,38 @@
+{
+  "today": {
+    "date": "2026-03-08",
+    "period": "today",
+    "total": 0,
+    "totalEntries": 0,
+    "totalPrizePool": 0,
+    "avgEntryFee": 0,
+    "avgEntries": 0,
+    "byFormat": {},
+    "generatedAt": "2026-03-08T03:55:15.436Z"
+  },
+  "yesterday": {
+    "date": "2026-03-06",
+    "period": "yesterday",
+    "total": 0,
+    "totalEntries": 0,
+    "totalPrizePool": 0,
+    "avgEntryFee": 0,
+    "avgEntries": 0,
+    "byFormat": {},
+    "generatedAt": "2026-03-08T03:55:15.436Z"
+  },
+  "last7Days": {
+    "dateRange": {
+      "from": "2026-02-28",
+      "to": "2026-03-08"
+    },
+    "period": "last_7_days",
+    "total": 0,
+    "totalEntries": 0,
+    "totalPrizePool": 0,
+    "avgEntryFee": 0,
+    "avgEntries": 0,
+    "byFormat": {},
+    "generatedAt": "2026-03-08T03:55:15.436Z"
+  }
+}

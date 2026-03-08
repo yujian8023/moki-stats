@@ -1,0 +1,75 @@
+{
+  "_id": "69aba064e976b10272915036",
+  "name": "50/50 Rare Only 10-Round Party Tama",
+  "description": "50/50 Rare Only 10-Round Party Tama",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 200,
+  "prizePool": 612.5,
+  "entries": 235,
+  "maxEntries": 350,
+  "startDate": "2026-03-08T09:00:00.000Z",
+  "endDate": "2026-03-08T13:00:00.000Z",
+  "openDate": "2026-03-08T00:00:00.000Z",
+  "showDate": "2026-03-08T00:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W10-7-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T03:54:44.308Z",
+  "leaderboardFetched": false
+}
