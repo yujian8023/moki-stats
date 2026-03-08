@@ -1,40 +1,10 @@
 {
-  "version": 2,
   "period": "last_7_days",
-  "dateRange": {
-    "from": "2026-03-01",
-    "to": "2026-03-08"
-  },
-  "contestStats": {
-    "totalContests": 198,
-    "totalPlayers": 59669,
-    "totalPrizePool": 186838.83,
-    "avgEntryFee": 644,
-    "byFormat": {
-      "FIFTY_FIFTY": {
-        "count": 134,
-        "entries": 25741,
-        "prizePool": 175428.81000000003
-      },
-      "TOP_20_PCT": {
-        "count": 37,
-        "entries": 9388,
-        "prizePool": 11003.14
-      },
-      "FREE_ENTRY": {
-        "count": 24,
-        "entries": 24380,
-        "prizePool": 0
-      },
-      "TOP_10_PCT": {
-        "count": 3,
-        "entries": 160,
-        "prizePool": 406.88
-      }
-    }
-  },
-  "mokiStats": {},
-  "generatedAt": "2026-03-08T07:30:52.678Z",
+  "fromDate": "2026-03-01",
+  "toDate": "2026-03-08",
+  "totalContests": 144,
+  "totalPlayers": 7153,
+  "mokiAppearances": {},
   "topCompositions": [],
-  "totalPlayers": 7153
+  "generatedAt": "2026-03-08T07:40:34.802Z"
 }
