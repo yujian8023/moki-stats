@@ -3,134 +3,271 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moki Card 最强阵容统计</title>
+  <title>Moki Card 热门阵容与高频卡牌统计</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Noto Sans SC', 'sans-serif'],
+          },
+          colors: {
+            'moki-primary': '#6366f1',
+            'moki-secondary': '#8b5cf6',
+            'moki-accent': '#f43f5e',
+            'moki-dark': '#0f172a',
+            'moki-card': '#1e293b',
+          },
+          animation: {
+            'float': 'float 3s ease-in-out infinite',
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'slide-up': 'slideUp 0.5s ease-out',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(20px)', opacity: '0' },
+              '100%': { transform: 'translateY(0)', opacity: '1' },
+            },
+          },
+        },
+      },
+    }
+  </script>
   <style>
-    .card-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #312e81 100%);
+      min-height: 100vh;
+    }
+    
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6, #f43f5e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .card-glow {
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+      transition: all 0.3s ease;
+    }
+    
+    .card-glow:hover {
+      box-shadow: 0 0 40px rgba(99, 102, 241, 0.5);
+      transform: translateY(-2px);
+    }
+    
+    .rank-badge {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      box-shadow: 0 2px 10px rgba(99, 102, 241, 0.4);
+    }
+    
+    .rank-1 { background: linear-gradient(135deg, #fbbf24, #f59e0b); box-shadow: 0 2px 10px rgba(251, 191, 36, 0.4); }
+    .rank-2 { background: linear-gradient(135deg, #9ca3af, #6b7280); box-shadow: 0 2px 10px rgba(156, 163, 175, 0.4); }
+    .rank-3 { background: linear-gradient(135deg, #f97316, #ea580c); box-shadow: 0 2px 10px rgba(249, 115, 22, 0.4); }
+    
+    .stat-card {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: rgba(99, 102, 241, 0.5);
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(99, 102, 241, 0.7);
+    }
   </style>
 </head>
-<body class="bg-gray-50 min-h-screen">
-  <div id="app" class="container mx-auto px-4 py-8">
-    <!-- Header -->
-    <header class="mb-8 text-center">
-      <h1 class="text-4xl font-bold text-gray-800 mb-2">🎮 Moki Card 热门阵容与高频卡牌统计</h1>
-      <p class="text-gray-600">自动分析热门阵容与高频卡牌</p>
-      <div class="mt-4 space-x-2">
-        <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
-          📊 {{ contestCount }} 个竞赛
-        </span>
-        <span class="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
-          ✅ {{ completedContests }} 个已完成
-        </span>
+<body class="text-white">
+  <div id="app" class="min-h-screen">
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden mb-12">
+      <div class="absolute inset-0 bg-gradient-to-b from-moki-primary/20 to-transparent"></div>
+      <div class="absolute top-0 left-1/4 w-96 h-96 bg-moki-secondary/30 rounded-full filter blur-3xl animate-pulse-slow"></div>
+      <div class="absolute top-0 right-1/4 w-96 h-96 bg-moki-accent/20 rounded-full filter blur-3xl animate-pulse-slow" style="animation-delay: 1s;"></div>
+      
+      <div class="relative container mx-auto px-4 py-16 text-center">
+        <h1 class="text-5xl md:text-6xl font-black mb-4 animate-slide-up">
+          <span class="gradient-text">🎮 Moki Card</span>
+        </h1>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
+          热门阵容与高频卡牌统计
+        </h2>
+        <p class="text-xl text-gray-300 mb-8 animate-slide-up" style="animation-delay: 0.2s;">
+          自动分析热门阵容与高频卡牌
+        </p>
+        
+        <div class="flex flex-wrap justify-center gap-3 animate-slide-up" style="animation-delay: 0.3s;">
+          <div class="glass-card px-6 py-3 rounded-full flex items-center gap-2">
+            <span class="text-2xl">📊</span>
+            <span class="font-bold">{{ contestCount }} 个竞赛</span>
+          </div>
+          <div class="glass-card px-6 py-3 rounded-full flex items-center gap-2">
+            <span class="text-2xl">✅</span>
+            <span class="font-bold">{{ completedContests }} 个已完成</span>
+          </div>
+        </div>
       </div>
     </header>
 
     <!-- Time Range Selector -->
-    <div class="flex justify-center gap-4 mb-8">
-      <button 
-        v-for="range in timeRanges" 
-        :key="range.value"
-        @click="selectedRange = range.value"
-        :class="['px-6 py-2 rounded-lg font-medium transition', 
-          selectedRange === range.value 
-            ? 'card-gradient text-white shadow-lg' 
-            : 'bg-white text-gray-700 hover:bg-gray-100']"
-      >
-        {{ range.label }}
-      </button>
-    </div>
-
-    <!-- Empty State -->
-    <div v-if="!hasData" class="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-8 text-center">
-      <div class="text-5xl mb-4">⏳</div>
-      <h3 class="text-xl font-bold text-gray-800 mb-2">暂无统计数据</h3>
-      <p class="text-gray-600">系统正在抓取 leaderboard 数据，请稍后刷新查看</p>
+    <div class="container mx-auto px-4 mb-12">
+      <div class="glass-card rounded-2xl p-2 inline-flex mx-auto">
+        <button 
+          v-for="range in timeRanges" 
+          :key="range.value"
+          @click="selectedRange = range.value"
+          :class="[
+            'px-8 py-3 rounded-xl font-bold transition-all duration-300',
+            selectedRange === range.value 
+              ? 'bg-gradient-to-r from-moki-primary to-moki-secondary text-white shadow-lg scale-105' 
+              : 'text-gray-400 hover:text-white hover:bg-white/10'
+          ]"
+        >
+          {{ range.label }}
+        </button>
+      </div>
     </div>
 
     <!-- Stats Overview -->
-    <div v-else class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-      <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">总参赛人数</div>
-        <div class="text-3xl font-bold text-gray-800">{{ stats.totalPlayers || 0 }}</div>
+    <div class="container mx-auto px-4 mb-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="stat-card rounded-2xl p-6 card-glow animate-slide-up">
+          <div class="text-gray-400 text-sm mb-2">总参赛人数</div>
+          <div class="text-4xl font-black gradient-text">{{ stats.totalPlayers || 0 }}</div>
+        </div>
+        <div class="stat-card rounded-2xl p-6 card-glow animate-slide-up" style="animation-delay: 0.1s;">
+          <div class="text-gray-400 text-sm mb-2">有卡牌数据</div>
+          <div class="text-4xl font-black gradient-text">{{ stats.totalWithCards || 0 }}</div>
+        </div>
+        <div class="stat-card rounded-2xl p-6 card-glow animate-slide-up" style="animation-delay: 0.2s;">
+          <div class="text-gray-400 text-sm mb-2">不同卡牌</div>
+          <div class="text-4xl font-black gradient-text">{{ cardCount }}</div>
+        </div>
+        <div class="stat-card rounded-2xl p-6 card-glow animate-slide-up" style="animation-delay: 0.3s;">
+          <div class="text-gray-400 text-sm mb-2">热门阵容</div>
+          <div class="text-4xl font-black gradient-text">{{ stats.topCompositions?.length || 0 }}</div>
+        </div>
       </div>
-      <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">有卡牌数据</div>
-        <div class="text-3xl font-bold text-gray-800">{{ stats.totalWithCards || 0 }}</div>
-      </div>
-      <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">不同卡牌</div>
-        <div class="text-3xl font-bold text-gray-800">{{ cardCount }}</div>
-      </div>
-      <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">热门阵容</div>
-        <div class="text-3xl font-bold text-gray-800">{{ stats.topCompositions?.length || 0 }}</div>
+    </div>
+
+    <!-- Empty State -->
+    <div v-if="!hasData" class="container mx-auto px-4 mb-12">
+      <div class="glass-card rounded-2xl p-12 text-center">
+        <div class="text-6xl mb-6 animate-float">⏳</div>
+        <h3 class="text-2xl font-bold mb-4">暂无统计数据</h3>
+        <p class="text-gray-400">系统正在抓取 leaderboard 数据，请稍后刷新查看</p>
       </div>
     </div>
 
     <!-- Top Compositions -->
-    <div v-if="hasData && stats.topCompositions?.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
-      <h2 class="text-2xl font-bold text-gray-800 mb-4">🏆 热门阵容 TOP 12</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div v-for="(comp, idx) in stats.topCompositions.slice(0, 12)" :key="idx" class="border rounded-xl p-4 hover:shadow-lg transition">
-          <div class="flex items-center justify-between mb-3">
-            <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
-              #{{ idx + 1 }}
-            </span>
-            <span class="text-sm text-gray-600">{{ comp.count }}次 ({{ comp.percentage }}%)</span>
-          </div>
-          <div class="grid grid-cols-5 gap-2">
-            <img 
-              v-for="(img, imgIdx) in comp.cardImages" 
-              :key="imgIdx"
-              :src="img" 
-              :alt="'Card ' + (imgIdx+1)"
-              class="w-20 h-20 rounded-xl object-contain shadow-sm border border-gray-100"
-              loading="lazy"
-            />
+    <div v-if="hasData && stats.topCompositions?.length > 0" class="container mx-auto px-4 mb-12">
+      <div class="glass-card rounded-2xl p-8 card-glow">
+        <h2 class="text-3xl font-black mb-8 text-center gradient-text">🏆 热门阵容 TOP 12</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div v-for="(comp, idx) in stats.topCompositions" :key="idx" 
+               class="glass-card rounded-xl p-5 card-glow animate-slide-up"
+               :style="{ animationDelay: (idx * 0.05) + 's' }">
+            <div class="flex items-center justify-between mb-4">
+              <span :class="[
+                'w-10 h-10 rounded-full flex items-center justify-center font-black text-white',
+                idx === 0 ? 'rank-1' : idx === 1 ? 'rank-2' : idx === 2 ? 'rank-3' : 'rank-badge'
+              ]">
+                #{{ idx + 1 }}
+              </span>
+              <div class="text-right">
+                <div class="text-2xl font-black text-white">{{ comp.count }}次</div>
+                <div class="text-sm text-gray-400">{{ comp.percentage }}%</div>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 gap-2">
+              <img 
+                v-for="(img, imgIdx) in comp.cardImages" 
+                :key="imgIdx"
+                :src="img" 
+                :alt="'Card ' + (imgIdx+1)"
+                class="w-16 h-16 rounded-xl object-contain bg-white/10 border border-white/20"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Top Cards Section -->
-    <div class="mb-8">
-      <!-- Desktop: Side by side, Mobile: Single column -->
+    <div class="container mx-auto px-4 mb-12">
       <div class="grid lg:grid-cols-2 gap-6">
         
         <!-- Top Mokis -->
-        <div v-if="hasData && topMokis.length > 0" class="bg-white rounded-xl shadow-sm p-6">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4">🎴 Moki 卡 TOP 20</h2>
+        <div v-if="hasData && topMokis.length > 0" class="glass-card rounded-2xl p-8 card-glow">
+          <h2 class="text-3xl font-black mb-6 gradient-text">🎴 Moki 卡 TOP 20</h2>
           <div class="overflow-x-auto">
             <table class="w-full">
               <thead>
-                <tr class="border-b-2 border-gray-200">
-                  <th class="text-left py-3 px-4 font-semibold">排名</th>
-                  <th class="text-left py-3 px-4 font-semibold">Moki 卡</th>
-                  <th class="text-left py-3 px-4 font-semibold">出场次数</th>
-                  <th class="text-left py-3 px-4 font-semibold">出场率</th>
-                  <th class="text-left py-3 px-4 font-semibold">平均排名</th>
+                <tr class="border-b border-white/20">
+                  <th class="text-left py-4 px-4 font-bold text-gray-400">排名</th>
+                  <th class="text-left py-4 px-4 font-bold text-gray-400">Moki 卡</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">次数</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">出场率</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">均排</th>
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
-                  <td class="py-3 px-4">
-                    <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                <tr v-for="(moki, idx) in topMokis" :key="moki.id" 
+                    class="border-b border-white/10 hover:bg-white/5 transition-colors">
+                  <td class="py-4 px-4">
+                    <span :class="[
+                      'w-8 h-8 rounded-full flex items-center justify-center font-bold text-white text-sm',
+                      idx === 0 ? 'rank-1' : idx === 1 ? 'rank-2' : idx === 2 ? 'rank-3' : 'rank-badge'
+                    ]">
                       {{ idx + 1 }}
                     </span>
                   </td>
-                  <td class="py-3 px-4">
+                  <td class="py-4 px-4">
                     <div class="flex items-center gap-3">
-                      <img :src="moki.imageUrl" :alt="'Moki ' + (idx+1)" class="w-20 h-20 rounded-xl object-contain shadow-sm border border-gray-100" loading="lazy" />
+                      <img :src="moki.imageUrl" class="w-16 h-16 rounded-xl object-contain bg-white/10 border border-white/20" loading="lazy" />
                     </div>
                   </td>
-                  <td class="py-3 px-4 font-medium">{{ moki.count }}</td>
-                  <td class="py-3 px-4">
-                    <span :class="getPercentageColor(moki.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                  <td class="py-4 px-4 text-right font-bold text-white">{{ moki.count }}</td>
+                  <td class="py-4 px-4 text-right">
+                    <span :class="[
+                      'px-3 py-1 rounded-full text-sm font-bold',
+                      moki.percentage >= 30 ? 'bg-red-500/20 text-red-400' :
+                      moki.percentage >= 20 ? 'bg-orange-500/20 text-orange-400' :
+                      moki.percentage >= 10 ? 'bg-yellow-500/20 text-yellow-400' :
+                      'bg-green-500/20 text-green-400'
+                    ]">
                       {{ moki.percentage }}%
                     </span>
                   </td>
-                  <td class="py-3 px-4 text-gray-600">{{ moki.avgRank }}</td>
+                  <td class="py-4 px-4 text-right text-gray-400">{{ moki.avgRank }}</td>
                 </tr>
               </tbody>
             </table>
@@ -138,38 +275,48 @@
         </div>
 
         <!-- Top Strategy Cards -->
-        <div v-if="hasData && topStrategyCards.length > 0" class="bg-white rounded-xl shadow-sm p-6">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 策略卡 TOP 20</h2>
+        <div v-if="hasData && topStrategyCards.length > 0" class="glass-card rounded-2xl p-8 card-glow">
+          <h2 class="text-3xl font-black mb-6 gradient-text">📋 策略卡 TOP 20</h2>
           <div class="overflow-x-auto">
             <table class="w-full">
               <thead>
-                <tr class="border-b-2 border-gray-200">
-                  <th class="text-left py-3 px-4 font-semibold">排名</th>
-                  <th class="text-left py-3 px-4 font-semibold">策略卡</th>
-                  <th class="text-left py-3 px-4 font-semibold">出场次数</th>
-                  <th class="text-left py-3 px-4 font-semibold">出场率</th>
-                  <th class="text-left py-3 px-4 font-semibold">平均排名</th>
+                <tr class="border-b border-white/20">
+                  <th class="text-left py-4 px-4 font-bold text-gray-400">排名</th>
+                  <th class="text-left py-4 px-4 font-bold text-gray-400">策略卡</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">次数</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">出场率</th>
+                  <th class="text-right py-4 px-4 font-bold text-gray-400">均排</th>
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(card, idx) in topStrategyCards" :key="card.id" class="border-b hover:bg-gray-50">
-                  <td class="py-3 px-4">
-                    <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                <tr v-for="(card, idx) in topStrategyCards" :key="card.id" 
+                    class="border-b border-white/10 hover:bg-white/5 transition-colors">
+                  <td class="py-4 px-4">
+                    <span :class="[
+                      'w-8 h-8 rounded-full flex items-center justify-center font-bold text-white text-sm',
+                      idx === 0 ? 'rank-1' : idx === 1 ? 'rank-2' : idx === 2 ? 'rank-3' : 'rank-badge'
+                    ]">
                       {{ idx + 1 }}
                     </span>
                   </td>
-                  <td class="py-3 px-4">
+                  <td class="py-4 px-4">
                     <div class="flex items-center gap-3">
-                      <img :src="card.imageUrl" :alt="'Strategy ' + (idx+1)" class="w-20 h-20 rounded-xl object-contain shadow-sm border border-gray-100" loading="lazy" />
+                      <img :src="card.imageUrl" class="w-16 h-16 rounded-xl object-contain bg-white/10 border border-white/20" loading="lazy" />
                     </div>
                   </td>
-                  <td class="py-3 px-4 font-medium">{{ card.count }}</td>
-                  <td class="py-3 px-4">
-                    <span :class="getPercentageColor(card.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                  <td class="py-4 px-4 text-right font-bold text-white">{{ card.count }}</td>
+                  <td class="py-4 px-4 text-right">
+                    <span :class="[
+                      'px-3 py-1 rounded-full text-sm font-bold',
+                      card.percentage >= 30 ? 'bg-red-500/20 text-red-400' :
+                      card.percentage >= 20 ? 'bg-orange-500/20 text-orange-400' :
+                      card.percentage >= 10 ? 'bg-yellow-500/20 text-yellow-400' :
+                      'bg-green-500/20 text-green-400'
+                    ]">
                       {{ card.percentage }}%
                     </span>
                   </td>
-                  <td class="py-3 px-4 text-gray-600">{{ card.avgRank }}</td>
+                  <td class="py-4 px-4 text-right text-gray-400">{{ card.avgRank }}</td>
                 </tr>
               </tbody>
             </table>
@@ -178,6 +325,14 @@
 
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-8 text-center text-gray-500">
+      <div class="glass-card rounded-xl p-6">
+        <p class="text-sm">最后更新：{{ lastUpdateTime }}</p>
+        <p class="text-xs mt-2">数据每小时自动更新</p>
+      </div>
+    </footer>
   </div>
 
   <script>
@@ -197,9 +352,11 @@
           stats: {
             totalPlayers: 0,
             totalWithCards: 0,
-            cardAppearances: {},
+            mokiAppearances: {},
+            strategyAppearances: {},
             topCompositions: []
-          }
+          },
+          lastUpdateTime: '加载中...'
         };
       },
       computed: {
@@ -227,18 +384,6 @@
         }
       },
       methods: {
-        getRankBadge(rank) {
-          if (rank === 1) return 'bg-yellow-100 text-yellow-700';
-          if (rank === 2) return 'bg-gray-100 text-gray-700';
-          if (rank === 3) return 'bg-orange-100 text-orange-700';
-          return 'bg-gray-50 text-gray-600';
-        },
-        getPercentageColor(pct) {
-          if (pct >= 50) return 'bg-red-100 text-red-700';
-          if (pct >= 30) return 'bg-orange-100 text-orange-700';
-          if (pct >= 10) return 'bg-yellow-100 text-yellow-700';
-          return 'bg-green-100 text-green-700';
-        },
         async loadContestInfo() {
           try {
             const response = await fetch('data/contest_index.json');
@@ -255,23 +400,22 @@
           try {
             let url = 'data/stats/summary.json';
             
-            // 根据选择的时间范围加载不同文件
             if (this.selectedRange === 'today') {
               const today = new Date().toISOString().split('T')[0];
               url = `data/stats/daily/${today}.json`;
             } else if (this.selectedRange === 'yesterday') {
               const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
-              // 优先使用 daily 文件，不存在则用 yesterday.json
               url = `data/stats/daily/${yesterday}.json`;
             }
-            // 7days 使用 summary.json
             
             const response = await fetch(url);
             if (response.ok) {
               this.stats = await response.json();
+              this.lastUpdateTime = this.stats.generatedAt 
+                ? new Date(this.stats.generatedAt).toLocaleString('zh-CN') 
+                : '暂无数据';
             } else {
               console.warn(`数据文件不存在：${url}`);
-              // 如果今日/昨日数据不存在，回退到 summary.json
               if (this.selectedRange !== '7days') {
                 const fallback = await fetch('data/stats/summary.json');
                 if (fallback.ok) {
@@ -282,7 +426,7 @@
           } catch (e) {
             console.error('加载统计失败:', e);
           }
-        },
+        }
       },
       mounted() {
         this.loadContestInfo();
