@@ -9,6 +9,12 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
 
+// 支持环境变量配置数据目录（默认 data/，GitHub Actions 使用 docs/data/）
+const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
+const DATA_DIR = path.join(ROOT_DIR, DATA_DIR_NAME);
+
+console.log(`📂 数据目录：${DATA_DIR}`);
+
 /**
  * 确保目录存在
  */
@@ -44,7 +50,7 @@ export function writeJson(filePath, data) {
  * 获取 data 目录下所有 contests
  */
 export function getAllContests() {
-  const contestsDir = path.join(ROOT_DIR, 'data', 'contests');
+  const contestsDir = path.join(DATA_DIR, 'contests');
   ensureDir(contestsDir);
   
   const files = fs.readdirSync(contestsDir).filter(f => f.endsWith('.json'));
@@ -55,7 +61,7 @@ export function getAllContests() {
  * 检查 contest 是否已存在
  */
 export function contestExists(contestId) {
-  const filePath = path.join(ROOT_DIR, 'data', 'contests', `${contestId}.json`);
+  const filePath = path.join(DATA_DIR, 'contests', `${contestId}.json`);
   return fs.existsSync(filePath);
 }
 
@@ -63,7 +69,7 @@ export function contestExists(contestId) {
  * 检查 leaderboard 是否已抓取
  */
 export function leaderboardExists(contestId) {
-  const filePath = path.join(ROOT_DIR, 'data', 'leaderboards', `${contestId}.json`);
+  const filePath = path.join(DATA_DIR, 'leaderboards', `${contestId}.json`);
   return fs.existsSync(filePath);
 }
 
@@ -71,7 +77,7 @@ export function leaderboardExists(contestId) {
  * 标记 leaderboard 已抓取
  */
 export function markLeaderboardFetched(contestId) {
-  const filePath = path.join(ROOT_DIR, 'data', 'contests', `${contestId}.json`);
+  const filePath = path.join(DATA_DIR, 'contests', `${contestId}.json`);
   const contest = readJson(filePath);
   if (contest) {
     contest.leaderboardFetched = true;
@@ -153,7 +159,7 @@ export function getISOWeek(date = new Date()) {
  * 检查 moki 详情是否已存在
  */
 export function mokiExists(tokenId) {
-  const filePath = path.join(ROOT_DIR, 'data', 'mokis', `${tokenId}.json`);
+  const filePath = path.join(DATA_DIR, 'mokis', `${tokenId}.json`);
   return fs.existsSync(filePath);
 }
 
@@ -161,7 +167,7 @@ export function mokiExists(tokenId) {
  * 保存 moki 详情
  */
 export function saveMokiDetails(tokenId, details) {
-  const filePath = path.join(ROOT_DIR, 'data', 'mokis', `${tokenId}.json`);
+  const filePath = path.join(DATA_DIR, 'mokis', `${tokenId}.json`);
   
   const saved = {
     tokenId: details.tokenId || tokenId,
@@ -191,7 +197,7 @@ export function getMokiDetails(tokenId) {
  * 获取所有 moki 详情
  */
 export function getAllMokiDetails() {
-  const mokisDir = path.join(ROOT_DIR, 'data', 'mokis');
+  const mokisDir = path.join(DATA_DIR, 'mokis');
   ensureDir(mokisDir);
   
   const files = fs.readdirSync(mokisDir).filter(f => f.endsWith('.json'));
@@ -216,7 +222,7 @@ export function generateMokiManifest() {
     }))
   };
   
-  writeJson(path.join(ROOT_DIR, 'data', 'mokis', 'manifest.json'), manifest);
+  writeJson(path.join(DATA_DIR, 'mokis', 'manifest.json'), manifest);
   return manifest;
 }
 

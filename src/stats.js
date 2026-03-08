@@ -12,8 +12,12 @@ import fs from 'fs';
 import path from 'path';
 import { readJson, writeJson, ensureDir, getISODate, getISOWeek } from './utils.js';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+// 支持环境变量配置数据目录
+const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
+const DATA_DIR = path.join(process.cwd(), DATA_DIR_NAME);
 const STATS_DIR = path.join(DATA_DIR, 'stats');
+
+console.log(`📊 统计输出目录：${STATS_DIR}`);
 
 /**
  * 获取所有竞赛

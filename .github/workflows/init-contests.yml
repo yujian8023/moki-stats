@@ -26,7 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch all contests (initialization)
+      - name: Fetch all contests (directly to docs/data/)
+        env:
+          DATA_DIR: docs/data  # 直接生成到 docs/data/
         run: |
           echo "🚀 开始获取竞赛数据..."
           node src/fetch.js --all 2>&1 | tee fetch.log
@@ -39,29 +41,26 @@ jobs:
           cat fetch.log || echo "No fetch log"
 
       - name: Fetch moki details
+        env:
+          DATA_DIR: docs/data
         run: |
           node src/fetch.js --fetch-mokis || true
 
       - name: Generate statistics
+        env:
+          DATA_DIR: docs/data
         run: node src/stats.js
 
       - name: Run analysis
+        env:
+          DATA_DIR: docs/data
         run: node src/analyze.js
 
-      - name: Copy data to docs folder (for GitHub Pages)
+      - name: Show generated files
         run: |
-          echo "📄 复制数据到 docs 目录..."
-          mkdir -p docs/data
-          cp -r data/contests docs/data/
-          cp -r data/leaderboards docs/data/
-          cp -r data/mokis docs/data/
-          cp data/contest_index.json docs/data/
-          cp data/stats/*.json docs/data/stats/
-          cp -r docs/*.html docs/ 2>/dev/null || true
-          cp -r docs/*.js docs/ 2>/dev/null || true
-          cp -r docs/*.css docs/ 2>/dev/null || true
-          echo "✅ 数据复制完成"
+          echo "=== 生成的文件 ==="
           ls -la docs/data/
+          ls -la docs/data/stats/
 
       - name: Commit and push changes
         run: |
@@ -71,7 +70,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🎉 Initial data import + docs update: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "🎉 Initial data import: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
       
@@ -79,5 +78,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: contest-data
-          path: data/
+          path: docs/data/
           retention-days: 30

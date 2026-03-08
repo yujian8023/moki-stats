@@ -13,9 +13,13 @@ import {
   getISOWeek
 } from './utils.js';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+// 支持环境变量配置数据目录
+const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
+const DATA_DIR = path.join(process.cwd(), DATA_DIR_NAME);
 const LEADERBOARDS_DIR = path.join(DATA_DIR, 'leaderboards');
 const STATS_DIR = path.join(DATA_DIR, 'stats');
+
+console.log(`📈 分析数据目录：${DATA_DIR}`);
 
 /**
  * 获取所有 leaderboard 文件

@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "init": "node src/fetch.js --all",
+    "init:docs": "DATA_DIR=docs/data node src/fetch.js --all",
     "fetch": "node src/fetch.js --incremental",
+    "fetch:docs": "DATA_DIR=docs/data node src/fetch.js --incremental",
     "fetch:all": "node src/fetch.js --all",
     "fetch:leaderboards": "node src/fetch.js --leaderboards",
     "stats": "node src/stats.js",
+    "stats:docs": "DATA_DIR=docs/data node src/stats.js",
     "analyze": "node src/analyze.js",
+    "analyze:docs": "DATA_DIR=docs/data node src/analyze.js",
     "test": "node src/fetch.js --test"
   },
   "keywords": ["moki", "fantasy", "stats", "leaderboard"],
