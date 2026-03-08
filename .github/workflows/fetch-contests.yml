@@ -28,6 +28,8 @@ jobs:
         env:
           DATA_DIR: docs/data  # 直接生成到 docs/data/
         run: |
+          echo "📂 DATA_DIR: $DATA_DIR"
+          mkdir -p docs/data  # 确保目录存在
           node src/fetch.js --incremental
 
       - name: Fetch moki details

@@ -31,8 +31,14 @@ jobs:
           DATA_DIR: docs/data  # 直接生成到 docs/data/
         run: |
           echo "🚀 开始获取竞赛数据..."
+          echo "📂 DATA_DIR: $DATA_DIR"
+          echo "📂 Current dir: $(pwd)"
+          echo "📂 docs exists: $(ls -la | grep docs || echo 'not found')"
+          mkdir -p docs/data  # 确保目录存在
           node src/fetch.js --all 2>&1 | tee fetch.log
           echo "✅ 竞赛获取完成"
+          echo "📂 Generated files:"
+          ls -la docs/data/ || echo "docs/data/ not found"
 
       - name: Show fetch logs
         if: always()
