@@ -94,14 +94,24 @@ function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
     endDate,
     fetchedAt: new Date().toISOString(),
     totalEntries: leaderboard.length,
-    top50: leaderboard.map((entry, idx) => ({
-      rank: idx + 1,
-      playerId: entry.playerId || entry.player?._id || '',
-      playerName: entry.playerName || entry.player?.name || 'Unknown',
-      score: entry.score || entry.points || 0,
-      mokiIds: entry.mokiIds || entry.team?.map(m => m.tokenId) || []
-    }))
+    top50: leaderboard.map((entry, idx) => {
+      // 处理不同的 API 返回格式
+      const mokiIds = entry.mokiIds || entry.team?.map(m => m.tokenId) || entry.cardIds || [];
+      
+      return {
+        rank: entry.rank || idx + 1,
+        playerId: entry.playerId || entry.userId || entry.player?._id || '',
+        playerName: entry.playerName || entry.username || entry.player?.name || 'Unknown',
+        score: entry.score || entry.points || 0,
+        mokiIds: mokiIds,
+        // 保留原始数据用于调试
+        raw: entry
+      };
+    })
   };
+  
+  // 移除 raw 字段以减少文件大小
+  saved.top50.forEach(entry => delete entry.raw);
   
   writeJson(filePath, saved);
   return saved;
