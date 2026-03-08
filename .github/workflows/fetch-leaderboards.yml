@@ -1,0 +1,61 @@
+name: Fetch Leaderboards (Batch)
+
+on:
+  workflow_dispatch:  # 手动触发
+    inputs:
+      days:
+        description: '抓取最近 N 天的 leaderboard'
+        required: true
+        default: '30'
+        type: string
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # 60 分钟超时
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch leaderboards
+        env:
+          DATA_DIR: docs/data
+        run: |
+          echo "🏆 开始抓取 leaderboard..."
+          echo "📅 抓取天数：${{ github.event.inputs.days }} 天"
+          node src/leaderboard.js --recent ${{ github.event.inputs.days }}
+          
+      - name: Generate statistics
+        env:
+          DATA_DIR: docs/data
+        run: |
+          echo "📊 生成统计报告..."
+          node src/generate-daily.js
+          
+      - name: Show stats
+        run: |
+          echo "=== 统计概览 ==="
+          cat docs/data/stats/summary.json | jq '{players: .totalPlayers, mokis: (.mokiAppearances|keys|length), strats: (.strategyAppearances|keys|length)}'
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Fetch leaderboards (${{ github.event.inputs.days }} days): $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
