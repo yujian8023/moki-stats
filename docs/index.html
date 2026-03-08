@@ -6,30 +6,23 @@
   <title>Moki Card 最强阵容统计</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     .card-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-    .moki-card { transition: all 0.2s; }
-    .moki-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
   <div id="app" class="container mx-auto px-4 py-8">
     <!-- Header -->
-    <header class="mb-8">
-      <h1 class="text-4xl font-bold text-center text-gray-800 mb-2">🎮 Moki Card 最强阵容统计</h1>
-      <p class="text-center text-gray-600">自动分析高频卡牌与热门阵容</p>
-      <div class="text-center text-sm mt-2">
-        <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full">
-          📊 已追踪 {{ contestCount }} 个竞赛
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">🎮 Moki Card 最强阵容统计</h1>
+      <p class="text-gray-600">自动分析高频卡牌与热门阵容</p>
+      <div class="mt-4 space-x-2">
+        <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
+          📊 {{ contestCount }} 个竞赛
         </span>
-        <span class="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full ml-2">
-          ✅ 已完成 {{ completedContests }} 个
+        <span class="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
+          ✅ {{ completedContests }} 个已完成
         </span>
-      </div>
-      <div class="text-center text-sm text-gray-500 mt-2">
-        <span v-if="lastUpdateTime !== '暂无数据'">最后更新：<span class="font-mono">{{ lastUpdateTime }}</span></span>
-        <span v-else class="text-orange-500">⏳ 等待竞赛结束，数据即将更新...</span>
       </div>
     </header>
 
@@ -39,101 +32,76 @@
         v-for="range in timeRanges" 
         :key="range.value"
         @click="selectedRange = range.value"
-        :class="['px-4 py-2 rounded-lg font-medium transition', 
+        :class="['px-6 py-2 rounded-lg font-medium transition', 
           selectedRange === range.value 
-            ? 'card-gradient text-white' 
+            ? 'card-gradient text-white shadow-lg' 
             : 'bg-white text-gray-700 hover:bg-gray-100']"
       >
         {{ range.label }}
       </button>
     </div>
 
-    <!-- Empty State Notice -->
-    <div v-if="stats.totalPlayers === 0" class="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-8 text-center">
-      <div class="text-4xl mb-4">⏳</div>
-      <h3 class="text-lg font-bold text-gray-800 mb-2">暂无统计数据</h3>
-      <p class="text-gray-600 mb-4">
-        当前竞赛还未结束，系统会在竞赛结束后 6 分钟自动抓取排行榜数据。<br/>
-        请等待第一个竞赛结束后再查看统计结果。
-      </p>
-      <div class="text-sm text-gray-500">
-        <strong>预计数据更新时间：</strong>竞赛结束后 6-10 分钟
-      </div>
+    <!-- Empty State -->
+    <div v-if="!hasData" class="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-8 text-center">
+      <div class="text-5xl mb-4">⏳</div>
+      <h3 class="text-xl font-bold text-gray-800 mb-2">暂无统计数据</h3>
+      <p class="text-gray-600">系统正在抓取 leaderboard 数据，请稍后刷新查看</p>
     </div>
 
     <!-- Stats Overview -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    <div v-else class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
       <div class="bg-white rounded-xl p-6 shadow-sm">
         <div class="text-gray-500 text-sm mb-1">总参赛人数</div>
-        <div class="text-3xl font-bold text-gray-800">{{ stats.totalPlayers }}</div>
+        <div class="text-3xl font-bold text-gray-800">{{ stats.totalPlayers || 0 }}</div>
       </div>
       <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">竞赛场次</div>
-        <div class="text-3xl font-bold text-gray-800">{{ stats.totalContests }}</div>
+        <div class="text-gray-500 text-sm mb-1">有卡牌数据</div>
+        <div class="text-3xl font-bold text-gray-800">{{ stats.totalWithCards || 0 }}</div>
       </div>
       <div class="bg-white rounded-xl p-6 shadow-sm">
-        <div class="text-gray-500 text-sm mb-1">统计卡牌数</div>
-        <div class="text-3xl font-bold text-gray-800">{{ Object.keys(stats.mokiAppearances).length }}</div>
+        <div class="text-gray-500 text-sm mb-1">不同卡牌</div>
+        <div class="text-3xl font-bold text-gray-800">{{ cardCount }}</div>
+      </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm">
+        <div class="text-gray-500 text-sm mb-1">热门阵容</div>
+        <div class="text-3xl font-bold text-gray-800">{{ stats.topCompositions?.length || 0 }}</div>
       </div>
     </div>
 
-    <!-- Top Mokis -->
-    <div class="bg-white rounded-xl shadow-sm p-6 mb-8">
+    <!-- Top Cards -->
+    <div v-if="hasData && topCards.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
       <h2 class="text-2xl font-bold text-gray-800 mb-4">🔥 高频卡牌 TOP 20</h2>
       <div class="overflow-x-auto">
         <table class="w-full">
           <thead>
-            <tr class="border-b">
-              <th class="text-left py-3 px-4">排名</th>
-              <th class="text-left py-3 px-4">卡牌</th>
-              <th class="text-left py-3 px-4">稀有度</th>
-              <th class="text-left py-3 px-4">元素</th>
-              <th class="text-left py-3 px-4">出场次数</th>
-              <th class="text-left py-3 px-4">出场率</th>
-              <th class="text-left py-3 px-4">平均排名</th>
+            <tr class="border-b-2 border-gray-200">
+              <th class="text-left py-3 px-4 font-semibold">排名</th>
+              <th class="text-left py-3 px-4 font-semibold">卡牌</th>
+              <th class="text-left py-3 px-4 font-semibold">出场次数</th>
+              <th class="text-left py-3 px-4 font-semibold">出场率</th>
+              <th class="text-left py-3 px-4 font-semibold">平均排名</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
+            <tr v-for="(card, idx) in topCards" :key="card.id" class="border-b hover:bg-gray-50">
               <td class="py-3 px-4">
-                <span :class="getRankClass(idx + 1)">{{ idx + 1 }}</span>
+                <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                  {{ idx + 1 }}
+                </span>
               </td>
               <td class="py-3 px-4">
                 <div class="flex items-center gap-3">
-                  <div class="relative">
-                    <img 
-                      :src="getMokiImage(moki.id)" 
-                      class="w-12 h-12 rounded-lg object-cover border-2 border-gray-200"
-                      @error="$event.target.src='https://via.placeholder.com/40x40?text=?'"
-                    />
-                  </div>
-                  <div>
-                    <div class="font-medium text-gray-800">{{ getMokiName(moki.id) }}</div>
-                    <div class="text-xs text-gray-500 font-mono">{{ moki.id }}</div>
-                  </div>
+                  <img :src="card.imageUrl" :alt="'Card ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
+                  <span class="font-mono text-xs text-gray-500">{{ card.id.substring(0, 16) }}...</span>
                 </div>
               </td>
+              <td class="py-3 px-4 font-medium">{{ card.count }}</td>
               <td class="py-3 px-4">
-                <span :class="getRarityBadge(getMokiRarity(moki.id))" class="px-2 py-1 rounded text-xs font-medium">
-                  {{ getMokiRarity(moki.id) }}
+                <span :class="getPercentageColor(card.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                  {{ card.percentage }}%
                 </span>
               </td>
-              <td class="py-3 px-4">
-                <span class="flex items-center gap-1">
-                  <span :class="getElementColor(getMokiElement(moki.id))" class="w-3 h-3 rounded-full"></span>
-                  <span class="text-sm">{{ getMokiElement(moki.id) }}</span>
-                </span>
-              </td>
-              <td class="py-3 px-4">{{ moki.count }}</td>
-              <td class="py-3 px-4">
-                <div class="flex items-center gap-2">
-                  <div class="w-24 bg-gray-200 rounded-full h-2">
-                    <div class="bg-purple-500 h-2 rounded-full" :style="{width: moki.percentage + '%'}"></div>
-                  </div>
-                  <span class="text-sm">{{ moki.percentage }}%</span>
-                </div>
-              </td>
-              <td class="py-3 px-4">{{ moki.avgRank }}</td>
+              <td class="py-3 px-4 text-gray-600">{{ card.avgRank }}</td>
             </tr>
           </tbody>
         </table>
@@ -141,28 +109,28 @@
     </div>
 
     <!-- Top Compositions -->
-    <div class="bg-white rounded-xl shadow-sm p-6">
+    <div v-if="hasData && stats.topCompositions?.length > 0" class="bg-white rounded-xl shadow-sm p-6">
       <h2 class="text-2xl font-bold text-gray-800 mb-4">🏆 热门阵容 TOP 10</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div v-for="(comp, idx) in topCompositions" :key="idx" class="border rounded-lg p-4 hover:shadow-md transition">
-          <div class="flex justify-between items-center mb-2">
-            <span class="font-bold text-gray-700">#{{ idx + 1 }}</span>
-            <span class="text-sm text-gray-500">{{ comp.count }}次 ({{ comp.percentage }}%)</span>
-          </div>
-          <div class="flex flex-wrap gap-2">
-            <span v-for="mokiId in comp.mokiIds" :key="mokiId" 
-              class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-mono">
-              {{ mokiId }}
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div v-for="(comp, idx) in stats.topCompositions" :key="idx" class="border rounded-xl p-4 hover:shadow-lg transition">
+          <div class="flex items-center justify-between mb-3">
+            <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+              #{{ idx + 1 }}
             </span>
+            <span class="text-sm text-gray-600">{{ comp.count }}次 ({{ comp.percentage }}%)</span>
+          </div>
+          <div class="grid grid-cols-5 gap-2">
+            <img 
+              v-for="(img, imgIdx) in comp.cardImages" 
+              :key="imgIdx"
+              :src="img" 
+              :alt="'Card ' + (imgIdx+1)"
+              class="w-full aspect-square rounded-lg object-cover border-2 border-gray-100"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Chart -->
-    <div class="bg-white rounded-xl shadow-sm p-6 mt-8">
-      <h2 class="text-2xl font-bold text-gray-800 mb-4">📈 出场率趋势</h2>
-      <canvas id="trendChart" height="100"></canvas>
     </div>
   </div>
 
@@ -178,168 +146,72 @@
             { label: '近 7 天', value: '7days' },
             { label: '今日', value: 'today' }
           ],
-          stats: {
-            totalPlayers: 0,
-            totalContests: 0,
-            mokiAppearances: {},
-            topCompositions: []
-          },
-          lastUpdateTime: '加载中...',
           contestCount: 0,
           completedContests: 0,
-          mokiDetails: {}
+          stats: {
+            totalPlayers: 0,
+            totalWithCards: 0,
+            cardAppearances: {},
+            topCompositions: []
+          }
         };
       },
       computed: {
-        topMokis() {
-          const entries = Object.entries(this.stats.mokiAppearances || {});
-          return entries
-            .sort((a, b) => b[1].count - a[1].count)
-            .slice(0, 20)
-            .map(([id, data]) => ({ id, ...data }));
+        hasData() {
+          return this.stats.totalPlayers > 0;
         },
-        topCompositions() {
-          return (this.stats.topCompositions || []).slice(0, 10);
+        cardCount() {
+          return Object.keys(this.stats.cardAppearances || {}).length;
+        },
+        topCards() {
+          const cards = this.stats.cardAppearances || {};
+          return Object.entries(cards)
+            .map(([id, data]) => ({ id, ...data }))
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 20);
         }
       },
       methods: {
-        getRankClass(rank) {
-          if (rank === 1) return 'px-2 py-1 bg-yellow-100 text-yellow-700 rounded font-bold';
-          if (rank === 2) return 'px-2 py-1 bg-gray-100 text-gray-700 rounded font-bold';
-          if (rank === 3) return 'px-2 py-1 bg-orange-100 text-orange-700 rounded font-bold';
-          return 'text-gray-600';
+        getRankBadge(rank) {
+          if (rank === 1) return 'bg-yellow-100 text-yellow-700';
+          if (rank === 2) return 'bg-gray-100 text-gray-700';
+          if (rank === 3) return 'bg-orange-100 text-orange-700';
+          return 'bg-gray-50 text-gray-600';
         },
-        getMokiDetails(mokiId) {
-          return this.mokiDetails[mokiId] || {};
-        },
-        getMokiName(mokiId) {
-          return this.mokiDetails[mokiId]?.name || mokiId;
-        },
-        getMokiImage(mokiId) {
-          return this.mokiDetails[mokiId]?.imageUrl || 'https://via.placeholder.com/40x40?text=?';
-        },
-        getMokiRarity(mokiId) {
-          return this.mokiDetails[mokiId]?.rarity || 'Unknown';
-        },
-        getMokiElement(mokiId) {
-          return this.mokiDetails[mokiId]?.element || 'Unknown';
-        },
-        getRarityBadge(rarity) {
-          const badges = {
-            'Common': 'bg-gray-100 text-gray-700',
-            'Rare': 'bg-blue-100 text-blue-700',
-            'Epic': 'bg-purple-100 text-purple-700',
-            'Legendary': 'bg-orange-100 text-orange-700'
-          };
-          return badges[rarity] || 'bg-gray-100 text-gray-700';
-        },
-        getElementColor(element) {
-          const colors = {
-            'Fire': 'bg-red-500',
-            'Water': 'bg-blue-500',
-            'Nature': 'bg-green-500',
-            'Light': 'bg-yellow-400',
-            'Dark': 'bg-purple-800'
-          };
-          return colors[element] || 'bg-gray-400';
-        },
-        async loadMokiDetails() {
-          try {
-            const response = await fetch('data/mokis/manifest.json');
-            if (response.ok) {
-              const data = await response.json();
-              this.mokiDetails = {};
-              for (const moki of data.mokis || []) {
-                this.mokiDetails[moki.tokenId] = moki;
-              }
-            }
-          } catch (e) {
-            console.error('加载卡牌详情失败:', e);
-          }
+        getPercentageColor(pct) {
+          if (pct >= 50) return 'bg-red-100 text-red-700';
+          if (pct >= 30) return 'bg-orange-100 text-orange-700';
+          if (pct >= 10) return 'bg-yellow-100 text-yellow-700';
+          return 'bg-green-100 text-green-700';
         },
         async loadContestInfo() {
           try {
-            // 从本地 JSON 文件读取竞赛信息
             const response = await fetch('data/contest_index.json');
             if (response.ok) {
               const data = await response.json();
               this.contestCount = data.total || 0;
               this.completedContests = data.byStatus?.COMPLETED || 0;
-              this.lastUpdateTime = data.generatedAt ? new Date(data.generatedAt).toLocaleString('zh-CN') : '暂无数据';
-            } else {
-              this.contestCount = 0;
-              this.completedContests = 0;
-              this.lastUpdateTime = '暂无数据';
             }
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
-            this.contestCount = 0;
-            this.completedContests = 0;
-            this.lastUpdateTime = '暂无数据';
           }
         },
         async loadStats() {
           try {
-            // 所有时间范围都从 summary.json 读取
-            const url = 'data/stats/summary.json';
-            
-            const response = await fetch(url);
-            if (!response.ok) throw new Error('加载失败');
-            const data = await response.json();
-            
-            // 提取 contestStats 和 mokiStats
-            this.stats = {
-              totalPlayers: data.contestStats?.totalPlayers || 0,
-              totalContests: data.contestStats?.totalContests || 0,
-              totalPrizePool: data.contestStats?.totalPrizePool || 0,
-              avgEntryFee: data.contestStats?.avgEntryFee || 0,
-              mokiAppearances: data.mokiStats || {},
-              topCompositions: []
-            };
-            this.lastUpdateTime = data.generatedAt?.split('T')[0] || '未知';
+            const response = await fetch('data/stats/summary.json');
+            if (response.ok) {
+              this.stats = await response.json();
+            }
           } catch (e) {
             console.error('加载统计失败:', e);
-            this.lastUpdateTime = '暂无数据';
-            this.stats = { totalPlayers: 0, totalContests: 0, mokiAppearances: {}, topCompositions: [] };
           }
-        },
-        initChart() {
-          const ctx = document.getElementById('trendChart');
-          if (!ctx) return;
-          
-          new Chart(ctx, {
-            type: 'line',
-            data: {
-              labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7'],
-              datasets: [{
-                label: 'TOP1 卡牌出场率',
-                data: [85, 82, 88, 84, 86, 83, 87],
-                borderColor: '#8b5cf6',
-                tension: 0.4
-              }]
-            },
-            options: {
-              responsive: true,
-              plugins: {
-                legend: { display: true }
-              }
-            }
-          });
-        }
-      },
-      watch: {
-        selectedRange() {
-          this.loadStats();
         }
       },
       mounted() {
-        this.loadMokiDetails();
         this.loadContestInfo();
         this.loadStats();
-        setTimeout(() => this.initChart(), 500);
       },
       watch: {
-        // 监听时间范围变化，重新加载统计
         selectedRange() {
           this.loadStats();
         }
