@@ -318,11 +318,17 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
   const cardAppearances = {};
   for (const [cardId, stats] of Object.entries(cardStats)) {
     const avgRank = stats.ranks.reduce((a, b) => a + b, 0) / stats.ranks.length;
+    
+    // 判断卡牌类型（从 URL 或文件名判断）
+    const cardType = getCardTypeFromUrl(stats.imageUrl);
+    
     cardAppearances[cardId] = {
       count: stats.count,
       percentage: parseFloat(((stats.count / totalPlayers) * 100).toFixed(2)),
       avgRank: parseFloat(avgRank.toFixed(2)),
-      imageUrl: stats.imageUrl
+      imageUrl: stats.imageUrl,
+      cardType: cardType,
+      cardName: getCardNameFromUrl(stats.imageUrl)
     };
   }
   
@@ -513,3 +519,39 @@ export {
   analyzeLeaderboards,
   generateStatsReport
 };
+
+/**
+ * 从 URL 判断卡牌类型
+ * @param {string} imageUrl - 卡牌图片 URL
+ * @returns {string} 'moki' | 'strategy' | 'unknown'
+ */
+function getCardTypeFromUrl(imageUrl) {
+  // 根据 URL 特征判断卡牌类型
+  // Moki 卡：通常包含 /mokis/ 路径
+  // 策略卡：通常包含 /strategies/ 或其他路径
+  if (imageUrl.includes('/mokis/')) {
+    return 'moki';
+  } else if (imageUrl.includes('/strategies/') || imageUrl.includes('/strategy/')) {
+    return 'strategy';
+  }
+  // 默认根据文件名判断
+  const filename = imageUrl.split('/').pop()?.toLowerCase() || '';
+  if (filename.includes('moki')) {
+    return 'moki';
+  } else if (filename.includes('strategy') || filename.includes('strat')) {
+    return 'strategy';
+  }
+  return 'unknown';
+}
+
+/**
+ * 从 URL 提取卡牌名称
+ * @param {string} imageUrl - 卡牌图片 URL
+ * @returns {string} 卡牌名称
+ */
+function getCardNameFromUrl(imageUrl) {
+  // 从 URL 提取文件名作为卡牌名称
+  const filename = imageUrl.split('/').pop() || '';
+  // 移除扩展名和下划线
+  return filename.replace(/[_-]/g, ' ').replace(/\.[^.]+$/, '');
+}

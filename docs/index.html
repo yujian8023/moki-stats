@@ -102,6 +102,7 @@
             <tr class="border-b-2 border-gray-200">
               <th class="text-left py-3 px-4 font-semibold">排名</th>
               <th class="text-left py-3 px-4 font-semibold">卡牌</th>
+              <th class="text-left py-3 px-4 font-semibold">类型</th>
               <th class="text-left py-3 px-4 font-semibold">出场次数</th>
               <th class="text-left py-3 px-4 font-semibold">出场率</th>
               <th class="text-left py-3 px-4 font-semibold">平均排名</th>
@@ -117,7 +118,12 @@
               <td class="py-3 px-4">
                 <div class="flex items-center gap-3">
                   <img :src="card.imageUrl" :alt="'Card ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
-                  <span class="font-mono text-xs text-gray-500">{{ card.id.substring(0, 16) }}...</span>
+                  <div class="text-left">
+                    <div class="font-medium text-gray-800">{{ card.cardName || 'Unknown' }}</div>
+                    <div class="text-xs" :class="getCardTypeColor(card.cardType)">
+                      {{ getCardTypeName(card.cardType) }}
+                    </div>
+                  </div>
                 </div>
               </td>
               <td class="py-3 px-4 font-medium">{{ card.count }}</td>
@@ -183,6 +189,16 @@
           if (pct >= 30) return 'bg-orange-100 text-orange-700';
           if (pct >= 10) return 'bg-yellow-100 text-yellow-700';
           return 'bg-green-100 text-green-700';
+        },
+        getCardTypeColor(type) {
+          if (type === 'moki') return 'text-purple-600';
+          if (type === 'strategy') return 'text-blue-600';
+          return 'text-gray-500';
+        },
+        getCardTypeName(type) {
+          if (type === 'moki') return '🎴 Moki';
+          if (type === 'strategy') return '📋 策略卡';
+          return '🎮 卡牌';
         },
         async loadContestInfo() {
           try {
