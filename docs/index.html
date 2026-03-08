@@ -259,49 +259,30 @@
         },
         async loadContestInfo() {
           try {
-            // 动态读取 GitHub 上的竞赛文件数量
-            const response = await fetch('https://api.github.com/repos/yujian8023/moki-stats/contents/data/contests');
+            // 从本地 JSON 文件读取竞赛信息
+            const response = await fetch('data/contest_index.json');
             if (response.ok) {
-              const files = await response.json();
-              const contestFiles = files.filter(f => f.name.endsWith('.json'));
-              this.contestCount = contestFiles.length;
-              
-              // 读取排行榜数量
-              const lbResponse = await fetch('https://api.github.com/repos/yujian8023/moki-stats/contents/data/leaderboards');
-              if (lbResponse.ok) {
-                const lbFiles = await lbResponse.json();
-                this.completedContests = lbFiles.filter(f => f.name.endsWith('.json')).length;
-              } else {
-                this.completedContests = 0;
-              }
+              const data = await response.json();
+              this.contestCount = data.total || 0;
+              this.completedContests = data.byStatus?.COMPLETED || 0;
+              this.lastUpdateTime = data.generatedAt ? new Date(data.generatedAt).toLocaleString('zh-CN') : '暂无数据';
             } else {
-              // API 失败时使用缓存值
-              this.contestCount = 17;
+              this.contestCount = 0;
               this.completedContests = 0;
+              this.lastUpdateTime = '暂无数据';
             }
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
-            // 失败时使用默认值
-            this.contestCount = 17;
+            this.contestCount = 0;
             this.completedContests = 0;
+            this.lastUpdateTime = '暂无数据';
           }
+        },
         },
         async loadStats() {
           try {
-            let url = 'data/stats/summary.json';
-            
-            if (this.selectedRange === 'today') {
-              // 今日数据
-              const today = new Date().toISOString().split('T')[0];
-              url = `data/stats/daily/${today}.json`;
-            } else if (this.selectedRange === 'yesterday') {
-              // 昨日数据
-              const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
-              url = `data/stats/daily/${yesterday}.json`;
-            } else if (this.selectedRange === '7days') {
-              // 近 7 天数据
-              url = 'data/stats/summary.json';
-            }
+            // 所有时间范围都从 summary.json 读取
+            const url = 'data/stats/summary.json';
             
             const response = await fetch(url);
             if (!response.ok) throw new Error('加载失败');
