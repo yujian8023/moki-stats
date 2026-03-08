@@ -1,0 +1,89 @@
+{
+  "_id": "699e6af7a7ed3c32861e3eeb",
+  "name": "Free 2B + 2R Daily Festival buff",
+  "description": "Free 2 basic + 2 rare",
+  "contestStatus": "COMPLETED",
+  "format": "FREE_ENTRY",
+  "entryFee": 0,
+  "prizePool": 0,
+  "entries": 871,
+  "maxEntries": 0,
+  "startDate": "2026-02-26T01:00:00.000Z",
+  "endDate": "2026-02-26T21:00:00.000Z",
+  "openDate": "2026-02-25T16:00:00.000Z",
+  "showDate": "2026-02-25T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 30
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 70
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-4-R1",
+    "season1-2026-W09-4-R2",
+    "season1-2026-W09-4-R3",
+    "season1-2026-W09-4-R4",
+    "season1-2026-W09-4-R5",
+    "season1-2026-W09-4-R6",
+    "season1-2026-W09-4-R7",
+    "season1-2026-W09-4-R8",
+    "season1-2026-W09-4-R9"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.507Z",
+  "leaderboardFetched": false
+}

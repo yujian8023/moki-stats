@@ -1,0 +1,79 @@
+{
+  "_id": "69a0f1d7500bbb62f494b071",
+  "name": "50/50 Open Half Day Archipelago Anvil",
+  "description": "50/50 Open Half Day 300GEM",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 300,
+  "prizePool": 564.38,
+  "entries": 215,
+  "maxEntries": 350,
+  "startDate": "2026-02-27T17:00:00.000Z",
+  "endDate": "2026-02-28T05:00:00.000Z",
+  "openDate": "2026-02-27T08:00:00.000Z",
+  "showDate": "2026-02-27T08:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-5-R8",
+    "season1-2026-W09-5-R9",
+    "season1-2026-W09-5-R10",
+    "season1-2026-W09-6-R1",
+    "season1-2026-W09-6-R2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.514Z",
+  "leaderboardFetched": false
+}

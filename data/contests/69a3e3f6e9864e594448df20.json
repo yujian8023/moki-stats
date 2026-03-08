@@ -1,0 +1,75 @@
+{
+  "_id": "69a3e3f6e9864e594448df20",
+  "name": "50/50 One-Of-Each 10-Round Shinobu Bald",
+  "description": "50/50 One-Of-Each Daily 400GEMs",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 400,
+  "prizePool": 525,
+  "entries": 150,
+  "maxEntries": 150,
+  "startDate": "2026-03-02T01:00:00.000Z",
+  "endDate": "2026-03-02T05:00:00.000Z",
+  "openDate": "2026-03-01T16:00:00.000Z",
+  "showDate": "2026-03-01T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "LEGENDARY",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W10-1-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.522Z",
+  "leaderboardFetched": false
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "69971e6a5fa5833ecd280d5e",
+  "name": "Top 20% Open Weekly Yokai Island",
+  "description": "Top 20% Open Weekly 300GEMs",
+  "contestStatus": "COMPLETED",
+  "format": "TOP_20_PCT",
+  "entryFee": 300,
+  "prizePool": 669.38,
+  "entries": 255,
+  "maxEntries": 500,
+  "startDate": "2026-02-20T01:00:00.000Z",
+  "endDate": "2026-02-26T23:00:00.000Z",
+  "openDate": "2026-02-19T16:00:00.000Z",
+  "showDate": "2026-02-19T14:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W08-5-R1",
+    "season1-2026-W08-5-R2",
+    "season1-2026-W08-5-R3",
+    "season1-2026-W08-5-R4",
+    "season1-2026-W08-5-R5",
+    "season1-2026-W08-5-R6",
+    "season1-2026-W08-5-R7",
+    "season1-2026-W08-5-R8",
+    "season1-2026-W08-5-R9",
+    "season1-2026-W08-5-R10",
+    "season1-2026-W08-6-R1",
+    "season1-2026-W08-6-R2",
+    "season1-2026-W08-6-R3",
+    "season1-2026-W08-6-R4",
+    "season1-2026-W08-6-R5",
+    "season1-2026-W08-6-R6",
+    "season1-2026-W08-6-R7",
+    "season1-2026-W08-6-R8",
+    "season1-2026-W08-6-R9",
+    "season1-2026-W08-6-R10",
+    "season1-2026-W08-7-R1",
+    "season1-2026-W08-7-R2",
+    "season1-2026-W08-7-R3",
+    "season1-2026-W08-7-R4",
+    "season1-2026-W08-7-R5",
+    "season1-2026-W08-7-R6",
+    "season1-2026-W08-7-R7",
+    "season1-2026-W08-7-R8",
+    "season1-2026-W08-7-R9",
+    "season1-2026-W08-7-R10",
+    "season1-2026-W09-1-R1",
+    "season1-2026-W09-1-R2",
+    "season1-2026-W09-1-R3",
+    "season1-2026-W09-1-R4",
+    "season1-2026-W09-1-R5",
+    "season1-2026-W09-1-R6",
+    "season1-2026-W09-1-R7",
+    "season1-2026-W09-1-R8",
+    "season1-2026-W09-1-R9",
+    "season1-2026-W09-1-R10",
+    "season1-2026-W09-2-R1",
+    "season1-2026-W09-2-R2",
+    "season1-2026-W09-2-R3",
+    "season1-2026-W09-2-R4",
+    "season1-2026-W09-2-R5",
+    "season1-2026-W09-2-R6",
+    "season1-2026-W09-2-R7",
+    "season1-2026-W09-2-R8",
+    "season1-2026-W09-2-R9",
+    "season1-2026-W09-2-R10",
+    "season1-2026-W09-3-R1",
+    "season1-2026-W09-3-R2",
+    "season1-2026-W09-3-R3",
+    "season1-2026-W09-3-R4",
+    "season1-2026-W09-3-R5",
+    "season1-2026-W09-3-R6",
+    "season1-2026-W09-3-R7",
+    "season1-2026-W09-3-R8",
+    "season1-2026-W09-3-R9",
+    "season1-2026-W09-3-R10",
+    "season1-2026-W09-4-R1",
+    "season1-2026-W09-4-R2",
+    "season1-2026-W09-4-R3",
+    "season1-2026-W09-4-R4",
+    "season1-2026-W09-4-R5",
+    "season1-2026-W09-4-R6",
+    "season1-2026-W09-4-R7",
+    "season1-2026-W09-4-R8",
+    "season1-2026-W09-4-R9",
+    "season1-2026-W09-4-R10"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.478Z",
+  "leaderboardFetched": false
+}

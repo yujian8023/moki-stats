@@ -1,0 +1,83 @@
+{
+  "_id": "69a29d6d3d993657b4b633fa",
+  "name": "50/50 Open Daily Fortune Horoki",
+  "description": "50/50 Open Daily 2000GEM",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 2000,
+  "prizePool": 1347.5,
+  "entries": 77,
+  "maxEntries": 100,
+  "startDate": "2026-03-01T01:00:00.000Z",
+  "endDate": "2026-03-01T21:00:00.000Z",
+  "openDate": "2026-02-28T16:00:00.000Z",
+  "showDate": "2026-02-28T16:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-7-R1",
+    "season1-2026-W09-7-R2",
+    "season1-2026-W09-7-R3",
+    "season1-2026-W09-7-R4",
+    "season1-2026-W09-7-R5",
+    "season1-2026-W09-7-R6",
+    "season1-2026-W09-7-R7",
+    "season1-2026-W09-7-R8",
+    "season1-2026-W09-7-R9"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.518Z",
+  "leaderboardFetched": false
+}

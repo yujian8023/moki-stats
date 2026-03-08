@@ -1,0 +1,83 @@
+{
+  "_id": "699d45854b7b912d3a124675",
+  "name": "50/50 1R + 2E + 1L Daily Tim Mart",
+  "description": "Top 20% ALMOST One-Of-Each Daily 400GEM\n1 Rare, 2 Epic, 1 Legendary",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 400,
+  "prizePool": 420,
+  "entries": 120,
+  "maxEntries": 120,
+  "startDate": "2026-02-25T09:00:00.000Z",
+  "endDate": "2026-02-26T07:00:00.000Z",
+  "openDate": "2026-02-25T00:00:00.000Z",
+  "showDate": "2026-02-25T00:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "LEGENDARY",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-3-R5",
+    "season1-2026-W09-3-R6",
+    "season1-2026-W09-3-R7",
+    "season1-2026-W09-3-R8",
+    "season1-2026-W09-3-R9",
+    "season1-2026-W09-3-R10",
+    "season1-2026-W09-4-R1",
+    "season1-2026-W09-4-R2",
+    "season1-2026-W09-4-R3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.504Z",
+  "leaderboardFetched": false
+}

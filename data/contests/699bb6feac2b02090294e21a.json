@@ -1,0 +1,102 @@
+{
+  "_id": "699bb6feac2b02090294e21a",
+  "name": "Top 20% Star Cap Daily Eggu Tim",
+  "description": "Top 20% Star Cap Daily 300GEM",
+  "contestStatus": "COMPLETED",
+  "format": "TOP_20_PCT",
+  "entryFee": 300,
+  "prizePool": 262.5,
+  "entries": 100,
+  "maxEntries": 100,
+  "startDate": "2026-02-23T17:00:00.000Z",
+  "endDate": "2026-02-24T15:00:00.000Z",
+  "openDate": "2026-02-23T08:00:00.000Z",
+  "showDate": "2026-02-23T08:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 20
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-1-R8",
+    "season1-2026-W09-1-R9",
+    "season1-2026-W09-1-R10",
+    "season1-2026-W09-2-R1",
+    "season1-2026-W09-2-R2",
+    "season1-2026-W09-2-R3",
+    "season1-2026-W09-2-R4",
+    "season1-2026-W09-2-R5",
+    "season1-2026-W09-2-R6"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.497Z",
+  "leaderboardFetched": false
+}

@@ -1,0 +1,102 @@
+{
+  "_id": "69a29e8fa62554f3eac6aef6",
+  "name": "Top 20% Basic Only Star Cap Daily Factory Council",
+  "description": "Top 20% Basic Only Star Cap Daily 100 GEM",
+  "contestStatus": "COMPLETED",
+  "format": "TOP_20_PCT",
+  "entryFee": 100,
+  "prizePool": 197.75,
+  "entries": 226,
+  "maxEntries": 300,
+  "startDate": "2026-03-01T01:00:00.000Z",
+  "endDate": "2026-03-01T21:00:00.000Z",
+  "openDate": "2026-02-28T16:00:00.000Z",
+  "showDate": "2026-02-28T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 20
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-7-R1",
+    "season1-2026-W09-7-R2",
+    "season1-2026-W09-7-R3",
+    "season1-2026-W09-7-R4",
+    "season1-2026-W09-7-R5",
+    "season1-2026-W09-7-R6",
+    "season1-2026-W09-7-R7",
+    "season1-2026-W09-7-R8",
+    "season1-2026-W09-7-R9"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.518Z",
+  "leaderboardFetched": false
+}

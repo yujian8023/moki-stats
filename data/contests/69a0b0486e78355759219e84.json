@@ -1,0 +1,101 @@
+{
+  "_id": "69a0b0486e78355759219e84",
+  "name": "Top 20% 2R+1E+1L Daily Gacha Badlands",
+  "description": "Top 20% 2 Rare + 1 Epic + 1 Legendary Daily 200GEM",
+  "contestStatus": "COMPLETED",
+  "format": "TOP_20_PCT",
+  "entryFee": 200,
+  "prizePool": 218.75,
+  "entries": 125,
+  "maxEntries": 200,
+  "startDate": "2026-02-27T09:00:00.000Z",
+  "endDate": "2026-02-28T07:00:00.000Z",
+  "openDate": "2026-02-27T00:00:00.000Z",
+  "showDate": "2026-02-27T00:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "LEGENDARY",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-5-R5",
+    "season1-2026-W09-5-R6",
+    "season1-2026-W09-5-R7",
+    "season1-2026-W09-5-R8",
+    "season1-2026-W09-5-R9",
+    "season1-2026-W09-5-R10",
+    "season1-2026-W09-6-R1",
+    "season1-2026-W09-6-R2",
+    "season1-2026-W09-6-R3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T04:33:58.513Z",
+  "leaderboardFetched": false
+}
