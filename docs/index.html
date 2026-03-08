@@ -198,14 +198,28 @@
         },
         async loadStats() {
           try {
-            const response = await fetch('data/stats/summary.json');
+            let url = 'data/stats/summary.json';
+            
+            // 根据选择的时间范围加载不同文件
+            if (this.selectedRange === 'today') {
+              const today = new Date().toISOString().split('T')[0];
+              url = `data/stats/daily/${today}.json`;
+            } else if (this.selectedRange === 'yesterday') {
+              const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+              url = `data/stats/daily/${yesterday}.json`;
+            }
+            // 7days 使用 summary.json
+            
+            const response = await fetch(url);
             if (response.ok) {
               this.stats = await response.json();
+            } else {
+              console.warn(`数据文件不存在：${url}`);
             }
           } catch (e) {
             console.error('加载统计失败:', e);
           }
-        }
+        },
       },
       mounted() {
         this.loadContestInfo();

@@ -245,22 +245,34 @@ function getRecentContests(days = 7) {
 
 /**
  * 分析 leaderboard 数据
+ * @param {string} dateRange - 日期范围 'daily', 'weekly', 'yesterday'
+ * @param {string} date - 具体日期（daily 模式用）
  */
-function analyzeLeaderboards() {
+function analyzeLeaderboards(dateRange = 'weekly', date = null) {
   const leaderboardsDir = path.join(DATA_DIR, 'leaderboards');
   ensureDir(leaderboardsDir);
   
   const files = fs.readdirSync(leaderboardsDir).filter(f => f.endsWith('.json'));
   const leaderboards = files.map(f => readJson(path.join(leaderboardsDir, f))).filter(Boolean);
   
-  console.log(`\n📊 分析 ${leaderboards.length} 个 leaderboard...`);
+  // 按日期过滤
+  let filteredLeaderboards = leaderboards;
+  if (dateRange === 'daily' && date) {
+    filteredLeaderboards = leaderboards.filter(lb => lb.endDate?.startsWith(date));
+  } else if (dateRange === 'yesterday') {
+    const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+    filteredLeaderboards = leaderboards.filter(lb => lb.endDate?.startsWith(yesterday));
+  }
+  // weekly 模式不过滤，使用所有数据
+  
+  console.log(`\n📊 分析 ${filteredLeaderboards.length} 个 leaderboard (${dateRange})...`);
   
   const cardStats = {};  // 卡牌图片统计
   const compositionStats = {};  // 阵容统计
   let totalPlayers = 0;
   let totalWithCards = 0;
   
-  for (const lb of leaderboards) {
+  for (const lb of filteredLeaderboards) {
     for (const entry of lb.top50 || []) {
       totalPlayers++;
       
@@ -331,38 +343,55 @@ function analyzeLeaderboards() {
     totalPlayers,
     totalWithCards,
     cardAppearances,
-    topCompositions
+    topCompositions,
+    leaderboardCount: filteredLeaderboards.length
   };
 }
 
 /**
  * 生成统计报告
+ * @param {string} dateRange - 日期范围 'daily', 'weekly', 'yesterday'
+ * @param {string} date - 具体日期（daily 模式用）
  */
-function generateStatsReport() {
+function generateStatsReport(dateRange = 'weekly', date = null) {
   const statsDir = path.join(DATA_DIR, 'stats');
   ensureDir(statsDir);
   
-  console.log('\n📊 生成统计报告...');
+  console.log(`\n📊 生成统计报告 (${dateRange})...`);
   
   // 分析 leaderboard
-  const analysis = analyzeLeaderboards();
+  const analysis = analyzeLeaderboards(dateRange, date);
   
-  // 读取现有 summary.json
-  const summaryPath = path.join(statsDir, 'summary.json');
-  let summary = readJson(summaryPath) || {};
+  // 生成文件名
+  let outputPath;
+  if (dateRange === 'daily' && date) {
+    // 每日统计
+    const dailyDir = path.join(statsDir, 'daily');
+    ensureDir(dailyDir);
+    outputPath = path.join(dailyDir, `${date}.json`);
+  } else if (dateRange === 'yesterday') {
+    outputPath = path.join(statsDir, 'yesterday.json');
+  } else {
+    outputPath = path.join(statsDir, 'summary.json');
+  }
   
-  // 更新统计 - 使用 cardAppearances 替代 mokiStats
-  summary.cardAppearances = analysis.cardAppearances;
-  summary.topCompositions = analysis.topCompositions;
-  summary.totalPlayers = analysis.totalPlayers;
-  summary.totalWithCards = analysis.totalWithCards;
-  summary.leaderboardsAnalyzed = summary.leaderboardsAnalyzed ? summary.leaderboardsAnalyzed + 1 : 1;
-  summary.generatedAt = new Date().toISOString();
+  // 读取现有数据
+  let report = readJson(outputPath) || {};
   
-  writeJson(summaryPath, summary);
-  console.log('✅ 统计报告已更新');
+  // 更新统计
+  report.cardAppearances = analysis.cardAppearances;
+  report.topCompositions = analysis.topCompositions;
+  report.totalPlayers = analysis.totalPlayers;
+  report.totalWithCards = analysis.totalWithCards;
+  report.dateRange = dateRange === 'daily' ? { from: date, to: date } : report.dateRange;
+  report.period = dateRange;
+  report.leaderboardsAnalyzed = analysis.leaderboardCount;
+  report.generatedAt = new Date().toISOString();
   
-  return summary;
+  writeJson(outputPath, report);
+  console.log(`✅ 统计报告已更新：${outputPath}`);
+  
+  return report;
 }
 
 /**
@@ -381,12 +410,21 @@ async function mainFetchRecent(days = 7) {
   }
   
   // 批量抓取 - 保守配置避免限流
-  // 每批 5 个，批间延迟 10 秒，请求间隔 1.5 秒
-  // 预计速度：~5 秒/个，185 个约需 15 分钟
   await fetchLeaderboardsBatch(recentContests, 5, 10000, 1500);
   
-  // 生成统计
-  generateStatsReport();
+  // 生成统计报告
+  // 1. 生成最近 7 天汇总
+  generateStatsReport('weekly');
+  
+  // 2. 生成每日统计
+  const today = new Date().toISOString().split('T')[0];
+  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  
+  generateStatsReport('daily', today);
+  generateStatsReport('daily', yesterday);
+  
+  // 3. 生成昨日统计（快捷方式）
+  generateStatsReport('yesterday');
   
   console.log('\n✅ leaderboard 抓取完成！\n');
 }
