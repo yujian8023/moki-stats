@@ -285,8 +285,18 @@
             
             const response = await fetch(url);
             if (!response.ok) throw new Error('加载失败');
-            this.stats = await response.json();
-            this.lastUpdateTime = this.stats.generatedAt?.split('T')[0] || '未知';
+            const data = await response.json();
+            
+            // 提取 contestStats 和 mokiStats
+            this.stats = {
+              totalPlayers: data.contestStats?.totalPlayers || 0,
+              totalContests: data.contestStats?.totalContests || 0,
+              totalPrizePool: data.contestStats?.totalPrizePool || 0,
+              avgEntryFee: data.contestStats?.avgEntryFee || 0,
+              mokiAppearances: data.mokiStats || {},
+              topCompositions: []
+            };
+            this.lastUpdateTime = data.generatedAt?.split('T')[0] || '未知';
           } catch (e) {
             console.error('加载统计失败:', e);
             this.lastUpdateTime = '暂无数据';
