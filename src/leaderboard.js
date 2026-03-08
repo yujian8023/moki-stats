@@ -415,7 +415,8 @@ function generateStatsReport(dateRange = 'weekly', date = null) {
   let report = readJson(outputPath) || {};
   
   // 更新统计
-  report.cardAppearances = analysis.cardAppearances;
+  report.mokiAppearances = analysis.mokiAppearances;
+  report.strategyAppearances = analysis.strategyAppearances;
   report.topCompositions = analysis.topCompositions;
   report.totalPlayers = analysis.totalPlayers;
   report.totalWithCards = analysis.totalWithCards;
