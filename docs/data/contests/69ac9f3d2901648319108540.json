@@ -1,0 +1,81 @@
+{
+  "_id": "69ac9f3d2901648319108540",
+  "name": "Free 1B + 3R 10-Round Gacha Belly",
+  "description": "Free 1B + 3R 10-Round Gacha Belly",
+  "contestStatus": "OPEN",
+  "format": "FREE_ENTRY",
+  "entryFee": 0,
+  "prizePool": 0,
+  "entries": 82,
+  "maxEntries": 0,
+  "startDate": "2026-03-09T01:00:00.000Z",
+  "endDate": "2026-03-09T05:00:00.000Z",
+  "openDate": "2026-03-08T16:00:00.000Z",
+  "showDate": "2026-03-08T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 30
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 70
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W11-1-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T16:43:15.508Z",
+  "leaderboardFetched": false
+}

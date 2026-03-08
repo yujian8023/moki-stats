@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T08:47:00.309Z",
+  "generatedAt": "2026-03-08T16:43:15.510Z",
   "total": 9,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,94 +10,94 @@
   },
   "contests": [
     {
-      "_id": "69aca1d129016483191085fa",
-      "name": "Winner-Take-All 2B + 2R 10-Round Fortune Yokai",
+      "_id": "69ac9f3d2901648319108540",
+      "name": "Free 1B + 3R 10-Round Gacha Belly",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 120.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69ac6bd41a5b2d1ecf9e59bd",
-      "name": "50/50 Epic Only 10-Round Artifact Tim",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 13,
-      "prizePool": 1050,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ac6ba4d4869256f9c89eda",
-      "name": "50/50 Rare Only 20-Round Leaf Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
+      "startDate": "2026-03-09T01:00:00.000Z",
       "endDate": "2026-03-09T05:00:00.000Z",
-      "entries": 28,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ac6b5d1a5b2d1ecf9e5997",
-      "name": "50/50 2B + 2R 10-Round Eggu Field",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 28,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ac6a841a5b2d1ecf9e5980",
-      "name": "Top 20% 2B + 2R 10-Round Field Fortune",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 20,
-      "prizePool": 371.88,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69ac69eb1a5b2d1ecf9e5932",
-      "name": "Free 2B + 1R + 1E 10-Round Emblem Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 41,
+      "entries": 82,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69ac69c533906ac99f6be975",
-      "name": "50/50 Open 10-Round Larry Eggu",
+      "_id": "69ac9f51290164831910855b",
+      "name": "50/50 Open 10-Round Buff Leaf",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1050,
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 6125,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ac69a8d4869256f9c89e7d",
-      "name": "50/50 Open 10-Round Festival Takoyaki",
+      "_id": "69ac9f62242fc5c99028cfdd",
+      "name": "50/50 Open 10-Round Belly Tamakin",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
       "entries": 0,
       "prizePool": 1750,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ac69811a5b2d1ecf9e58ff",
-      "name": "50/50 Open 10-Round Ratz Mart",
+      "_id": "69ac9fa52901648319108583",
+      "name": "Top 20% Basic + Rare Only 10-Round Yaki Gacha",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-08T17:00:00.000Z",
-      "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 6125,
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 5,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69aca03229016483191085a9",
+      "name": "Top 20% 2B + 2R 20-Round Fortune Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T13:00:00.000Z",
+      "entries": 4,
+      "prizePool": 700,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69aca086242fc5c99028d02a",
+      "name": "50/50 2B + 2R 10-Round Luck Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 13,
+      "prizePool": 1312.5,
       "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69aca0ab242fc5c99028d047",
+      "name": "50/50 Epic Only 10-Round Ambrosia Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1050,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69aca0ce242fc5c99028d05d",
+      "name": "50/50 Open 10-Round Factory Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1050,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69aca158a5a0b04983658172",
+      "name": "Top 10% Basic Only 10-Round Tamakin Festival",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T01:00:00.000Z",
+      "endDate": "2026-03-09T05:00:00.000Z",
+      "entries": 3,
+      "prizePool": 120.75,
+      "format": "TOP_10_PCT"
     }
   ]
 }
