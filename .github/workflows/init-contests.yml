@@ -24,7 +24,15 @@ jobs:
 
       - name: Fetch all contests (initialization)
         run: |
-          node src/fetch.js --all
+          echo "🚀 开始获取竞赛数据..."
+          node src/fetch.js --all 2>&1 | tee fetch.log
+          echo "✅ 竞赛获取完成"
+
+      - name: Show fetch logs
+        if: always()
+        run: |
+          echo "=== Fetch Logs ==="
+          cat fetch.log || echo "No fetch log"
 
       - name: Fetch moki details
         run: |
