@@ -326,10 +326,10 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
     };
   }
   
-  // 排序阵容
+  // 排序阵容 - 生成 TOP 12
   const topCompositions = Object.values(compositionStats)
     .sort((a, b) => b.count - a.count)
-    .slice(0, 10)
+    .slice(0, 12)  // 改为 12 个
     .map(comp => ({
       cardImages: comp.cardImages,
       count: comp.count,
