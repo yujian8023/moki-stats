@@ -267,7 +267,8 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
   
   console.log(`\n📊 分析 ${filteredLeaderboards.length} 个 leaderboard (${dateRange})...`);
   
-  const cardStats = {};  // 卡牌图片统计
+  const cardStats = {};  // Moki 卡统计（前 4 张）
+  const strategyStats = {};  // 策略卡统计（第 5 张）
   const compositionStats = {};  // 阵容统计
   let totalPlayers = 0;
   let totalWithCards = 0;
@@ -281,9 +282,9 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
         totalWithCards++;
       }
       
-      // 统计卡牌图片出现频率
-      for (const imgUrl of cardImages) {
-        // 从 URL 提取卡牌标识（文件名）
+      // 统计前 4 张 Moki 卡
+      for (let i = 0; i < Math.min(4, cardImages.length); i++) {
+        const imgUrl = cardImages[i];
         const cardId = imgUrl.split('/').pop()?.split('_')[0] || imgUrl;
         
         if (!cardStats[cardId]) {
@@ -295,6 +296,22 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
         }
         cardStats[cardId].count++;
         cardStats[cardId].ranks.push(entry.rank);
+      }
+      
+      // 统计第 5 张策略卡
+      if (cardImages.length >= 5) {
+        const stratUrl = cardImages[4];  // 第 5 张（索引 4）
+        const stratId = stratUrl.split('/').pop()?.split('_')[0] || stratUrl;
+        
+        if (!strategyStats[stratId]) {
+          strategyStats[stratId] = {
+            count: 0,
+            ranks: [],
+            imageUrl: stratUrl
+          };
+        }
+        strategyStats[stratId].count++;
+        strategyStats[stratId].ranks.push(entry.rank);
       }
       
       // 统计阵容（前 5 名，基于图片）
@@ -314,20 +331,30 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
     }
   }
   
-  // 计算卡牌平均排名
-  const cardAppearances = {};
+  // 计算 Moki 卡平均排名
+  const mokiAppearances = {};
   for (const [cardId, stats] of Object.entries(cardStats)) {
     const avgRank = stats.ranks.reduce((a, b) => a + b, 0) / stats.ranks.length;
-    
-    // 判断卡牌类型（从 URL 或文件名判断）
-    const cardType = getCardTypeFromUrl(stats.imageUrl);
-    
-    cardAppearances[cardId] = {
+    mokiAppearances[cardId] = {
       count: stats.count,
       percentage: parseFloat(((stats.count / totalPlayers) * 100).toFixed(2)),
       avgRank: parseFloat(avgRank.toFixed(2)),
       imageUrl: stats.imageUrl,
-      cardType: cardType,
+      cardType: 'moki',
+      cardName: getCardNameFromUrl(stats.imageUrl)
+    };
+  }
+  
+  // 计算策略卡平均排名
+  const strategyAppearances = {};
+  for (const [cardId, stats] of Object.entries(strategyStats)) {
+    const avgRank = stats.ranks.reduce((a, b) => a + b, 0) / stats.ranks.length;
+    strategyAppearances[cardId] = {
+      count: stats.count,
+      percentage: parseFloat(((stats.count / totalPlayers) * 100).toFixed(2)),
+      avgRank: parseFloat(avgRank.toFixed(2)),
+      imageUrl: stats.imageUrl,
+      cardType: 'strategy',
       cardName: getCardNameFromUrl(stats.imageUrl)
     };
   }
@@ -344,11 +371,14 @@ function analyzeLeaderboards(dateRange = 'weekly', date = null) {
   
   console.log(`   总玩家数：${totalPlayers}`);
   console.log(`   有卡牌数据的玩家：${totalWithCards}`);
+  console.log(`   Moki 卡种类：${Object.keys(mokiAppearances).length}`);
+  console.log(`   策略卡种类：${Object.keys(strategyAppearances).length}`);
   
   return {
     totalPlayers,
     totalWithCards,
-    cardAppearances,
+    mokiAppearances,
+    strategyAppearances,
     topCompositions,
     leaderboardCount: filteredLeaderboards.length
   };

@@ -93,23 +93,22 @@
       </div>
     </div>
 
-    <!-- Top Cards -->
-    <div v-if="hasData && topCards.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
-      <h2 class="text-2xl font-bold text-gray-800 mb-4">🔥 高频卡牌 TOP 20</h2>
+    <!-- Top Mokis -->
+    <div v-if="hasData && topMokis.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">🎴 Moki 卡 TOP 20</h2>
       <div class="overflow-x-auto">
         <table class="w-full">
           <thead>
             <tr class="border-b-2 border-gray-200">
               <th class="text-left py-3 px-4 font-semibold">排名</th>
-              <th class="text-left py-3 px-4 font-semibold">卡牌</th>
-              <th class="text-left py-3 px-4 font-semibold">类型</th>
+              <th class="text-left py-3 px-4 font-semibold">Moki 卡</th>
               <th class="text-left py-3 px-4 font-semibold">出场次数</th>
               <th class="text-left py-3 px-4 font-semibold">出场率</th>
               <th class="text-left py-3 px-4 font-semibold">平均排名</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="(card, idx) in topCards" :key="card.id" class="border-b hover:bg-gray-50">
+            <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
               <td class="py-3 px-4">
                 <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
                   {{ idx + 1 }}
@@ -117,12 +116,53 @@
               </td>
               <td class="py-3 px-4">
                 <div class="flex items-center gap-3">
-                  <img :src="card.imageUrl" :alt="'Card ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
+                  <img :src="moki.imageUrl" :alt="'Moki ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
+                  <div class="text-left">
+                    <div class="font-medium text-gray-800">{{ moki.cardName || 'Unknown' }}</div>
+                    <div class="text-xs text-purple-600">🎴 Moki 卡</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3 px-4 font-medium">{{ moki.count }}</td>
+              <td class="py-3 px-4">
+                <span :class="getPercentageColor(moki.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                  {{ moki.percentage }}%
+                </span>
+              </td>
+              <td class="py-3 px-4 text-gray-600">{{ moki.avgRank }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Top Strategy Cards -->
+    <div v-if="hasData && topStrategyCards.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 策略卡 TOP 20</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b-2 border-gray-200">
+              <th class="text-left py-3 px-4 font-semibold">排名</th>
+              <th class="text-left py-3 px-4 font-semibold">策略卡</th>
+              <th class="text-left py-3 px-4 font-semibold">出场次数</th>
+              <th class="text-left py-3 px-4 font-semibold">出场率</th>
+              <th class="text-left py-3 px-4 font-semibold">平均排名</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(card, idx) in topStrategyCards" :key="card.id" class="border-b hover:bg-gray-50">
+              <td class="py-3 px-4">
+                <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                  {{ idx + 1 }}
+                </span>
+              </td>
+              <td class="py-3 px-4">
+                <div class="flex items-center gap-3">
+                  <img :src="card.imageUrl" :alt="'Strategy ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
                   <div class="text-left">
                     <div class="font-medium text-gray-800">{{ card.cardName || 'Unknown' }}</div>
-                    <div class="text-xs" :class="getCardTypeColor(card.cardType)">
-                      {{ getCardTypeName(card.cardType) }}
-                    </div>
+                    <div class="text-xs text-blue-600">📋 策略卡</div>
                   </div>
                 </div>
               </td>
@@ -167,11 +207,20 @@
           return this.stats.totalPlayers > 0;
         },
         cardCount() {
-          return Object.keys(this.stats.cardAppearances || {}).length;
+          const mokis = Object.keys(this.stats.mokiAppearances || {}).length;
+          const strats = Object.keys(this.stats.strategyAppearances || {}).length;
+          return mokis + strats;
         },
-        topCards() {
-          const cards = this.stats.cardAppearances || {};
-          return Object.entries(cards)
+        topMokis() {
+          const mokis = this.stats.mokiAppearances || {};
+          return Object.entries(mokis)
+            .map(([id, data]) => ({ id, ...data }))
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 20);
+        },
+        topStrategyCards() {
+          const strats = this.stats.strategyAppearances || {};
+          return Object.entries(strats)
             .map(([id, data]) => ({ id, ...data }))
             .sort((a, b) => b.count - a.count)
             .slice(0, 20);
@@ -189,16 +238,6 @@
           if (pct >= 30) return 'bg-orange-100 text-orange-700';
           if (pct >= 10) return 'bg-yellow-100 text-yellow-700';
           return 'bg-green-100 text-green-700';
-        },
-        getCardTypeColor(type) {
-          if (type === 'moki') return 'text-purple-600';
-          if (type === 'strategy') return 'text-blue-600';
-          return 'text-gray-500';
-        },
-        getCardTypeName(type) {
-          if (type === 'moki') return '🎴 Moki';
-          if (type === 'strategy') return '📋 策略卡';
-          return '🎮 卡牌';
         },
         async loadContestInfo() {
           try {
