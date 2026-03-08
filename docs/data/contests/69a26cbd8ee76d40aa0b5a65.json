@@ -1,0 +1,79 @@
+{
+  "_id": "69a26cbd8ee76d40aa0b5a65",
+  "name": "50/50 Open Half-Day Larry Incense",
+  "description": "50/50 Open Half-Day 300GEM",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 300,
+  "prizePool": 561.75,
+  "entries": 214,
+  "maxEntries": 300,
+  "startDate": "2026-02-28T17:00:00.000Z",
+  "endDate": "2026-03-01T05:00:00.000Z",
+  "openDate": "2026-02-28T08:00:00.000Z",
+  "showDate": "2026-02-28T08:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-6-R8",
+    "season1-2026-W09-6-R9",
+    "season1-2026-W09-6-R10",
+    "season1-2026-W09-7-R1",
+    "season1-2026-W09-7-R2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T05:16:23.414Z",
+  "leaderboardFetched": false
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T05:04:00.137Z",
+  "generatedAt": "2026-03-08T05:16:23.442Z",
   "total": 472,
   "byStatus": {
     "COMPLETED": 455,
@@ -4655,7 +4655,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 498,
+      "entries": 517,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
@@ -4665,7 +4665,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 8,
+      "entries": 9,
       "prizePool": 6125,
       "format": "FIFTY_FIFTY"
     },
@@ -4685,7 +4685,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 44,
+      "entries": 45,
       "prizePool": 1050,
       "format": "FIFTY_FIFTY"
     },
@@ -4695,7 +4695,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 111,
+      "entries": 115,
       "prizePool": 350,
       "format": "TOP_20_PCT"
     },
@@ -4705,7 +4705,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 306,
+      "entries": 319,
       "prizePool": 612.5,
       "format": "FIFTY_FIFTY"
     },
@@ -4715,7 +4715,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 65,
+      "entries": 66,
       "prizePool": 787.5,
       "format": "FIFTY_FIFTY"
     },
@@ -4725,7 +4725,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T21:00:00.000Z",
-      "entries": 115,
+      "entries": 116,
       "prizePool": 875,
       "format": "FIFTY_FIFTY"
     }

@@ -2,24 +2,66 @@
   "today": {
     "date": "2026-03-08",
     "period": "today",
-    "total": 0,
-    "totalEntries": 0,
-    "totalPrizePool": 0,
-    "avgEntryFee": 0,
-    "avgEntries": 0,
-    "byFormat": {},
-    "generatedAt": "2026-03-08T05:04:00.642Z"
+    "total": 8,
+    "totalEntries": 2846,
+    "totalPrizePool": 9931.25,
+    "avgEntryFee": 575,
+    "avgEntries": 356,
+    "byFormat": {
+      "FIFTY_FIFTY": {
+        "count": 5,
+        "entries": 1440,
+        "prizePool": 9457
+      },
+      "FREE_ENTRY": {
+        "count": 1,
+        "entries": 1069,
+        "prizePool": 0
+      },
+      "TOP_20_PCT": {
+        "count": 1,
+        "entries": 296,
+        "prizePool": 259
+      },
+      "TOP_10_PCT": {
+        "count": 1,
+        "entries": 41,
+        "prizePool": 215.25
+      }
+    },
+    "generatedAt": "2026-03-08T05:16:24.004Z"
   },
   "yesterday": {
     "date": "2026-03-07",
     "period": "yesterday",
-    "total": 0,
-    "totalEntries": 0,
-    "totalPrizePool": 0,
-    "avgEntryFee": 0,
-    "avgEntries": 0,
-    "byFormat": {},
-    "generatedAt": "2026-03-08T05:04:00.642Z"
+    "total": 27,
+    "totalEntries": 9766,
+    "totalPrizePool": 33916.77,
+    "avgEntryFee": 548,
+    "avgEntries": 362,
+    "byFormat": {
+      "FIFTY_FIFTY": {
+        "count": 18,
+        "entries": 4965,
+        "prizePool": 32193.01
+      },
+      "TOP_20_PCT": {
+        "count": 5,
+        "entries": 1495,
+        "prizePool": 1663.38
+      },
+      "FREE_ENTRY": {
+        "count": 3,
+        "entries": 3237,
+        "prizePool": 0
+      },
+      "TOP_10_PCT": {
+        "count": 1,
+        "entries": 69,
+        "prizePool": 60.38
+      }
+    },
+    "generatedAt": "2026-03-08T05:16:24.005Z"
   },
   "last7Days": {
     "dateRange": {
@@ -27,12 +69,33 @@
       "to": "2026-03-08"
     },
     "period": "last_7_days",
-    "total": 0,
-    "totalEntries": 0,
-    "totalPrizePool": 0,
-    "avgEntryFee": 0,
-    "avgEntries": 0,
-    "byFormat": {},
-    "generatedAt": "2026-03-08T05:04:00.642Z"
+    "total": 198,
+    "totalEntries": 59669,
+    "totalPrizePool": 186838.83,
+    "avgEntryFee": 644,
+    "avgEntries": 301,
+    "byFormat": {
+      "FIFTY_FIFTY": {
+        "count": 134,
+        "entries": 25741,
+        "prizePool": 175428.81000000003
+      },
+      "TOP_20_PCT": {
+        "count": 37,
+        "entries": 9388,
+        "prizePool": 11003.14
+      },
+      "FREE_ENTRY": {
+        "count": 24,
+        "entries": 24380,
+        "prizePool": 0
+      },
+      "TOP_10_PCT": {
+        "count": 3,
+        "entries": 160,
+        "prizePool": 406.88
+      }
+    },
+    "generatedAt": "2026-03-08T05:16:24.005Z"
   }
 }

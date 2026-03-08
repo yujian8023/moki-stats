@@ -6,12 +6,33 @@
     "to": "2026-03-08"
   },
   "contestStats": {
-    "totalContests": 0,
-    "totalPlayers": 0,
-    "totalPrizePool": 0,
-    "avgEntryFee": 0,
-    "byFormat": {}
+    "totalContests": 198,
+    "totalPlayers": 59669,
+    "totalPrizePool": 186838.83,
+    "avgEntryFee": 644,
+    "byFormat": {
+      "FIFTY_FIFTY": {
+        "count": 134,
+        "entries": 25741,
+        "prizePool": 175428.81000000003
+      },
+      "TOP_20_PCT": {
+        "count": 37,
+        "entries": 9388,
+        "prizePool": 11003.14
+      },
+      "FREE_ENTRY": {
+        "count": 24,
+        "entries": 24380,
+        "prizePool": 0
+      },
+      "TOP_10_PCT": {
+        "count": 3,
+        "entries": 160,
+        "prizePool": 406.88
+      }
+    }
   },
   "mokiStats": {},
-  "generatedAt": "2026-03-08T05:04:00.644Z"
+  "generatedAt": "2026-03-08T05:16:24.021Z"
 }

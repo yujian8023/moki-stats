@@ -1,0 +1,83 @@
+{
+  "_id": "699f802ca9967860c445a868",
+  "name": "50/50 2R + 2E Daily Anvil Tanuki",
+  "description": "50/50 2+2 500GEM\n2 Basic + 2 Epic",
+  "contestStatus": "COMPLETED",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 500,
+  "prizePool": 875,
+  "entries": 200,
+  "maxEntries": 200,
+  "startDate": "2026-02-26T09:00:00.000Z",
+  "endDate": "2026-02-27T07:00:00.000Z",
+  "openDate": "2026-02-26T00:00:00.000Z",
+  "showDate": "2026-02-26T00:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W09-4-R5",
+    "season1-2026-W09-4-R6",
+    "season1-2026-W09-4-R7",
+    "season1-2026-W09-4-R8",
+    "season1-2026-W09-4-R9",
+    "season1-2026-W09-4-R10",
+    "season1-2026-W09-5-R1",
+    "season1-2026-W09-5-R2",
+    "season1-2026-W09-5-R3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-08T05:16:23.406Z",
+  "leaderboardFetched": false
+}
