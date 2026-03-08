@@ -6,7 +6,7 @@
   "format": "FREE_ENTRY",
   "entryFee": 0,
   "prizePool": 0,
-  "entries": 400,
+  "entries": 484,
   "maxEntries": 0,
   "startDate": "2026-03-08T09:00:00.000Z",
   "endDate": "2026-03-08T13:00:00.000Z",
@@ -76,6 +76,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T03:54:44.306Z",
+  "fetchedAt": "2026-03-08T04:58:14.612Z",
   "leaderboardFetched": false
 }

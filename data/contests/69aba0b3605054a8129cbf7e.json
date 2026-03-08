@@ -6,7 +6,7 @@
   "format": "FIFTY_FIFTY",
   "entryFee": 300,
   "prizePool": 787.5,
-  "entries": 51,
+  "entries": 65,
   "maxEntries": 300,
   "startDate": "2026-03-08T09:00:00.000Z",
   "endDate": "2026-03-08T13:00:00.000Z",
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T03:54:44.308Z",
+  "fetchedAt": "2026-03-08T04:58:14.613Z",
   "leaderboardFetched": false
 }
