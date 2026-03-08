@@ -123,7 +123,11 @@ async function fetchIncrementalContests() {
  * 保存竞赛信息
  */
 function saveContest(contest) {
-  const filePath = path.join(process.cwd(), 'data', 'contests', `${contest._id}.json`);
+  // 使用环境变量配置的数据目录
+  const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
+  const DATA_DIR = path.join(process.cwd(), DATA_DIR_NAME);
+  
+  const filePath = path.join(DATA_DIR, 'contests', `${contest._id}.json`);
   
   const saved = {
     _id: contest._id,
@@ -274,7 +278,11 @@ async function fetchLeaderboard(contestId, maxRetries = 3) {
  * 保存 leaderboard 并获取卡牌详情
  */
 async function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
-  const filePath = path.join(process.cwd(), 'data', 'leaderboards', `${contestId}.json`);
+  // 使用环境变量配置的数据目录
+  const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
+  const DATA_DIR = path.join(process.cwd(), DATA_DIR_NAME);
+  
+  const filePath = path.join(DATA_DIR, 'leaderboards', `${contestId}.json`);
   
   const flattened = leaderboard.map((entry, idx) => flattenLeaderboardEntry(entry, idx));
   
