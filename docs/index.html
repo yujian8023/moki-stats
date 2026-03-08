@@ -302,13 +302,15 @@
           return this.stats.totalPlayers > 0;
         },
         cardCount() {
-          const mokis = Object.keys(this.stats.mokiAppearances || {}).length;
+          // 兼容新旧字段
+          const mokis = Object.keys(this.stats.mokiAppearances || this.stats.cardAppearances || {}).length;
           const strats = Object.keys(this.stats.strategyAppearances || {}).length;
           return mokis + strats;
         },
         topMokis() {
-          const mokis = this.stats.mokiAppearances || {};
-          return Object.entries(mokis)
+          // 兼容新旧字段
+          const cards = this.stats.mokiAppearances || this.stats.cardAppearances || {};
+          return Object.entries(cards)
             .map(([id, data]) => ({ id, ...data }))
             .sort((a, b) => b.count - a.count)
             .slice(0, 20);
