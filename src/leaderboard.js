@@ -96,22 +96,20 @@ function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
     totalEntries: leaderboard.length,
     top50: leaderboard.map((entry, idx) => {
       // 处理不同的 API 返回格式
-      const mokiIds = entry.mokiIds || entry.team?.map(m => m.tokenId) || entry.cardIds || [];
+      const cardImages = entry.cardImages || entry.cards?.map(c => c.imageUrl) || [];
       
       return {
         rank: entry.rank || idx + 1,
         playerId: entry.playerId || entry.userId || entry.player?._id || '',
         playerName: entry.playerName || entry.username || entry.player?.name || 'Unknown',
         score: entry.score || entry.points || 0,
-        mokiIds: mokiIds,
-        // 保留原始数据用于调试
-        raw: entry
+        cardImages: cardImages,  // 保存卡牌图片 URL
+        // 保留有用的元数据
+        entryNumber: entry.entryNumber || null,
+        matchesCompleted: entry.matchesCompleted || 0
       };
     })
   };
-  
-  // 移除 raw 字段以减少文件大小
-  saved.top50.forEach(entry => delete entry.raw);
   
   writeJson(filePath, saved);
   return saved;
@@ -257,51 +255,62 @@ function analyzeLeaderboards() {
   
   console.log(`\n📊 分析 ${leaderboards.length} 个 leaderboard...`);
   
-  const mokiStats = {};
-  const compositionStats = {};
+  const cardStats = {};  // 卡牌图片统计
+  const compositionStats = {};  // 阵容统计
   let totalPlayers = 0;
+  let totalWithCards = 0;
   
   for (const lb of leaderboards) {
     for (const entry of lb.top50 || []) {
       totalPlayers++;
       
-      // 统计卡牌
-      for (const mokiId of entry.mokiIds || []) {
-        if (!mokiStats[mokiId]) {
-          mokiStats[mokiId] = {
-            count: 0,
-            ranks: [],
-            appearances: 0
-          };
-        }
-        mokiStats[mokiId].count++;
-        mokiStats[mokiId].ranks.push(entry.rank);
+      const cardImages = entry.cardImages || [];
+      if (cardImages.length > 0) {
+        totalWithCards++;
       }
       
-      // 统计阵容（前 5 名）
-      if (entry.rank <= 5 && entry.mokiIds && entry.mokiIds.length >= 5) {
-        const composition = entry.mokiIds.slice(0, 5).sort().join(',');
-        if (!compositionStats[composition]) {
-          compositionStats[composition] = {
+      // 统计卡牌图片出现频率
+      for (const imgUrl of cardImages) {
+        // 从 URL 提取卡牌标识（文件名）
+        const cardId = imgUrl.split('/').pop()?.split('_')[0] || imgUrl;
+        
+        if (!cardStats[cardId]) {
+          cardStats[cardId] = {
             count: 0,
-            avgRank: 0,
-            mokiIds: entry.mokiIds.slice(0, 5)
+            ranks: [],
+            imageUrl: imgUrl
           };
         }
-        compositionStats[composition].count++;
+        cardStats[cardId].count++;
+        cardStats[cardId].ranks.push(entry.rank);
+      }
+      
+      // 统计阵容（前 5 名，基于图片）
+      if (entry.rank <= 5 && cardImages.length >= 4) {
+        // 使用图片 URL 的哈希作为阵容标识
+        const compositionKey = cardImages.slice(0, 5).map(url => url.split('/').pop()).sort().join(',');
+        
+        if (!compositionStats[compositionKey]) {
+          compositionStats[compositionKey] = {
+            count: 0,
+            avgRank: 0,
+            cardImages: cardImages.slice(0, 5)
+          };
+        }
+        compositionStats[compositionKey].count++;
       }
     }
   }
   
   // 计算卡牌平均排名
-  const mokiAppearances = {};
-  for (const [mokiId, stats] of Object.entries(mokiStats)) {
+  const cardAppearances = {};
+  for (const [cardId, stats] of Object.entries(cardStats)) {
     const avgRank = stats.ranks.reduce((a, b) => a + b, 0) / stats.ranks.length;
-    mokiAppearances[mokiId] = {
+    cardAppearances[cardId] = {
       count: stats.count,
       percentage: parseFloat(((stats.count / totalPlayers) * 100).toFixed(2)),
       avgRank: parseFloat(avgRank.toFixed(2)),
-      appearances: stats.ranks.length
+      imageUrl: stats.imageUrl
     };
   }
   
@@ -310,14 +319,18 @@ function analyzeLeaderboards() {
     .sort((a, b) => b.count - a.count)
     .slice(0, 10)
     .map(comp => ({
-      mokiIds: comp.mokiIds,
+      cardImages: comp.cardImages,
       count: comp.count,
       percentage: parseFloat(((comp.count / totalPlayers) * 100).toFixed(2))
     }));
   
+  console.log(`   总玩家数：${totalPlayers}`);
+  console.log(`   有卡牌数据的玩家：${totalWithCards}`);
+  
   return {
     totalPlayers,
-    mokiAppearances,
+    totalWithCards,
+    cardAppearances,
     topCompositions
   };
 }
@@ -338,10 +351,12 @@ function generateStatsReport() {
   const summaryPath = path.join(statsDir, 'summary.json');
   let summary = readJson(summaryPath) || {};
   
-  // 更新统计
-  summary.mokiStats = analysis.mokiAppearances;
+  // 更新统计 - 使用 cardAppearances 替代 mokiStats
+  summary.cardAppearances = analysis.cardAppearances;
   summary.topCompositions = analysis.topCompositions;
   summary.totalPlayers = analysis.totalPlayers;
+  summary.totalWithCards = analysis.totalWithCards;
+  summary.leaderboardsAnalyzed = summary.leaderboardsAnalyzed ? summary.leaderboardsAnalyzed + 1 : 1;
   summary.generatedAt = new Date().toISOString();
   
   writeJson(summaryPath, summary);
