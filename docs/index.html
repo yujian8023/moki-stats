@@ -337,6 +337,12 @@
         this.loadContestInfo();
         this.loadStats();
         setTimeout(() => this.initChart(), 500);
+      },
+      watch: {
+        // 监听时间范围变化，重新加载统计
+        selectedRange() {
+          this.loadStats();
+        }
       }
     }).mount('#app');
   </script>
