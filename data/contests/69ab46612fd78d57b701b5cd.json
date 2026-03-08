@@ -2,7 +2,7 @@
   "_id": "69ab46612fd78d57b701b5cd",
   "name": "50/50 Epic Only 20-Round Gate Buff",
   "description": "50/50 Epic Only 20-Round Gate Buff",
-  "contestStatus": "LIVE",
+  "contestStatus": "CALCULATING",
   "format": "FIFTY_FIFTY",
   "entryFee": 400,
   "prizePool": 875,
@@ -71,6 +71,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T04:58:14.610Z",
+  "fetchedAt": "2026-03-08T05:04:00.134Z",
   "leaderboardFetched": false
 }

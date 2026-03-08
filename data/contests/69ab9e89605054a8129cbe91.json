@@ -2,7 +2,7 @@
   "_id": "69ab9e89605054a8129cbe91",
   "name": "Top 20% Basic Only 10-Round Trap Sparkle",
   "description": "Top 20% Basic Only 10-Round Trap Sparkle",
-  "contestStatus": "LIVE",
+  "contestStatus": "CALCULATING",
   "format": "TOP_20_PCT",
   "entryFee": 100,
   "prizePool": 252,
@@ -88,6 +88,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T04:58:14.611Z",
+  "fetchedAt": "2026-03-08T05:04:00.135Z",
   "leaderboardFetched": false
 }

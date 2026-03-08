@@ -6,7 +6,7 @@
   "format": "TOP_20_PCT",
   "entryFee": 100,
   "prizePool": 350,
-  "entries": 108,
+  "entries": 111,
   "maxEntries": 400,
   "startDate": "2026-03-08T09:00:00.000Z",
   "endDate": "2026-03-08T13:00:00.000Z",
@@ -89,6 +89,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T04:58:14.612Z",
+  "fetchedAt": "2026-03-08T05:04:00.136Z",
   "leaderboardFetched": false
 }

@@ -2,7 +2,7 @@
   "_id": "69ab9f3add53673741bc40ab",
   "name": "50/50 2R + 2E 10-Round Leaf Temple",
   "description": "50/50 2R + 2E 10-Round Leaf Temple",
-  "contestStatus": "LIVE",
+  "contestStatus": "CALCULATING",
   "format": "FIFTY_FIFTY",
   "entryFee": 400,
   "prizePool": 1025.5,
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T04:58:14.612Z",
+  "fetchedAt": "2026-03-08T05:04:00.135Z",
   "leaderboardFetched": false
 }

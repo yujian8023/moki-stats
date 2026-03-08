@@ -2,7 +2,7 @@
   "_id": "69ab9f0e605054a8129cbef3",
   "name": "50/50 2B + 2R 10-Round Shapeshifter Mart",
   "description": "50/50 2B + 2R 10-Round Shapeshifter Mart",
-  "contestStatus": "LIVE",
+  "contestStatus": "CALCULATING",
   "format": "FIFTY_FIFTY",
   "entryFee": 300,
   "prizePool": 1050,
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-08T04:58:14.612Z",
+  "fetchedAt": "2026-03-08T05:04:00.135Z",
   "leaderboardFetched": false
 }

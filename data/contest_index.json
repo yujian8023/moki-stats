@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-08T04:58:14.613Z",
+  "generatedAt": "2026-03-08T05:04:00.137Z",
   "total": 472,
   "byStatus": {
     "COMPLETED": 455,
-    "LIVE": 9,
+    "LIVE": 1,
     "OPEN": 8,
     "UPCOMING": 0
   },
@@ -4542,7 +4542,7 @@
     {
       "_id": "69ab46612fd78d57b701b5cd",
       "name": "50/50 Epic Only 20-Round Gate Buff",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-07T17:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 250,
@@ -4572,7 +4572,7 @@
     {
       "_id": "69ab9dd1438b065c15fe8a41",
       "name": "50/50 Open 10-Round Eggu Archipelago",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 333,
@@ -4582,7 +4582,7 @@
     {
       "_id": "69ab9df9dd53673741bc404f",
       "name": "50/50 Open 10-Round Koban Horoki",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 146,
@@ -4602,7 +4602,7 @@
     {
       "_id": "69ab9e89605054a8129cbe91",
       "name": "Top 20% Basic Only 10-Round Trap Sparkle",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 288,
@@ -4612,7 +4612,7 @@
     {
       "_id": "69ab9eaa605054a8129cbeba",
       "name": "Free 2B + 1R + 1E 10-Round Anvil Larry",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 868,
@@ -4622,7 +4622,7 @@
     {
       "_id": "69ab9ed1dd53673741bc408b",
       "name": "Top 20% Rare Only 10-Round Island Gacha",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 165,
@@ -4632,7 +4632,7 @@
     {
       "_id": "69ab9f0e605054a8129cbef3",
       "name": "50/50 2B + 2R 10-Round Shapeshifter Mart",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 400,
@@ -4642,7 +4642,7 @@
     {
       "_id": "69ab9f3add53673741bc40ab",
       "name": "50/50 2R + 2E 10-Round Leaf Temple",
-      "contestStatus": "LIVE",
+      "contestStatus": "CALCULATING",
       "startDate": "2026-03-08T01:00:00.000Z",
       "endDate": "2026-03-08T05:00:00.000Z",
       "entries": 293,
@@ -4655,7 +4655,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 484,
+      "entries": 498,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
@@ -4665,7 +4665,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 7,
+      "entries": 8,
       "prizePool": 6125,
       "format": "FIFTY_FIFTY"
     },
@@ -4695,7 +4695,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 108,
+      "entries": 111,
       "prizePool": 350,
       "format": "TOP_20_PCT"
     },
@@ -4705,7 +4705,7 @@
       "contestStatus": "OPEN",
       "startDate": "2026-03-08T09:00:00.000Z",
       "endDate": "2026-03-08T13:00:00.000Z",
-      "entries": 300,
+      "entries": 306,
       "prizePool": 612.5,
       "format": "FIFTY_FIFTY"
     },
