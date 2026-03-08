@@ -48,6 +48,21 @@ jobs:
       - name: Run analysis
         run: node src/analyze.js
 
+      - name: Copy data to docs folder (for GitHub Pages)
+        run: |
+          echo "📄 复制数据到 docs 目录..."
+          mkdir -p docs/data
+          cp -r data/contests docs/data/
+          cp -r data/leaderboards docs/data/
+          cp -r data/mokis docs/data/
+          cp data/contest_index.json docs/data/
+          cp data/stats/*.json docs/data/stats/
+          cp -r docs/*.html docs/ 2>/dev/null || true
+          cp -r docs/*.js docs/ 2>/dev/null || true
+          cp -r docs/*.css docs/ 2>/dev/null || true
+          echo "✅ 数据复制完成"
+          ls -la docs/data/
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -56,7 +71,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🎉 Initial data import: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "🎉 Initial data import + docs update: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
       
