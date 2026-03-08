@@ -122,25 +122,30 @@ function saveLeaderboard(contestId, contestName, endDate, leaderboard) {
  * @param {Array} contests - 竞赛列表
  * @param {number} batchSize - 每批数量
  * @param {number} batchDelay - 批间延迟（毫秒）
+ * @param {number} requestDelay - 请求间延迟（毫秒）
  */
-async function fetchLeaderboardsBatch(contests, batchSize = 10, batchDelay = 3000) {
+async function fetchLeaderboardsBatch(contests, batchSize = 5, batchDelay = 10000, requestDelay = 1000) {
   let successCount = 0;
   let failCount = 0;
   let skipCount = 0;
+  let rateLimitCount = 0;
   
   const contestsDir = path.join(DATA_DIR, 'contests');
   const leaderboardsDir = path.join(DATA_DIR, 'leaderboards');
   
   ensureDir(leaderboardsDir);
   
+  console.log(`📋 配置：每批 ${batchSize} 个，批间延迟 ${batchDelay/1000}秒，请求间隔 ${requestDelay/1000}秒\n`);
+  
   for (let i = 0; i < contests.length; i += batchSize) {
     const batch = contests.slice(i, i + batchSize);
     const batchNum = Math.floor(i / batchSize) + 1;
     const totalBatches = Math.ceil(contests.length / batchSize);
     
-    console.log(`\n📦 批次 ${batchNum}/${totalBatches} (${batch.length} 个竞赛)`);
+    console.log(`📦 批次 ${batchNum}/${totalBatches} (${batch.length} 个竞赛)`);
     
-    await Promise.all(batch.map(async (contest) => {
+    // 串行请求，避免并发限流
+    for (const contest of batch) {
       const contestId = contest._id || contest.contestId;
       const leaderboardPath = path.join(leaderboardsDir, `${contestId}.json`);
       
@@ -148,7 +153,8 @@ async function fetchLeaderboardsBatch(contests, batchSize = 10, batchDelay = 300
       if (fs.existsSync(leaderboardPath)) {
         console.log(`  ⏭️  跳过 ${contestId}（已存在）`);
         skipCount++;
-        return;
+        await sleep(requestDelay);
+        continue;
       }
       
       // 检查竞赛信息
@@ -162,7 +168,8 @@ async function fetchLeaderboardsBatch(contests, batchSize = 10, batchDelay = 300
       if (!contestData) {
         console.log(`  ⚠️  跳过 ${contestId}（竞赛信息不存在）`);
         failCount++;
-        return;
+        await sleep(requestDelay);
+        continue;
       }
       
       try {
@@ -176,22 +183,32 @@ async function fetchLeaderboardsBatch(contests, batchSize = 10, batchDelay = 300
         }
         
         successCount++;
+        console.log(`  ✅ ${contestId}`);
+        
       } catch (error) {
-        console.error(`  ❌ ${contestId}: ${error.message}`);
-        failCount++;
+        if (error.message.includes('429')) {
+          rateLimitCount++;
+          console.log(`  ⚠️  ${contestId}: 限流，跳过`);
+        } else {
+          console.error(`  ❌ ${contestId}: ${error.message}`);
+          failCount++;
+        }
       }
-    }));
+      
+      // 每个请求后延迟
+      await sleep(requestDelay);
+    }
     
-    console.log(`   进度：${Math.min(i + batchSize, contests.length)}/${contests.length}`);
+    console.log(`   进度：${Math.min(i + batchSize, contests.length)}/${contests.length} (成功:${successCount}, 失败:${failCount}, 限流:${rateLimitCount})`);
     
     if (i + batchSize < contests.length) {
-      console.log(`⏸️  等待 ${batchDelay/1000}秒...`);
+      console.log(`⏸️  等待 ${batchDelay/1000}秒...\n`);
       await sleep(batchDelay);
     }
   }
   
-  console.log(`\n📊 完成：成功 ${successCount} 个，失败 ${failCount} 个，跳过 ${skipCount} 个`);
-  return { success: successCount, failed: failCount, skipped: skipCount };
+  console.log(`\n📊 完成：成功 ${successCount} 个，失败 ${failCount} 个，跳过 ${skipCount} 个，限流 ${rateLimitCount} 个`);
+  return { success: successCount, failed: failCount, skipped: skipCount, rateLimited: rateLimitCount };
 }
 
 /**
@@ -348,8 +365,10 @@ async function mainFetchRecent(days = 7) {
     return;
   }
   
-  // 批量抓取
-  await fetchLeaderboardsBatch(recentContests, 10, 3000);
+  // 批量抓取 - 保守配置避免限流
+  // 每批 5 个，批间延迟 10 秒，请求间隔 1.5 秒
+  // 预计速度：~5 秒/个，185 个约需 15 分钟
+  await fetchLeaderboardsBatch(recentContests, 5, 10000, 1500);
   
   // 生成统计
   generateStatsReport();
