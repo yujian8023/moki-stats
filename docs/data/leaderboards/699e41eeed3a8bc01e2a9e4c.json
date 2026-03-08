@@ -1,0 +1,759 @@
+{
+  "contestId": "699e41eeed3a8bc01e2a9e4c",
+  "contestName": "50/50 Open Daily Belly Archipelago",
+  "endDate": "2026-02-26T15:00:00.000Z",
+  "fetchedAt": "2026-03-08T14:44:41.903Z",
+  "totalEntries": 50,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "691c98dfa8f826b8e45de1b4",
+      "playerName": "0x649e...5add",
+      "score": 31054,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/65f4ec7660609717_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/57ca09908398c7cb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/41bf8298010ac849_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/265a564ffb47b15f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca495212f57b177_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 2,
+      "playerId": "691c9948f91dc6254d5d68fd",
+      "playerName": "0xE08d...2C84",
+      "score": 31011,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d0133ce56e1f60eb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5a59ba7379903dcb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/46f74455958a838b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2f6547e4525808e5_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d39ef1ed43230d7e_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 3,
+      "playerId": "6989ffcafa3606074088b52d",
+      "playerName": "0x667d...41e1",
+      "score": 29408,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e68e01ed6988c1ec_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/21e377c982c145cb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3a4c66dc93ef368a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/55a67b6baf9b4bcd_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 4,
+      "playerId": "691c98dfa8f826b8e45de1b4",
+      "playerName": "0x649e...5add",
+      "score": 29146,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d82a03342585272d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b5b34c06aab85c2c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b39918580cc39459_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/98d8f0811ca731ef_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 5,
+      "playerId": "691c9864f91dc6254d5d4948",
+      "playerName": "0x5147...8a88",
+      "score": 28574,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7e9483b1820dbea3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 6,
+      "playerId": "6999ef06b2a519a4ff2bc93a",
+      "playerName": "0x8124...b329",
+      "score": 28336,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c704b2fbd98b0c9_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d98c70695719a4c3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d13a79135813e1b5_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1e6f2a0f7c1c92bf_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 7,
+      "playerId": "691c982d4f9391f19ca8c2ae",
+      "playerName": "0xa61F...2F6E",
+      "score": 28178,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b0a21acd2d02c53b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3339090991c16c58_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8c2febfc44398391_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4a57329192ac1d20_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 8,
+      "playerId": "691cad66dd504a1fa1c84e2b",
+      "playerName": "0x6683...4562",
+      "score": 27672,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/da234e2a8fa20370_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ba8a565a5f7879af_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a9e2aa077f6865e0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e7b3d3cccedab686_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 9,
+      "playerId": "691c9864f91dc6254d5d4948",
+      "playerName": "0x5147...8a88",
+      "score": 27470,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a668021ba485aea5_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/559c30ce18703b90_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9c17e38a9b98273b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b4f312bfaf8576e6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 10,
+      "playerId": "691c982d4f9391f19ca8c2ae",
+      "playerName": "0xa61F...2F6E",
+      "score": 27224,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e9a6f473bc10f9a1_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 11,
+      "playerId": "691c982d4f9391f19ca8c2ae",
+      "playerName": "0xa61F...2F6E",
+      "score": 27217,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c960d39e0e5e48d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9330dcf192750b79_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/cdd5ebd1ab5c1031_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/29e148ca6e935a5f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 12,
+      "playerId": "691c9864f91dc6254d5d4948",
+      "playerName": "0x5147...8a88",
+      "score": 27078,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 13,
+      "playerId": "691c990a4f9391f19ca8e4e9",
+      "playerName": "0xf03E...5CCB",
+      "score": 27060,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c960d39e0e5e48d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/545fc52ff293daad_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/97eba7eff787fd45_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/43924ae5b30a7b22_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 14,
+      "playerId": "6965b75edc25d79f45c16c03",
+      "playerName": "0xfc09...7153",
+      "score": 26928,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b4f312bfaf8576e6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/970c0f12a29da48b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7d75e613924c2936_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ba56a0c591bdbba4_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4025dede8d36dc69_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 15,
+      "playerId": "691c988b4f9391f19ca8d51a",
+      "playerName": "0x8811...4A1d",
+      "score": 26763,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/59185bf8cf67716b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bf2fa017c95f85b6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/83a1ba2ea5f8af72_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2f392a97e15001fb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4025dede8d36dc69_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 16,
+      "playerId": "6968cac462452d4ebaaaa765",
+      "playerName": "0x8A47...30f9",
+      "score": 26667,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/14deb19dee0f75f8_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 17,
+      "playerId": "69605aa899a98f0bf2526062",
+      "playerName": "0x00E4...9E96",
+      "score": 26586,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7648638570aa4f9d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c2134cb15411a058_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/70498b6c03eacb93_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/83290afbc4b7b4bc_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 18,
+      "playerId": "691c982d4f9391f19ca8c2ae",
+      "playerName": "0xa61F...2F6E",
+      "score": 26436,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c960d39e0e5e48d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2bb416805b639a85_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/870af6b2f2a86f14_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6a7d5d82e0b5cc21_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 19,
+      "playerId": "696cfb4edfc57c35c38eaabe",
+      "playerName": "0x5aC9...1Cb5",
+      "score": 26427,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0d7315e9e90cf902_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ba8a565a5f7879af_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d82a03342585272d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/434f883fcec3a4c0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 20,
+      "playerId": "691d11e47d6652272f1c9adc",
+      "playerName": "0x7c69...b1e4",
+      "score": 26332,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5a1ddeed24647927_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ea445a47d4b2f58b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d4af389ef8d50a32_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1e6f2a0f7c1c92bf_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 21,
+      "playerId": "696b747f636571a8e97a84b9",
+      "playerName": "0xB56B...44e6",
+      "score": 26264,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1c5fc6e03021e734_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e53abba9de49fae2_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8b867a24137a1f03_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0cd194ed1fa70a9a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 22,
+      "playerId": "691c99a2f91dc6254d5d7144",
+      "playerName": "0xBaDb...cB92",
+      "score": 26250,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ab2eff5fc51056b7_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/31a107867e048fd6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/545fc52ff293daad_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b5b34c06aab85c2c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 23,
+      "playerId": "691c9948f91dc6254d5d68fd",
+      "playerName": "0xE08d...2C84",
+      "score": 26185,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/06783545d8498907_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a66738d5d0b51da3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 24,
+      "playerId": "691c9948f91dc6254d5d68fd",
+      "playerName": "0xE08d...2C84",
+      "score": 26183,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/81929afcb6091e03_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/91da08585d159f52_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b0b9669c0fb163e7_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/be96c471da943687_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/26acbc31a528641f_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 25,
+      "playerId": "691c9830a8f826b8e45dc0e8",
+      "playerName": "0xA282...69AA",
+      "score": 26166,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/642c84d04d45a544_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8f4c4a91b5c4a979_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9ed1f520ca25db92_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/01a13d794077c8c3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 26,
+      "playerId": "69279052c4f73b7aace43196",
+      "playerName": "0xE9ec...065e",
+      "score": 26096,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 27,
+      "playerId": "69976f1a3bb7741813226f4e",
+      "playerName": "0x870A...0795",
+      "score": 26096,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 28,
+      "playerId": "69976f8b5a3dd91d2326bc93",
+      "playerName": "0x1Fe0...4939",
+      "score": 26096,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 29,
+      "playerId": "691c990a4f9391f19ca8e4e9",
+      "playerName": "0xf03E...5CCB",
+      "score": 26086,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0cd194ed1fa70a9a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ffd57768af648551_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 30,
+      "playerId": "691cec2a0e7d9482dbc0f5fe",
+      "playerName": "0x425f...4697",
+      "score": 25984,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 31,
+      "playerId": "695e6acabbf195f269f255da",
+      "playerName": "0x7c5B...9F3c",
+      "score": 25984,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 32,
+      "playerId": "695e6acabbf195f269f255da",
+      "playerName": "0x7c5B...9F3c",
+      "score": 25984,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 33,
+      "playerId": "696746e886f21124c463fd33",
+      "playerName": "0x3F9E...E228",
+      "score": 25984,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 34,
+      "playerId": "696c4ff11572a11522f93b45",
+      "playerName": "0xC052...75d0",
+      "score": 25984,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 35,
+      "playerId": "691c9948f91dc6254d5d68fd",
+      "playerName": "0xE08d...2C84",
+      "score": 25897,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5da396acdffb4b91_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 36,
+      "playerId": "691e41cd2c5c455382051846",
+      "playerName": "0xa9f3...14E4",
+      "score": 25641,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/545fc52ff293daad_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c960d39e0e5e48d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b5b34c06aab85c2c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6ce9a029ea0d7506_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 37,
+      "playerId": "691ca0db43137047d0c25218",
+      "playerName": "0x7bA7...CFFB",
+      "score": 25623,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4dfcf2e0f4c4d971_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/590387f0b26d48ea_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9558e1e1e4ec079e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/05fe9ed53ff299ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/99bd4af35bde86b8_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 38,
+      "playerId": "691c9864f91dc6254d5d4948",
+      "playerName": "0x5147...8a88",
+      "score": 25607,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0cd194ed1fa70a9a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e53abba9de49fae2_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/11489e9907b4bc82_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e92fabb58484f439_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 39,
+      "playerId": "691c98dfa8f826b8e45de1b4",
+      "playerName": "0x649e...5add",
+      "score": 25540,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1f0f7eb5d26685bf_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4e89446a3f72c066_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/107af96bd7cd8c1b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 40,
+      "playerId": "691c988b4f9391f19ca8d51a",
+      "playerName": "0x8811...4A1d",
+      "score": 25494,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/46452ca9a333277e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/903fc698e692b5d6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0302ce85bb798a04_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/462557ed7aca98d7_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4025dede8d36dc69_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 41,
+      "playerId": "691e41cd2c5c455382051846",
+      "playerName": "0xa9f3...14E4",
+      "score": 25374,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/545fc52ff293daad_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f8d7b8793acdf4ce_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e92fabb58484f439_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e53abba9de49fae2_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/abfd53b2d90a78ef_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 42,
+      "playerId": "691ca0db43137047d0c25218",
+      "playerName": "0x7bA7...CFFB",
+      "score": 25282,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/11489e9907b4bc82_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 43,
+      "playerId": "69681cafed18482573fce8b4",
+      "playerName": "0x8e38...d03f",
+      "score": 25073,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 44,
+      "playerId": "69681cafed18482573fce8b4",
+      "playerName": "0x8e38...d03f",
+      "score": 25073,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 45,
+      "playerId": "691c9854f91dc6254d5d46e8",
+      "playerName": "0x1F94...28D6",
+      "score": 24931,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2b7c8452a728e250_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c0e66f80f0d1236b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/471eccb55a57602f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 46,
+      "playerId": "691c98994f9391f19ca8d63c",
+      "playerName": "0x18c1...eD5c",
+      "score": 24777,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6629102c87960dad_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d82a03342585272d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/494528bac4739ed0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b5b34c06aab85c2c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6ccc6e11c8974e03_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 47,
+      "playerId": "696533dd36b0e7be611abc45",
+      "playerName": "0x192b...10d8",
+      "score": 24679,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/158ff40ddbf24e1b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8c0ba16f43d09614_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e60b7ecf9c424e68_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2fda780fe841a482_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 48,
+      "playerId": "691c98dfa8f826b8e45de1b4",
+      "playerName": "0x649e...5add",
+      "score": 24674,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/cca3138e24b1fd83_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e53abba9de49fae2_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4910f4c3cbb1170c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ff4475b108f23201_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 49,
+      "playerId": "691cec2a0e7d9482dbc0f5fe",
+      "playerName": "0x425f...4697",
+      "score": 24587,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e1311590b803437b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/57ceb3f0651ecc7d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/abf1296934b3fc69_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b957b521e377f6f1_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6ccc6e11c8974e03_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    },
+    {
+      "rank": 50,
+      "playerId": "691c98dfa8f826b8e45de1b4",
+      "playerName": "0x649e...5add",
+      "score": 24531,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c58b9aae6e1d660c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/db1e9580e3f04479_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0e34f0e5622e2645_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e507d0b7ab4fbe6f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 36
+    }
+  ]
+}

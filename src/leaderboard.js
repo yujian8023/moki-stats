@@ -474,6 +474,54 @@ async function checkFinishedContests() {
 }
 
 /**
+ * 抓取最近 N 小时内结束的竞赛 leaderboard
+ * @param {number} hours - 小时数（默认 1 小时）
+ */
+async function fetchRecentFinished(hours = 1) {
+  console.log(`🔍 检查最近 ${hours} 小时内结束的竞赛...\n`);
+  
+  const contestsDir = path.join(DATA_DIR, 'contests');
+  const leaderboardsDir = path.join(DATA_DIR, 'leaderboards');
+  ensureDir(leaderboardsDir);
+  
+  const files = fs.readdirSync(contestsDir).filter(f => f.endsWith('.json'));
+  const now = Date.now();
+  const hoursAgo = now - (hours * 60 * 60 * 1000);
+  
+  let needFetch = [];
+  
+  for (const file of files) {
+    const contest = readJson(path.join(contestsDir, file));
+    if (!contest || !contest.endDate) continue;
+    
+    const endTime = new Date(contest.endDate).getTime();
+    const leaderboardPath = path.join(leaderboardsDir, `${contest._id}.json`);
+    
+    // 在最近 N 小时内结束且没有 leaderboard
+    if (endTime <= now && endTime >= hoursAgo && !fs.existsSync(leaderboardPath)) {
+      needFetch.push(contest);
+    }
+  }
+  
+  if (needFetch.length === 0) {
+    console.log('✅ 没有需要抓取的 leaderboard');
+    return;
+  }
+  
+  console.log(`找到 ${needFetch.length} 个需要抓取 leaderboard 的竞赛\n`);
+  
+  // 批量抓取
+  await fetchLeaderboardsBatch(needFetch, 5, 10000, 1500);
+  
+  // 生成统计
+  generateStatsReport('weekly');
+  const today = new Date().toISOString().split('T')[0];
+  generateStatsReport('daily', today);
+  
+  console.log('\n✅ 最近结束的竞赛 leaderboard 抓取完成！\n');
+}
+
+/**
  * 主函数：抓取最近 N 天的 leaderboard
  */
 async function mainFetchRecent(days = 7) {
@@ -520,6 +568,9 @@ const mode = args[0];
 if (mode === '--recent') {
   const days = parseInt(args[1]) || 7;
   mainFetchRecent(days);
+} else if (mode === '--recent-finished') {
+  const hours = parseInt(args[1]) || 1;
+  fetchRecentFinished(hours);
 } else if (mode === '--check-finished') {
   checkFinishedContests();
 } else if (mode === '--stats') {
@@ -536,10 +587,11 @@ if (mode === '--recent') {
   }).catch(console.error);
 } else {
   console.log('用法:');
-  console.log('  node src/leaderboard.js --recent [days]       - 抓取最近 N 天的 leaderboard');
-  console.log('  node src/leaderboard.js --check-finished      - 检查已结束的竞赛并抓取 leaderboard');
-  console.log('  node src/leaderboard.js --stats               - 生成统计报告');
-  console.log('  node src/leaderboard.js --contest <id>        - 抓取指定竞赛的 leaderboard');
+  console.log('  node src/leaderboard.js --recent [days]          - 抓取最近 N 天的 leaderboard');
+  console.log('  node src/leaderboard.js --recent-finished [hours] - 抓取最近 N 小时内结束的 leaderboard');
+  console.log('  node src/leaderboard.js --check-finished         - 检查已结束的竞赛并抓取 leaderboard');
+  console.log('  node src/leaderboard.js --stats                  - 生成统计报告');
+  console.log('  node src/leaderboard.js --contest <id>           - 抓取指定竞赛的 leaderboard');
 }
 
 export {

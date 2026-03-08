@@ -8,7 +8,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
       - name: Checkout
@@ -24,20 +24,20 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch incremental contests (directly to docs/data/)
+      - name: Fetch incremental contests
         env:
           DATA_DIR: docs/data
         run: |
-          echo "📂 DATA_DIR: $DATA_DIR"
-          mkdir -p docs/data
+          echo "📊 获取新竞赛..."
           node src/fetch.js --incremental
 
-      - name: Check for finished contests and fetch leaderboards
+      - name: Fetch recent leaderboards
         env:
           DATA_DIR: docs/data
         run: |
-          echo "🏆 检查已结束的竞赛并抓取 leaderboard..."
-          node src/leaderboard.js --check-finished || true
+          echo "🏆 抓取最近结束的竞赛 leaderboard..."
+          # 只抓取过去 1 小时内结束的竞赛
+          node src/leaderboard.js --recent-finished 1
 
       - name: Fetch moki details
         env:
@@ -50,17 +50,15 @@ jobs:
           DATA_DIR: docs/data
         run: |
           echo "📊 生成统计报告..."
-          node src/stats.js
+          node src/generate-daily.js
+
+      - name: Show stats
+        run: |
+          echo "=== 统计概览 ==="
+          cat docs/data/stats/daily/$(date -u +%Y-%m-%d).json 2>/dev/null | jq '{players: .totalPlayers, mokis: (.mokiAppearances|keys|length), strats: (.strategyAppearances|keys|length)}' || echo "No daily stats yet"
+          cat docs/data/stats/summary.json | jq '{players: .totalPlayers, mokis: (.mokiAppearances|keys|length), strats: (.strategyAppearances|keys|length)}'
           
-          # 生成每日统计（跨天时自动创建新文件）
-          node src/generate-daily.js || true
-
-      - name: Run analysis
-        env:
-          DATA_DIR: docs/data
-        run: node src/analyze.js
-
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
