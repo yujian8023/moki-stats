@@ -23,8 +23,10 @@ const dailyDir = path.join(statsDir, 'daily');
   }
 });
 
-const today = new Date().toISOString().split('T')[0];
-const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+// 使用上海时间（UTC+8）
+const shanghaiTime = new Date(new Date().getTime() + (8 * 60 * 60 * 1000));
+const today = shanghaiTime.toISOString().split('T')[0];
+const yesterday = new Date(shanghaiTime.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
 
 console.log('📊 自动生成每日统计...\n');
 console.log(`今日：${today}`);

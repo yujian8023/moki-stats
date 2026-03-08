@@ -478,15 +478,19 @@ async function checkFinishedContests() {
  * @param {number} hours - 小时数（默认 1 小时）
  */
 async function fetchRecentFinished(hours = 1) {
+  // 使用上海时间（UTC+8）
+  const shanghaiNow = new Date().getTime() + (8 * 60 * 60 * 1000);
+  const shanghaiTime = new Date(shanghaiNow);
+  
   console.log(`🔍 检查最近 ${hours} 小时内结束的竞赛...\n`);
+  console.log(`📅 上海时间：${shanghaiTime.toISOString().slice(0, 16)}\n`);
   
   const contestsDir = path.join(DATA_DIR, 'contests');
   const leaderboardsDir = path.join(DATA_DIR, 'leaderboards');
   ensureDir(leaderboardsDir);
   
   const files = fs.readdirSync(contestsDir).filter(f => f.endsWith('.json'));
-  const now = Date.now();
-  const hoursAgo = now - (hours * 60 * 60 * 1000);
+  const hoursAgo = shanghaiNow - (hours * 60 * 60 * 1000);
   
   let needFetch = [];
   
@@ -498,7 +502,7 @@ async function fetchRecentFinished(hours = 1) {
     const leaderboardPath = path.join(leaderboardsDir, `${contest._id}.json`);
     
     // 在最近 N 小时内结束且没有 leaderboard
-    if (endTime <= now && endTime >= hoursAgo && !fs.existsSync(leaderboardPath)) {
+    if (endTime <= shanghaiNow && endTime >= hoursAgo && !fs.existsSync(leaderboardPath)) {
       needFetch.push(contest);
     }
   }
@@ -508,14 +512,14 @@ async function fetchRecentFinished(hours = 1) {
     return;
   }
   
-  console.log(`找到 ${needFetch.length} 个需要抓取 leaderboard 的竞赛\n`);
+  console.log(`找到 ${needFetch.length} 个需要抓取的竞赛\n`);
   
   // 批量抓取
   await fetchLeaderboardsBatch(needFetch, 5, 10000, 1500);
   
   // 生成统计
+  const today = shanghaiTime.toISOString().split('T')[0];
   generateStatsReport('weekly');
-  const today = new Date().toISOString().split('T')[0];
   generateStatsReport('daily', today);
   
   console.log('\n✅ 最近结束的竞赛 leaderboard 抓取完成！\n');
@@ -525,7 +529,13 @@ async function fetchRecentFinished(hours = 1) {
  * 主函数：抓取最近 N 天的 leaderboard
  */
 async function mainFetchRecent(days = 7) {
+  // 使用上海时间（UTC+8）
+  const shanghaiTime = new Date(new Date().getTime() + (8 * 60 * 60 * 1000));
+  const today = shanghaiTime.toISOString().split('T')[0];
+  const yesterday = new Date(shanghaiTime.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  
   console.log(`🚀 开始抓取最近 ${days} 天的 leaderboard...\n`);
+  console.log(`📅 上海时间：${today}\n`);
   
   // 获取最近 N 天的竞赛
   const recentContests = getRecentContests(days);
@@ -543,9 +553,6 @@ async function mainFetchRecent(days = 7) {
   generateStatsReport('weekly');
   
   // 生成每日统计
-  const today = new Date().toISOString().split('T')[0];
-  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
-  
   generateStatsReport('daily', today);
   generateStatsReport('daily', yesterday);
   
