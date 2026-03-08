@@ -93,89 +93,89 @@
       </div>
     </div>
 
-    <!-- Top Mokis -->
-    <div v-if="hasData && topMokis.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
-      <h2 class="text-2xl font-bold text-gray-800 mb-4">🎴 Moki 卡 TOP 20</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full">
-          <thead>
-            <tr class="border-b-2 border-gray-200">
-              <th class="text-left py-3 px-4 font-semibold">排名</th>
-              <th class="text-left py-3 px-4 font-semibold">Moki 卡</th>
-              <th class="text-left py-3 px-4 font-semibold">出场次数</th>
-              <th class="text-left py-3 px-4 font-semibold">出场率</th>
-              <th class="text-left py-3 px-4 font-semibold">平均排名</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
-              <td class="py-3 px-4">
-                <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
-                  {{ idx + 1 }}
-                </span>
-              </td>
-              <td class="py-3 px-4">
-                <div class="flex items-center gap-3">
-                  <img :src="moki.imageUrl" :alt="'Moki ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
-                  <div class="text-left">
-                    <div class="font-medium text-gray-800">{{ moki.cardName || 'Unknown' }}</div>
-                    <div class="text-xs text-purple-600">🎴 Moki 卡</div>
-                  </div>
-                </div>
-              </td>
-              <td class="py-3 px-4 font-medium">{{ moki.count }}</td>
-              <td class="py-3 px-4">
-                <span :class="getPercentageColor(moki.percentage)" class="px-2 py-1 rounded text-sm font-medium">
-                  {{ moki.percentage }}%
-                </span>
-              </td>
-              <td class="py-3 px-4 text-gray-600">{{ moki.avgRank }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    <!-- Top Cards Section -->
+    <div class="mb-8">
+      <!-- Desktop: Side by side, Mobile: Single column -->
+      <div class="grid lg:grid-cols-2 gap-6">
+        
+        <!-- Top Mokis -->
+        <div v-if="hasData && topMokis.length > 0" class="bg-white rounded-xl shadow-sm p-6">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">🎴 Moki 卡 TOP 20</h2>
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead>
+                <tr class="border-b-2 border-gray-200">
+                  <th class="text-left py-3 px-4 font-semibold">排名</th>
+                  <th class="text-left py-3 px-4 font-semibold">Moki 卡</th>
+                  <th class="text-left py-3 px-4 font-semibold">出场次数</th>
+                  <th class="text-left py-3 px-4 font-semibold">出场率</th>
+                  <th class="text-left py-3 px-4 font-semibold">平均排名</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b hover:bg-gray-50">
+                  <td class="py-3 px-4">
+                    <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                      {{ idx + 1 }}
+                    </span>
+                  </td>
+                  <td class="py-3 px-4">
+                    <div class="flex items-center gap-3">
+                      <img :src="moki.imageUrl" :alt="'Moki ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
+                    </div>
+                  </td>
+                  <td class="py-3 px-4 font-medium">{{ moki.count }}</td>
+                  <td class="py-3 px-4">
+                    <span :class="getPercentageColor(moki.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                      {{ moki.percentage }}%
+                    </span>
+                  </td>
+                  <td class="py-3 px-4 text-gray-600">{{ moki.avgRank }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
-    <!-- Top Strategy Cards -->
-    <div v-if="hasData && topStrategyCards.length > 0" class="bg-white rounded-xl shadow-sm p-6 mb-8">
-      <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 策略卡 TOP 20</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full">
-          <thead>
-            <tr class="border-b-2 border-gray-200">
-              <th class="text-left py-3 px-4 font-semibold">排名</th>
-              <th class="text-left py-3 px-4 font-semibold">策略卡</th>
-              <th class="text-left py-3 px-4 font-semibold">出场次数</th>
-              <th class="text-left py-3 px-4 font-semibold">出场率</th>
-              <th class="text-left py-3 px-4 font-semibold">平均排名</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(card, idx) in topStrategyCards" :key="card.id" class="border-b hover:bg-gray-50">
-              <td class="py-3 px-4">
-                <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
-                  {{ idx + 1 }}
-                </span>
-              </td>
-              <td class="py-3 px-4">
-                <div class="flex items-center gap-3">
-                  <img :src="card.imageUrl" :alt="'Strategy ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
-                  <div class="text-left">
-                    <div class="font-medium text-gray-800">{{ card.cardName || 'Unknown' }}</div>
-                    <div class="text-xs text-blue-600">📋 策略卡</div>
-                  </div>
-                </div>
-              </td>
-              <td class="py-3 px-4 font-medium">{{ card.count }}</td>
-              <td class="py-3 px-4">
-                <span :class="getPercentageColor(card.percentage)" class="px-2 py-1 rounded text-sm font-medium">
-                  {{ card.percentage }}%
-                </span>
-              </td>
-              <td class="py-3 px-4 text-gray-600">{{ card.avgRank }}</td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- Top Strategy Cards -->
+        <div v-if="hasData && topStrategyCards.length > 0" class="bg-white rounded-xl shadow-sm p-6">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 策略卡 TOP 20</h2>
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead>
+                <tr class="border-b-2 border-gray-200">
+                  <th class="text-left py-3 px-4 font-semibold">排名</th>
+                  <th class="text-left py-3 px-4 font-semibold">策略卡</th>
+                  <th class="text-left py-3 px-4 font-semibold">出场次数</th>
+                  <th class="text-left py-3 px-4 font-semibold">出场率</th>
+                  <th class="text-left py-3 px-4 font-semibold">平均排名</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(card, idx) in topStrategyCards" :key="card.id" class="border-b hover:bg-gray-50">
+                  <td class="py-3 px-4">
+                    <span :class="getRankBadge(idx + 1)" class="px-3 py-1 rounded-full text-sm font-bold">
+                      {{ idx + 1 }}
+                    </span>
+                  </td>
+                  <td class="py-3 px-4">
+                    <div class="flex items-center gap-3">
+                      <img :src="card.imageUrl" :alt="'Strategy ' + (idx+1)" class="w-16 h-16 rounded-xl object-cover shadow-sm" loading="lazy" />
+                    </div>
+                  </td>
+                  <td class="py-3 px-4 font-medium">{{ card.count }}</td>
+                  <td class="py-3 px-4">
+                    <span :class="getPercentageColor(card.percentage)" class="px-2 py-1 rounded text-sm font-medium">
+                      {{ card.percentage }}%
+                    </span>
+                  </td>
+                  <td class="py-3 px-4 text-gray-600">{{ card.avgRank }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
