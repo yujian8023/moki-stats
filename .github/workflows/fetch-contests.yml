@@ -26,11 +26,18 @@ jobs:
 
       - name: Fetch incremental contests (directly to docs/data/)
         env:
-          DATA_DIR: docs/data  # 直接生成到 docs/data/
+          DATA_DIR: docs/data
         run: |
           echo "📂 DATA_DIR: $DATA_DIR"
-          mkdir -p docs/data  # 确保目录存在
+          mkdir -p docs/data
           node src/fetch.js --incremental
+
+      - name: Check for finished contests and fetch leaderboards
+        env:
+          DATA_DIR: docs/data
+        run: |
+          echo "🏆 检查已结束的竞赛并抓取 leaderboard..."
+          node src/leaderboard.js --check-finished || true
 
       - name: Fetch moki details
         env:
@@ -41,7 +48,12 @@ jobs:
       - name: Generate statistics
         env:
           DATA_DIR: docs/data
-        run: node src/stats.js
+        run: |
+          echo "📊 生成统计报告..."
+          node src/stats.js
+          
+          # 生成每日统计（跨天时自动创建新文件）
+          node src/generate-daily.js || true
 
       - name: Run analysis
         env:
