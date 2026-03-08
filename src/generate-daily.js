@@ -30,37 +30,28 @@ console.log('📊 自动生成每日统计...\n');
 console.log(`今日：${today}`);
 console.log(`昨日：${yesterday}\n`);
 
-// 检查是否已存在今日统计
-const todayPath = path.join(dailyDir, `${today}.json`);
+// 检查是否已存在昨日统计（昨日数据不需要重复生成）
 const yesterdayPath = path.join(dailyDir, `${yesterday}.json`);
-
-let generatedToday = false;
 let generatedYesterday = false;
 
-// 生成今日统计
-if (!fs.existsSync(todayPath)) {
-  console.log('📝 生成今日统计...');
-  generateStatsReport('daily', today);
-  generatedToday = true;
-} else {
-  console.log('⏭️  今日统计已存在，跳过');
-}
-
-// 生成昨日统计
+// 生成昨日统计（仅当不存在时）
 if (!fs.existsSync(yesterdayPath)) {
-  console.log('\n📝 生成昨日统计...');
+  console.log('📝 生成昨日统计...');
   generateStatsReport('daily', yesterday);
   generatedYesterday = true;
 } else {
-  console.log('\n⏭️  昨日统计已存在，跳过');
+  console.log('⏭️  昨日统计已存在，跳过');
 }
 
-// 重新生成 7 天汇总（确保包含最新数据）
+// 每次都要重新生成今日统计（因为可能有新的 leaderboard）
+console.log('\n📝 生成/更新今日统计...');
+generateStatsReport('daily', today);
+
+// 每次都要更新 7 天汇总（确保包含最新数据）
 console.log('\n📝 更新 7 天汇总...');
 generateStatsReport('weekly');
 
 console.log('\n✅ 每日统计生成完成！\n');
-console.log('📋 生成报告:');
-if (generatedToday) console.log(`   ✅ ${today}.json (今日)`);
-if (generatedYesterday) console.log(`   ✅ ${yesterday}.json (昨日)`);
-console.log('   ✅ summary.json (近 7 天)');
+if (generatedYesterday) console.log(`   ✅ ${yesterday}.json (昨日，新生成)`);
+console.log(`   ✅ ${today}.json (今日，已更新)`);
+console.log('   ✅ summary.json (近 7 天，已更新)');
