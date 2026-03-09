@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-09T03:12:49.129Z",
-  "total": 9,
+  "generatedAt": "2026-03-09T08:59:05.687Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 9,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69acfc81eb7066dc574a2998",
-      "name": "50/50 Open 10-Round Ambrosia Takoyaki",
+      "_id": "69ade1776a9fdc12af11b30e",
+      "name": "50/50 Open 10-Round Gate Festival",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 2,
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-09T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 7000,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69acfcb352e54cb5306af179",
-      "name": "50/50 Open 10-Round Lantern Hotei",
+      "_id": "69ade2972ee5df531a998cd3",
+      "name": "50/50 Open 10-Round Council Syndicate",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 2,
-      "prizePool": 1750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69acfcd9eb7066dc574a29af",
-      "name": "50/50 Open 10-Round Festival Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 5,
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-09T21:00:00.000Z",
+      "entries": 3,
       "prizePool": 1050,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69acfd1643617ac1caf053ee",
-      "name": "Top 20% Basic Only 10-Round Larry Horoki",
+      "_id": "69ade2c835022e6aec8c300a",
+      "name": "50/50 Open 10-Round Emblem Syndicate",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 59,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69acfd46eb7066dc574a29db",
-      "name": "50/50 2B + 2R 20-Round Anvil Sparkle",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
+      "startDate": "2026-03-09T17:00:00.000Z",
       "endDate": "2026-03-09T21:00:00.000Z",
-      "entries": 30,
-      "prizePool": 612.5,
+      "entries": 0,
+      "prizePool": 2187.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69acfd70eb7066dc574a29f3",
-      "name": "50/50 Rare Only 10-Round Badlands Balls",
+      "_id": "69ade3211a85df255133370d",
+      "name": "Free No Legendary 10-Round Eggu Larry",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 43,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69acfdc443617ac1caf05417",
-      "name": "50/50 2R + 2E 10-Round Fortune Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 24,
-      "prizePool": 1225,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69acfddaebcb59148d2c5a53",
-      "name": "Free Basic + Rare Only 10-Round Festival Trap",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
-      "endDate": "2026-03-09T13:00:00.000Z",
-      "entries": 369,
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-09T21:00:00.000Z",
+      "entries": 71,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69acfe1e43617ac1caf05439",
-      "name": "50/50 One of each 20-Round Sora Buff",
+      "_id": "69ade3a6fb8fb34faf9f65cd",
+      "name": "Top 20% 2B + 2R 10-Round Tanuki Lantern",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-09T09:00:00.000Z",
+      "startDate": "2026-03-09T17:00:00.000Z",
       "endDate": "2026-03-09T21:00:00.000Z",
-      "entries": 38,
-      "prizePool": 918.75,
+      "entries": 6,
+      "prizePool": 371.88,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69ade44c2d736856c9a05d7f",
+      "name": "50/50 Rare Only 20-Round Tim Ambrosia",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-10T05:00:00.000Z",
+      "entries": 11,
+      "prizePool": 875,
       "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69ade6cd2d736856c9a05dd9",
+      "name": "50/50 Epic Only 20-Round Takoyaki Gacha",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-10T05:00:00.000Z",
+      "entries": 10,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69ade7b44f5561a1f715a57a",
+      "name": "Top 10% 2R + 2E 10-Round Shapeshifter Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-09T17:00:00.000Z",
+      "endDate": "2026-03-09T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 175,
+      "format": "TOP_10_PCT"
     }
   ]
 }

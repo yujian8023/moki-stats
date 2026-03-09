@@ -1,0 +1,75 @@
+{
+  "_id": "69ade2c835022e6aec8c300a",
+  "name": "50/50 Open 10-Round Emblem Syndicate",
+  "description": "50/50 Open 10-Round Emblem Syndicate",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 1000,
+  "prizePool": 2187.5,
+  "entries": 0,
+  "maxEntries": 250,
+  "startDate": "2026-03-09T17:00:00.000Z",
+  "endDate": "2026-03-09T21:00:00.000Z",
+  "openDate": "2026-03-09T08:00:00.000Z",
+  "showDate": "2026-03-09T08:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W11-1-CW3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-09T08:59:05.686Z",
+  "leaderboardFetched": false
+}
