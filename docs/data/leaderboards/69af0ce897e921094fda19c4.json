@@ -1,0 +1,39 @@
+{
+  "contestId": "69af0ce897e921094fda19c4",
+  "contestName": "1v1 Winner-Take-All Rare Only 10-Round Yaki Mart",
+  "endDate": "2026-03-10T05:00:00.000Z",
+  "fetchedAt": "2026-03-09T21:45:06.138Z",
+  "totalEntries": 2,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "691c98424f9391f19ca8c5b7",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ccbbcf19c06782fa_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c6c32ed0428839d3_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/63bac3430c87597e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6a7109808936603a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    },
+    {
+      "rank": 2,
+      "playerId": "691cc2e3c48866b816bffa10",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3b8e21a5808724b1_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4d5022942d41542b_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2b2b636bb87fdeef_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/75ec2006e6c70d5c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    }
+  ]
+}
