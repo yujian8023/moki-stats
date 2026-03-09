@@ -1,93 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-09T16:11:14.161Z",
-  "total": 8,
+  "generatedAt": "2026-03-09T19:06:28.202Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69ae4a8e31b81b00a3054fc8",
-      "name": "50/50 Open 10-Round Gate Archipelago",
+      "_id": "69af10d897e921094fda1a1d",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Eggu Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-03-10T01:00:00.000Z",
       "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 7000,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ae4ac68fd7dcaec338e31f",
-      "name": "50/50 Open 10-Round Tori Tamakin",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ae4af7f3caabab10523980",
-      "name": "50/50 Open 10-Round Festival Incense",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ae4b4131b81b00a3054fff",
-      "name": "Free 3B + 1R 10-Round Wart Field",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 24,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69ae4b7531b81b00a3055018",
-      "name": "Top 20% 2B + 2R 10-Round Yokai Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69ae4ba231b81b00a3055030",
-      "name": "50/50 Rare Only 10-Round Horoki Sparkle",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69ae4bdb31b81b00a305504d",
-      "name": "50/50 Epic Only 20-Round Horoki Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T13:00:00.000Z",
       "entries": 2,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69ae4bfd8fd7dcaec338e364",
-      "name": "50/50 One of each 20-Round Mart Ambrosia",
+      "_id": "69af0dc597e921094fda19f8",
+      "name": "1v1 Winner-Take-All Open 10-Round High Roller",
       "contestStatus": "OPEN",
       "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T13:00:00.000Z",
-      "entries": 3,
-      "prizePool": 1050,
-      "format": "FIFTY_FIFTY"
+      "endDate": "2026-03-10T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69af0ce897e921094fda19c4",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Yaki Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-10T01:00:00.000Z",
+      "endDate": "2026-03-10T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
