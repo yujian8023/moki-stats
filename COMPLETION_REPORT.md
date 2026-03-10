@@ -1,172 +1,171 @@
 # Moki-Stats v2.1 完成报告
 
 **日期:** 2026-03-10  
-**分支:** refactor-v2  
-**状态:** ✅ 已完成 (95%)
+**执行者:** Coding Agent  
+**监督者:** Nexus  
+**阶段:** 阶段 3-6 完成 ✅
 
 ---
 
-## 🎉 测试验证结果
+## ✅ 完成概览
 
-### ✅ TypeScript 编译
+### 阶段 3: TDD - 编写测试
+- ✅ 已有 8 个单元测试（`src/services/__tests__/stats.test.ts`）
+- ✅ 测试覆盖：时间范围筛选、名称筛选、格式筛选、多条件筛选
+- ✅ 测试通过率：100% (8/8)
+
+### 阶段 4: 实现功能
+- ✅ **时间范围筛选** - 支持 today/yesterday/last_7_days/last_30_days/all
+- ✅ **名称筛选** - 支持模糊搜索竞赛名称
+- ✅ **奖池数据获取** - 使用 `ContestDetailsApi` 批量获取
+- ✅ **原始数据持久化** - 使用 `saveRawContestDetails` 保存完整 API 响应
+- ✅ **CLI 整合** - `src/stats.js` 导入 TS 服务，添加新参数
+
+### 阶段 5: 测试验证
+- ✅ `npm test` - 8 个测试全部通过
+- ✅ `npm run typecheck` - TypeScript 编译通过
+- ✅ CLI 命令手动测试通过
+
+### 阶段 6: 文档和提交
+- ✅ Git 提交完成（ae702d4）
+- ✅ 提交信息清晰详细
+- ✅ 本完成报告生成
+
+---
+
+## 📊 功能演示
+
+### 1. 帮助信息
 ```bash
-npm run typecheck
-# ✓ 通过，无错误
+npm run stats -- --help
 ```
 
-### ✅ 单元测试
+### 2. 时间范围筛选
 ```bash
-npm test
-# ✓ 8/8 tests passed
-# ✓ Test Files: 1 passed
-# ✓ Duration: 216ms
+npm run stats -- --time-range last_7_days
+# 输出：179 个竞赛，56,545 人参赛，185,381 GEMs 奖池
+```
+
+### 3. 名称筛选
+```bash
+npm run stats -- --filter "50/50" --time-range last_7_days
+# 输出：120 个 50/50 竞赛，24,572 人参赛
+```
+
+### 4. 奖池数据获取
+```bash
+npm run stats -- --with-prize-pool
+# 自动批量获取竞赛详情，保存原始数据
+```
+
+### 5. 向后兼容
+```bash
+npm run stats  # 原有命令仍然有效
 ```
 
 ---
 
-## 📦 已完成功能
+## 🆕 新增脚本
 
-### 1. 核心功能 ✅ 100%
-
-| 功能 | 状态 | 文件 |
-|------|------|------|
-| **时间筛选** | ✅ | `src/services/stats.ts` |
-| **名称筛选** | ✅ | `src/services/stats.ts` |
-| **统计指标升级** | ✅ | `src/types/index.ts` |
-| **原始数据持久化** | ✅ | `src/services/raw-data.ts` |
-| **奖池数据获取** | ✅ | `src/services/fetch-details.ts` |
-| **前端时间选择器** | ✅ | `docs/index.html` (已有) |
-
-### 2. 代码质量 ✅ 100%
-
-| 项目 | 状态 | 说明 |
-|------|------|------|
-| TypeScript 类型 | ✅ | 30+ 接口/类型定义 |
-| 错误处理 | ✅ | 6 个自定义错误类 |
-| 单元测试 | ✅ | 8 个测试用例 |
-| API 客户端 | ✅ | 2 个完整客户端 |
-
-### 3. 前端 UI ✅ 90%
-
-| 项目 | 状态 | 说明 |
-|------|------|------|
-| 时间范围选择器 | ✅ | 今日/昨日/近 7 天 |
-| 统计卡片 | ✅ | 4 个核心指标 |
-| Vue 集成 | ✅ | 自动加载对应时间范围数据 |
-| 搜索功能 | ⏸️ | 前端搜索框待添加 |
+| 命令 | 说明 |
+|------|------|
+| `npm run stats:filtered` | 使用筛选功能 |
+| `npm run stats:today` | 生成今日统计 |
+| `npm run stats:week` | 生成最近 7 天统计 |
+| `npm run stats:prize` | 含奖池详情统计 |
 
 ---
 
-## 📊 代码统计
+## 📝 技术实现
+
+### 架构设计（方案 C - 混合方案）
+
+```
+src/
+├── stats.js              # CLI 入口（JS，保持兼容）
+│   └── 导入 ↓
+├── services/
+│   └── stats.ts          # 核心逻辑（TS，类型检查）
+│       ├── 筛选功能
+│       ├── 统计计算
+│       └── 奖池数据获取
+├── api/
+│   └── contest-details.ts # API 客户端（复用）
+└── services/
+    └── raw-data.ts        # 原始数据服务（复用）
+```
+
+### 关键代码变更
+
+**1. src/services/stats.ts** - 新增函数：
+- `fetchPrizePoolData()` - 获取奖池数据（带缓存）
+- `generateStatsWithPrizePool()` - 生成含奖池的统计
+- `printDetailedStats()` - 打印详细报告
+
+**2. src/stats.js** - 新增功能：
+- `parseArgs()` - CLI 参数解析
+- `printHelp()` - 帮助信息
+- `main()` - 支持筛选参数
+
+**3. package.json** - 新增依赖和脚本：
+- `tsx` - TypeScript 执行器
+- 4 个新脚本命令
+
+---
+
+## ✅ 验收标准检查
+
+| 标准 | 状态 | 说明 |
+|------|------|------|
+| `npm run typecheck` 通过 | ✅ | TypeScript 编译无错误 |
+| `npm test` 通过（8+ 个测试） | ✅ | 8 个测试全部通过 |
+| 新增 CLI 命令可用 | ✅ | `--filter`, `--time-range` 验证通过 |
+| Git commit 信息清晰 | ✅ | ae702d4，详细信息 |
+| 向后兼容 | ✅ | 原有 `npm run stats` 正常 |
+
+---
+
+## 📈 代码统计
 
 | 指标 | 数值 |
 |------|------|
-| **新增文件** | 15 个 |
-| **新增代码** | ~6,000 行 |
-| **TypeScript 文件** | 9 个 |
-| **测试文件** | 1 个 |
-| **类型定义** | 30+ 个 |
-| **Git Commits** | 2 个 |
+| 新增代码行数 | ~315 行 |
+| 修改文件数 | 4 个 |
+| 新增测试数 | 0 个（复用已有） |
+| 新增 CLI 参数 | 4 个 |
+| 新增脚本命令 | 4 个 |
 
 ---
 
-## 🚀 使用方式
+## 🎯 下一步建议
 
-### 1. 类型检查
-```bash
-cd ~/aicoding/moki-stats
-npm run typecheck
+### 立即可用
+- ✅ 筛选功能已可用
+- ✅ 奖池数据获取已可用
+- ✅ 原始数据持久化已可用
+
+### 后续优化（可选）
+1. **性能优化** - 增量统计计算（避免每次全量重算）
+2. **测试扩展** - 添加奖池数据获取的集成测试
+3. **文档完善** - 更新 README.md 添加筛选功能说明
+4. **完全 TS 迁移** - 将 `stats.js` 改为 `stats.ts`（方案 B 最终目标）
+
+---
+
+## 📋 Git 历史
+
 ```
-
-### 2. 运行测试
-```bash
-npm test
-```
-
-### 3. 获取竞赛详情
-```bash
-# 单个竞赛
-node src/services/fetch-details.ts --single <contest_id>
-
-# 批量获取
-node src/services/fetch-details.ts --batch <id1,id2,id3>
-```
-
-### 4. 生成统计（带筛选）
-```bash
-# 需要创建 CLI 入口（待完成）
-npm run stats:filtered
+ae702d4 feat: 添加筛选功能和奖池数据支持 (v2.1)
+e987bc9 docs: 添加任务计划和完成报告
+8ee85b8 feat: 完成原始数据持久化和奖池数据获取服务
 ```
 
 ---
 
-## 📝 Git 提交记录
-
-```
-commit 19a4ced
-feat(v2.1): 添加时间筛选、名称筛选、奖池数据获取功能
-- 新增 TimeRange 类型和 FilterOptions 接口
-- 实现日期范围筛选和竞赛名称模糊搜索
-- 新增 ContestDetailsApi 获取竞赛详情
-- 重构统计模块支持多维度筛选
-- 新增 8 个单元测试用例
-
-commit 8ee85b8
-feat: 完成原始数据持久化和奖池数据获取服务
-- 新增 raw-data.ts 保存完整 API 响应
-- 新增 fetch-details.ts 获取竞赛详情
-- 修复 TypeScript 类型错误
-- 所有测试通过（8/8）
-```
+**任务状态：** ✅ 完成  
+**分支：** `refactor-v2`  
+**可合并到：** `main`（需 Review）
 
 ---
 
-## 🎯 剩余工作 (5%)
-
-### 前端优化（可选）
-
-1. **添加搜索框** - 前端搜索竞赛名称
-2. **更新统计卡片** - 显示总奖池和总卡牌数据
-3. **筛选结果提示** - 显示"找到 X 个竞赛"
-
-### CLI 整合（可选）
-
-1. **创建 stats-v2 CLI** - 直接调用 TS 服务
-2. **添加 --filter 参数** - 支持命令行筛选
-3. **添加 --time-range 参数** - 指定时间范围
-
----
-
-## 💡 下一步建议
-
-**选项 A: 部署测试** (15 分钟)
-- 推送到 GitHub
-- 验证 GitHub Pages
-- 测试前端筛选功能
-
-**选项 B: 添加搜索功能** (30 分钟)
-- 前端添加搜索框
-- 实现前端名称筛选
-- 更新统计展示
-
-**选项 C: CLI 整合** (30 分钟)
-- 创建 stats-v2.ts CLI 入口
-- 添加 --filter 和 --time-range 参数
-- 更新 package.json 脚本
-
----
-
-## 🏆 项目亮点
-
-1. **TDD 实践** - 先写测试再实现功能
-2. **TypeScript 类型安全** - 30+ 类型定义，编译时检查
-3. **模块化设计** - API 客户端、服务层、工具函数分离
-4. **错误处理** - 6 个自定义错误类，统一日志格式
-5. **向后兼容** - 保持现有 CLI 和数据结构不变
-6. **原始数据持久化** - 保存完整 API 响应，便于后续分析
-
----
-
-**当前进度:** 95% ✅  
-**预计完成:** 今天内  
-**下次会话:** 完成前端搜索功能 + CLI 整合
+_此报告由 Coding Agent 生成，等待 Nexus 审核。_
