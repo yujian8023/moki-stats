@@ -18,9 +18,12 @@ import type {
   StatsSummary,
   TopDeckEntry,
   MokiStatEntry,
-  DateRange
+  DateRange,
+  ContestWithDetails
 } from '../types/index.js';
 import { readJson, writeJson, ensureDir, getISODate } from '../utils/fs.js';
+import { ContestDetailsApi } from '../api/contest-details.js';
+import { saveRawContestDetails, getRawData } from './raw-data.js';
 
 // 支持环境变量配置数据目录
 const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
@@ -438,6 +441,137 @@ export function generateAllStats(): Record<TimeRange, StatsWithFilters> {
   return results;
 }
 
+/**
+ * 获取奖池数据（从原始数据或 API）
+ */
+export async function fetchPrizePoolData(
+  contestIds: string[],
+  options?: {
+    useCache?: boolean;
+    batchSize?: number;
+    onProgress?: (current: number, total: number) => void;
+  }
+): Promise<Record<string, number>> {
+  const { useCache = true, batchSize = 10, onProgress } = options || {};
+  const prizePools: Record<string, number> = {};
+  
+  // 尝试从原始数据读取
+  if (useCache) {
+    for (const id of contestIds) {
+      const cached = getRawData<ContestWithDetails>('contest_details', id);
+      if (cached && cached.detailedPrizePool !== undefined) {
+        prizePools[id] = cached.detailedPrizePool;
+      }
+    }
+  }
+  
+  // 获取未缓存的竞赛详情
+  const uncachedIds = contestIds.filter(id => !prizePools[id]);
+  if (uncachedIds.length > 0) {
+    console.log(`🔍 获取 ${uncachedIds.length} 个竞赛的奖池数据...`);
+    
+    const api = new ContestDetailsApi();
+    const details = await api.fetchBatch(uncachedIds, {
+      batchSize,
+      onProgress
+    });
+    
+    // 保存原始数据并提取奖池
+    for (const detail of details) {
+      if (!detail.detailsError) {
+        prizePools[detail._id] = detail.detailedPrizePool || detail.prizePool || 0;
+        saveRawContestDetails(detail._id, detail);
+      }
+    }
+  }
+  
+  return prizePools;
+}
+
+/**
+ * 生成包含奖池数据的统计
+ */
+export async function generateStatsWithPrizePool(
+  options: FilterOptions = {},
+  timeRange: TimeRange = 'last_7_days'
+): Promise<StatsWithFilters & { prizePoolData?: Record<string, number> }> {
+  console.log(`📊 生成统计数据（含奖池详情，时间范围：${timeRange}）...\n`);
+  
+  // 读取所有竞赛
+  const contestsDir = path.join(DATA_DIR, 'contests');
+  ensureDir(contestsDir);
+  
+  const files = fs.readdirSync(contestsDir).filter(f => f.endsWith('.json'));
+  const contests: Contest[] = files
+    .map(f => readJson(path.join(contestsDir, f)))
+    .filter(Boolean);
+  
+  // 应用筛选
+  const filteredContests = applyFilters(contests, { ...options, timeRange });
+  const contestIds = filteredContests.map(c => c._id);
+  
+  // 获取奖池数据
+  const prizePoolData = await fetchPrizePoolData(contestIds, {
+    batchSize: 10,
+    onProgress: (current, total) => {
+      if (current % 10 === 0 || current === total) {
+        console.log(`   进度：${current}/${total}`);
+      }
+    }
+  });
+  
+  // 更新竞赛数据的奖池
+  for (const contest of filteredContests) {
+    if (prizePoolData[contest._id]) {
+      contest.prizePool = prizePoolData[contest._id];
+    }
+  }
+  
+  // 读取排行榜
+  const leaderboardsDir = path.join(DATA_DIR, 'leaderboards');
+  const leaderboardFiles = fs.readdirSync(leaderboardsDir)
+    .filter(f => f.endsWith('.json'))
+    .map(f => readJson(path.join(leaderboardsDir, f)))
+    .filter(Boolean);
+  
+  const filteredContestIds = new Set(contestIds);
+  const filteredLeaderboards = leaderboardFiles.filter(lb => 
+    filteredContestIds.has(lb.contestId)
+  );
+  
+  // 计算统计
+  const summary = calculateStatsSummary(filteredContests, filteredLeaderboards);
+  const topDecks = calculateTopDecks(filteredLeaderboards);
+  const topCards = calculateMokiStats(filteredLeaderboards).slice(0, 20);
+  const topStrategies = calculateMokiStats(filteredLeaderboards).slice(0, 20);
+  
+  const ranges = getDateRanges();
+  
+  const result: StatsWithFilters & { prizePoolData?: Record<string, number> } = {
+    version: 2,
+    timeRange,
+    dateRange: options.dateRange || ranges[timeRange],
+    filterOptions: options,
+    summary,
+    topDecks,
+    topCards,
+    topStrategies,
+    contestCount: filteredContests.length,
+    generatedAt: new Date().toISOString(),
+    prizePoolData
+  };
+  
+  // 保存统计
+  ensureDir(STATS_DIR);
+  const outputPath = path.join(STATS_DIR, `stats_${timeRange}_detailed.json`);
+  writeJson(outputPath, result);
+  
+  console.log(`\n✅ 统计完成：${outputPath}`);
+  printDetailedStats(result);
+  
+  return result;
+}
+
 export default {
   getDateRanges,
   filterByDateRange,
@@ -447,5 +581,8 @@ export default {
   calculateTopDecks,
   calculateMokiStats,
   generateStatsWithFilters,
-  generateAllStats
+  generateAllStats,
+  fetchPrizePoolData,
+  generateStatsWithPrizePool,
+  printDetailedStats
 };

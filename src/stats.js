@@ -1,16 +1,27 @@
 /**
- * 竞赛统计分析
+ * 竞赛统计分析（v2.1 - 整合 TypeScript 服务）
  * 
  * 功能：
  * 1. 按日期统计竞赛（今日/昨日/最近 7 天）
  * 2. 按格式统计（FIFTY_FIFTY/TOP_20_PCT/FREE_ENTRY 等）
  * 3. 参赛人数、奖池统计
  * 4. 生成汇总报告
+ * 5. [NEW] 支持时间范围筛选（--time-range）
+ * 6. [NEW] 支持名称筛选（--filter）
+ * 7. [NEW] 支持奖池数据获取（--with-prize-pool）
  */
 
 import fs from 'fs';
 import path from 'path';
 import { readJson, writeJson, ensureDir, getISODate, getISOWeek } from './utils.js';
+
+// 导入 TypeScript 服务
+import {
+  generateStatsWithFilters,
+  generateAllStats,
+  generateStatsWithPrizePool,
+  printDetailedStats
+} from './services/stats.js';
 
 // 支持环境变量配置数据目录
 const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
@@ -367,23 +378,120 @@ function generateContestIndex() {
 }
 
 /**
+ * 解析 CLI 参数
+ */
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const options = {
+    filter: null,
+    timeRange: null,
+    withPrizePool: false,
+    help: false
+  };
+  
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    
+    if (arg === '--help' || arg === '-h') {
+      options.help = true;
+    } else if (arg === '--filter' || arg === '-f') {
+      options.filter = args[++i];
+    } else if (arg === '--time-range' || arg === '-t') {
+      options.timeRange = args[++i];
+    } else if (arg === '--with-prize-pool' || arg === '-p') {
+      options.withPrizePool = true;
+    }
+  }
+  
+  return options;
+}
+
+/**
+ * 打印帮助信息
+ */
+function printHelp() {
+  console.log(`
+📊 Moki-Stats v2.1 - 竞赛统计分析
+
+用法：npm run stats [选项]
+
+选项:
+  --filter, -f <关键词>      按竞赛名称筛选（支持模糊搜索）
+  --time-range, -t <范围>    时间范围筛选
+                             可选值：today, yesterday, last_7_days, last_30_days, all
+                             默认：last_7_days
+  --with-prize-pool, -p      获取详细奖池数据（会调用 API）
+  --help, -h                 显示帮助信息
+
+示例:
+  npm run stats                              # 生成基础统计
+  npm run stats -- -t last_7_days            # 筛选最近 7 天
+  npm run stats -- -f "50/50" -t today       # 筛选今天的 50/50 竞赛
+  npm run stats -- -p                        # 含奖池详情
+
+原有命令（兼容）:
+  npm run stats:docs                         # 生成 docs 目录的统计
+  npm run stats:filtered                     # 使用新筛选功能
+`);
+}
+
+/**
  * 主函数
  */
 async function main() {
-  console.log('🚀 开始生成竞赛统计...\n');
+  const options = parseArgs();
+  
+  if (options.help) {
+    printHelp();
+    return;
+  }
   
   ensureDir(STATS_DIR);
   
-  // 1. 生成每日统计
-  generateDailyStats();
-  
-  // 2. 生成汇总统计
-  generateSummaryStats();
-  
-  // 3. 生成索引
-  generateContestIndex();
-  
-  console.log('✅ 所有统计完成！\n');
+  // 检查是否使用新筛选功能
+  if (options.filter || options.timeRange || options.withPrizePool) {
+    console.log('🚀 使用新筛选功能生成统计...\n');
+    
+    const filterOptions = {};
+    const timeRange = options.timeRange || 'last_7_days';
+    
+    if (options.filter) {
+      filterOptions.contestName = options.filter;
+      console.log(`筛选条件：名称包含 "${options.filter}"`);
+    }
+    if (options.timeRange) {
+      console.log(`时间范围：${timeRange}`);
+    }
+    console.log('');
+    
+    try {
+      if (options.withPrizePool) {
+        // 获取详细奖池数据
+        await generateStatsWithPrizePool(filterOptions, timeRange);
+      } else {
+        // 基础筛选统计
+        const result = generateStatsWithFilters(filterOptions, timeRange);
+        printDetailedStats(result);
+      }
+    } catch (error) {
+      console.error('❌ 生成统计失败:', error);
+      process.exit(1);
+    }
+  } else {
+    // 原有逻辑（向后兼容）
+    console.log('🚀 开始生成竞赛统计...\n');
+    
+    // 1. 生成每日统计
+    generateDailyStats();
+    
+    // 2. 生成汇总统计
+    generateSummaryStats();
+    
+    // 3. 生成索引
+    generateContestIndex();
+    
+    console.log('✅ 所有统计完成！\n');
+  }
 }
 
 // CLI 入口
@@ -397,5 +505,7 @@ export {
   calculateContestStats,
   generateDailyStats,
   generateSummaryStats,
-  generateContestIndex
+  generateContestIndex,
+  parseArgs,
+  printHelp
 };
