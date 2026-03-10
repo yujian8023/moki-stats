@@ -368,8 +368,47 @@ export function generateStatsWithFilters(
   console.log(`   竞赛数：${result.contestCount}`);
   console.log(`   总参赛人数：${result.summary.totalPlayers}`);
   console.log(`   总奖池：${result.summary.totalPrizePool} GEMs`);
+  console.log(`   卡牌数据：${result.summary.totalCards} 条`);
+  console.log(`   不同卡牌：${result.summary.uniqueCards} 张\n`);
   
   return result;
+}
+
+/**
+ * 打印详细统计信息
+ */
+export function printDetailedStats(result: StatsWithFilters): void {
+  console.log('📊 详细统计报告\n');
+  console.log('='.repeat(50));
+  
+  console.log(`时间范围：${result.timeRange}`);
+  if (result.dateRange) {
+    console.log(`日期：${result.dateRange.from} ~ ${result.dateRange.to}`);
+  }
+  console.log('');
+  
+  console.log('【竞赛汇总】');
+  console.log(`  竞赛数量：${result.contestCount}`);
+  console.log(`  总参赛人数：${result.summary.totalPlayers.toLocaleString()}`);
+  console.log(`  总奖池：${result.summary.totalPrizePool.toLocaleString()} GEMs`);
+  console.log(`  卡牌数据：${result.summary.totalCards.toLocaleString()} 条`);
+  console.log(`  不同卡牌：${result.summary.uniqueCards} 张`);
+  console.log('');
+  
+  console.log('【热门阵容 TOP 5】');
+  result.topDecks.slice(0, 5).forEach((deck, idx) => {
+    console.log(`  ${idx + 1}. 出场 ${deck.count} 次 (${deck.percentage}%) - 平均排名 ${deck.avgRank}`);
+    console.log(`     卡牌：${deck.mokiIds.join(', ')}`);
+  });
+  console.log('');
+  
+  console.log('【热门卡牌 TOP 10】');
+  result.topCards.slice(0, 10).forEach((card, idx) => {
+    console.log(`  ${idx + 1}. 出场 ${card.count} 次 (${card.percentage}%) - 平均排名 ${card.avgRank}`);
+  });
+  console.log('');
+  
+  console.log('='.repeat(50));
 }
 
 /**
