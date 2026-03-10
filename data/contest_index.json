@@ -1,17 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T17:57:49.854Z",
-  "total": 1,
+  "generatedAt": "2026-03-10T22:43:56.158Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b0488b863b5495092f317c",
-      "name": "Winner-Take-All Rare Only 10-Round Yokai Tim",
+      "_id": "69b0982e2eb9b54319967f9f",
+      "name": "Winner-Take-All 3R + 1E Star Cap 10-Round 888",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T01:00:00.000Z",
+      "endDate": "2026-03-11T05:00:00.000Z",
+      "entries": 8,
+      "prizePool": 56,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69b0996185903ae5d4fa322e",
+      "name": "1v1 Winner-Take-All Rare Only 1-Round Sudden Death",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T01:00:00.000Z",
+      "endDate": "2026-03-11T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69b09ab085903ae5d4fa3247",
+      "name": "Winner-Take-All Rare Only 1-Round Sudden Death",
       "contestStatus": "OPEN",
       "startDate": "2026-03-11T01:00:00.000Z",
       "endDate": "2026-03-11T05:00:00.000Z",
