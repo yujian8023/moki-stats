@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "timeRange": "last_7_days",
+  "dateRange": {
+    "from": "2026-03-02",
+    "to": "2026-03-10"
+  },
+  "filterOptions": {
+    "contestName": "50/50"
+  },
+  "summary": {
+    "totalPlayers": 24572,
+    "totalCards": 0,
+    "uniqueCards": 0,
+    "totalPrizePool": 174224.8,
+    "totalContests": 120
+  },
+  "topDecks": [],
+  "topCards": [],
+  "topStrategies": [],
+  "contestCount": 120,
+  "generatedAt": "2026-03-10T04:56:42.472Z"
+}

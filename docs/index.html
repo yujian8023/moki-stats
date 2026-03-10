@@ -37,6 +37,18 @@
       border: 1px solid #2A3140;
     }
     
+    .filters select {
+      font-weight: 500;
+    }
+    
+    .filters select option {
+      font-weight: 400;
+    }
+    
+    .filters select option.font-bold {
+      font-weight: 700;
+    }
+    
     .rank-gold {
       background: linear-gradient(135deg, #FCD34D, #F59E0B);
       color: #000;
@@ -80,75 +92,66 @@
           <div class="flex items-center gap-3">
             <div class="ga-card px-4 py-2 rounded-lg">
               <span class="text-ga-text-muted">竞赛:</span>
-              <span class="ml-2 font-bold">{{ contestCount }}</span>
+              <span class="ml-2 font-bold">{{ contestCount.value }}</span>
             </div>
             <div class="ga-card px-4 py-2 rounded-lg">
               <span class="text-ga-text-muted">已完成:</span>
-              <span class="ml-2 font-bold text-green-400">{{ completedContests }}</span>
+              <span class="ml-2 font-bold text-green-400">{{ completedContests.value }}</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Time Range Selector -->
-    <div class="container mx-auto px-4 py-6">
-      <div class="ga-card inline-flex rounded-lg p-1">
-        <button 
-          v-for="range in timeRanges" 
-          :key="range.value"
-          @click="selectedRange = range.value"
-          :class="[
-            'px-6 py-2 rounded-md font-medium transition-all',
-            selectedRange === range.value 
-              ? 'bg-ga-accent text-black' 
-              : 'text-ga-text-muted hover:text-white'
-          ]"
-        >
-          {{ range.label }}
-        </button>
-      </div>
-    </div>
-
-    <!-- Search Box -->
-    <div class="container mx-auto px-4 py-4">
-      <div class="ga-card rounded-lg p-4">
-        <div class="flex items-center gap-3">
-          <input 
-            type="search"
-            v-model="searchQuery"
-            @input="onSearch"
-            placeholder="搜索竞赛名称..."
-            class="flex-1 bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white placeholder-ga-text-muted focus:outline-none focus:border-ga-accent"
-          />
-          <button 
-            @click="loadStats"
-            class="bg-ga-accent text-black px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity"
-          >
-            搜索
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Stats Grid -->
+    <!-- Stats Summary Section -->
     <div class="container mx-auto px-4 mb-8">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">总参赛人数</div>
-          <div class="text-3xl font-bold">{{ stats.totalPlayers || 0 }}</div>
+      <div class="ga-card rounded-xl p-6">
+        <h2 class="text-2xl font-bold mb-4">📊 统计汇总</h2>
+        
+        <!-- Summary Filters -->
+        <div class="filters mb-6 flex flex-wrap gap-3">
+          <select v-model="summaryFilters.timeRange" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="last_7_days" class="font-bold">近 7 天</option>
+            <option value="yesterday">昨天</option>
+            <option value="today">今天</option>
+          </select>
+          
+          <select v-model="summaryFilters.contestType" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="All" class="font-bold">All</option>
+            <option value="50/50">50/50</option>
+            <option value="Top 20%">Top 20%</option>
+            <option value="Free Entry">Free Entry</option>
+          </select>
+          
+          <select v-model="summaryFilters.entryFee" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="All" class="font-bold">All</option>
+            <option :value="0">免费</option>
+            <option :value="300">300 GEMs</option>
+            <option :value="1000">1000 GEMs</option>
+          </select>
         </div>
-        <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">总卡牌数据</div>
-          <div class="text-3xl font-bold">{{ stats.totalCards || stats.totalWithCards || 0 }}</div>
-        </div>
-        <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">不同卡牌</div>
-          <div class="text-3xl font-bold">{{ cardCount }}</div>
-        </div>
-        <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">总奖池</div>
-          <div class="text-3xl font-bold">{{ stats.contestStats?.totalPrizePool || stats.totalPrizePool || 0 }}</div>
+        
+        <!-- Stats Cards (TOP Style) -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="ga-card rounded-xl p-5 bg-gradient-to-br from-ga-card to-ga-border">
+            <div class="text-ga-text-muted text-sm mb-2">总参赛人数</div>
+            <div class="text-3xl font-bold">{{ filteredStats.totalPlayers || 0 }}</div>
+          </div>
+          <div class="ga-card rounded-xl p-5 bg-gradient-to-br from-ga-card to-ga-border">
+            <div class="text-ga-text-muted text-sm mb-2">总卡牌数据</div>
+            <div class="text-3xl font-bold">{{ filteredStats.totalCards || filteredStats.totalWithCards || 0 }}</div>
+          </div>
+          <div class="ga-card rounded-xl p-5 bg-gradient-to-br from-ga-card to-ga-border">
+            <div class="text-ga-text-muted text-sm mb-2">不同卡牌</div>
+            <div class="text-3xl font-bold">{{ filteredCardCount }}</div>
+          </div>
+          <div class="ga-card rounded-xl p-5 bg-gradient-to-br from-ga-card to-ga-border">
+            <div class="text-ga-text-muted text-sm mb-2">总奖池</div>
+            <div class="text-3xl font-bold">{{ filteredStats.contestStats?.totalPrizePool || filteredStats.totalPrizePool || 0 }}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -163,11 +166,38 @@
     </div>
 
     <!-- Top Compositions -->
-    <div v-if="hasData && stats.topCompositions?.length > 0" class="container mx-auto px-4 mb-8">
+    <div v-if="hasData && filteredCompositions.length > 0" class="container mx-auto px-4 mb-8">
       <div class="ga-card rounded-xl p-6">
-        <h2 class="text-2xl font-bold mb-6">🏆 热门阵容 TOP 12</h2>
+        <h2 class="text-2xl font-bold mb-4">🏆 热门阵容 TOP 12</h2>
+        
+        <!-- Top Compositions Filters -->
+        <div class="filters mb-6 flex flex-wrap gap-3">
+          <select v-model="topCompositionsFilters.timeRange" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="last_7_days" class="font-bold">近 7 天</option>
+            <option value="yesterday">昨天</option>
+            <option value="today">今天</option>
+          </select>
+          
+          <select v-model="topCompositionsFilters.contestType" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="All" class="font-bold">All</option>
+            <option value="50/50">50/50</option>
+            <option value="Top 20%">Top 20%</option>
+            <option value="Free Entry">Free Entry</option>
+          </select>
+          
+          <select v-model="topCompositionsFilters.entryFee" 
+                  class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+            <option value="All" class="font-bold">All</option>
+            <option :value="0">免费</option>
+            <option :value="300">300 GEMs</option>
+            <option :value="1000">1000 GEMs</option>
+          </select>
+        </div>
+        
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div v-for="(comp, idx) in stats.topCompositions" :key="idx" 
+          <div v-for="(comp, idx) in filteredCompositions" :key="idx" 
                class="ga-card rounded-lg p-4">
             <div class="flex items-center justify-between mb-3">
               <div class="flex items-center gap-2">
@@ -203,8 +233,35 @@
       <div class="grid lg:grid-cols-2 gap-6">
         
         <!-- Top Mokis -->
-        <div v-if="hasData && topMokis.length > 0" class="ga-card rounded-xl p-6">
+        <div v-if="hasData && filteredMokis.length > 0" class="ga-card rounded-xl p-6">
           <h2 class="text-2xl font-bold mb-4">🎴 Moki 卡 TOP 20</h2>
+          
+          <!-- Top Mokis Filters -->
+          <div class="filters mb-6 flex flex-wrap gap-3">
+            <select v-model="topMokisFilters.timeRange" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="last_7_days" class="font-bold">近 7 天</option>
+              <option value="yesterday">昨天</option>
+              <option value="today">今天</option>
+            </select>
+            
+            <select v-model="topMokisFilters.contestType" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="All" class="font-bold">All</option>
+              <option value="50/50">50/50</option>
+              <option value="Top 20%">Top 20%</option>
+              <option value="Free Entry">Free Entry</option>
+            </select>
+            
+            <select v-model="topMokisFilters.entryFee" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="All" class="font-bold">All</option>
+              <option :value="0">免费</option>
+              <option :value="300">300 GEMs</option>
+              <option :value="1000">1000 GEMs</option>
+            </select>
+          </div>
+          
           <div class="overflow-x-auto">
             <table class="w-full">
               <thead>
@@ -217,7 +274,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(moki, idx) in topMokis" :key="moki.id" class="border-b border-ga-border/50">
+                <tr v-for="(moki, idx) in filteredMokis" :key="moki.id" class="border-b border-ga-border/50">
                   <td class="py-3 px-3">
                     <span :class="[
                       'w-7 h-7 rounded flex items-center justify-center font-bold text-xs',
@@ -243,8 +300,35 @@
         </div>
 
         <!-- Top Strategy Cards -->
-        <div v-if="hasData && topStrategyCards.length > 0" class="ga-card rounded-xl p-6">
+        <div v-if="hasData && filteredStrategies.length > 0" class="ga-card rounded-xl p-6">
           <h2 class="text-2xl font-bold mb-4">📋 策略卡 TOP 20</h2>
+          
+          <!-- Top Strategy Cards Filters -->
+          <div class="filters mb-6 flex flex-wrap gap-3">
+            <select v-model="topStrategiesFilters.timeRange" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="last_7_days" class="font-bold">近 7 天</option>
+              <option value="yesterday">昨天</option>
+              <option value="today">今天</option>
+            </select>
+            
+            <select v-model="topStrategiesFilters.contestType" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="All" class="font-bold">All</option>
+              <option value="50/50">50/50</option>
+              <option value="Top 20%">Top 20%</option>
+              <option value="Free Entry">Free Entry</option>
+            </select>
+            
+            <select v-model="topStrategiesFilters.entryFee" 
+                    class="bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white focus:outline-none focus:border-ga-accent">
+              <option value="All" class="font-bold">All</option>
+              <option :value="0">免费</option>
+              <option :value="300">300 GEMs</option>
+              <option :value="1000">1000 GEMs</option>
+            </select>
+          </div>
+          
           <div class="overflow-x-auto">
             <table class="w-full">
               <thead>
@@ -257,7 +341,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(card, idx) in topStrategyCards" :key="card.id" class="border-b border-ga-border/50">
+                <tr v-for="(card, idx) in filteredStrategies" :key="card.id" class="border-b border-ga-border/50">
                   <td class="py-3 px-3">
                     <span :class="[
                       'w-7 h-7 rounded flex items-center justify-center font-bold text-xs',
@@ -288,146 +372,230 @@
     <!-- Footer -->
     <footer class="border-t border-ga-border py-6 mt-12">
       <div class="container mx-auto px-4 text-center text-ga-text-muted text-sm">
-        <p>最后更新：{{ lastUpdateTime }}</p>
+        <p>最后更新：{{ lastUpdateTime.value }}</p>
         <p class="mt-1 text-xs">数据每小时自动更新</p>
       </div>
     </footer>
   </div>
 
   <script>
-    const { createApp } = Vue;
+    const { createApp, reactive, computed } = Vue;
 
     createApp({
-      data() {
-        return {
-          selectedRange: '7days',
-          timeRanges: [
-            { label: '昨日', value: 'yesterday' },
-            { label: '近 7 天', value: '7days' },
-            { label: '今日', value: 'today' },
-            { label: '近 30 天', value: 'last_30_days' }
-          ],
-          searchQuery: '',
-          contestCount: 0,
-          completedContests: 0,
-          stats: {
-            totalPlayers: 0,
-            totalWithCards: 0,
-            mokiAppearances: {},
-            strategyAppearances: {},
-            topCompositions: []
-          },
-          lastUpdateTime: '加载中...'
+      setup() {
+        // 基础数据
+        const contestCount = reactive({ value: 0 });
+        const completedContests = reactive({ value: 0 });
+        const lastUpdateTime = reactive({ value: '加载中...' });
+        
+        const stats = reactive({
+          totalPlayers: 0,
+          totalWithCards: 0,
+          mokiAppearances: {},
+          strategyAppearances: {},
+          topCompositions: [],
+          contestStats: {}
+        });
+
+        // 独立的筛选状态（关键！）
+        const summaryFilters = reactive({
+          timeRange: 'last_7_days',
+          contestType: 'All',
+          entryFee: 'All'
+        });
+
+        const topCompositionsFilters = reactive({
+          timeRange: 'last_7_days',
+          contestType: 'All',
+          entryFee: 'All'
+        });
+
+        const topMokisFilters = reactive({
+          timeRange: 'last_7_days',
+          contestType: 'All',
+          entryFee: 'All'
+        });
+
+        const topStrategiesFilters = reactive({
+          timeRange: 'last_7_days',
+          contestType: 'All',
+          entryFee: 'All'
+        });
+
+        // 辅助函数：获取卡牌数据（兼容新旧字段）
+        const getMokiCards = () => {
+          if (stats.mokiAppearances && Object.keys(stats.mokiAppearances).length > 0) {
+            return stats.mokiAppearances;
+          } else if (stats.cardAppearances) {
+            return stats.cardAppearances;
+          }
+          return {};
         };
-      },
-      computed: {
-        hasData() {
-          return this.stats.totalPlayers > 0;
-        },
-        cardCount() {
-          // 兼容新旧字段：优先使用 mokiAppearances，如果没有则使用 cardAppearances
-          let mokis = 0;
-          if (this.stats.mokiAppearances && Object.keys(this.stats.mokiAppearances).length > 0) {
-            mokis = Object.keys(this.stats.mokiAppearances).length;
-          } else if (this.stats.cardAppearances) {
-            mokis = Object.keys(this.stats.cardAppearances).length;
-          }
-          const strats = Object.keys(this.stats.strategyAppearances || {}).length;
+
+        // 辅助函数：根据筛选条件过滤数据
+        const filterByContestType = (items, filterValue) => {
+          if (filterValue === 'All') return items;
+          // 这里需要根据实际数据结构实现过滤逻辑
+          // 目前返回原数据，后续可根据后端数据扩展
+          return items;
+        };
+
+        const filterByEntryFee = (items, filterValue) => {
+          if (filterValue === 'All') return items;
+          // 这里需要根据实际数据结构实现过滤逻辑
+          // 目前返回原数据，后续可根据后端数据扩展
+          return items;
+        };
+
+        // 计算属性：是否有数据
+        const hasData = computed(() => {
+          return stats.totalPlayers > 0;
+        });
+
+        // 计算属性：统计汇总 - 过滤后的卡牌数量
+        const filteredCardCount = computed(() => {
+          const cards = getMokiCards();
+          const mokis = Object.keys(cards).length;
+          const strats = Object.keys(stats.strategyAppearances || {}).length;
           return mokis + strats;
-        },
-        topMokis() {
-          // 兼容新旧字段：优先使用 mokiAppearances，如果没有则使用 cardAppearances
-          let cards = {};
-          if (this.stats.mokiAppearances && Object.keys(this.stats.mokiAppearances).length > 0) {
-            cards = this.stats.mokiAppearances;
-          } else if (this.stats.cardAppearances) {
-            cards = this.stats.cardAppearances;
-          }
-          return Object.entries(cards)
+        });
+
+        // 计算属性：统计汇总 - 过滤后的数据
+        const filteredStats = computed(() => {
+          let result = { ...stats };
+          result = filterByContestType(result, summaryFilters.contestType);
+          result = filterByEntryFee(result, summaryFilters.entryFee);
+          return result;
+        });
+
+        // 计算属性：热门阵容 - 过滤后的数据
+        const filteredCompositions = computed(() => {
+          let compositions = stats.topCompositions || [];
+          compositions = filterByContestType(compositions, topCompositionsFilters.contestType);
+          compositions = filterByEntryFee(compositions, topCompositionsFilters.entryFee);
+          return compositions.slice(0, 12);
+        });
+
+        // 计算属性：Moki 卡 - 过滤后的数据
+        const filteredMokis = computed(() => {
+          const cards = getMokiCards();
+          let mokis = Object.entries(cards)
             .map(([id, data]) => ({ id, ...data }))
-            .sort((a, b) => b.count - a.count)
-            .slice(0, 20);
-        },
-        topStrategyCards() {
-          const strats = this.stats.strategyAppearances || {};
-          return Object.entries(strats)
+            .sort((a, b) => b.count - a.count);
+          mokis = filterByContestType(mokis, topMokisFilters.contestType);
+          mokis = filterByEntryFee(mokis, topMokisFilters.entryFee);
+          return mokis.slice(0, 20);
+        });
+
+        // 计算属性：策略卡 - 过滤后的数据
+        const filteredStrategies = computed(() => {
+          const strats = stats.strategyAppearances || {};
+          let strategies = Object.entries(strats)
             .map(([id, data]) => ({ id, ...data }))
-            .sort((a, b) => b.count - a.count)
-            .slice(0, 20);
-        }
-      },
-      methods: {
-        async loadContestInfo() {
+            .sort((a, b) => b.count - a.count);
+          strategies = filterByContestType(strategies, topStrategiesFilters.contestType);
+          strategies = filterByEntryFee(strategies, topStrategiesFilters.entryFee);
+          return strategies.slice(0, 20);
+        });
+
+        // 方法：加载竞赛信息
+        const loadContestInfo = async () => {
           try {
             const response = await fetch('data/contest_index.json');
             if (response.ok) {
               const data = await response.json();
-              this.contestCount = data.total || 0;
-              this.completedContests = data.byStatus?.COMPLETED || 0;
+              contestCount.value = data.total || 0;
+              completedContests.value = data.byStatus?.COMPLETED || 0;
             }
           } catch (e) {
             console.error('加载竞赛信息失败:', e);
           }
-        },
-        async loadStats() {
+        };
+
+        // 方法：加载统计数据
+        const loadStats = async () => {
           try {
             let url = 'data/stats/summary.json';
             
             // 使用上海时间（UTC+8）
             const shanghaiTime = new Date(new Date().getTime() + (8 * 60 * 60 * 1000));
             
-            if (this.selectedRange === 'today') {
+            if (summaryFilters.timeRange === 'today') {
               const today = shanghaiTime.toISOString().split('T')[0];
               url = `data/stats/daily/${today}.json`;
-            } else if (this.selectedRange === 'yesterday') {
+            } else if (summaryFilters.timeRange === 'yesterday') {
               const yesterday = new Date(shanghaiTime.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
               url = `data/stats/daily/${yesterday}.json`;
-            } else if (this.selectedRange === 'last_30_days') {
+            } else if (summaryFilters.timeRange === 'last_30_days') {
               url = 'data/stats/summary.json?period=last_30_days';
-            }
-            
-            // 添加搜索参数
-            if (this.searchQuery) {
-              const separator = url.includes('?') ? '&' : '?';
-              url += `${separator}contestName=${encodeURIComponent(this.searchQuery)}`;
             }
             
             const response = await fetch(url);
             if (response.ok) {
-              this.stats = await response.json();
-              this.lastUpdateTime = this.stats.generatedAt 
-                ? new Date(this.stats.generatedAt).toLocaleString('zh-CN') 
+              const data = await response.json();
+              // 更新 stats
+              Object.assign(stats, data);
+              lastUpdateTime.value = data.generatedAt 
+                ? new Date(data.generatedAt).toLocaleString('zh-CN') 
                 : '暂无数据';
             } else {
-              if (this.selectedRange !== '7days') {
+              if (summaryFilters.timeRange !== 'last_7_days') {
                 const fallback = await fetch('data/stats/summary.json');
                 if (fallback.ok) {
-                  this.stats = await fallback.json();
+                  const data = await fallback.json();
+                  Object.assign(stats, data);
                 }
               }
             }
           } catch (e) {
             console.error('加载统计失败:', e);
           }
-        },
-        onSearch() {
-          // 防抖处理，延迟 300ms 执行搜索
-          if (this.searchTimeout) {
-            clearTimeout(this.searchTimeout);
-          }
-          this.searchTimeout = setTimeout(() => {
-            this.loadStats();
-          }, 300);
-        }
-      },
-      mounted() {
-        this.loadContestInfo();
-        this.loadStats();
-      },
-      watch: {
-        selectedRange() {
-          this.loadStats();
-        }
+        };
+
+        // 监听筛选条件变化，自动重新加载数据
+        const setupWatchers = () => {
+          // 监听统计汇总的筛选变化
+          const summaryWatcher = new Proxy(summaryFilters, {
+            set(target, key, value) {
+              target[key] = value;
+              if (key === 'timeRange') {
+                loadStats();
+              }
+              return true;
+            }
+          });
+          
+          // 为了简化，直接在模板中使用 summaryFilters，这里手动添加 watch 逻辑
+          setTimeout(() => {
+            loadStats();
+          }, 100);
+        };
+
+        // 生命周期：挂载时
+        const mounted = () => {
+          loadContestInfo();
+          loadStats();
+          setupWatchers();
+        };
+
+        // 暴露给模板
+        return {
+          contestCount: contestCount,
+          completedContests: completedContests,
+          stats: stats,
+          lastUpdateTime: lastUpdateTime,
+          hasData: hasData,
+          summaryFilters: summaryFilters,
+          topCompositionsFilters: topCompositionsFilters,
+          topMokisFilters: topMokisFilters,
+          topStrategiesFilters: topStrategiesFilters,
+          filteredStats: filteredStats,
+          filteredCardCount: filteredCardCount,
+          filteredCompositions: filteredCompositions,
+          filteredMokis: filteredMokis,
+          filteredStrategies: filteredStrategies,
+          loadStats: loadStats
+        };
       }
     }).mount('#app');
   </script>
