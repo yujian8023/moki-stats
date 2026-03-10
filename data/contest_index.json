@@ -1,93 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T08:57:56.554Z",
-  "total": 8,
+  "generatedAt": "2026-03-10T13:24:22.692Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69af688351dcfc55c0ce1bc2",
-      "name": "Free No Legendary 10-Round Eggu Gate",
+      "_id": "69b013d2bd80ddca321a6009",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Factory Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-03-10T17:00:00.000Z",
       "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 69,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69af6899c2148ccc005e70c9",
-      "name": "50/50 Open 10-Round Council Syndicate",
+      "_id": "69b0140edd7dcd230d052375",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Gate Field",
       "contestStatus": "OPEN",
       "startDate": "2026-03-10T17:00:00.000Z",
       "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 7437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69af68c0c2148ccc005e70e8",
-      "name": "50/50 Open 10-Round Larry Festival",
+      "_id": "69b0144cbd80ddca321a6028",
+      "name": "1v1 Winner-Take-All Open 10-Round Tamakin Larry",
       "contestStatus": "OPEN",
       "startDate": "2026-03-10T17:00:00.000Z",
       "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69af68e751dcfc55c0ce1bef",
-      "name": "50/50 Open 10-Round Belly Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T17:00:00.000Z",
-      "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69af69266e42f560ce2b2b9c",
-      "name": "Top 20% Basic Only 10-Round Badlands Yokai",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T17:00:00.000Z",
-      "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 8,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69af69b351dcfc55c0ce1c2f",
-      "name": "50/50 Rare Only 10-Round Badlands Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T17:00:00.000Z",
-      "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 36,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69af69d3c2148ccc005e713b",
-      "name": "50/50 Epic Only 10-Round Field Incense",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T17:00:00.000Z",
-      "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 12,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69af6ac56e42f560ce2b2beb",
-      "name": "50/50 No Legendary Star Cap 10-Round Warrior Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-10T17:00:00.000Z",
-      "endDate": "2026-03-10T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
