@@ -379,18 +379,37 @@
   </div>
 
   <script>
-    const { createApp, reactive, computed } = Vue;
+    const { createApp, reactive, computed, onMounted } = Vue;
 
     createApp({
       setup() {
+        // 生命周期：挂载时
+        onMounted(() => {
+          console.log('应用已挂载，加载数据...');
+          loadContestInfo();
+          loadStats();
+          setupWatchers();
+        });
         // 基础数据
         const contestCount = reactive({ value: 0 });
         const completedContests = reactive({ value: 0 });
         const lastUpdateTime = reactive({ value: '加载中...' });
         
         const stats = reactive({
+          // 统计汇总
           totalPlayers: 0,
           totalWithCards: 0,
+          totalContests: 0,
+          totalPrizePool: 0,
+          
+          // 元数据
+          period: '',
+          fromDate: '',
+          toDate: '',
+          generatedAt: '',
+          
+          // 分析统计
+          leaderboardsAnalyzed: 0,
           mokiAppearances: {},
           strategyAppearances: {},
           topCompositions: [],
@@ -462,10 +481,37 @@
 
         // 计算属性：统计汇总 - 过滤后的数据
         const filteredStats = computed(() => {
-          let result = { ...stats };
-          result = filterByContestType(result, summaryFilters.contestType);
-          result = filterByEntryFee(result, summaryFilters.entryFee);
-          return result;
+          // 从 stats.contestStats 中获取过滤后的数据
+          const contestStats = stats.contestStats || {};
+          const period = summaryFilters.timeRange;
+          const contestType = summaryFilters.contestType;
+          const entryFee = summaryFilters.entryFee;
+          
+          // 如果有 contestStats，使用过滤后的数据
+          if (contestStats.totalPlayers !== undefined) {
+            return {
+              totalPlayers: contestStats.totalPlayers || 0,
+              totalWithCards: contestStats.totalWithCards || 0,
+              totalContests: contestStats.totalContests || 0,
+              totalPrizePool: contestStats.totalPrizePool || 0,
+              period: contestStats.period || period,
+              fromDate: contestStats.fromDate || '',
+              toDate: contestStats.toDate || '',
+              generatedAt: contestStats.generatedAt || stats.generatedAt
+            };
+          }
+          
+          // 否则返回基础数据
+          return {
+            totalPlayers: stats.totalPlayers || 0,
+            totalWithCards: stats.totalWithCards || 0,
+            totalContests: stats.totalContests || 0,
+            totalPrizePool: stats.totalPrizePool || 0,
+            period: period,
+            fromDate: '',
+            toDate: '',
+            generatedAt: stats.generatedAt
+          };
         });
 
         // 计算属性：热门阵容 - 过滤后的数据
@@ -529,12 +575,29 @@
             } else if (summaryFilters.timeRange === 'last_30_days') {
               url = 'data/stats/summary.json?period=last_30_days';
             }
+            // else: last_7_days 使用默认的 data/stats/summary.json
             
+            console.log('加载数据:', url);
             const response = await fetch(url);
+            console.log('响应状态:', response.status);
             if (response.ok) {
               const data = await response.json();
-              // 更新 stats
-              Object.assign(stats, data);
+              // 逐个字段赋值（确保响应式）
+              stats.totalPlayers = data.totalPlayers || 0;
+              stats.totalWithCards = data.totalWithCards || 0;
+              stats.totalContests = data.totalContests || 0;
+              // 计算总奖池（从 contestStats 或默认值）
+              stats.totalPrizePool = data.contestStats?.totalPrizePool || data.totalPrizePool || 0;
+              stats.period = data.period || '';
+              stats.fromDate = data.fromDate || '';
+              stats.toDate = data.toDate || '';
+              stats.generatedAt = data.generatedAt || '';
+              stats.leaderboardsAnalyzed = data.leaderboardsAnalyzed || 0;
+              stats.mokiAppearances = data.mokiAppearances || {};
+              stats.strategyAppearances = data.strategyAppearances || {};
+              stats.topCompositions = data.topCompositions || [];
+              stats.contestStats = data.contestStats || {};
+              
               lastUpdateTime.value = data.generatedAt 
                 ? new Date(data.generatedAt).toLocaleString('zh-CN') 
                 : '暂无数据';
@@ -543,7 +606,20 @@
                 const fallback = await fetch('data/stats/summary.json');
                 if (fallback.ok) {
                   const data = await fallback.json();
-                  Object.assign(stats, data);
+                  // 逐个字段赋值（确保响应式）
+                  stats.totalPlayers = data.totalPlayers || 0;
+                  stats.totalWithCards = data.totalWithCards || 0;
+                  stats.totalContests = data.totalContests || 0;
+                  stats.totalPrizePool = data.totalPrizePool || 0;
+                  stats.period = data.period || '';
+                  stats.fromDate = data.fromDate || '';
+                  stats.toDate = data.toDate || '';
+                  stats.generatedAt = data.generatedAt || '';
+                  stats.leaderboardsAnalyzed = data.leaderboardsAnalyzed || 0;
+                  stats.mokiAppearances = data.mokiAppearances || {};
+                  stats.strategyAppearances = data.strategyAppearances || {};
+                  stats.topCompositions = data.topCompositions || [];
+                  stats.contestStats = data.contestStats || {};
                 }
               }
             }
@@ -569,13 +645,6 @@
           setTimeout(() => {
             loadStats();
           }, 100);
-        };
-
-        // 生命周期：挂载时
-        const mounted = () => {
-          loadContestInfo();
-          loadStats();
-          setupWatchers();
         };
 
         // 暴露给模板
