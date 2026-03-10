@@ -110,6 +110,27 @@
       </div>
     </div>
 
+    <!-- Search Box -->
+    <div class="container mx-auto px-4 py-4">
+      <div class="ga-card rounded-lg p-4">
+        <div class="flex items-center gap-3">
+          <input 
+            type="search"
+            v-model="searchQuery"
+            @input="onSearch"
+            placeholder="搜索竞赛名称..."
+            class="flex-1 bg-ga-card border border-ga-border rounded-lg px-4 py-2 text-white placeholder-ga-text-muted focus:outline-none focus:border-ga-accent"
+          />
+          <button 
+            @click="loadStats"
+            class="bg-ga-accent text-black px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity"
+          >
+            搜索
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Stats Grid -->
     <div class="container mx-auto px-4 mb-8">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -118,16 +139,16 @@
           <div class="text-3xl font-bold">{{ stats.totalPlayers || 0 }}</div>
         </div>
         <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">有卡牌数据</div>
-          <div class="text-3xl font-bold">{{ stats.totalWithCards || 0 }}</div>
+          <div class="text-ga-text-muted text-sm mb-2">总卡牌数据</div>
+          <div class="text-3xl font-bold">{{ stats.totalCards || stats.totalWithCards || 0 }}</div>
         </div>
         <div class="ga-card rounded-xl p-5">
           <div class="text-ga-text-muted text-sm mb-2">不同卡牌</div>
           <div class="text-3xl font-bold">{{ cardCount }}</div>
         </div>
         <div class="ga-card rounded-xl p-5">
-          <div class="text-ga-text-muted text-sm mb-2">热门阵容</div>
-          <div class="text-3xl font-bold">{{ stats.topCompositions?.length || 0 }}</div>
+          <div class="text-ga-text-muted text-sm mb-2">总奖池</div>
+          <div class="text-3xl font-bold">{{ stats.contestStats?.totalPrizePool || stats.totalPrizePool || 0 }}</div>
         </div>
       </div>
     </div>
@@ -283,8 +304,10 @@
           timeRanges: [
             { label: '昨日', value: 'yesterday' },
             { label: '近 7 天', value: '7days' },
-            { label: '今日', value: 'today' }
+            { label: '今日', value: 'today' },
+            { label: '近 30 天', value: 'last_30_days' }
           ],
+          searchQuery: '',
           contestCount: 0,
           completedContests: 0,
           stats: {
@@ -359,6 +382,14 @@
             } else if (this.selectedRange === 'yesterday') {
               const yesterday = new Date(shanghaiTime.getTime() - 24 * 60 * 60 * 1000).toISOString().split('T')[0];
               url = `data/stats/daily/${yesterday}.json`;
+            } else if (this.selectedRange === 'last_30_days') {
+              url = 'data/stats/summary.json?period=last_30_days';
+            }
+            
+            // 添加搜索参数
+            if (this.searchQuery) {
+              const separator = url.includes('?') ? '&' : '?';
+              url += `${separator}contestName=${encodeURIComponent(this.searchQuery)}`;
             }
             
             const response = await fetch(url);
@@ -378,6 +409,15 @@
           } catch (e) {
             console.error('加载统计失败:', e);
           }
+        },
+        onSearch() {
+          // 防抖处理，延迟 300ms 执行搜索
+          if (this.searchTimeout) {
+            clearTimeout(this.searchTimeout);
+          }
+          this.searchTimeout = setTimeout(() => {
+            this.loadStats();
+          }, 300);
         }
       },
       mounted() {
