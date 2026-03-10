@@ -1,0 +1,39 @@
+{
+  "contestId": "69af10d897e921094fda1a1d",
+  "contestName": "1v1 Winner-Take-All Epic Only 10-Round Eggu Luck",
+  "endDate": "2026-03-10T05:00:00.000Z",
+  "fetchedAt": "2026-03-09T21:45:19.768Z",
+  "totalEntries": 2,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "691ca5f0e6d675b3855b9727",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/eae86c77b9167caa_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4812a418225f95cd_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e460f0b9fcef5486_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5c4c74fdb956afb9_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    },
+    {
+      "rank": 2,
+      "playerId": "691c995ba8f826b8e45df236",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/895cfd76507d888c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c77c8caed1ee8b56_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d74ba598ae8bf29d_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9310aed5a33f9031_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/af8600cbec19efd9_thumb.webp"
+      ],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    }
+  ]
+}
