@@ -61,8 +61,8 @@ export class ContestsApi {
         throw new ApiError(`获取竞赛失败：${response.status}`, response.status, url);
       }
 
-      const data = await response.json();
-      const contests = (data.contests || data || []) as Contest[];
+      const data = await response.json() as any;
+      const contests: Contest[] = (data.contests || data || []) as Contest[];
 
       return {
         contests,

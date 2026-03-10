@@ -63,17 +63,17 @@ export class ContestDetailsApi {
           throw new ApiError(`获取竞赛详情失败：${response.status}`, response.status, url);
         }
 
-        const data = await response.json();
+        const data = await response.json() as any;
         
         // 转换为 ContestWithDetails 格式
         return {
           ...data,
           _id: contestId,
-          detailedPrizePool: data.prizePool,
-          detailedPrizeStructure: data.prizeStructure,
-          detailedLineupConfig: data.lineupConfig,
+          detailedPrizePool: data.prizePool as number,
+          detailedPrizeStructure: data.prizeStructure as Record<string, any>,
+          detailedLineupConfig: data.lineupConfig as Record<string, any>,
           detailsFetchedAt: new Date().toISOString()
-        };
+        } as ContestWithDetails;
 
       } catch (error) {
         if (error instanceof RateLimitError && attempt < this.retryAttempts) {

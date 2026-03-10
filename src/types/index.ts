@@ -102,8 +102,6 @@ export interface MokiManifest {
 
 export type TaskStatus = 'pending' | 'running' | 'completed' | 'failed';
 
-export type TaskType = 'fetchLeaderboard';
-
 export interface Task {
   id: string;
   contestId: string;

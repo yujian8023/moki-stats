@@ -8,8 +8,8 @@ import {
   filterByDateRange,
   filterByContestName,
   applyFilters
-} from '../services/stats';
-import type { Contest, FilterOptions } from '../types/index.js';
+} from '../stats.js';
+import type { Contest, FilterOptions } from '../../types/index.js';
 
 describe('Stats Filters', () => {
   const mockContests: Contest[] = [

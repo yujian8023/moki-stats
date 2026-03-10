@@ -21,7 +21,6 @@ import type {
   DateRange
 } from '../types/index.js';
 import { readJson, writeJson, ensureDir, getISODate } from '../utils/fs.js';
-import { ValidationError } from '../utils/errors.js';
 
 // 支持环境变量配置数据目录
 const DATA_DIR_NAME = process.env.DATA_DIR || 'data';
