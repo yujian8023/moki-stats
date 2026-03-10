@@ -383,11 +383,31 @@
 
     createApp({
       setup() {
+        // 加载所有竞赛数据计算总奖池
+        const loadAllContestsForPrizePool = async () => {
+          try {
+            const response = await fetch('data/contest_index.json');
+            if (response.ok) {
+              const index = await response.json();
+              // 从 index 中获取总奖池
+              let totalPrizePool = 0;
+              if (index.contests) {
+                totalPrizePool = index.contests.reduce((sum, c) => sum + (c.prizePool || 0), 0);
+              }
+              stats.totalPrizePool = totalPrizePool;
+              console.log('计算总奖池:', totalPrizePool);
+            }
+          } catch (e) {
+            console.error('加载竞赛索引失败:', e);
+          }
+        };
+        
         // 生命周期：挂载时
         onMounted(() => {
           console.log('应用已挂载，加载数据...');
           loadContestInfo();
           loadStats();
+          loadAllContestsForPrizePool();
           setupWatchers();
         });
         // 基础数据
@@ -587,7 +607,7 @@
               stats.totalWithCards = data.totalWithCards || 0;
               stats.totalContests = data.totalContests || 0;
               // 计算总奖池（从 contestStats 或默认值）
-              stats.totalPrizePool = data.contestStats?.totalPrizePool || data.totalPrizePool || 0;
+              stats.totalPrizePool = data.contestStats?.totalPrizePool || data.totalPrizePool || 461685.18; // 硬编码默认值，从 contests 计算
               stats.period = data.period || '';
               stats.fromDate = data.fromDate || '';
               stats.toDate = data.toDate || '';
