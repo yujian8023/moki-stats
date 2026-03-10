@@ -1,43 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-09T19:06:28.202Z",
-  "total": 3,
+  "generatedAt": "2026-03-10T02:47:39.904Z",
+  "total": 7,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 3,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69af10d897e921094fda1a1d",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Eggu Luck",
+      "_id": "69aef5a4632bef7ec4e5261c",
+      "name": "50/50 Open 10-Round Tim Ratz",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
       "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 7000,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69af0dc597e921094fda19f8",
-      "name": "1v1 Winner-Take-All Open 10-Round High Roller",
+      "_id": "69aef5d92ee50dd969c071ca",
+      "name": "50/50 Open 10-Round Gacha Factory",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 1,
+      "prizePool": 1750,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69af0ce897e921094fda19c4",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Yaki Mart",
+      "_id": "69aef5f467d1033060139aa1",
+      "name": "Free Basic + Rare Only 10-Round Artifact Archipelago",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-10T01:00:00.000Z",
-      "endDate": "2026-03-10T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 324,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69aef60b67d1033060139ab9",
+      "name": "50/50 Open 10-Round Lantern Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 21,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69aef64267d1033060139ada",
+      "name": "Top 20% Basic Only 10-Round Koban Ratz",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 46,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69aef6762ee50dd969c071fd",
+      "name": "50/50 2B + 2R 10-Round Artifact Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 70,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69aef7212ee50dd969c07215",
+      "name": "50/50 2R + 2E 10-Round Tim Ratz",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-10T09:00:00.000Z",
+      "endDate": "2026-03-10T13:00:00.000Z",
+      "entries": 35,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
