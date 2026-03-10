@@ -1,7 +1,7 @@
 {
   "name": "moki-stats",
-  "version": "2.0.0",
-  "description": "Moki Card 最强阵容统计 - 自动采集竞赛数据并分析高频卡牌（重构版）",
+  "version": "2.1.0",
+  "description": "Moki Card 最强阵容统计 - 自动采集竞赛数据并分析高频卡牌（重构版 v2）",
   "type": "module",
   "scripts": {
     "init": "node src/fetch.js --all",
@@ -12,14 +12,31 @@
     "fetch:leaderboards": "node src/fetch.js --leaderboards",
     "stats": "node src/stats.js",
     "stats:docs": "DATA_DIR=docs/data node src/stats.js",
+    "stats:filtered": "node src/stats-new.js --filter",
     "analyze": "node src/analyze.js",
     "analyze:docs": "DATA_DIR=docs/data node src/analyze.js",
-    "test": "node src/fetch.js --test"
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "build": "tsup src/index.ts --format esm --dts",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": ["moki", "fantasy", "stats", "leaderboard"],
+  "keywords": [
+    "moki",
+    "fantasy",
+    "stats",
+    "leaderboard",
+    "deck-builder"
+  ],
   "author": "Billions",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@types/node-fetch": "^2.6.13",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   }
 }
