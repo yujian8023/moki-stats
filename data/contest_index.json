@@ -1,22 +1,92 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T23:37:49.970Z",
-  "total": 1,
+  "generatedAt": "2026-03-11T02:47:35.157Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b0a21985903ae5d4fa3265",
-      "name": "50/50 2B + 2R 10-Round Ratz Sparkle",
+      "_id": "69b063e49360ab8597241490",
+      "name": "50/50 Open 10-Round Yokai Council",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-11T01:00:00.000Z",
-      "endDate": "2026-03-11T05:00:00.000Z",
-      "entries": 102,
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 7875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b063f134e547bd5f192ce0",
+      "name": "50/50 Open 10-Round Takoyaki Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b0640ee52e2c5b012a0788",
+      "name": "50/50 Open 10-Round Gate Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 15,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b06424ff08a394ae7c0690",
+      "name": "Free 3B + 1R 10-Round Archipelago Yaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 224,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b0644d34e547bd5f192d06",
+      "name": "Top 20% Basic Only 10-Round Tama Ratz",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 53,
       "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b064859360ab85972414c2",
+      "name": "Top 20% Rare Only 10-Round Leaf Takoyaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 26,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b0654f34e547bd5f192d29",
+      "name": "50/50 Rare Only 10-Round Belly Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 136,
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b065c534e547bd5f192d47",
+      "name": "50/50 2B + 2E 10-Round Leaf Ratz",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-11T09:00:00.000Z",
+      "endDate": "2026-03-11T13:00:00.000Z",
+      "entries": 32,
+      "prizePool": 1050,
       "format": "FIFTY_FIFTY"
     }
   ]
