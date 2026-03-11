@@ -1,14 +1,1911 @@
 {
-  "mokiAppearances": {},
-  "strategyAppearances": {},
-  "topCompositions": [],
-  "totalPlayers": 0,
-  "totalWithCards": 0,
+  "mokiAppearances": {
+    "710904d4044f5ab4": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 1,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/710904d4044f5ab4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "710904d4044f5ab4 thumb"
+    },
+    "d95b420c4e62b9dd": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 1,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d95b420c4e62b9dd_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d95b420c4e62b9dd thumb"
+    },
+    "5c4c74fdb956afb9": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 1,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5c4c74fdb956afb9_thumb.webp",
+      "cardType": "moki",
+      "cardName": "5c4c74fdb956afb9 thumb"
+    },
+    "a5d8214eb6bba370": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 1,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a5d8214eb6bba370_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a5d8214eb6bba370 thumb"
+    },
+    "f06583536ced61b7": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 28.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f06583536ced61b7_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f06583536ced61b7 thumb"
+    },
+    "9e7e2643bf9067b4": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 14.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9e7e2643bf9067b4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9e7e2643bf9067b4 thumb"
+    },
+    "0b816cdac8ae2615": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 2,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0b816cdac8ae2615_thumb.webp",
+      "cardType": "moki",
+      "cardName": "0b816cdac8ae2615 thumb"
+    },
+    "38b725217d58077e": {
+      "count": 11,
+      "percentage": 2.9,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "38b725217d58077e thumb"
+    },
+    "e421c8633e50e052": {
+      "count": 6,
+      "percentage": 1.58,
+      "avgRank": 23.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e421c8633e50e052_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e421c8633e50e052 thumb"
+    },
+    "c3b45d38ec0eda77": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 19.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c3b45d38ec0eda77_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c3b45d38ec0eda77 thumb"
+    },
+    "d2749724d9880361": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 20.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d2749724d9880361_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d2749724d9880361 thumb"
+    },
+    "29bf4e2e496cfd69": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 3,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/29bf4e2e496cfd69_thumb.webp",
+      "cardType": "moki",
+      "cardName": "29bf4e2e496cfd69 thumb"
+    },
+    "e847aca923341c49": {
+      "count": 6,
+      "percentage": 1.58,
+      "avgRank": 26.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e847aca923341c49_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e847aca923341c49 thumb"
+    },
+    "8c6c2fd5650540d6": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 15,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8c6c2fd5650540d6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8c6c2fd5650540d6 thumb"
+    },
+    "8163675839d59f4e": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 4,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8163675839d59f4e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8163675839d59f4e thumb"
+    },
+    "6019af93404fd61e": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6019af93404fd61e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "6019af93404fd61e thumb"
+    },
+    "19a0cf888e1c23eb": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 13.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/19a0cf888e1c23eb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "19a0cf888e1c23eb thumb"
+    },
+    "c4f3dcc3e6479dc0": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 24,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c4f3dcc3e6479dc0_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c4f3dcc3e6479dc0 thumb"
+    },
+    "24ef85fa6a246308": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/24ef85fa6a246308_thumb.webp",
+      "cardType": "moki",
+      "cardName": "24ef85fa6a246308 thumb"
+    },
+    "0e7c275d10ca94c2": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 6,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0e7c275d10ca94c2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "0e7c275d10ca94c2 thumb"
+    },
+    "72381549a00082a2": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 14,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/72381549a00082a2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "72381549a00082a2 thumb"
+    },
+    "73f7e2b35bee6461": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 6,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/73f7e2b35bee6461_thumb.webp",
+      "cardType": "moki",
+      "cardName": "73f7e2b35bee6461 thumb"
+    },
+    "3cd9b840adb95280": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 7,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3cd9b840adb95280_thumb.webp",
+      "cardType": "moki",
+      "cardName": "3cd9b840adb95280 thumb"
+    },
+    "099833f4b09b44b3": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 7,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/099833f4b09b44b3_thumb.webp",
+      "cardType": "moki",
+      "cardName": "099833f4b09b44b3 thumb"
+    },
+    "a8b959dfd8aafc90": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 7,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a8b959dfd8aafc90_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a8b959dfd8aafc90 thumb"
+    },
+    "50cc54de8a9c82eb": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 7,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/50cc54de8a9c82eb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "50cc54de8a9c82eb thumb"
+    },
+    "17a426d4bb417d38": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 8.2,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/17a426d4bb417d38_thumb.webp",
+      "cardType": "moki",
+      "cardName": "17a426d4bb417d38 thumb"
+    },
+    "b2b41e3db8ebc34b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 8,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b2b41e3db8ebc34b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b2b41e3db8ebc34b thumb"
+    },
+    "2b7c8452a728e250": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 8,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2b7c8452a728e250_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2b7c8452a728e250 thumb"
+    },
+    "2fda780fe841a482": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 8,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2fda780fe841a482_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2fda780fe841a482 thumb"
+    },
+    "768c8d7b8ff2142a": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 21.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/768c8d7b8ff2142a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "768c8d7b8ff2142a thumb"
+    },
+    "f2749f2cc8353758": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 9,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f2749f2cc8353758_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f2749f2cc8353758 thumb"
+    },
+    "becdb5157d96d615": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 9,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/becdb5157d96d615_thumb.webp",
+      "cardType": "moki",
+      "cardName": "becdb5157d96d615 thumb"
+    },
+    "b765802ac8940e4f": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 9,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b765802ac8940e4f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b765802ac8940e4f thumb"
+    },
+    "a65c365919432b79": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 26.2,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a65c365919432b79_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a65c365919432b79 thumb"
+    },
+    "648e424f67afa073": {
+      "count": 7,
+      "percentage": 1.85,
+      "avgRank": 25.43,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/648e424f67afa073_thumb.webp",
+      "cardType": "moki",
+      "cardName": "648e424f67afa073 thumb"
+    },
+    "702747599bc4a095": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 10,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/702747599bc4a095_thumb.webp",
+      "cardType": "moki",
+      "cardName": "702747599bc4a095 thumb"
+    },
+    "a0e673c052ac363f": {
+      "count": 8,
+      "percentage": 2.11,
+      "avgRank": 13.88,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a0e673c052ac363f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a0e673c052ac363f thumb"
+    },
+    "60d261577a6792ff": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 26.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/60d261577a6792ff_thumb.webp",
+      "cardType": "moki",
+      "cardName": "60d261577a6792ff thumb"
+    },
+    "b0a21acd2d02c53b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 11,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b0a21acd2d02c53b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b0a21acd2d02c53b thumb"
+    },
+    "120d8d39e6758c5a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 12,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/120d8d39e6758c5a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "120d8d39e6758c5a thumb"
+    },
+    "8169f49aeaa056d8": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 12,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8169f49aeaa056d8_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8169f49aeaa056d8 thumb"
+    },
+    "5257de4b34c05428": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 12,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5257de4b34c05428_thumb.webp",
+      "cardType": "moki",
+      "cardName": "5257de4b34c05428 thumb"
+    },
+    "0a1809961ac8f857": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 16,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a1809961ac8f857_thumb.webp",
+      "cardType": "moki",
+      "cardName": "0a1809961ac8f857 thumb"
+    },
+    "9954fc246e09e6b2": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 23.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9954fc246e09e6b2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9954fc246e09e6b2 thumb"
+    },
+    "f820e21c0146139a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 13,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f820e21c0146139a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f820e21c0146139a thumb"
+    },
+    "55675fbf917ac4eb": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 13,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/55675fbf917ac4eb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "55675fbf917ac4eb thumb"
+    },
+    "75b4c649c3f45238": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 14,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/75b4c649c3f45238_thumb.webp",
+      "cardType": "moki",
+      "cardName": "75b4c649c3f45238 thumb"
+    },
+    "d92a3671a1cb7b64": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 14,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d92a3671a1cb7b64_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d92a3671a1cb7b64 thumb"
+    },
+    "78100ff12d6a88fe": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 14,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/78100ff12d6a88fe_thumb.webp",
+      "cardType": "moki",
+      "cardName": "78100ff12d6a88fe thumb"
+    },
+    "9d3a3acc44f36943": {
+      "count": 11,
+      "percentage": 2.9,
+      "avgRank": 22.27,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9d3a3acc44f36943_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9d3a3acc44f36943 thumb"
+    },
+    "bf45cb48399ede77": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 25.33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bf45cb48399ede77_thumb.webp",
+      "cardType": "moki",
+      "cardName": "bf45cb48399ede77 thumb"
+    },
+    "15d43eee33594198": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 15,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/15d43eee33594198_thumb.webp",
+      "cardType": "moki",
+      "cardName": "15d43eee33594198 thumb"
+    },
+    "2cf4c7551bcdc451": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 18,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2cf4c7551bcdc451_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2cf4c7551bcdc451 thumb"
+    },
+    "2a1594c9f390c158": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 16,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2a1594c9f390c158_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2a1594c9f390c158 thumb"
+    },
+    "7216f6343b3926c1": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 17,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7216f6343b3926c1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7216f6343b3926c1 thumb"
+    },
+    "4a8a3843cf018789": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 17,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4a8a3843cf018789_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4a8a3843cf018789 thumb"
+    },
+    "b18f72e3a48d2249": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 17,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b18f72e3a48d2249_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b18f72e3a48d2249 thumb"
+    },
+    "e5e8bd6bcfa3823f": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 29.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e5e8bd6bcfa3823f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e5e8bd6bcfa3823f thumb"
+    },
+    "a48561230f5d3652": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 18,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a48561230f5d3652_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a48561230f5d3652 thumb"
+    },
+    "4b5606d9ab08b681": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 29,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4b5606d9ab08b681_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4b5606d9ab08b681 thumb"
+    },
+    "b5a6955700c53ea2": {
+      "count": 6,
+      "percentage": 1.58,
+      "avgRank": 27.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b5a6955700c53ea2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b5a6955700c53ea2 thumb"
+    },
+    "12e03ba955f694b7": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 22.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/12e03ba955f694b7_thumb.webp",
+      "cardType": "moki",
+      "cardName": "12e03ba955f694b7 thumb"
+    },
+    "9487fc9981cdd743": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9487fc9981cdd743_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9487fc9981cdd743 thumb"
+    },
+    "47f7b048fe1e31d6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 20,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/47f7b048fe1e31d6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "47f7b048fe1e31d6 thumb"
+    },
+    "50a4bfeb5883d39a": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 35,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/50a4bfeb5883d39a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "50a4bfeb5883d39a thumb"
+    },
+    "4c1d73861e209cd0": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 24.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4c1d73861e209cd0_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4c1d73861e209cd0 thumb"
+    },
+    "31a107867e048fd6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 21,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/31a107867e048fd6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "31a107867e048fd6 thumb"
+    },
+    "a2e2036ef70b6ce5": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 29.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a2e2036ef70b6ce5_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a2e2036ef70b6ce5 thumb"
+    },
+    "39e6a9a82f9e9b19": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/39e6a9a82f9e9b19_thumb.webp",
+      "cardType": "moki",
+      "cardName": "39e6a9a82f9e9b19 thumb"
+    },
+    "903fc698e692b5d6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 22,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/903fc698e692b5d6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "903fc698e692b5d6 thumb"
+    },
+    "36e8a1ee35acb4cc": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 31.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/36e8a1ee35acb4cc_thumb.webp",
+      "cardType": "moki",
+      "cardName": "36e8a1ee35acb4cc thumb"
+    },
+    "07c13c96d2b7c033": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 25.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/07c13c96d2b7c033_thumb.webp",
+      "cardType": "moki",
+      "cardName": "07c13c96d2b7c033 thumb"
+    },
+    "4278b5cc56e5897d": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 39,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4278b5cc56e5897d_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4278b5cc56e5897d thumb"
+    },
+    "72937b2d4657b8f1": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 23,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/72937b2d4657b8f1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "72937b2d4657b8f1 thumb"
+    },
+    "4705681468f0257a": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 33.33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4705681468f0257a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4705681468f0257a thumb"
+    },
+    "196d69bba4e97ec0": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/196d69bba4e97ec0_thumb.webp",
+      "cardType": "moki",
+      "cardName": "196d69bba4e97ec0 thumb"
+    },
+    "dc5e3075ffd47a01": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 35,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/dc5e3075ffd47a01_thumb.webp",
+      "cardType": "moki",
+      "cardName": "dc5e3075ffd47a01 thumb"
+    },
+    "609312d2cf117830": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 24,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/609312d2cf117830_thumb.webp",
+      "cardType": "moki",
+      "cardName": "609312d2cf117830 thumb"
+    },
+    "65899a135987be86": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/65899a135987be86_thumb.webp",
+      "cardType": "moki",
+      "cardName": "65899a135987be86 thumb"
+    },
+    "5ec3c18b61672092": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5ec3c18b61672092_thumb.webp",
+      "cardType": "moki",
+      "cardName": "5ec3c18b61672092 thumb"
+    },
+    "2cb8e163e34b7fcf": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2cb8e163e34b7fcf_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2cb8e163e34b7fcf thumb"
+    },
+    "57f4f7bdfe970d25": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 19.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/57f4f7bdfe970d25_thumb.webp",
+      "cardType": "moki",
+      "cardName": "57f4f7bdfe970d25 thumb"
+    },
+    "228b2e9b7b5551ff": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 15,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/228b2e9b7b5551ff_thumb.webp",
+      "cardType": "moki",
+      "cardName": "228b2e9b7b5551ff thumb"
+    },
+    "a4c069723876abb3": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 26,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a4c069723876abb3_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a4c069723876abb3 thumb"
+    },
+    "ab42a6a8c121f506": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 27,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/ab42a6a8c121f506_thumb.webp",
+      "cardType": "moki",
+      "cardName": "ab42a6a8c121f506 thumb"
+    },
+    "da5f1e5e4cb24537": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 28.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/da5f1e5e4cb24537_thumb.webp",
+      "cardType": "moki",
+      "cardName": "da5f1e5e4cb24537 thumb"
+    },
+    "f6f809c33bf3b647": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 27,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f6f809c33bf3b647_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f6f809c33bf3b647 thumb"
+    },
+    "45df71fb882c0196": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 28,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/45df71fb882c0196_thumb.webp",
+      "cardType": "moki",
+      "cardName": "45df71fb882c0196 thumb"
+    },
+    "4fbb1701ad9d728a": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 26,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4fbb1701ad9d728a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4fbb1701ad9d728a thumb"
+    },
+    "b422484a51778a70": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 29,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b422484a51778a70_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b422484a51778a70 thumb"
+    },
+    "8f46dca732ecbde6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 29,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8f46dca732ecbde6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8f46dca732ecbde6 thumb"
+    },
+    "5adcf7534878ba1d": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5adcf7534878ba1d_thumb.webp",
+      "cardType": "moki",
+      "cardName": "5adcf7534878ba1d thumb"
+    },
+    "f544b1571b2f70a2": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 30,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f544b1571b2f70a2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f544b1571b2f70a2 thumb"
+    },
+    "11cb94fd30000776": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 30,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/11cb94fd30000776_thumb.webp",
+      "cardType": "moki",
+      "cardName": "11cb94fd30000776 thumb"
+    },
+    "05eaec2ec954ec38": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/05eaec2ec954ec38_thumb.webp",
+      "cardType": "moki",
+      "cardName": "05eaec2ec954ec38 thumb"
+    },
+    "4009ff1137daf90b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4009ff1137daf90b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4009ff1137daf90b thumb"
+    },
+    "7b2f9400c82914ab": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 40.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b2f9400c82914ab_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7b2f9400c82914ab thumb"
+    },
+    "b89dfa4a58629883": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 32.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b89dfa4a58629883_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b89dfa4a58629883 thumb"
+    },
+    "a35533a711cb88a3": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a35533a711cb88a3_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a35533a711cb88a3 thumb"
+    },
+    "7e0dffa651c65479": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7e0dffa651c65479_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7e0dffa651c65479 thumb"
+    },
+    "21c0bc5b8b6a160b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/21c0bc5b8b6a160b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "21c0bc5b8b6a160b thumb"
+    },
+    "8a9da7b8773ae76b": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 36.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8a9da7b8773ae76b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8a9da7b8773ae76b thumb"
+    },
+    "05acbda2dc2c7780": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/05acbda2dc2c7780_thumb.webp",
+      "cardType": "moki",
+      "cardName": "05acbda2dc2c7780 thumb"
+    },
+    "8aaf29b5315cd28f": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 34,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8aaf29b5315cd28f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8aaf29b5315cd28f thumb"
+    },
+    "c2134cb15411a058": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 34,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c2134cb15411a058_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c2134cb15411a058 thumb"
+    },
+    "fc124539e66a2b9e": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/fc124539e66a2b9e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "fc124539e66a2b9e thumb"
+    },
+    "7dd9024704598728": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 35,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7dd9024704598728_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7dd9024704598728 thumb"
+    },
+    "80710d6d3e71d795": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/80710d6d3e71d795_thumb.webp",
+      "cardType": "moki",
+      "cardName": "80710d6d3e71d795 thumb"
+    },
+    "666872e83c2766cc": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/666872e83c2766cc_thumb.webp",
+      "cardType": "moki",
+      "cardName": "666872e83c2766cc thumb"
+    },
+    "4862fb4d320c1014": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4862fb4d320c1014_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4862fb4d320c1014 thumb"
+    },
+    "d823ed747d027f78": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d823ed747d027f78_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d823ed747d027f78 thumb"
+    },
+    "56c8f683112fda5e": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 41,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/56c8f683112fda5e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "56c8f683112fda5e thumb"
+    },
+    "14bf82e4f4d8f1df": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/14bf82e4f4d8f1df_thumb.webp",
+      "cardType": "moki",
+      "cardName": "14bf82e4f4d8f1df thumb"
+    },
+    "4f099f064cecd0c4": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4f099f064cecd0c4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4f099f064cecd0c4 thumb"
+    },
+    "47e11bfe51c1b40e": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 21.4,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/47e11bfe51c1b40e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "47e11bfe51c1b40e thumb"
+    },
+    "f8767ee1f886e1ed": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 38,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f8767ee1f886e1ed_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f8767ee1f886e1ed thumb"
+    },
+    "b6d6d3729cd30089": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 38,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b6d6d3729cd30089_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b6d6d3729cd30089 thumb"
+    },
+    "9b124519080979a9": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 39,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9b124519080979a9_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9b124519080979a9 thumb"
+    },
+    "796a8b029fc033d3": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 39,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/796a8b029fc033d3_thumb.webp",
+      "cardType": "moki",
+      "cardName": "796a8b029fc033d3 thumb"
+    },
+    "93d3d24e1fafb1e0": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 40,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/93d3d24e1fafb1e0_thumb.webp",
+      "cardType": "moki",
+      "cardName": "93d3d24e1fafb1e0 thumb"
+    },
+    "e1751cf7ceee1ddf": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 41,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e1751cf7ceee1ddf_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e1751cf7ceee1ddf thumb"
+    },
+    "82591b15619e35a2": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 42,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/82591b15619e35a2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "82591b15619e35a2 thumb"
+    },
+    "25b0e82ea212bd01": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 27,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/25b0e82ea212bd01_thumb.webp",
+      "cardType": "moki",
+      "cardName": "25b0e82ea212bd01 thumb"
+    },
+    "63bac3430c87597e": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 43,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/63bac3430c87597e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "63bac3430c87597e thumb"
+    },
+    "c017ad8e44b2fe33": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 44,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c017ad8e44b2fe33_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c017ad8e44b2fe33 thumb"
+    },
+    "7b60d462c8cde419": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 24.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b60d462c8cde419_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7b60d462c8cde419 thumb"
+    },
+    "8a22cfecf12fe61b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 44,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8a22cfecf12fe61b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8a22cfecf12fe61b thumb"
+    },
+    "65f4ec7660609717": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 44,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/65f4ec7660609717_thumb.webp",
+      "cardType": "moki",
+      "cardName": "65f4ec7660609717 thumb"
+    },
+    "75ec2006e6c70d5c": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 45,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/75ec2006e6c70d5c_thumb.webp",
+      "cardType": "moki",
+      "cardName": "75ec2006e6c70d5c thumb"
+    },
+    "9eb1667433069325": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 34.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9eb1667433069325_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9eb1667433069325 thumb"
+    },
+    "b89a79adc5f4bb86": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 43,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b89a79adc5f4bb86_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b89a79adc5f4bb86 thumb"
+    },
+    "1a210789b87288b4": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 46,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1a210789b87288b4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "1a210789b87288b4 thumb"
+    },
+    "e97b0749dd950ef1": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 19.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e97b0749dd950ef1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e97b0749dd950ef1 thumb"
+    },
+    "2b5748a2cc9a9fbb": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 47,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2b5748a2cc9a9fbb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2b5748a2cc9a9fbb thumb"
+    },
+    "cbb543041f2a8f07": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 48,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/cbb543041f2a8f07_thumb.webp",
+      "cardType": "moki",
+      "cardName": "cbb543041f2a8f07 thumb"
+    },
+    "836c5974268d3052": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 48,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/836c5974268d3052_thumb.webp",
+      "cardType": "moki",
+      "cardName": "836c5974268d3052 thumb"
+    },
+    "e2c2d88c2cdecae5": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 49,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e2c2d88c2cdecae5_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e2c2d88c2cdecae5 thumb"
+    },
+    "48323846352892c8": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 49,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/48323846352892c8_thumb.webp",
+      "cardType": "moki",
+      "cardName": "48323846352892c8 thumb"
+    },
+    "8a18a54a1b0a575b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 50,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8a18a54a1b0a575b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8a18a54a1b0a575b thumb"
+    },
+    "a850a13a576c6258": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 14.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a850a13a576c6258_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a850a13a576c6258 thumb"
+    },
+    "d6e1edbc38cc18d7": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 2,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d6e1edbc38cc18d7_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d6e1edbc38cc18d7 thumb"
+    },
+    "393af55da897e80c": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/393af55da897e80c_thumb.webp",
+      "cardType": "moki",
+      "cardName": "393af55da897e80c thumb"
+    },
+    "691bcef738156ac0": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 8.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/691bcef738156ac0_thumb.webp",
+      "cardType": "moki",
+      "cardName": "691bcef738156ac0 thumb"
+    },
+    "9b7d932e821291d5": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 18.33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9b7d932e821291d5_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9b7d932e821291d5 thumb"
+    },
+    "9093145d6d226f96": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 6,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9093145d6d226f96_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9093145d6d226f96 thumb"
+    },
+    "47bfa68339869405": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 14.75,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/47bfa68339869405_thumb.webp",
+      "cardType": "moki",
+      "cardName": "47bfa68339869405 thumb"
+    },
+    "f4fb0ba781b20d34": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 12,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f4fb0ba781b20d34_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f4fb0ba781b20d34 thumb"
+    },
+    "aa0617ac483b25e4": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 8,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/aa0617ac483b25e4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "aa0617ac483b25e4 thumb"
+    },
+    "9a1219ac462a054f": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 9,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9a1219ac462a054f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9a1219ac462a054f thumb"
+    },
+    "8d252510b535efe6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 9,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8d252510b535efe6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8d252510b535efe6 thumb"
+    },
+    "3376ae7b71382dcb": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 26,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3376ae7b71382dcb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "3376ae7b71382dcb thumb"
+    },
+    "1561e1d6ff4a2619": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 10,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1561e1d6ff4a2619_thumb.webp",
+      "cardType": "moki",
+      "cardName": "1561e1d6ff4a2619 thumb"
+    },
+    "c6c32ed0428839d3": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 11,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c6c32ed0428839d3_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c6c32ed0428839d3 thumb"
+    },
+    "04d428ed6004276b": {
+      "count": 6,
+      "percentage": 1.58,
+      "avgRank": 32.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/04d428ed6004276b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "04d428ed6004276b thumb"
+    },
+    "e103ac8981c4f221": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 18,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e103ac8981c4f221_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e103ac8981c4f221 thumb"
+    },
+    "dc43ed9e4f475b5e": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 12,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/dc43ed9e4f475b5e_thumb.webp",
+      "cardType": "moki",
+      "cardName": "dc43ed9e4f475b5e thumb"
+    },
+    "d69cb925ed668bd6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 13,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d69cb925ed668bd6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d69cb925ed668bd6 thumb"
+    },
+    "5b35e0107eb6003a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 13,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5b35e0107eb6003a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "5b35e0107eb6003a thumb"
+    },
+    "85ec0efa516f63bd": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 13,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/85ec0efa516f63bd_thumb.webp",
+      "cardType": "moki",
+      "cardName": "85ec0efa516f63bd thumb"
+    },
+    "6a7109808936603a": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6a7109808936603a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "6a7109808936603a thumb"
+    },
+    "60f477e7165681fb": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 25.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/60f477e7165681fb_thumb.webp",
+      "cardType": "moki",
+      "cardName": "60f477e7165681fb thumb"
+    },
+    "8cdf47edc76a857a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 14,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8cdf47edc76a857a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8cdf47edc76a857a thumb"
+    },
+    "748b6971de42c5d1": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/748b6971de42c5d1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "748b6971de42c5d1 thumb"
+    },
+    "4d5022942d41542b": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 24,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4d5022942d41542b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4d5022942d41542b thumb"
+    },
+    "a0f94f479eca2999": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 27.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a0f94f479eca2999_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a0f94f479eca2999 thumb"
+    },
+    "0ccc4ebdcb3d1530": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 32.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0ccc4ebdcb3d1530_thumb.webp",
+      "cardType": "moki",
+      "cardName": "0ccc4ebdcb3d1530 thumb"
+    },
+    "9bd09a83a7302da1": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9bd09a83a7302da1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9bd09a83a7302da1 thumb"
+    },
+    "fa8351113078d750": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/fa8351113078d750_thumb.webp",
+      "cardType": "moki",
+      "cardName": "fa8351113078d750 thumb"
+    },
+    "e853b26a776c2311": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 19,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e853b26a776c2311_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e853b26a776c2311 thumb"
+    },
+    "18baa7d727c58810": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 26,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/18baa7d727c58810_thumb.webp",
+      "cardType": "moki",
+      "cardName": "18baa7d727c58810 thumb"
+    },
+    "7e772569bb232dc2": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 29.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7e772569bb232dc2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7e772569bb232dc2 thumb"
+    },
+    "7da7cdf1db1ce15a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 22,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7da7cdf1db1ce15a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7da7cdf1db1ce15a thumb"
+    },
+    "e5a510cd0260be07": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 24,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e5a510cd0260be07_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e5a510cd0260be07 thumb"
+    },
+    "12695c293cea6359": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 24,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/12695c293cea6359_thumb.webp",
+      "cardType": "moki",
+      "cardName": "12695c293cea6359 thumb"
+    },
+    "73a88a3b6b7c7c9b": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/73a88a3b6b7c7c9b_thumb.webp",
+      "cardType": "moki",
+      "cardName": "73a88a3b6b7c7c9b thumb"
+    },
+    "f3f19ed04aee73ed": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f3f19ed04aee73ed_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f3f19ed04aee73ed thumb"
+    },
+    "cbdbcdbcb8925c90": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/cbdbcdbcb8925c90_thumb.webp",
+      "cardType": "moki",
+      "cardName": "cbdbcdbcb8925c90 thumb"
+    },
+    "888da76183c2da04": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 26.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/888da76183c2da04_thumb.webp",
+      "cardType": "moki",
+      "cardName": "888da76183c2da04 thumb"
+    },
+    "7085963901b9a44c": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 26,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7085963901b9a44c_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7085963901b9a44c thumb"
+    },
+    "8d0c0027d845f357": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 38.33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8d0c0027d845f357_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8d0c0027d845f357 thumb"
+    },
+    "1588eed2113b6b71": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 38,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1588eed2113b6b71_thumb.webp",
+      "cardType": "moki",
+      "cardName": "1588eed2113b6b71 thumb"
+    },
+    "9423b2d2a7921046": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 29,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9423b2d2a7921046_thumb.webp",
+      "cardType": "moki",
+      "cardName": "9423b2d2a7921046 thumb"
+    },
+    "53c5352ffe727473": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 35.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/53c5352ffe727473_thumb.webp",
+      "cardType": "moki",
+      "cardName": "53c5352ffe727473 thumb"
+    },
+    "59017709a7811d55": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/59017709a7811d55_thumb.webp",
+      "cardType": "moki",
+      "cardName": "59017709a7811d55 thumb"
+    },
+    "7825970b7c054957": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7825970b7c054957_thumb.webp",
+      "cardType": "moki",
+      "cardName": "7825970b7c054957 thumb"
+    },
+    "cf11143b72b34e2a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/cf11143b72b34e2a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "cf11143b72b34e2a thumb"
+    },
+    "76ecb126493a94c2": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 32.5,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/76ecb126493a94c2_thumb.webp",
+      "cardType": "moki",
+      "cardName": "76ecb126493a94c2 thumb"
+    },
+    "151dfbc09717c65f": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 33,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/151dfbc09717c65f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "151dfbc09717c65f thumb"
+    },
+    "37f6edcc42b5ae6a": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 35,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/37f6edcc42b5ae6a_thumb.webp",
+      "cardType": "moki",
+      "cardName": "37f6edcc42b5ae6a thumb"
+    },
+    "f9dadd64c80df0ee": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 36,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f9dadd64c80df0ee_thumb.webp",
+      "cardType": "moki",
+      "cardName": "f9dadd64c80df0ee thumb"
+    },
+    "8c656d3bb55b2376": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8c656d3bb55b2376_thumb.webp",
+      "cardType": "moki",
+      "cardName": "8c656d3bb55b2376 thumb"
+    },
+    "b2f8bdd0ec28b220": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 37,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b2f8bdd0ec28b220_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b2f8bdd0ec28b220 thumb"
+    },
+    "6009d34dbfa6ff51": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 39,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6009d34dbfa6ff51_thumb.webp",
+      "cardType": "moki",
+      "cardName": "6009d34dbfa6ff51 thumb"
+    },
+    "66c967ee87f52fb1": {
+      "count": 3,
+      "percentage": 0.79,
+      "avgRank": 42.67,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/66c967ee87f52fb1_thumb.webp",
+      "cardType": "moki",
+      "cardName": "66c967ee87f52fb1 thumb"
+    },
+    "e62a40c51389998c": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 40,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e62a40c51389998c_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e62a40c51389998c thumb"
+    },
+    "4115e50eb694e533": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 40,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4115e50eb694e533_thumb.webp",
+      "cardType": "moki",
+      "cardName": "4115e50eb694e533 thumb"
+    },
+    "e6e9d4d546fb0651": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 41,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e6e9d4d546fb0651_thumb.webp",
+      "cardType": "moki",
+      "cardName": "e6e9d4d546fb0651 thumb"
+    },
+    "b2a0489f403b9604": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 41,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/b2a0489f403b9604_thumb.webp",
+      "cardType": "moki",
+      "cardName": "b2a0489f403b9604 thumb"
+    },
+    "6737a365c94b36ba": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 41,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6737a365c94b36ba_thumb.webp",
+      "cardType": "moki",
+      "cardName": "6737a365c94b36ba thumb"
+    },
+    "2f115f465c874c33": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 45,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/2f115f465c874c33_thumb.webp",
+      "cardType": "moki",
+      "cardName": "2f115f465c874c33 thumb"
+    },
+    "93467d4afa095352": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 44,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/93467d4afa095352_thumb.webp",
+      "cardType": "moki",
+      "cardName": "93467d4afa095352 thumb"
+    },
+    "24611b1fbe42e5da": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 43,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/24611b1fbe42e5da_thumb.webp",
+      "cardType": "moki",
+      "cardName": "24611b1fbe42e5da thumb"
+    },
+    "950dbeb51f90ef8f": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 44,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/950dbeb51f90ef8f_thumb.webp",
+      "cardType": "moki",
+      "cardName": "950dbeb51f90ef8f thumb"
+    },
+    "d4badcadb6c5660c": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 45,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d4badcadb6c5660c_thumb.webp",
+      "cardType": "moki",
+      "cardName": "d4badcadb6c5660c thumb"
+    },
+    "0727705309e68852": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 46,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0727705309e68852_thumb.webp",
+      "cardType": "moki",
+      "cardName": "0727705309e68852 thumb"
+    },
+    "a96ee206162acea4": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 46,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a96ee206162acea4_thumb.webp",
+      "cardType": "moki",
+      "cardName": "a96ee206162acea4 thumb"
+    },
+    "132fe20bf3f4a748": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 47,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/132fe20bf3f4a748_thumb.webp",
+      "cardType": "moki",
+      "cardName": "132fe20bf3f4a748 thumb"
+    },
+    "c40d48399e7d10d6": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 48,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c40d48399e7d10d6_thumb.webp",
+      "cardType": "moki",
+      "cardName": "c40d48399e7d10d6 thumb"
+    },
+    "82d2d8d460c24a01": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 49,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/82d2d8d460c24a01_thumb.webp",
+      "cardType": "moki",
+      "cardName": "82d2d8d460c24a01 thumb"
+    },
+    "47178f1e97df7855": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 50,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/47178f1e97df7855_thumb.webp",
+      "cardType": "moki",
+      "cardName": "47178f1e97df7855 thumb"
+    }
+  },
+  "strategyAppearances": {
+    "3662992bbbdd9a87": {
+      "count": 49,
+      "percentage": 12.93,
+      "avgRank": 25.35,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "3662992bbbdd9a87 thumb"
+    },
+    "0a5c9350312c8967": {
+      "count": 7,
+      "percentage": 1.85,
+      "avgRank": 25.43,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "0a5c9350312c8967 thumb"
+    },
+    "bca495212f57b177": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 21,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca495212f57b177_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "bca495212f57b177 thumb"
+    },
+    "bca0fa33492568cc": {
+      "count": 11,
+      "percentage": 2.9,
+      "avgRank": 21.82,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca0fa33492568cc_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "bca0fa33492568cc thumb"
+    },
+    "5ee7a12692a36f42": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 12.8,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5ee7a12692a36f42_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "5ee7a12692a36f42 thumb"
+    },
+    "20674e268f90df5c": {
+      "count": 4,
+      "percentage": 1.06,
+      "avgRank": 25.25,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/20674e268f90df5c_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "20674e268f90df5c thumb"
+    },
+    "1e6f2a0f7c1c92bf": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 22,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/1e6f2a0f7c1c92bf_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "1e6f2a0f7c1c92bf thumb"
+    },
+    "d39ef1ed43230d7e": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 31,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d39ef1ed43230d7e_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "d39ef1ed43230d7e thumb"
+    },
+    "acffc3a5d6fd2c9a": {
+      "count": 7,
+      "percentage": 1.85,
+      "avgRank": 37.86,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/acffc3a5d6fd2c9a_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "acffc3a5d6fd2c9a thumb"
+    },
+    "99bd4af35bde86b8": {
+      "count": 5,
+      "percentage": 1.32,
+      "avgRank": 28.2,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/99bd4af35bde86b8_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "99bd4af35bde86b8 thumb"
+    },
+    "26acbc31a528641f": {
+      "count": 2,
+      "percentage": 0.53,
+      "avgRank": 38,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/26acbc31a528641f_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "26acbc31a528641f thumb"
+    },
+    "45bafbe0cdb1b01d": {
+      "count": 1,
+      "percentage": 0.26,
+      "avgRank": 32,
+      "imageUrl": "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/45bafbe0cdb1b01d_thumb.webp",
+      "cardType": "strategy",
+      "cardName": "45bafbe0cdb1b01d thumb"
+    }
+  },
+  "topCompositions": [
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/710904d4044f5ab4_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d95b420c4e62b9dd_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/5c4c74fdb956afb9_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a5d8214eb6bba370_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/f06583536ced61b7_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9e7e2643bf9067b4_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0b816cdac8ae2615_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/38b725217d58077e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e421c8633e50e052_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c3b45d38ec0eda77_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d2749724d9880361_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/29bf4e2e496cfd69_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e847aca923341c49_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9e7e2643bf9067b4_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8c6c2fd5650540d6_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/8163675839d59f4e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/6019af93404fd61e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/19a0cf888e1c23eb_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c4f3dcc3e6479dc0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/24ef85fa6a246308_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/3662992bbbdd9a87_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/4fbb1701ad9d728a_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/57f4f7bdfe970d25_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a850a13a576c6258_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/17a426d4bb417d38_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca495212f57b177_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/d6e1edbc38cc18d7_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e97b0749dd950ef1_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/393af55da897e80c_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/47e11bfe51c1b40e_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/0a5c9350312c8967_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/c3b45d38ec0eda77_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9d3a3acc44f36943_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/691bcef738156ac0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a0e673c052ac363f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca0fa33492568cc_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/228b2e9b7b5551ff_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a850a13a576c6258_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/e421c8633e50e052_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/57f4f7bdfe970d25_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca495212f57b177_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    },
+    {
+      "cardImages": [
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/7b60d462c8cde419_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/a0e673c052ac363f_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/9d3a3acc44f36943_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/691bcef738156ac0_thumb.webp",
+        "https://fhs9t4t52f1kkfmo.public.blob.vercel-storage.com/season1-launch/bca0fa33492568cc_thumb.webp"
+      ],
+      "count": 1,
+      "percentage": 0.26
+    }
+  ],
+  "totalPlayers": 379,
+  "totalWithCards": 100,
   "dateRange": {
     "from": "2026-03-12",
     "to": "2026-03-12"
   },
   "period": "daily",
-  "leaderboardsAnalyzed": 0,
-  "generatedAt": "2026-03-11T20:47:46.936Z"
+  "leaderboardsAnalyzed": 12,
+  "generatedAt": "2026-03-11T21:45:54.862Z"
 }
