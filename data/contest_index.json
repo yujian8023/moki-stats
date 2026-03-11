@@ -1,23 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T15:00:36.400Z",
-  "total": 1,
+  "generatedAt": "2026-03-11T17:05:51.711Z",
+  "total": 7,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b178f7d9afc08dabcad68b",
-      "name": "Winner-Take-All 3R + 1E 1-Round Party Sora",
+      "_id": "69b0cb2b3fdf9182ab572e59",
+      "name": "50/50 Open 10-Round Lantern Tori",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-11T17:00:00.000Z",
-      "endDate": "2026-03-11T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 7875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b0cb61572fdaa4aa30eac1",
+      "name": "50/50 Open 10-Round Yaki Snack",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 3,
+      "prizePool": 1750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b0cb733fdf9182ab572e7f",
+      "name": "50/50 Open 10-Round Warrior Bald",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b0cb9a3fdf9182ab572e9f",
+      "name": "Free No Legendary 10-Round Trap Council",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 141,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b0cbbb7f202331ad21f16f",
+      "name": "Top 20% Basic Only Star Cap 10-Round Island Gacha",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 33,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b0cbe16053cbcdcab7c5d6",
+      "name": "50/50 Rare Only 10-Round Balls Anvil",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 78,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b0cc2a6053cbcdcab7c5f1",
+      "name": "50/50 Epic Only 10-Round Wart Yaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T01:00:00.000Z",
+      "endDate": "2026-03-12T05:00:00.000Z",
+      "entries": 13,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }

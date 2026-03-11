@@ -1,0 +1,94 @@
+{
+  "_id": "69b0cbbb7f202331ad21f16f",
+  "name": "Top 20% Basic Only Star Cap 10-Round Island Gacha",
+  "description": "Top 20% Basic Only Star Cap 10-Round Island Gacha",
+  "contestStatus": "OPEN",
+  "format": "TOP_20_PCT",
+  "entryFee": 100,
+  "prizePool": 350,
+  "entries": 33,
+  "maxEntries": 400,
+  "startDate": "2026-03-12T01:00:00.000Z",
+  "endDate": "2026-03-12T05:00:00.000Z",
+  "openDate": "2026-03-11T16:00:00.000Z",
+  "showDate": "2026-03-11T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 20
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W11-4-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-11T17:05:51.711Z",
+  "leaderboardFetched": false
+}
