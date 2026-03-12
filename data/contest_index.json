@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-12T02:52:37.175Z",
-  "total": 9,
+  "generatedAt": "2026-03-12T08:58:32.047Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 9,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b1a14bd843fe52a9af35fe",
-      "name": "50/50 Open 10-Round Tanuki Trap",
+      "_id": "69b1c5ffdddc6568dc12e2a2",
+      "name": "50/50 Open 10-Round Warrior Fortune",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 5,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b1a64dc08b09ff2b7d20df",
-      "name": "50/50 Open 10-Round Sparkle Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 11,
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 7437.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b1a8e4875dd1fc66b3c8f4",
-      "name": "Top 20% Open 10-Round Sora Island",
+      "_id": "69b1c61ca7c4b532e7d80dc0",
+      "name": "50/50 Open 10-Round Larry Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 2,
-      "prizePool": 1050,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b1aa64c83fbc07f605da4b",
-      "name": "50/50 2R + 2E 10-Round Belly Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 62,
-      "prizePool": 1050,
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 1,
+      "prizePool": 875,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b1ab1fcc28c6ac8067519c",
-      "name": "50/50 Rare Only 10-Round Sparkle Yokai",
+      "_id": "69b1c7cc9c72ee7a83d9f181",
+      "name": "Free Basic + Rare Only 10-Round Gate Luck",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 149,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b1ab8a875dd1fc66b3c90f",
-      "name": "Top 20% Rare Only 10-Round Wart Teapot",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 30,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b1abf1cc28c6ac806751c6",
-      "name": "Top 10% Basic Only 10-Round Takoyaki Party",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 36,
-      "prizePool": 350,
-      "format": "TOP_10_PCT"
-    },
-    {
-      "_id": "69b1ac7a875dd1fc66b3c92e",
-      "name": "Free 3B + 1R 10-Round Balls Larry",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
-      "entries": 299,
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 68,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69b1acd0cc28c6ac806751e4",
-      "name": "Winner-Take-All Rare Only 10-Round Tanuki Festival",
+      "_id": "69b1ccc4f03a721771e412f9",
+      "name": "Top 10% 3B + 1R 10-Round Party Tim",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-12T09:00:00.000Z",
-      "endDate": "2026-03-12T13:00:00.000Z",
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 8,
+      "prizePool": 350,
+      "format": "TOP_10_PCT"
+    },
+    {
+      "_id": "69b1ccfd2a205f1856a71a83",
+      "name": "50/50 1B + 3R 10-Round Yaki Gate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 46,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b1cdc160788ebc9d98faec",
+      "name": "50/50 2E + 2L 10-Round Sparkle Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b1ce10f03a721771e41326",
+      "name": "50/50 2R + 2E 10-Round Field Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
+      "entries": 10,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b2148eba1912fb08afc1c1",
+      "name": "Top 20% One of each 10-Round Takoyaki Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-12T17:00:00.000Z",
+      "endDate": "2026-03-12T21:00:00.000Z",
       "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 1750,
+      "format": "TOP_20_PCT"
     }
   ]
 }
