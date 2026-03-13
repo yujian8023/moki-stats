@@ -1,53 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T14:57:12.533Z",
-  "total": 4,
+  "generatedAt": "2026-03-13T16:54:52.824Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 4,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b41aa6aacb959a2a1efb55",
-      "name": "Winner-Take-All Rare Only 10-Round Gate Mart",
+      "_id": "69b36cb0c850872212d3cec7",
+      "name": "50/50 Open 10-Round Yokai Anvil",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-13T17:00:00.000Z",
-      "endDate": "2026-03-13T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b41ae09d21a97961f0bd84",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Incense Koban",
+      "_id": "69b36cc2bae0dc701c9e26b1",
+      "name": "50/50 Open 10-Round Factory Takoyaki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-13T17:00:00.000Z",
-      "endDate": "2026-03-13T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b41b0cafcc4426afe2a520",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Hotei Emblem",
+      "_id": "69b36cddbae0dc701c9e26cc",
+      "name": "50/50 Open 10-Round Tim Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-13T17:00:00.000Z",
-      "endDate": "2026-03-13T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b41b539d21a97961f0bda0",
-      "name": "1v1 Winner-Take-All Open 10-Round Sora Anvil",
+      "_id": "69b36cfbc10741ee97dd56d2",
+      "name": "Free 2B + 2R 10-Round Snack Takoyaki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-13T17:00:00.000Z",
-      "endDate": "2026-03-13T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 62,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b36d18bae0dc701c9e26e8",
+      "name": "Top 20% 3B + 1R 10-Round Lantern Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 8,
+      "prizePool": 393.75,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b36d42c850872212d3cf0f",
+      "name": "50/50 2B + 2R 10-Round Sora Bald",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 51,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b36d81c850872212d3cf29",
+      "name": "50/50 2R + 2E 10-Round Temple Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 13,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b36dbfbae0dc701c9e272a",
+      "name": "Top 20% No Legendary 10-Round Ratz Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-14T01:00:00.000Z",
+      "endDate": "2026-03-14T05:00:00.000Z",
+      "entries": 6,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
     }
   ]
 }
