@@ -1,22 +1,102 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-12T22:39:44.426Z",
-  "total": 1,
+  "generatedAt": "2026-03-13T02:50:02.725Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 9,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b33b86a9e6f77f24c1a813",
-      "name": "50/50 Rare Only 10-Round Ambrosia Fortune",
+      "_id": "69b2ffa7e82e1604538db614",
+      "name": "Free Basic + Rare Only 10-Round Anvil Archipelago",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-13T01:00:00.000Z",
-      "endDate": "2026-03-13T05:00:00.000Z",
-      "entries": 42,
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 312,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b2ffcc7786b541ccde128b",
+      "name": "50/50 Open 10-Round Tama Snack",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 3,
+      "prizePool": 7875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b300137786b541ccde12a6",
+      "name": "50/50 Open 10-Round Tama Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 13,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b3006426075e55c53decb4",
+      "name": "50/50 Open 10-Round Shinobu Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b301327786b541ccde12c7",
+      "name": "Top 20% Basic Only 10-Round Badlands Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 68,
       "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b30279e82e1604538db653",
+      "name": "Top 20% Rare Only 10-Round Emblem Snack",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 22,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b302a2f78ad85cebb3e27a",
+      "name": "50/50 2R + 2E 10-Round Artifact Horoki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 66,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b30342f78ad85cebb3e295",
+      "name": "Top 10% No Legendary 10-Round Sora Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 218.75,
+      "format": "TOP_10_PCT"
+    },
+    {
+      "_id": "69b337caa9e6f77f24c1a7a6",
+      "name": "50/50 2B + 2R 10-Round Koban Syndicate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-13T09:00:00.000Z",
+      "endDate": "2026-03-13T13:00:00.000Z",
+      "entries": 99,
+      "prizePool": 787.5,
       "format": "FIFTY_FIFTY"
     }
   ]
