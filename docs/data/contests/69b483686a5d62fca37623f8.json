@@ -1,0 +1,94 @@
+{
+  "_id": "69b483686a5d62fca37623f8",
+  "name": "Top 20% One of each 20-Round Eggu Leaf",
+  "description": "Top 20% One of each 20-Round Eggu Leaf",
+  "contestStatus": "OPEN",
+  "format": "TOP_20_PCT",
+  "entryFee": 300,
+  "prizePool": 459.38,
+  "entries": 6,
+  "maxEntries": 175,
+  "startDate": "2026-03-14T17:00:00.000Z",
+  "endDate": "2026-03-15T05:00:00.000Z",
+  "openDate": "2026-03-14T08:00:00.000Z",
+  "showDate": "2026-03-14T08:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "LEGENDARY",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W11-6-CW3",
+    "season1-2026-W11-7-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-14T08:50:48.797Z",
+  "leaderboardFetched": false
+}
