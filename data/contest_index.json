@@ -1,53 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-14T13:13:32.859Z",
-  "total": 4,
+  "generatedAt": "2026-03-14T16:46:30.067Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 4,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b54a76e92c3c773e2c6e5c",
-      "name": "Winner-Take-All Rare Only 10-Round Artifact Tori",
+      "_id": "69b4cf54c34e83a82797e03d",
+      "name": "50/50 Open 10-Round Fortune Festival",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b54a9ee89f31c6a86da1bd",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Badlands Shinobu",
+      "_id": "69b4cf642768965c9a277ebd",
+      "name": "50/50 Open 10-Round Horoki Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b54ad3e92c3c773e2c6e95",
-      "name": "Winner-Take-All Epic Only 10-Round Field Tama",
+      "_id": "69b4cf7dc34e83a82797e067",
+      "name": "50/50 Open 10-Round Syndicate Island",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b54b13e92c3c773e2c6eb3",
-      "name": "1v1 Winner-Take-All Open 10-Round Shapeshifter Tanuki",
+      "_id": "69b4cfa1db23a4917f56294e",
+      "name": "Free Basic + Rare Only 10-Round Artifact Yokai",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 57,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b4cfe3c34e83a82797e08d",
+      "name": "Top 20% 2B + 2R 10-Round Ambrosia Koban",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 6,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b4d00eabd4ce29b5fd2319",
+      "name": "50/50 2B + 2R 10-Round Lantern Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 42,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b4d035db23a4917f562970",
+      "name": "50/50 2R + 2E 10-Round Incense Emblem",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 10,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b4d057db23a4917f562989",
+      "name": "Top 20% No Legendary 10-Round Emblem Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-15T01:00:00.000Z",
+      "endDate": "2026-03-15T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 218.75,
+      "format": "TOP_20_PCT"
     }
   ]
 }
