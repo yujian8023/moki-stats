@@ -1,18 +1,18 @@
 {
-  "_id": "69b482cfca1c2d17d908d69a",
-  "name": "50/50 Open 10-Round Factory Buff",
-  "description": "50/50 Open 10-Round Factory Buff",
+  "_id": "69b54b13e92c3c773e2c6eb3",
+  "name": "1v1 Winner-Take-All Open 10-Round Shapeshifter Tanuki",
+  "description": "1v1 Winner-Take-All Open 10-Round Shapeshifter Tanuki",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 500,
-  "prizePool": 656.25,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
   "entries": 2,
-  "maxEntries": 150,
+  "maxEntries": 2,
   "startDate": "2026-03-14T17:00:00.000Z",
   "endDate": "2026-03-14T21:00:00.000Z",
   "openDate": "2026-03-14T08:00:00.000Z",
   "showDate": "2026-03-14T08:00:00.000Z",
-  "featured": true,
+  "featured": false,
   "isPrivate": false,
   "lineupConfig": {
     "slots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-14T08:50:48.796Z",
+  "fetchedAt": "2026-03-14T13:13:32.858Z",
   "leaderboardFetched": true
 }

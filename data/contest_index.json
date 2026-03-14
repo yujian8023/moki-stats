@@ -1,93 +1,53 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-14T08:50:48.798Z",
-  "total": 8,
+  "generatedAt": "2026-03-14T13:13:32.859Z",
+  "total": 4,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 4,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b4829fca1c2d17d908d680",
-      "name": "50/50 Open 10-Round Luck Temple",
+      "_id": "69b54a76e92c3c773e2c6e5c",
+      "name": "Winner-Take-All Rare Only 10-Round Artifact Tori",
       "contestStatus": "OPEN",
       "startDate": "2026-03-14T17:00:00.000Z",
       "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b482b6cce4339602a44f82",
-      "name": "50/50 Open 10-Round Incense Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b482cfca1c2d17d908d69a",
-      "name": "50/50 Open 10-Round Factory Buff",
+      "_id": "69b54a9ee89f31c6a86da1bd",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Badlands Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-14T17:00:00.000Z",
       "endDate": "2026-03-14T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b482eccce4339602a44fa4",
-      "name": "Free 2B + 2R 10-Round Hotei Emblem",
+      "_id": "69b54ad3e92c3c773e2c6e95",
+      "name": "Winner-Take-All Epic Only 10-Round Field Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-03-14T17:00:00.000Z",
       "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 39,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b4832dca1c2d17d908d6cf",
-      "name": "Top 20% Basic Only 10-Round Horoki Archipelago",
+      "_id": "69b54b13e92c3c773e2c6eb3",
+      "name": "1v1 Winner-Take-All Open 10-Round Shapeshifter Tanuki",
       "contestStatus": "OPEN",
       "startDate": "2026-03-14T17:00:00.000Z",
       "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 13,
-      "prizePool": 437.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b4834a6a5d62fca37623de",
-      "name": "50/50 Rare Only 10-Round Gate Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 31,
-      "prizePool": 962.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b483686a5d62fca37623f8",
-      "name": "Top 20% One of each 20-Round Eggu Leaf",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-15T05:00:00.000Z",
-      "entries": 6,
-      "prizePool": 459.38,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b48383cce4339602a44fe4",
-      "name": "50/50 2R + 2E 10-Round Yaki Gacha",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-14T17:00:00.000Z",
-      "endDate": "2026-03-14T21:00:00.000Z",
-      "entries": 8,
-      "prizePool": 1225,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
