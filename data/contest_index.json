@@ -1,93 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-15T16:47:03.490Z",
-  "total": 8,
+  "generatedAt": "2026-03-16T03:31:22.099Z",
+  "total": 7,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b611444f46086d4f903ec1",
-      "name": "Free Basic + Rare Only 10-Round Festival Eggu",
+      "_id": "69b6129f477d895701973d1f",
+      "name": "50/50 Open 10-Round Anvil Incense",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 64,
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b612be477d895701973d38",
+      "name": "50/50 Open 10-Round Snack Leaf",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 1,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b612d22f8e6b30cd3eed0f",
+      "name": "Free No Legendary 10-Round Eggu Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 285,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69b61155c5df96b999c004be",
-      "name": "50/50 Open 10-Round Sora Syndicate",
+      "_id": "69b612ebc5df96b999c00544",
+      "name": "50/50 Open 10-Round Mart Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 9187.5,
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 350,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b61169477d895701973cbe",
-      "name": "50/50 Open 10-Round Eggu Balls",
+      "_id": "69b6130cc5df96b999c0055a",
+      "name": "Top 20% 2B + 2R 10-Round Incense Belly",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b611d7c5df96b999c004de",
-      "name": "50/50 Open 10-Round Wart Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 20,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b6121fc5df96b999c00503",
-      "name": "Top 20% 2B + 2R 10-Round Hotei Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 11,
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 38,
       "prizePool": 350,
       "format": "TOP_20_PCT"
     },
     {
-      "_id": "69b6123e477d895701973cfb",
-      "name": "50/50 2B + 2R 10-Round Warrior Koban",
+      "_id": "69b613242f8e6b30cd3eed3a",
+      "name": "50/50 Rare Only 10-Round Lantern Field",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 39,
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 158,
       "prizePool": 787.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b6125b2f8e6b30cd3eecc9",
-      "name": "50/50 2R + 2E 10-Round Tanuki Factory",
+      "_id": "69b613404f46086d4f903f5b",
+      "name": "50/50 Epic Only 10-Round Emblem Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 24,
-      "prizePool": 656.25,
+      "startDate": "2026-03-16T09:00:00.000Z",
+      "endDate": "2026-03-16T13:00:00.000Z",
+      "entries": 40,
+      "prizePool": 525,
       "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b612782f8e6b30cd3eece0",
-      "name": "Top 20% No Legendary 10-Round Tori Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-16T01:00:00.000Z",
-      "endDate": "2026-03-16T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 131.25,
-      "format": "TOP_20_PCT"
     }
   ]
 }
