@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T17:16:05.485Z",
-  "total": 9,
+  "generatedAt": "2026-03-17T23:43:57.517Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 1,
+    "LIVE": 0,
     "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b97f09c1f3d32151574df8",
-      "name": "Winner-Take-All Rare Only 10-Round Mart Archipelago",
-      "contestStatus": "LIVE",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
+      "_id": "69b9db5d3c3fdfbf05a9544f",
+      "name": "Winner-Take-All Rare Only 10-Round Luck Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-18T01:00:00.000Z",
+      "endDate": "2026-03-18T05:00:00.000Z",
       "entries": 4,
       "prizePool": 14,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b865bac030685888769aa3",
-      "name": "50/50 Open 10-Round Factory Anvil",
+      "_id": "69b9db793c3fdfbf05a9546a",
+      "name": "Winner-Take-All Epic Only 10-Round Tama Warrior",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b865eedfea1d5291007399",
-      "name": "50/50 Epic Only 10-Round Tori Gacha",
+      "_id": "69b9dba33c3fdfbf05a95482",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Badlands Ratz",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 13,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86605dfea1d52910073b0",
-      "name": "50/50 2B + 2R 10-Round Tim Tori",
+      "_id": "69b9dbbefa30c807e0d75c32",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Lantern Buff",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 30,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86629dfea1d52910073c9",
-      "name": "Free 2B + 2R 10-Round Buff Artifact",
+      "_id": "69b9dbde3c3fdfbf05a954b2",
+      "name": "1v1 Winner-Take-All Open 10-Round Festival Factory",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 106,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86667c030685888769ad7",
-      "name": "Top 20% No Legendary 10-Round Belly Sparkle",
+      "_id": "69b9dc14095e7e22526bb7cf",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Snack Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 12,
-      "prizePool": 131.25,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b8659edfea1d5291007375",
-      "name": "50/50 Open 10-Round Trap Incense",
+      "_id": "69b9dc3a095e7e22526bb7e8",
+      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Syndicate Teapot",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86588c030685888769a80",
-      "name": "Top 20% Basic Only 10-Round Luck Factory",
+      "_id": "69b9dc663c3fdfbf05a954db",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Artifact Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-03-18T01:00:00.000Z",
       "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 5,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b86567d379aba853ab1c89",
-      "name": "50/50 Open 10-Round Teapot Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-18T01:00:00.000Z",
-      "endDate": "2026-03-18T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 9625,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
