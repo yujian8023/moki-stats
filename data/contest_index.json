@@ -1,93 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T17:15:21.825Z",
+  "generatedAt": "2026-03-17T02:52:33.221Z",
   "total": 8,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 0,
-    "OPEN": 8,
+    "LIVE": 1,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b76c79bfbeb192319eb181",
-      "name": "Free 2B + 2R 10-Round Horoki Anvil",
-      "contestStatus": "OPEN",
+      "_id": "69b89833a6e94c502608c4d8",
+      "name": "50/50 Rare Only 10-Round Luck Festival",
+      "contestStatus": "LIVE",
       "startDate": "2026-03-17T01:00:00.000Z",
       "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 95,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 153,
+      "prizePool": 267.75,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b76ccb576cc8a746dfb1ef",
-      "name": "50/50 Open 10-Round Balls Snack",
+      "_id": "69b82e7176bf005b7192209a",
+      "name": "50/50 Open 10-Round Horoki Council",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 1,
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 5,
       "prizePool": 9187.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b76ce61e50f48746e8cce1",
-      "name": "50/50 Open 10-Round Field Council",
+      "_id": "69b82e912d3b74e69b166b02",
+      "name": "50/50 Open 10-Round Tori Snack",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 0,
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 1,
       "prizePool": 656.25,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b76cfb50e2b2d31b82783c",
-      "name": "50/50 Open 10-Round Sora Field",
+      "_id": "69b82eac2d3b74e69b166b29",
+      "name": "Free No Legendary 10-Round Bald Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 525,
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 203,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69b82edb76bf005b719220c3",
+      "name": "50/50 Open 10-Round Artifact Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 350,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b76d3350e2b2d31b827853",
-      "name": "Top 20% No Legendary 10-Round Festival Temple",
+      "_id": "69b82f152d3b74e69b166b52",
+      "name": "Top 20% 3B + 1R 10-Round Fortune Eggu",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 5,
-      "prizePool": 175,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b76d501e50f48746e8cd04",
-      "name": "50/50 2B + 2R 10-Round Wart Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 49,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b76d6bbfbeb192319eb1ce",
-      "name": "50/50 2R + 2E 10-Round Sparkle Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 14,
-      "prizePool": 721.88,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b76d9a576cc8a746dfb23b",
-      "name": "Top 20% 2B + 2R 10-Round Tori Field",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T01:00:00.000Z",
-      "endDate": "2026-03-17T05:00:00.000Z",
-      "entries": 12,
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 27,
       "prizePool": 350,
       "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b82f416d44040cc39b02c6",
+      "name": "50/50 Epic Only 10-Round Takoyaki Teapot",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 32,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b82f7076bf005b719220ee",
+      "name": "50/50 Rare Only 10-Round Hotei Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-17T09:00:00.000Z",
+      "endDate": "2026-03-17T13:00:00.000Z",
+      "entries": 119,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
