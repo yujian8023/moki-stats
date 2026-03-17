@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T11:52:03.130Z",
-  "total": 5,
+  "generatedAt": "2026-03-17T13:47:24.654Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 5,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b940173d5d43f19b94496f",
-      "name": "1v1 Winner-Take-All Open 10-Round Larry Snack",
+      "_id": "69b9431af2abff6d8bf3067a",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Horoki Badlands",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
@@ -20,8 +20,8 @@
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b93ffaf2abff6d8bf30654",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Eggu Fortune",
+      "_id": "69b9435dc731f877d0e8dccc",
+      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Tamakin Artifact",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
@@ -30,33 +30,13 @@
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b93fcf7df9bd4b871ca7b3",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Hotei Ambrosia",
+      "_id": "69b943873d5d43f19b9449a9",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Warrior Belly",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
       "entries": 2,
       "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69b93f9c3d5d43f19b94492a",
-      "name": "Winner-Take-All Epic Only 10-Round Takoyaki Tim",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 3,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69b93f6e7df9bd4b871ca787",
-      "name": "Winner-Take-All Rare Only 10-Round Fortune Field",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
       "format": "WINNER_TAKE_ALL"
     }
   ]

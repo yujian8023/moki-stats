@@ -1,30 +1,30 @@
 {
-  "_id": "69b86515c030685888769a40",
-  "name": "50/50 2R + 2E 10-Round Festival Emblem",
-  "description": "50/50 2R + 2E 10-Round Festival Emblem",
+  "_id": "69b943873d5d43f19b9449a9",
+  "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Warrior Belly",
+  "description": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Warrior Belly",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 400,
-  "prizePool": 1225,
-  "entries": 0,
-  "maxEntries": 350,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 500,
+  "prizePool": 8.75,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-03-17T17:00:00.000Z",
   "endDate": "2026-03-17T21:00:00.000Z",
   "openDate": "2026-03-17T08:00:00.000Z",
   "showDate": "2026-03-17T08:00:00.000Z",
-  "featured": true,
+  "featured": false,
   "isPrivate": false,
   "lineupConfig": {
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "EPIC",
-        "maxRarity": "EPIC"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "EPIC",
-        "maxRarity": "EPIC"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
@@ -43,14 +43,15 @@
       }
     ],
     "allowDuplicateChampions": false,
-    "cardUsageLimitPerContest": 1
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 20
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +71,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-17T08:00:23.015Z",
+  "fetchedAt": "2026-03-17T13:47:24.654Z",
   "leaderboardFetched": true
 }
