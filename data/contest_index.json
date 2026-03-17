@@ -1,93 +1,63 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T08:00:23.016Z",
-  "total": 8,
+  "generatedAt": "2026-03-17T11:52:03.130Z",
+  "total": 5,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 5,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b86407dfea1d5291007300",
-      "name": "50/50 Open 10-Round Ratz Badlands",
+      "_id": "69b940173d5d43f19b94496f",
+      "name": "1v1 Winner-Take-All Open 10-Round Larry Snack",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 9625,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b8642b0793ed558c023ba3",
-      "name": "50/50 Open 10-Round Trap Temple",
+      "_id": "69b93ffaf2abff6d8bf30654",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Eggu Fortune",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86450dfea1d529100732c",
-      "name": "Free Basic + Rare Only 10-Round Lantern Trap",
+      "_id": "69b93fcf7df9bd4b871ca7b3",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Hotei Ambrosia",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b86468d379aba853ab1c32",
-      "name": "50/50 Open 10-Round Koban Shapeshifter",
+      "_id": "69b93f9c3d5d43f19b94492a",
+      "name": "Winner-Take-All Epic Only 10-Round Takoyaki Tim",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 3,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69b864c40793ed558c023bc6",
-      "name": "Top 20% 2B + 2R 10-Round Luck Bald",
+      "_id": "69b93f6e7df9bd4b871ca787",
+      "name": "Winner-Take-All Rare Only 10-Round Fortune Field",
       "contestStatus": "OPEN",
       "startDate": "2026-03-17T17:00:00.000Z",
       "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b864e6dfea1d5291007351",
-      "name": "50/50 Rare Only 10-Round Koban Festival",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1050,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b86515c030685888769a40",
-      "name": "50/50 2R + 2E 10-Round Festival Emblem",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1225,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b8653bd379aba853ab1c5e",
-      "name": "50/50 One of each 10-Round Leaf Yokai",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-17T17:00:00.000Z",
-      "endDate": "2026-03-17T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
