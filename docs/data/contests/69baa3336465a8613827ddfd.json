@@ -1,13 +1,13 @@
 {
-  "_id": "69b9a95a0430adbccaa3508a",
-  "name": "50/50 Rare Only 10-Round Leaf Wart",
-  "description": "50/50 Rare Only 10-Round Leaf Wart",
+  "_id": "69baa3336465a8613827ddfd",
+  "name": "1v1 Winner-Take-All Open Star Cap 10-Round Warrior Trap",
+  "description": "1v1 Winner-Take-All Open Star Cap 10-Round Warrior Trap",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 200,
-  "prizePool": 1137.5,
-  "entries": 21,
-  "maxEntries": 650,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-03-18T17:00:00.000Z",
   "endDate": "2026-03-18T21:00:00.000Z",
   "openDate": "2026-03-18T08:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -43,14 +43,15 @@
       }
     ],
     "allowDuplicateChampions": false,
-    "cardUsageLimitPerContest": 1
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 20
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +71,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-18T09:03:47.402Z",
+  "fetchedAt": "2026-03-18T13:49:49.957Z",
   "leaderboardFetched": true
 }
