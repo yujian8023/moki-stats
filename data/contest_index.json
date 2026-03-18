@@ -1,82 +1,92 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-18T03:16:57.906Z",
-  "total": 7,
+  "generatedAt": "2026-03-18T09:03:47.402Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 7,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69b9a7490430adbccaa34fda",
-      "name": "50/50 Open 10-Round Yokai Incense",
+      "_id": "69b9a871427eaccecf37af5b",
+      "name": "Free Basic + Rare Only 10-Round Field Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 8,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b9a79c7c0c5cde5e2f509c",
-      "name": "Free No Legendary 10-Round Factory Tama",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 245,
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 72,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69b9a7ca0430adbccaa3500a",
-      "name": "Top 20% 2B + 2R 10-Round Council Takoyaki",
+      "_id": "69b9a8850430adbccaa35046",
+      "name": "50/50 Open 10-Round Gacha Mart",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 36,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69b9a82b427eaccecf37af3d",
-      "name": "50/50 Rare Only 10-Round Ambrosia Yokai",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 168,
-      "prizePool": 962.5,
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 9625,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b9a8420430adbccaa3502f",
-      "name": "50/50 Epic Only 10-Round Party Teapot",
+      "_id": "69b9a8dd0430adbccaa35063",
+      "name": "50/50 Open 10-Round Fortune Badlands",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 50,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69b9a6ff0430adbccaa34fc2",
-      "name": "50/50 Open 10-Round Teapot Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 1,
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 656.25,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69b9a6d37c0c5cde5e2f5070",
-      "name": "50/50 Open 10-Round Gacha Sora",
+      "_id": "69b9a915dfca949c2f19c6c6",
+      "name": "50/50 Open 10-Round Badlands Fortune",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-18T09:00:00.000Z",
-      "endDate": "2026-03-18T13:00:00.000Z",
-      "entries": 9,
-      "prizePool": 8750,
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b9a93cdfca949c2f19c6e2",
+      "name": "Top 20% Basic Only 10-Round Tamakin Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 3,
+      "prizePool": 437.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69b9a95a0430adbccaa3508a",
+      "name": "50/50 Rare Only 10-Round Leaf Wart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 21,
+      "prizePool": 1137.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b9a989dfca949c2f19c703",
+      "name": "50/50 One of each 20-Round Eggu Takoyaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-19T05:00:00.000Z",
+      "entries": 5,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69b9a9ab7c0c5cde5e2f5103",
+      "name": "50/50 2R + 2E 10-Round Emblem Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-18T17:00:00.000Z",
+      "endDate": "2026-03-18T21:00:00.000Z",
+      "entries": 6,
+      "prizePool": 918.75,
       "format": "FIFTY_FIFTY"
     }
   ]
