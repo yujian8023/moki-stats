@@ -1,39 +1,39 @@
 {
-  "_id": "69b9a989dfca949c2f19c703",
-  "name": "50/50 One of each 20-Round Eggu Takoyaki",
-  "description": "50/50 One of each 20-Round Eggu Takoyaki",
+  "_id": "69bb1657fc8104f083c63ed0",
+  "name": "1v1 Winner-Take-All Open Star Cap 10-Round Incense Buff",
+  "description": "1v1 Winner-Take-All Open Star Cap 10-Round Incense Buff",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 300,
-  "prizePool": 525,
-  "entries": 5,
-  "maxEntries": 200,
-  "startDate": "2026-03-18T17:00:00.000Z",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
+  "entries": 2,
+  "maxEntries": 2,
+  "startDate": "2026-03-19T01:00:00.000Z",
   "endDate": "2026-03-19T05:00:00.000Z",
-  "openDate": "2026-03-18T08:00:00.000Z",
-  "showDate": "2026-03-18T08:00:00.000Z",
-  "featured": true,
+  "openDate": "2026-03-18T16:00:00.000Z",
+  "showDate": "2026-03-18T16:00:00.000Z",
+  "featured": false,
   "isPrivate": false,
   "lineupConfig": {
     "slots": [
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "EPIC",
-        "maxRarity": "EPIC"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "LEGENDARY",
+        "minRarity": "COMMON",
         "maxRarity": "LEGENDARY"
       }
     ],
@@ -43,21 +43,21 @@
       }
     ],
     "allowDuplicateChampions": false,
-    "cardUsageLimitPerContest": 1
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 15
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
     ]
   },
   "matchGroups": [
-    "season1-2026-W12-3-CW3",
     "season1-2026-W12-4-CW1"
   ],
   "gameTypes": [
@@ -71,6 +71,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-18T09:03:47.402Z",
+  "fetchedAt": "2026-03-18T21:47:20.604Z",
   "leaderboardFetched": true
 }
