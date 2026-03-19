@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T20:52:59.409Z",
+  "generatedAt": "2026-03-19T21:47:31.357Z",
   "total": 4,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,43 +10,43 @@
   },
   "contests": [
     {
-      "_id": "69bc5ebbd252a26375f6f172",
-      "name": "Winner-Take-All Epic Only 10-Round Sparkle Yaki",
+      "_id": "69bc62f022dad9b6fbb2c97d",
+      "name": "1v1 Winner-Take-All Open 10-Round Horoki Gacha",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 28,
+      "entries": 2,
+      "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bc5eaad252a26375f6f150",
-      "name": "Winner-Take-All Rare Only 10-Round Balls Council",
+      "_id": "69bc636122dad9b6fbb2c99f",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Lantern Field",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
+      "entries": 2,
+      "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bc5f2522dad9b6fbb2c95b",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Eggu Tamakin",
+      "_id": "69bc638622dad9b6fbb2c9c1",
+      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Wart Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-20T01:00:00.000Z",
+      "endDate": "2026-03-20T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69bc63ae22dad9b6fbb2c9e3",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Tanuki Belly",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
       "entries": 2,
       "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bc600dd252a26375f6f194",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Temple Eggu",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-20T01:00:00.000Z",
-      "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 28,
       "format": "WINNER_TAKE_ALL"
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "_id": "69bb0427eaf121249632ed76",
-  "name": "50/50 2B + 2R 10-Round Tamakin Island",
-  "description": "50/50 2B + 2R 10-Round Tamakin Island",
+  "_id": "69bc62f022dad9b6fbb2c97d",
+  "name": "1v1 Winner-Take-All Open 10-Round Horoki Gacha",
+  "description": "1v1 Winner-Take-All Open 10-Round Horoki Gacha",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 200,
-  "prizePool": 875,
-  "entries": 1,
-  "maxEntries": 500,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-03-20T01:00:00.000Z",
   "endDate": "2026-03-20T05:00:00.000Z",
   "openDate": "2026-03-19T16:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
-      },
-      {
-        "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-19T16:05:28.445Z",
+  "fetchedAt": "2026-03-19T21:47:31.356Z",
   "leaderboardFetched": true
 }
