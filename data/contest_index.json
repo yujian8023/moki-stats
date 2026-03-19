@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T21:47:31.357Z",
-  "total": 4,
+  "generatedAt": "2026-03-19T23:40:06.488Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 4,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69bc62f022dad9b6fbb2c97d",
-      "name": "1v1 Winner-Take-All Open 10-Round Horoki Gacha",
+      "_id": "69bc859f1aed9826bab296f0",
+      "name": "1v1 Winner-Take-All Open 10-Round Field Leaf",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
@@ -20,33 +20,23 @@
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bc636122dad9b6fbb2c99f",
-      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Lantern Field",
+      "_id": "69bc82541aed9826bab296d5",
+      "name": "50/50 Open 10-Round Tori Island",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "entries": 62,
+      "prizePool": 5250,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69bc638622dad9b6fbb2c9c1",
-      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Wart Island",
+      "_id": "69bc7caa1aed9826bab296ba",
+      "name": "Winner-Take-All Open 10-Round Luck Party",
       "contestStatus": "OPEN",
       "startDate": "2026-03-20T01:00:00.000Z",
       "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bc63ae22dad9b6fbb2c9e3",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Tanuki Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-20T01:00:00.000Z",
-      "endDate": "2026-03-20T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
+      "entries": 4,
+      "prizePool": 175,
       "format": "WINNER_TAKE_ALL"
     }
   ]
