@@ -1,13 +1,13 @@
 {
-  "_id": "69bc36df17deb72c64e36079",
-  "name": "Free Basic Only 10-Round Festival Factory",
-  "description": "Free Basic Only 10-Round Festival Factory",
+  "_id": "69bd3a731ed270d8fadafc28",
+  "name": "Winner-Take-All Rare Only 10-Round Tanuki Fortune",
+  "description": "Winner-Take-All Rare Only 10-Round Tanuki Fortune",
   "contestStatus": "OPEN",
-  "format": "FREE_ENTRY",
-  "entryFee": 0,
-  "prizePool": 0,
-  "entries": 48,
-  "maxEntries": 0,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 400,
+  "prizePool": 14,
+  "entries": 4,
+  "maxEntries": 4,
   "startDate": "2026-03-20T17:00:00.000Z",
   "endDate": "2026-03-20T21:00:00.000Z",
   "openDate": "2026-03-20T08:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       }
     ],
     "schemeSlots": [
@@ -46,19 +46,13 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "TIERED",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
         "rankEnd": 1,
         "type": "PERCENTAGE",
-        "value": 30
-      },
-      {
-        "rankStart": 2,
-        "rankEnd": -1,
-        "type": "PERCENTAGE",
-        "value": 70
+        "value": 100
       }
     ]
   },
@@ -76,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-20T08:56:31.179Z",
+  "fetchedAt": "2026-03-20T13:22:04.923Z",
   "leaderboardFetched": true
 }
