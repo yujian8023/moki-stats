@@ -1,0 +1,75 @@
+{
+  "_id": "69bea8a0f039ab1edb5fe69e",
+  "name": "1v1 Winner-Take-All Rare Only 10-Round Emblem Yokai",
+  "description": "1v1 Winner-Take-All Rare Only 10-Round Emblem Yokai",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 500,
+  "prizePool": 8.75,
+  "entries": 2,
+  "maxEntries": 2,
+  "startDate": "2026-03-21T17:00:00.000Z",
+  "endDate": "2026-03-21T21:00:00.000Z",
+  "openDate": "2026-03-21T08:00:00.000Z",
+  "showDate": "2026-03-21T08:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W12-6-CW3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-21T14:39:14.904Z",
+  "leaderboardFetched": false
+}

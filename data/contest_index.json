@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-21T08:48:24.754Z",
+  "generatedAt": "2026-03-21T14:39:14.905Z",
   "total": 8,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,84 +10,84 @@
   },
   "contests": [
     {
-      "_id": "69bdba2e570e1c2e5842ceb3",
-      "name": "50/50 Open 10-Round Larry Warrior",
+      "_id": "69bea866f039ab1edb5fe67a",
+      "name": "Winner-Take-All Rare Only 10-Round Fortune Shapeshifter",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 13125,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdba44bc130ab39fc51261",
-      "name": "50/50 Open 10-Round Anvil Syndicate",
+      "_id": "69bea882ba36ff236f3ca51d",
+      "name": "Winner-Take-All Epic Only 10-Round Badlands Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdba5f6d0b640285f5dcfe",
-      "name": "50/50 Open 10-Round Luck Takoyaki",
+      "_id": "69bea8a0f039ab1edb5fe69e",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Emblem Yokai",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdba8a570e1c2e5842cee3",
-      "name": "50/50 Rare Only 10-Round Archipelago Tanuki",
+      "_id": "69bea8f2123014c850b1c76c",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Archipelago Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 1268.75,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdbaa7276fa6c32ae725bc",
-      "name": "Top 20% 2B + 2R 10-Round Mart Artifact",
+      "_id": "69bea917123014c850b1c78e",
+      "name": "1v1 Winner-Take-All Open 10-Round Warrior Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdbae2570e1c2e5842cf13",
-      "name": "Free Basic Only 10-Round Teapot Mart",
+      "_id": "69bea971ba36ff236f3ca540",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Temple Sora",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 24,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdbb166d0b640285f5dd25",
-      "name": "50/50 2R + 2E 10-Round Emblem Mart",
+      "_id": "69bea997f039ab1edb5fe6bd",
+      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Hotei Anvil",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 918.75,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdbba76d0b640285f5dd3e",
-      "name": "50/50 One of each 10-Round Gate Ambrosia",
+      "_id": "69bea9b5123014c850b1c7b4",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Luck Teapot",
       "contestStatus": "OPEN",
       "startDate": "2026-03-21T17:00:00.000Z",
       "endDate": "2026-03-21T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
