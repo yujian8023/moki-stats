@@ -1,5 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-17T23:43:58.020Z",
-  "tasks": []
+  "updatedAt": "2026-03-21T02:45:29.230Z",
+  "tasks": [
+    {
+      "id": "task_69bddbd3a2247f8cdf2b5899",
+      "contestId": "69bddbd3a2247f8cdf2b5899",
+      "type": "fetchLeaderboard",
+      "executeAt": "2026-03-21T05:08:00.000Z",
+      "status": "pending",
+      "retryCount": 0,
+      "createdAt": "2026-03-21T02:45:29.230Z"
+    }
+  ]
 }

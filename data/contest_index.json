@@ -1,93 +1,103 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-20T23:39:19.162Z",
-  "total": 8,
+  "generatedAt": "2026-03-21T02:45:29.229Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 0,
+    "LIVE": 1,
     "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69bdda4ce79be26b68d40f86",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Mart Horoki",
-      "contestStatus": "OPEN",
+      "_id": "69bddbd3a2247f8cdf2b5899",
+      "name": "Winner-Take-All One of each 10-Round Mart Takoyaki",
+      "contestStatus": "LIVE",
       "startDate": "2026-03-21T01:00:00.000Z",
       "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bdd9f389de4c58352352d5",
-      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Koban Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bdd9baa2247f8cdf2b5878",
-      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Tim Mart",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
+      "entries": 4,
       "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69bdd98389de4c58352352b4",
-      "name": "1v1 Winner-Take-All Open 10-Round Fortune Shinobu",
+      "_id": "69bdb827bc130ab39fc511d0",
+      "name": "Top 20% Basic + Rare Only 10-Round Temple Larry",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 8,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69bdd96de79be26b68d40f5e",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Emblem Tamakin",
+      "_id": "69bdb866bc130ab39fc511f3",
+      "name": "50/50 Open 10-Round Warrior Island",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bdd954a2247f8cdf2b5855",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Trap Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bdd92fe79be26b68d40f3a",
-      "name": "Winner-Take-All Epic Only 10-Round Teapot Shinobu",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
       "entries": 0,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69bdd911a2247f8cdf2b5834",
-      "name": "Winner-Take-All Rare Only 10-Round Badlands Trap",
+      "_id": "69bdb895570e1c2e5842ce8a",
+      "name": "50/50 Open 10-Round Leaf Hotei",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-21T01:00:00.000Z",
-      "endDate": "2026-03-21T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bdb8e1276fa6c32ae7255a",
+      "name": "Top 20% 2B + 2R 10-Round Tama Archipelago",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 26,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69bdb902276fa6c32ae72584",
+      "name": "50/50 Rare Only 10-Round Ambrosia Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 86,
+      "prizePool": 1137.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bdb95bbc130ab39fc5121b",
+      "name": "50/50 Epic Only 10-Round Shinobu Incense",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 31,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bdb7d5570e1c2e5842ce54",
+      "name": "50/50 Open 10-Round Balls Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 30,
+      "prizePool": 11812.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bdb73e276fa6c32ae724fc",
+      "name": "Free Basic + Rare Only 10-Round Badlands Tama",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-21T09:00:00.000Z",
+      "endDate": "2026-03-21T13:00:00.000Z",
+      "entries": 162,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
     }
   ]
 }
