@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-21T05:52:21.902Z",
+  "updatedAt": "2026-03-21T07:00:10.915Z",
   "tasks": [
     {
       "id": "task_69bddbd3a2247f8cdf2b5899",
       "contestId": "69bddbd3a2247f8cdf2b5899",
       "type": "fetchLeaderboard",
-      "executeAt": "2026-03-21T05:53:21.401Z",
+      "executeAt": "2026-03-21T07:01:10.413Z",
       "status": "pending",
-      "retryCount": 1,
+      "retryCount": 2,
       "createdAt": "2026-03-21T02:45:29.230Z",
       "lastError": "竞赛信息不存在"
     }
