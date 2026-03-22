@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-22T14:41:33.200Z",
+  "generatedAt": "2026-03-22T16:45:23.167Z",
   "total": 8,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,84 +10,84 @@
   },
   "contests": [
     {
-      "_id": "69bffe3d45e4084f48a277c7",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Council Factory",
+      "_id": "69bee5d98d9584b99cdf6862",
+      "name": "Top 20% 2B + 2R 10-Round Shinobu Tama",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69bee6538d9584b99cdf6878",
+      "name": "Free No Legendary 10-Round Gacha Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
+      "entries": 41,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69bee66d92944938065eb888",
+      "name": "50/50 Open 10-Round Luck Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
       "entries": 1,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69bffdc473b0a06d37fe1982",
-      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Fortune Tamakin",
+      "_id": "69bee68c55ddf82c8b75416a",
+      "name": "50/50 2R + 2E 10-Round Teapot Tori",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bffda13fc45dfee151aa23",
-      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Eggu Festival",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 1225,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69bffd7945e4084f48a2779e",
-      "name": "1v1 Winner-Take-All Open 10-Round Warrior Eggu",
+      "_id": "69bee6a478966d29b3b785c7",
+      "name": "50/50 2B + 2R 10-Round Festival Tamakin",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
+      "entries": 11,
+      "prizePool": 962.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bee6bb55ddf82c8b754186",
+      "name": "50/50 Open 10-Round Koban Factory",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
+      "entries": 15,
+      "prizePool": 12250,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69bee6d78d9584b99cdf68af",
+      "name": "50/50 Open 10-Round Gacha Gate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69bffd6473b0a06d37fe1964",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Tim Party",
+      "_id": "69bee70d78966d29b3b785f1",
+      "name": "Top 20% 2R + 2E 10-Round Lantern Fortune",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bffd4645e4084f48a2777e",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Factory Artifact",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bffd2645e4084f48a2775c",
-      "name": "Winner-Take-All Epic Only 10-Round Luck Ratz",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
+      "startDate": "2026-03-23T01:00:00.000Z",
+      "endDate": "2026-03-23T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69bffcfd3fc45dfee151a9ff",
-      "name": "Winner-Take-All Rare Only 10-Round Leaf Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-22T17:00:00.000Z",
-      "endDate": "2026-03-22T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
     }
   ]
 }
