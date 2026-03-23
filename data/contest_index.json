@@ -1,83 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T13:44:17.156Z",
-  "total": 7,
+  "generatedAt": "2026-03-23T17:06:30.770Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 7,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c12b8cb8d3d03c87b3a4c1",
-      "name": "Winner-Take-All Rare Only 10-Round Koban Field",
+      "_id": "69c02b20e8d92ae6dc6b8cd6",
+      "name": "Free No Legendary 10-Round Emblem Horoki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 77,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69c02b56b74ad3c7b05b5403",
+      "name": "Top 20% Basic + Rare Only 10-Round Takoyaki Bald",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
       "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69c12bec8443c4808e8f37ff",
-      "name": "Winner-Take-All Epic Only 10-Round Fortune Archipelago",
+      "_id": "69c02b9eb74ad3c7b05b5419",
+      "name": "50/50 Open 10-Round Archipelago Anvil",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 8,
+      "prizePool": 11375,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c02c47b74ad3c7b05b544d",
+      "name": "50/50 Open 10-Round Wart Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c02c6a13b63d050072f8c5",
+      "name": "50/50 2B + 2R 10-Round Ratz Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 26,
+      "prizePool": 962.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c02c9c13b63d050072f8dc",
+      "name": "50/50 2R + 2E 10-Round Tori Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1225,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c02d21e8d92ae6dc6b8d3f",
+      "name": "Top 20% No Legendary 10-Round Incense Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c0702c649f3ff86f7d7446",
+      "name": "50/50 One of each 10-Round Emblem Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
       "entries": 4,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c12c168443c4808e8f3821",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Island Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c12f3bfeb375cd5a2d1513",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Buff Factory",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c12f72feb375cd5a2d1535",
-      "name": "1v1 Winner-Take-All Open 10-Round Ambrosia Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c12f9cfeb375cd5a2d1557",
-      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Factory Yokai",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c12fd0feb375cd5a2d157d",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Tori Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 1148.44,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
