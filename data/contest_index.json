@@ -1,93 +1,63 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T17:06:30.770Z",
-  "total": 8,
+  "generatedAt": "2026-03-23T23:45:32.461Z",
+  "total": 5,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 5,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c02b20e8d92ae6dc6b8cd6",
-      "name": "Free No Legendary 10-Round Emblem Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 77,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c02b56b74ad3c7b05b5403",
-      "name": "Top 20% Basic + Rare Only 10-Round Takoyaki Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c02b9eb74ad3c7b05b5419",
-      "name": "50/50 Open 10-Round Archipelago Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 8,
-      "prizePool": 11375,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c02c47b74ad3c7b05b544d",
-      "name": "50/50 Open 10-Round Wart Hotei",
+      "_id": "69c1cfe549e9924314e15b48",
+      "name": "Winner-Take-All Rare Only 10-Round Incense Balls",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c02c6a13b63d050072f8c5",
-      "name": "50/50 2B + 2R 10-Round Ratz Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 26,
-      "prizePool": 962.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c02c9c13b63d050072f8dc",
-      "name": "50/50 2R + 2E 10-Round Tori Field",
+      "_id": "69c1cff50609b066128ed1ab",
+      "name": "Winner-Take-All Epic Only 10-Round Buff Sora",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 1225,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c02d21e8d92ae6dc6b8d3f",
-      "name": "Top 20% No Legendary 10-Round Incense Belly",
+      "_id": "69c1d02649e9924314e15b67",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Shinobu Bald",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c0702c649f3ff86f7d7446",
-      "name": "50/50 One of each 10-Round Emblem Shinobu",
+      "_id": "69c1d0400609b066128ed1ce",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Tanuki Yokai",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 1148.44,
-      "format": "FIFTY_FIFTY"
+      "entries": 0,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c1d07249e9924314e15b88",
+      "name": "1v1 Winner-Take-All Open 10-Round Council Tim",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T01:00:00.000Z",
+      "endDate": "2026-03-24T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
