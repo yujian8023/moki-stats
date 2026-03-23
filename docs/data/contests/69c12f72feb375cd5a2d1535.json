@@ -1,13 +1,13 @@
 {
-  "_id": "69c0282619ed2f3830e745bd",
-  "name": "50/50 Rare Only 10-Round Gate Temple",
-  "description": "50/50 Rare Only 10-Round Gate Temple",
+  "_id": "69c12f72feb375cd5a2d1535",
+  "name": "1v1 Winner-Take-All Open 10-Round Ambrosia Belly",
+  "description": "Winner-Take-All Open 10-Round Ambrosia Belly",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 200,
-  "prizePool": 1312.5,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
   "entries": 2,
-  "maxEntries": 750,
+  "maxEntries": 2,
   "startDate": "2026-03-23T17:00:00.000Z",
   "endDate": "2026-03-23T21:00:00.000Z",
   "openDate": "2026-03-23T08:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-23T09:10:25.598Z",
+  "fetchedAt": "2026-03-23T13:44:17.155Z",
   "leaderboardFetched": true
 }

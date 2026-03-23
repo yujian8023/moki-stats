@@ -1,93 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T09:10:25.600Z",
-  "total": 8,
+  "generatedAt": "2026-03-23T13:44:17.156Z",
+  "total": 7,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c0278213b63d050072f7d4",
-      "name": "50/50 Open 10-Round Tori Syndicate",
+      "_id": "69c12b8cb8d3d03c87b3a4c1",
+      "name": "Winner-Take-All Rare Only 10-Round Koban Field",
       "contestStatus": "OPEN",
       "startDate": "2026-03-23T17:00:00.000Z",
       "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c027fd19ed2f3830e745a1",
-      "name": "50/50 Open 10-Round Badlands Field",
+      "_id": "69c12bec8443c4808e8f37ff",
+      "name": "Winner-Take-All Epic Only 10-Round Fortune Archipelago",
       "contestStatus": "OPEN",
       "startDate": "2026-03-23T17:00:00.000Z",
       "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 12250,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c0282619ed2f3830e745bd",
-      "name": "50/50 Rare Only 10-Round Gate Temple",
+      "_id": "69c12c168443c4808e8f3821",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Island Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-03-23T17:00:00.000Z",
       "endDate": "2026-03-23T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c028381e0a2af18da7a893",
-      "name": "Free Basic + Rare Only 10-Round Archipelago Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 53,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c0289613b63d050072f822",
-      "name": "Top 20% 2B + 2R 10-Round Ratz Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 17,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c028cc19ed2f3830e745f4",
-      "name": "50/50 One of each 10-Round Incense Temple",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 10,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c0292213b63d050072f844",
-      "name": "50/50 2R + 2E 10-Round Incense Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T17:00:00.000Z",
-      "endDate": "2026-03-23T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 918.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c0298f1e0a2af18da7a8da",
-      "name": "50/50 Open 10-Round Tim Trap",
+      "_id": "69c12f3bfeb375cd5a2d1513",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Buff Factory",
       "contestStatus": "OPEN",
       "startDate": "2026-03-23T17:00:00.000Z",
       "endDate": "2026-03-23T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 262.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c12f72feb375cd5a2d1535",
+      "name": "1v1 Winner-Take-All Open 10-Round Ambrosia Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T17:00:00.000Z",
+      "endDate": "2026-03-23T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c12f9cfeb375cd5a2d1557",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Factory Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T17:00:00.000Z",
+      "endDate": "2026-03-23T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c12fd0feb375cd5a2d157d",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Tori Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T17:00:00.000Z",
+      "endDate": "2026-03-23T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
