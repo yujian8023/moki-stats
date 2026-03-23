@@ -1,83 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-22T23:39:22.806Z",
-  "total": 7,
+  "generatedAt": "2026-03-23T03:20:41.937Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 7,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c07a78182d2541afa29f12",
-      "name": "Winner-Take-All Rare Only 10-Round Yaki Ratz",
+      "_id": "69c025df1e0a2af18da7a7fb",
+      "name": "50/50 Open 10-Round Tim Horoki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c07a8f256e5bbc002ce528",
-      "name": "Winner-Take-All Epic Only 10-Round Shapeshifter Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c07aa9182d2541afa29f33",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Gate Sparkle",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
       "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 10937.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c07abf256e5bbc002ce54b",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Trap Island",
+      "_id": "69c0261819ed2f3830e74530",
+      "name": "Top 20% Basic + Rare Only 10-Round Luck Field",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69c07ad1256e5bbc002ce56d",
-      "name": "1v1 Winner-Take-All Open 0-Round Horoki Buff",
+      "_id": "69c0264e13b63d050072f75c",
+      "name": "Top 20% Basic Only 10-Round Larry Hotei",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 18,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69c07b2039de99ca20a22beb",
-      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Fortune Trap",
+      "_id": "69c0268319ed2f3830e7454b",
+      "name": "50/50 Rare Only 10-Round Tanuki Mart",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 83,
+      "prizePool": 1137.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c07b5a182d2541afa29f51",
-      "name": "1v1 Winner-Take-All Epic Only Star Cap 10-Round Lantern Tama",
+      "_id": "69c026bc13b63d050072f78f",
+      "name": "Free No Legendary 10-Round Horoki Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-23T01:00:00.000Z",
-      "endDate": "2026-03-23T05:00:00.000Z",
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 228,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69c026e713b63d050072f7aa",
+      "name": "50/50 Epic Only 10-Round Koban Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 8,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c0272519ed2f3830e74578",
+      "name": "50/50 Open 10-Round Tamakin Ambrosia",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
       "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 262.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c025b413b63d050072f742",
+      "name": "50/50 Open 10-Round Emblem Tim",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-23T09:00:00.000Z",
+      "endDate": "2026-03-23T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 437.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
