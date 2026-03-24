@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-24T17:12:47.561Z",
+  "generatedAt": "2026-03-24T23:43:29.226Z",
   "total": 8,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,84 +10,84 @@
   },
   "contests": [
     {
-      "_id": "69c19522ea50dc5fd8a73bc6",
-      "name": "Free Open 10-Round Field Tanuki",
+      "_id": "69c31b6ef57734a36af19788",
+      "name": "Winner-Take-All Rare Only 10-Round Shapeshifter Incense",
       "contestStatus": "OPEN",
       "startDate": "2026-03-25T01:00:00.000Z",
       "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 71,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c195347209a2ddcdfff727",
-      "name": "50/50 Open 10-Round Island Warrior",
+      "_id": "69c31ba970b9c8ad293af82e",
+      "name": "Winner-Take-All Epic Only 10-Round Tanuki Larry",
       "contestStatus": "OPEN",
       "startDate": "2026-03-25T01:00:00.000Z",
       "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 11375,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c195487209a2ddcdfff742",
-      "name": "50/50 Open 10-Round Sora Gacha",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T01:00:00.000Z",
-      "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c195627209a2ddcdfff75a",
-      "name": "Top 20% Basic Only 10-Round Fortune Tamakin",
+      "_id": "69c31bfdf57734a36af197af",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Mart Larry",
       "contestStatus": "OPEN",
       "startDate": "2026-03-25T01:00:00.000Z",
       "endDate": "2026-03-25T05:00:00.000Z",
       "entries": 2,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c195c137049e908781947e",
-      "name": "50/50 Rare Only 10-Round Sparkle Tori",
+      "_id": "69c31c2470b9c8ad293af861",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Trap Sparkle",
       "contestStatus": "OPEN",
       "startDate": "2026-03-25T01:00:00.000Z",
       "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 12,
-      "prizePool": 1050,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c195e97209a2ddcdfff7a0",
-      "name": "Top 20% Basic + Rare Only 10-Round Eggu Shinobu",
+      "_id": "69c31c513aad4f0b37e89746",
+      "name": "1v1 Winner-Take-All Open 10-Round Syndicate Emblem",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c31d033b3d377fa53be5bf",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Teapot Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c3209870866bf46511dfb7",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Bald Tamakin",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c3215270866bf46511dfdf",
+      "name": "1v1 Winner-Take-All Open 10-Round Archipelago Wart",
       "contestStatus": "OPEN",
       "startDate": "2026-03-25T01:00:00.000Z",
       "endDate": "2026-03-25T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c1961437049e90878194a5",
-      "name": "50/50 Epic Only 10-Round Koban Syndicate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T01:00:00.000Z",
-      "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1ee8ddbac0bb968f52621",
-      "name": "50/50 One of each 10-Round Lantern Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T01:00:00.000Z",
-      "endDate": "2026-03-25T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1102.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
