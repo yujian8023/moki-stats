@@ -1,93 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-24T08:00:24.811Z",
-  "total": 8,
+  "generatedAt": "2026-03-24T15:15:51.084Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c17d41ea50dc5fd8a73b39",
-      "name": "50/50 Open 10-Round Teapot Belly",
+      "_id": "69c2a8c9127e3f399a5d9e47",
+      "name": "Winner-Take-All Open 10-Round Takoyaki Field",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T17:00:00.000Z",
       "endDate": "2026-03-24T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 12250,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 70,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c17d59d0a59c687d85da81",
-      "name": "50/50 Open 10-Round Ambrosia Teapot",
+      "_id": "69c2a8fb127e3f399a5d9e93",
+      "name": "Winner-Take-All Rare Only 10-Round Field Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T17:00:00.000Z",
       "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c17d6dd0a59c687d85daa1",
-      "name": "50/50 Rare Only 10-Round Tama Artifact",
+      "_id": "69c2a946127e3f399a5d9eab",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Yaki Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-03-24T17:00:00.000Z",
       "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c17d97ea50dc5fd8a73b72",
-      "name": "50/50 2R + 2E 10-Round Incense Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 918.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c17da9d0a59c687d85dac8",
-      "name": "Free Basic + Rare Only 10-Round Tama Artifact",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c17dc5935e9c019574b427",
-      "name": "Top 20% 2B + 2R 10-Round Shapeshifter Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c17df1ea50dc5fd8a73b98",
-      "name": "50/50 One of each 10-Round Takoyaki Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c17e35d0a59c687d85db0b",
-      "name": "Top 20% No Legendary 10-Round Tamakin Tanuki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
