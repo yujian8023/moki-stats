@@ -1,63 +1,103 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T23:45:32.461Z",
-  "total": 5,
+  "generatedAt": "2026-03-24T02:53:15.812Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 0,
-    "OPEN": 5,
+    "LIVE": 2,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c1cfe549e9924314e15b48",
-      "name": "Winner-Take-All Rare Only 10-Round Incense Balls",
-      "contestStatus": "OPEN",
+      "_id": "69c1d10d0609b066128ed1f3",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 1-Round Sudden Death Tama Artifact",
+      "contestStatus": "LIVE",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c1cff50609b066128ed1ab",
-      "name": "Winner-Take-All Epic Only 10-Round Buff Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c1d02649e9924314e15b67",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Shinobu Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 0,
+      "entries": 2,
       "prizePool": 8.75,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c1d0400609b066128ed1ce",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Tanuki Yokai",
-      "contestStatus": "OPEN",
+      "_id": "69c1d0cc6bddb8c40d5e427c",
+      "name": "1v1 Winner-Take-All Open Star Cap 1-Round Sudden Death Badlands Gate",
+      "contestStatus": "LIVE",
       "startDate": "2026-03-24T01:00:00.000Z",
       "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 26.25,
+      "entries": 2,
+      "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c1d07249e9924314e15b88",
-      "name": "1v1 Winner-Take-All Open 10-Round Council Tim",
+      "_id": "69c17be7d0a59c687d85da0d",
+      "name": "50/50 Open 10-Round Bald Gate",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 16,
+      "prizePool": 10937.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c17bfeea50dc5fd8a73aea",
+      "name": "Top 20% Basic + Rare Only 10-Round Shinobu Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 5,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c17c4b935e9c019574b388",
+      "name": "Top 20% Basic Only 10-Round Shinobu Takoyaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 31,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c17c9cd0a59c687d85da2f",
+      "name": "50/50 Rare Only 10-Round Warrior Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 115,
+      "prizePool": 1137.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c17cb5935e9c019574b3bc",
+      "name": "Free No Legendary 10-Round Balls Larry",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 247,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69c17ce1ea50dc5fd8a73b16",
+      "name": "50/50 Open 10-Round Wart Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 12,
+      "prizePool": 262.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c17d1a935e9c019574b3ea",
+      "name": "50/50 Epic Only 10-Round Factory Horoki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T09:00:00.000Z",
+      "endDate": "2026-03-24T13:00:00.000Z",
+      "entries": 57,
+      "prizePool": 656.25,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }

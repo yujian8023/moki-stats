@@ -1,5 +1,24 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-21T07:42:04.342Z",
-  "tasks": []
+  "updatedAt": "2026-03-24T02:53:15.813Z",
+  "tasks": [
+    {
+      "id": "task_69c1d10d0609b066128ed1f3",
+      "contestId": "69c1d10d0609b066128ed1f3",
+      "type": "fetchLeaderboard",
+      "executeAt": "2026-03-24T05:08:00.000Z",
+      "status": "pending",
+      "retryCount": 0,
+      "createdAt": "2026-03-24T02:53:15.813Z"
+    },
+    {
+      "id": "task_69c1d0cc6bddb8c40d5e427c",
+      "contestId": "69c1d0cc6bddb8c40d5e427c",
+      "type": "fetchLeaderboard",
+      "executeAt": "2026-03-24T05:08:00.000Z",
+      "status": "pending",
+      "retryCount": 0,
+      "createdAt": "2026-03-24T02:53:15.813Z"
+    }
+  ]
 }
