@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-24T02:53:15.812Z",
-  "total": 9,
+  "generatedAt": "2026-03-24T08:00:24.811Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 2,
-    "OPEN": 7,
+    "LIVE": 0,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c1d10d0609b066128ed1f3",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 1-Round Sudden Death Tama Artifact",
-      "contestStatus": "LIVE",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c1d0cc6bddb8c40d5e427c",
-      "name": "1v1 Winner-Take-All Open Star Cap 1-Round Sudden Death Badlands Gate",
-      "contestStatus": "LIVE",
-      "startDate": "2026-03-24T01:00:00.000Z",
-      "endDate": "2026-03-24T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c17be7d0a59c687d85da0d",
-      "name": "50/50 Open 10-Round Bald Gate",
+      "_id": "69c17d41ea50dc5fd8a73b39",
+      "name": "50/50 Open 10-Round Teapot Belly",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 16,
-      "prizePool": 10937.5,
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 12250,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c17bfeea50dc5fd8a73aea",
-      "name": "Top 20% Basic + Rare Only 10-Round Shinobu Yokai",
+      "_id": "69c17d59d0a59c687d85da81",
+      "name": "50/50 Open 10-Round Ambrosia Teapot",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 5,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c17c4b935e9c019574b388",
-      "name": "Top 20% Basic Only 10-Round Shinobu Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 31,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c17c9cd0a59c687d85da2f",
-      "name": "50/50 Rare Only 10-Round Warrior Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 115,
-      "prizePool": 1137.5,
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c17cb5935e9c019574b3bc",
-      "name": "Free No Legendary 10-Round Balls Larry",
+      "_id": "69c17d6dd0a59c687d85daa1",
+      "name": "50/50 Rare Only 10-Round Tama Artifact",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 247,
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c17d97ea50dc5fd8a73b72",
+      "name": "50/50 2R + 2E 10-Round Incense Ambrosia",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 918.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c17da9d0a59c687d85dac8",
+      "name": "Free Basic + Rare Only 10-Round Tama Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69c17ce1ea50dc5fd8a73b16",
-      "name": "50/50 Open 10-Round Wart Shapeshifter",
+      "_id": "69c17dc5935e9c019574b427",
+      "name": "Top 20% 2B + 2R 10-Round Shapeshifter Tori",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 12,
-      "prizePool": 262.5,
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c17df1ea50dc5fd8a73b98",
+      "name": "50/50 One of each 10-Round Takoyaki Koban",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c17d1a935e9c019574b3ea",
-      "name": "50/50 Epic Only 10-Round Factory Horoki",
+      "_id": "69c17e35d0a59c687d85db0b",
+      "name": "Top 20% No Legendary 10-Round Tamakin Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T09:00:00.000Z",
-      "endDate": "2026-03-24T13:00:00.000Z",
-      "entries": 57,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "startDate": "2026-03-24T17:00:00.000Z",
+      "endDate": "2026-03-24T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
     }
   ]
 }
