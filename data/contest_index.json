@@ -1,43 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-24T15:15:51.084Z",
-  "total": 3,
+  "generatedAt": "2026-03-24T17:12:47.561Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 3,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c2a8c9127e3f399a5d9e47",
-      "name": "Winner-Take-All Open 10-Round Takoyaki Field",
+      "_id": "69c19522ea50dc5fd8a73bc6",
+      "name": "Free Open 10-Round Field Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 71,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69c195347209a2ddcdfff727",
+      "name": "50/50 Open 10-Round Island Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 70,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 11375,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c2a8fb127e3f399a5d9e93",
-      "name": "Winner-Take-All Rare Only 10-Round Field Shinobu",
+      "_id": "69c195487209a2ddcdfff742",
+      "name": "50/50 Open 10-Round Sora Gacha",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c2a946127e3f399a5d9eab",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Yaki Tama",
+      "_id": "69c195627209a2ddcdfff75a",
+      "name": "Top 20% Basic Only 10-Round Fortune Tamakin",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-24T17:00:00.000Z",
-      "endDate": "2026-03-24T21:00:00.000Z",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
       "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c195c137049e908781947e",
+      "name": "50/50 Rare Only 10-Round Sparkle Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 12,
+      "prizePool": 1050,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c195e97209a2ddcdfff7a0",
+      "name": "Top 20% Basic + Rare Only 10-Round Eggu Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69c1961437049e90878194a5",
+      "name": "50/50 Epic Only 10-Round Koban Syndicate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c1ee8ddbac0bb968f52621",
+      "name": "50/50 One of each 10-Round Lantern Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T01:00:00.000Z",
+      "endDate": "2026-03-25T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1102.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
