@@ -1,143 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-25T17:15:36.752Z",
-  "total": 13,
+  "generatedAt": "2026-03-25T19:09:51.448Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 13,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c40f19f51a199d2c4454bf",
-      "name": "50/50 2R + 2E 10-Round Gate Party",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c406202ec3bb48fa713629",
-      "name": "50/50 Basic Only 10-Round Wart Warrior",
+      "_id": "69c41bdfb62bb2bbfee84c91",
+      "name": "Winner-Take-All Rare Only 10-Round Trap Council",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T01:00:00.000Z",
       "endDate": "2026-03-26T05:00:00.000Z",
       "entries": 4,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c377984399fb9cfd127f73",
-      "name": "50/50 Open 10-Round Yaki Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 5512.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c37771327d9fd92ef25436",
-      "name": "50/50 Open 10-Round Shinobu Tim",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 5031.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c377554399fb9cfd127f59",
-      "name": "50/50 Open 10-Round Hotei Factory",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 4025,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c4122df4bc50e4f9691284",
-      "name": "50/50 Basic Only 10-Round Emblem Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 8,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1f2f9dbac0bb968f527a5",
-      "name": "Top 20% No Legendary 10-Round Belly Syndicate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 315,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c1f2d8369d3452947b3327",
-      "name": "50/50 2R + 2E 10-Round Festival Party",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1225,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1f2badbac0bb968f5277f",
-      "name": "50/50 2B + 2R 10-Round Party Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 1006.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1f2a2369d3452947b330e",
-      "name": "50/50 Open 10-Round Balls Tamakin",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T01:00:00.000Z",
-      "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1f27e88fbdee05f17978e",
-      "name": "Top 20% Basic Only 10-Round Syndicate Horoki",
+      "_id": "69c41bfda5295b277d1433b8",
+      "name": "Winner-Take-All Epic Only 10-Round Teapot Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T01:00:00.000Z",
       "endDate": "2026-03-26T05:00:00.000Z",
       "entries": 2,
-      "prizePool": 350,
-      "format": "TOP_20_PCT"
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c1f262dbac0bb968f52745",
-      "name": "Free No Legendary 10-Round Wart Shapeshifter",
+      "_id": "69c41c34b62bb2bbfee84cbf",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Koban Council",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T01:00:00.000Z",
       "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 68,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c1f25188fbdee05f179773",
-      "name": "50/50 One of each 10-Round Wart Yokai",
+      "_id": "69c41c5017d6a67ca3ddd69c",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Teapot Council",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T01:00:00.000Z",
       "endDate": "2026-03-26T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 765.63,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c41c7d17d6a67ca3ddd6c6",
+      "name": "1v1 Winner-Take-All Open 10-Round Festival Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-26T01:00:00.000Z",
+      "endDate": "2026-03-26T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c41cdab62bb2bbfee84ce6",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Tim Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-26T01:00:00.000Z",
+      "endDate": "2026-03-26T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c41d2517d6a67ca3ddd6ed",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Sparkle Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-26T01:00:00.000Z",
+      "endDate": "2026-03-26T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69c41db417d6a67ca3ddd71b",
+      "name": "1v1 Winner-Take-All One of each 10-Round Teapot Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-26T01:00:00.000Z",
+      "endDate": "2026-03-26T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
