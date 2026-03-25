@@ -1,0 +1,75 @@
+{
+  "_id": "69c2ebdf4c1528bbd30e59e0",
+  "name": "50/50 2R + 2E 10-Round Takoyaki Sora",
+  "description": "50/50 2R + 2E 10-Round Takoyaki Sora",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 1000,
+  "prizePool": 1312.5,
+  "entries": 0,
+  "maxEntries": 150,
+  "startDate": "2026-03-25T17:00:00.000Z",
+  "endDate": "2026-03-25T21:00:00.000Z",
+  "openDate": "2026-03-25T08:00:00.000Z",
+  "showDate": "2026-03-25T08:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W13-3-CW3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-25T09:04:44.384Z",
+  "leaderboardFetched": false
+}

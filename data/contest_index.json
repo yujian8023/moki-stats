@@ -1,123 +1,143 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-25T03:15:48.347Z",
-  "total": 11,
+  "generatedAt": "2026-03-25T09:04:44.384Z",
+  "total": 13,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 11,
+    "OPEN": 13,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c300c78823f4cfeae95a92",
-      "name": "50/50 Open 10-Round Larry Festival",
+      "_id": "69c1f17188fbdee05f179702",
+      "name": "50/50 Epic Only 10-Round Snack Gacha",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 7,
-      "prizePool": 315,
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 4,
+      "prizePool": 787.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69c1eee988fbdee05f179699",
-      "name": "50/50 Epic Only 10-Round Factory Anvil",
+      "_id": "69c1f1b2369d3452947b32c1",
+      "name": "Top 20% 2B + 2R 10-Round Tori Party",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 24,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1ef23369d3452947b320f",
-      "name": "50/50 Rare Only 10-Round Factory Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 34,
-      "prizePool": 1575,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c2edc54c58e7d8d4c5e311",
-      "name": "50/50 Basic Only 10-Round Warrior Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 11,
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69c2ed2c4c1528bbd30e5a28",
-      "name": "50/50 Basic Only 10-Round Horoki Lantern",
+      "_id": "69c1f21288fbdee05f17973c",
+      "name": "Top 20% 2R + 2E 10-Round Lantern Trap",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 19,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c2e01f2a58b8193b05febc",
-      "name": "50/50 2R + 2E 10-Round Archipelago Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 10,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c2de7d7a911c8ef094c57b",
-      "name": "50/50 Open 10-Round Eggu Gacha",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 6,
-      "prizePool": 5512.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c2de612a58b8193b05fe08",
-      "name": "50/50 Open 10-Round Field Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 14,
-      "prizePool": 4593.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c2de3f89f00b25b16de96b",
-      "name": "50/50 Open 10-Round Party Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 36,
-      "prizePool": 3675,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c1ef64dbac0bb968f52698",
-      "name": "Top 20% Basic Only 10-Round Trap Council",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 19,
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 13,
       "prizePool": 262.5,
       "format": "TOP_20_PCT"
     },
     {
-      "_id": "69c1ef3b88fbdee05f1796c0",
-      "name": "Free No Legendary 10-Round Warrior Gacha",
+      "_id": "69c1f144369d3452947b3289",
+      "name": "50/50 One of each 10-Round Hotei Mart",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-25T09:00:00.000Z",
-      "endDate": "2026-03-25T13:00:00.000Z",
-      "entries": 149,
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c1f0f0369d3452947b3273",
+      "name": "Free Basic + Rare Only 10-Round Yokai Balls",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 46,
       "prizePool": 0,
       "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69c1f0d6dbac0bb968f526f6",
+      "name": "50/50 Rare Only 10-Round Anvil Factory",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 5,
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2dee22a58b8193b05fe5e",
+      "name": "50/50 Open 10-Round Factory Anvil",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 4025,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2df0c7a911c8ef094c5c0",
+      "name": "50/50 Open 10-Round Wart Anvil",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 6037.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2df8e89f00b25b16de9d9",
+      "name": "50/50 Open 10-Round Buff Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 5031.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c1f076dbac0bb968f526d8",
+      "name": "50/50 Open 10-Round Balls Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 315,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2ebdf4c1528bbd30e59e0",
+      "name": "50/50 2R + 2E 10-Round Takoyaki Sora",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2ed9da6680e13d607a8bc",
+      "name": "50/50 Basic Only 10-Round Teapot Gacha",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 612.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69c2ee27a6680e13d607a8db",
+      "name": "50/50 Basic Only 10-Round Sora Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-25T17:00:00.000Z",
+      "endDate": "2026-03-25T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
