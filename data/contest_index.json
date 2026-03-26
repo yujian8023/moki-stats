@@ -1,143 +1,83 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-26T09:10:46.711Z",
-  "total": 13,
+  "generatedAt": "2026-03-26T13:54:02.906Z",
+  "total": 7,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 13,
+    "OPEN": 7,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c477b985ee888323f1e1b0",
-      "name": "Top 20% Basic Only 10-Round Artifact Festival",
+      "_id": "69c5156a8fa5d00270ffa615",
+      "name": "1v1 Winner-Take-All One of each 10-Round Fortune Archipelago",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c478010bcab0bf834b0a87",
-      "name": "Top 20% 2R + 2E 10-Round Shapeshifter Tama",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c478206171e257e3574a94",
-      "name": "50/50 Basic Only 10-Round Festival Yokai",
+      "_id": "69c5153d6dab3bee54bfae9a",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Archipelago Tanuki",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c4786985ee888323f1e1da",
-      "name": "50/50 One of each 10-Round Field Fortune",
+      "_id": "69c5151bf62e1d18748079da",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Ambrosia Leaf",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c478aa6171e257e3574ac4",
-      "name": "50/50 2R + 2E 10-Round Temple Field",
+      "_id": "69c514e38fa5d00270ffa5f1",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Sparkle Fortune",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1487.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c478de85ee888323f1e204",
-      "name": "50/50 Basic Only 10-Round Tori Warrior",
+      "_id": "69c514ad8fa5d00270ffa5cf",
+      "name": "1v1 Winner-Take-All Open 10-Round Tamakin Council",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 630,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c4790085ee888323f1e21c",
-      "name": "50/50 Rare Only 10-Round Shinobu Fortune",
+      "_id": "69c514996dab3bee54bfae7b",
+      "name": "Winner-Take-All Epic Only 10-Round Artifact Party",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 735,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c42cf517d6a67ca3ddd76d",
-      "name": "50/50 Open 10-Round Yaki Belly",
+      "_id": "69c514888fa5d00270ffa5ae",
+      "name": "Winner-Take-All Rare Only 10-Round Badlands Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-03-26T17:00:00.000Z",
       "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 4593.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c42cdceb30e51a1dfe8d0d",
-      "name": "50/50 Open 10-Round Tim Temple",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 5512.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c42cb1da3449bdde812e96",
-      "name": "50/50 Open 10-Round Belly Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 4025,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c42c93da3449bdde812e7b",
-      "name": "Free Basic + Rare Only 10-Round Balls Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 60,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c42bb1da3449bdde812e62",
-      "name": "50/50 Rare Only 10-Round Belly Island",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c42b92eb30e51a1dfe8cbb",
-      "name": "50/50 Open 10-Round Island Artifact",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-26T17:00:00.000Z",
-      "endDate": "2026-03-26T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
