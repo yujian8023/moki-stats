@@ -1,12 +1,12 @@
 {
-  "_id": "69c580f13f6ac7c098202bbe",
-  "name": "1v1 Winner-Take-All Open 10-Round Artifact Lantern",
-  "description": "Winner-Take-All Open 10-Round Artifact Lantern",
+  "_id": "69c59cb22101579a1783176a",
+  "name": "1v1 Winner-Take-All Rare Only 10-Round Bald Buff",
+  "description": "Winner-Take-All Rare Only 10-Round Bald Buff",
   "contestStatus": "OPEN",
   "format": "WINNER_TAKE_ALL",
-  "entryFee": 2000,
-  "prizePool": 35,
-  "entries": 1,
+  "entryFee": 500,
+  "prizePool": 8.75,
+  "entries": 2,
   "maxEntries": 2,
   "startDate": "2026-03-27T01:00:00.000Z",
   "endDate": "2026-03-27T05:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "LEGENDARY"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "LEGENDARY"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "LEGENDARY"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "LEGENDARY"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       }
     ],
     "schemeSlots": [
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-26T19:21:45.217Z",
+  "fetchedAt": "2026-03-26T21:43:27.989Z",
   "leaderboardFetched": true
 }
