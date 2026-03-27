@@ -1,82 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-27T13:39:39.753Z",
-  "total": 7,
+  "generatedAt": "2026-03-27T15:05:16.616Z",
+  "total": 2,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 7,
+    "OPEN": 2,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c676acf1424d2f670e0cb1",
-      "name": "1v1 Winner-Take-All One of each Star Cap 10-Round Archipelago Sparkle",
+      "_id": "69c69b8b2d4021bc89765057",
+      "name": "1v1 Winner-Take-All Open 10-Round Bald Ratz",
       "contestStatus": "OPEN",
       "startDate": "2026-03-27T17:00:00.000Z",
       "endDate": "2026-03-27T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 14,
+      "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c6766ec919039067831447",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Fortune Festival",
+      "_id": "69c69a2091b71df20c007f98",
+      "name": "1v1 Winner-Take-All Open 10-Round Trap Takoyaki",
       "contestStatus": "OPEN",
       "startDate": "2026-03-27T17:00:00.000Z",
       "endDate": "2026-03-27T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c6764ff1424d2f670e0c8b",
-      "name": "1v1 Winner-Take-All Open 10-Round Leaf Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-27T17:00:00.000Z",
-      "endDate": "2026-03-27T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c67625d6028d1a1625c591",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Belly Lantern",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-27T17:00:00.000Z",
-      "endDate": "2026-03-27T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c67612c919039067831427",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Incense Teapot",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-27T17:00:00.000Z",
-      "endDate": "2026-03-27T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c675f5c919039067831405",
-      "name": "Winner-Take-All Epic Only 10-Round Ratz Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-27T17:00:00.000Z",
-      "endDate": "2026-03-27T21:00:00.000Z",
-      "entries": 3,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69c675e3d6028d1a1625c56f",
-      "name": "Winner-Take-All Rare Only 10-Round Buff Mart",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-27T17:00:00.000Z",
-      "endDate": "2026-03-27T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
+      "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     }
   ]
