@@ -1,143 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-27T16:04:02.963Z",
-  "total": 13,
+  "generatedAt": "2026-03-27T22:49:21.075Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 13,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c59875f29208295ebc06de",
-      "name": "50/50 Rare Only 10-Round Sora Snack",
+      "_id": "69c701688857ea9a02e165fa",
+      "name": "1v1 Winner-Take-All Open 10-Round Incense Factory",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 735,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c599c510f30b195d58a977",
-      "name": "50/50 Open 10-Round Teapot Emblem",
+      "_id": "69c7014a8857ea9a02e165d8",
+      "name": "1v1 Winner-Take-All One of each 10-Round Sparkle Factory",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c598a3f29208295ebc06f7",
-      "name": "50/50 2R + 2E 10-Round Tanuki Festival",
+      "_id": "69c70127c1a27d2ea033d87e",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Bald Wart",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1487.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c59861f29208295ebc06c6",
-      "name": "50/50 Basic Only 10-Round Island Snack",
+      "_id": "69c700fc8857ea9a02e165af",
+      "name": "1v1 Winner-Take-All Open 10-Round Hotei Tanuki",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 630,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c5984110f30b195d58a951",
-      "name": "Free No Legendary 10-Round Lantern Takoyaki",
+      "_id": "69c700e28f4883dc2bd2ba06",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Badlands Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c59816f29208295ebc06a7",
-      "name": "50/50 Open 10-Round Wart Shinobu",
+      "_id": "69c6fdf71fd5900eae141921",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Gate Balls",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 4593.75,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c598082101579a178316ca",
-      "name": "50/50 Open 10-Round Ambrosia Yokai",
+      "_id": "69c6fddb7f901a26fbcd4c0e",
+      "name": "Winner-Take-All Epic Only 10-Round Mart Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 5512.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c597e510f30b195d58a92f",
-      "name": "50/50 Open 10-Round Tanuki Archipelago",
+      "_id": "69c6fd6de142675772350c83",
+      "name": "Winner-Take-All Rare Only 10-Round Artifact Hotei",
       "contestStatus": "OPEN",
       "startDate": "2026-03-28T01:00:00.000Z",
       "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 4025,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c597acf29208295ebc066d",
-      "name": "50/50 Rare Only 10-Round Anvil Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-28T01:00:00.000Z",
-      "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c588d3be68c7e7996cd267",
-      "name": "50/50 Epic Only 10-Round Koban Tanuki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-28T01:00:00.000Z",
-      "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c588a9f65c1783a9b2c657",
-      "name": "Top 20% Basic Only 10-Round Festival Artifact",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-28T01:00:00.000Z",
-      "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c58895f65c1783a9b2c633",
-      "name": "Top 20% 2R + 2E 10-Round Anvil Buff",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-28T01:00:00.000Z",
-      "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 393.75,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c58876be68c7e7996cd248",
-      "name": "50/50 Basic Only 10-Round Mart Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-28T01:00:00.000Z",
-      "endDate": "2026-03-28T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }

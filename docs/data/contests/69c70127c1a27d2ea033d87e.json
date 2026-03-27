@@ -1,0 +1,76 @@
+{
+  "_id": "69c70127c1a27d2ea033d87e",
+  "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Bald Wart",
+  "description": "Winner-Take-All Rare Only Star Cap 10-Round Bald Wart",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 500,
+  "prizePool": 8.75,
+  "entries": 2,
+  "maxEntries": 2,
+  "startDate": "2026-03-28T01:00:00.000Z",
+  "endDate": "2026-03-28T05:00:00.000Z",
+  "openDate": "2026-03-27T16:00:00.000Z",
+  "showDate": "2026-03-27T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 8
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W13-6-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-27T22:49:21.073Z",
+  "leaderboardFetched": false
+}
