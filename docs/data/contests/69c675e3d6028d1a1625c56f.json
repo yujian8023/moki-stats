@@ -1,25 +1,25 @@
 {
-  "_id": "69c5761514ec785501912a04",
-  "name": "50/50 One of each 10-Round Eggu Council",
-  "description": "50/50 One of each 10-Round Eggu Council",
+  "_id": "69c675e3d6028d1a1625c56f",
+  "name": "Winner-Take-All Rare Only 10-Round Buff Mart",
+  "description": "Winner-Take-All Rare Only 10-Round Buff Mart",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 500,
-  "prizePool": 656.25,
-  "entries": 0,
-  "maxEntries": 150,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 400,
+  "prizePool": 14,
+  "entries": 4,
+  "maxEntries": 4,
   "startDate": "2026-03-27T17:00:00.000Z",
   "endDate": "2026-03-27T21:00:00.000Z",
   "openDate": "2026-03-27T08:00:00.000Z",
   "showDate": "2026-03-27T08:00:00.000Z",
-  "featured": true,
+  "featured": false,
   "isPrivate": false,
   "lineupConfig": {
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
@@ -28,13 +28,13 @@
       },
       {
         "cardType": "nftai",
-        "minRarity": "EPIC",
-        "maxRarity": "EPIC"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "LEGENDARY",
-        "maxRarity": "LEGENDARY"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       }
     ],
     "schemeSlots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-27T09:05:26.263Z",
+  "fetchedAt": "2026-03-27T13:39:39.752Z",
   "leaderboardFetched": true
 }
