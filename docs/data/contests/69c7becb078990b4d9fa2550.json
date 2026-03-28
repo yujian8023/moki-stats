@@ -1,13 +1,13 @@
 {
-  "_id": "69c6e5e4994fe1eec27d1233",
-  "name": "50/50 2B + 2R 10-Round Trap Emblem",
-  "description": "50/50 2B + 2R 10-Round Trap Emblem",
+  "_id": "69c7becb078990b4d9fa2550",
+  "name": "1v1 Winner-Take-All One of each 10-Round Leaf Fortune",
+  "description": "Winner-Take-All One of each 10-Round Leaf Fortune",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 400,
-  "prizePool": 525,
-  "entries": 0,
-  "maxEntries": 150,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 800,
+  "prizePool": 14,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-03-28T17:00:00.000Z",
   "endDate": "2026-03-28T21:00:00.000Z",
   "openDate": "2026-03-28T08:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
-      },
-      {
-        "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
-      },
-      {
-        "cardType": "nftai",
         "minRarity": "COMMON",
         "maxRarity": "COMMON"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "LEGENDARY",
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-28T08:54:43.592Z",
+  "fetchedAt": "2026-03-28T13:16:50.760Z",
   "leaderboardFetched": true
 }
