@@ -1,13 +1,13 @@
 {
-  "_id": "69c6ea15260accf3ef562aca",
-  "name": "50/50 Rare Only 10-Round Temple Ratz",
-  "description": "50/50 Rare Only 10-Round Temple Ratz",
+  "_id": "69c8452568e078a6532efa2b",
+  "name": "1v1 Winner-Take-All Open 10-Round Ambrosia Sparkle",
+  "description": "Winner-Take-All Open 10-Round Ambrosia Sparkle",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 300,
-  "prizePool": 1312.5,
-  "entries": 2,
-  "maxEntries": 500,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 5000,
+  "prizePool": 87.5,
+  "entries": 0,
+  "maxEntries": 2,
   "startDate": "2026-03-29T01:00:00.000Z",
   "endDate": "2026-03-29T05:00:00.000Z",
   "openDate": "2026-03-28T16:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
-        "minRarity": "RARE",
-        "maxRarity": "RARE"
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -46,11 +46,11 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
@@ -70,6 +70,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-03-28T16:48:57.923Z",
+  "fetchedAt": "2026-03-28T21:41:07.065Z",
   "leaderboardFetched": true
 }
