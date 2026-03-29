@@ -1,113 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-29T08:55:46.980Z",
-  "total": 10,
+  "generatedAt": "2026-03-29T14:48:33.703Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c76bccdfea6b537d7436be",
-      "name": "Top 20% 2R + 2E 10-Round Yokai Shinobu",
+      "_id": "69c9284c99722e1cf45e6f65",
+      "name": "1v1 Winner-Take-All Open 10-Round Takoyaki Archipelago",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 328.13,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76be572f60d444a8edc99",
-      "name": "Top 20% Basic Only 10-Round Hotei Yaki",
+      "_id": "69c92822e6278eb57e51c02a",
+      "name": "1v1 Winner-Take-All One of each 10-Round Koban Yaki",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76c02dfea6b537d7436dd",
-      "name": "50/50 2B + 2R 10-Round Field Yokai",
+      "_id": "69c9280299722e1cf45e6f3f",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Yaki Badlands",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76c197f0e6d959f9350d2",
-      "name": "50/50 2R + 2E 10-Round Warrior Gate",
+      "_id": "69c927dcec5b101725817735",
+      "name": "1v1 Winner-Take-All Open 10-Round Yokai Syndicate",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76c48dfea6b537d74370b",
-      "name": "50/50 Open 10-Round Shapeshifter Lantern",
+      "_id": "69c927c2ec5b101725817711",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Sora Party",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76c70dfea6b537d743723",
-      "name": "50/50 Open 10-Round Lantern Tori",
+      "_id": "69c92797e6278eb57e51c008",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Ratz Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 7000,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76c837f0e6d959f935114",
-      "name": "50/50 Basic Only 10-Round Tanuki Gate",
+      "_id": "69c92757ec5b1017258176eb",
+      "name": "Winner-Take-All Epic Only 10-Round Festival Shapeshifter",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c76cb5dfea6b537d74373f",
-      "name": "Free Open 10-Round Warrior Party",
+      "_id": "69c9272599722e1cf45e6f21",
+      "name": "Winner-Take-All Rare Only 10-Round Ambrosia Balls",
       "contestStatus": "OPEN",
       "startDate": "2026-03-29T17:00:00.000Z",
       "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 21,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c76cd5dfea6b537d743757",
-      "name": "50/50 Rare Only 10-Round Horoki Lantern",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-29T17:00:00.000Z",
-      "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c76cfd72f60d444a8edce9",
-      "name": "50/50 Open 10-Round Island Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-29T17:00:00.000Z",
-      "endDate": "2026-03-29T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
