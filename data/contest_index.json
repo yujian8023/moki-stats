@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-30T17:09:28.645Z",
+  "generatedAt": "2026-03-30T19:16:24.113Z",
   "total": 9,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,94 +10,94 @@
   },
   "contests": [
     {
-      "_id": "69c86c2cf04546efd3bc317a",
-      "name": "50/50 Basic Only 10-Round Factory Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-31T01:00:00.000Z",
-      "endDate": "2026-03-31T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 420,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69c86cbc6fb71f54b1b4e9b1",
-      "name": "50/50 Open 10-Round Luck Shapeshifter",
+      "_id": "69cac90cf4f504b23538bdcb",
+      "name": "Winner-Take-All Epic Only 10-Round Field Island",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86c5e19ff06810b7683ca",
-      "name": "Top 20% 2B + 2R 10-Round Hotei Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-31T01:00:00.000Z",
-      "endDate": "2026-03-31T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69c86c7419ff06810b7683e0",
-      "name": "Free Open 10-Round Archipelago Larry",
-      "contestStatus": "OPEN",
-      "startDate": "2026-03-31T01:00:00.000Z",
-      "endDate": "2026-03-31T05:00:00.000Z",
-      "entries": 42,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69c86ca3eb635afa5834dfd6",
-      "name": "50/50 Open 10-Round Tama Incense",
+      "_id": "69cac9e44e07fdee77fd232e",
+      "name": "Winner-Take-All Open 10-Round Syndicate Warrior",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 7000,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 175,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86dbb19ff06810b768427",
-      "name": "50/50 2R + 2E 10-Round Balls Hotei",
+      "_id": "69cac91ef4f504b23538bded",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Ratz Tori",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86d84eb635afa5834e014",
-      "name": "50/50 2B + 2R 10-Round Shinobu Artifact",
+      "_id": "69cac9334e07fdee77fd22cb",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Archipelago Anvil",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86d4eeb635afa5834dffb",
-      "name": "50/50 Epic Only 10-Round Party Lantern",
+      "_id": "69cac949af6e99f75ccb5dbc",
+      "name": "1v1 Winner-Take-All Open 10-Round Gate Artifact",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 420,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86d176fb71f54b1b4e9c9",
-      "name": "50/50 Rare Only 10-Round Buff Teapot",
+      "_id": "69cac9624e07fdee77fd22eb",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Ambrosia Lantern",
       "contestStatus": "OPEN",
       "startDate": "2026-03-31T01:00:00.000Z",
       "endDate": "2026-03-31T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69cac986f4f504b23538be17",
+      "name": "1v1 Winner-Take-All One of each 10-Round Council Wart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-31T01:00:00.000Z",
+      "endDate": "2026-03-31T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69cac9a84e07fdee77fd230c",
+      "name": "1v1 Winner-Take-All Open 10-Round Field Tanuki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-31T01:00:00.000Z",
+      "endDate": "2026-03-31T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69cac8f7f4f504b23538bda9",
+      "name": "Winner-Take-All Rare Only 10-Round Gacha Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-31T01:00:00.000Z",
+      "endDate": "2026-03-31T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
