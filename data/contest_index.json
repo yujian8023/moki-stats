@@ -1,103 +1,143 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-30T09:44:27.213Z",
-  "total": 9,
+  "generatedAt": "2026-03-30T15:19:52.621Z",
+  "total": 13,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 9,
+    "OPEN": 13,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69c86957f04546efd3bc30eb",
-      "name": "Free Open 10-Round Sora Gacha",
+      "_id": "69ca8441ed7b670a9019351a",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Lantern Fortune",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 45,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c869f8eb635afa5834df50",
-      "name": "50/50 Open 10-Round Artifact Anvil",
+      "_id": "69ca8a5686b74c52c0bd7e10",
+      "name": "Winner-Take-All Open 10-Round Gacha Factory",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 175,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c8698919ff06810b76834b",
-      "name": "50/50 Rare Only 10-Round Larry Balls",
+      "_id": "69ca89efdbac8f4774c3556e",
+      "name": "1v1 Winner-Take-All Open 10-Round Gacha Mart",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 1312.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c869bff04546efd3bc3114",
-      "name": "50/50 Basic Only 10-Round Ratz Factory",
+      "_id": "69ca89c686b74c52c0bd7df2",
+      "name": "Winner-Take-All Open 10-Round Warrior Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 70,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c869e119ff06810b768369",
-      "name": "50/50 Open 10-Round Shinobu Snack",
+      "_id": "69ca851d86b74c52c0bd7dd4",
+      "name": "1v1 Winner-Take-All Open Star Cap 10-Round Leaf Ratz",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 7000,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86afff04546efd3bc3162",
-      "name": "50/50 Epic Only 10-Round Buff Snack",
+      "_id": "69ca84e9ed7b670a90193589",
+      "name": "1v1 Winner-Take-All One of each 10-Round Ratz Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 306.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86a88eb635afa5834df97",
-      "name": "Top 20% Basic Only 10-Round Hotei Koban",
+      "_id": "69ca84cced7b670a90193562",
+      "name": "1v1 Winner-Take-All Open 10-Round Mart Emblem",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86a63eb635afa5834df7e",
-      "name": "50/50 2B + 2R 10-Round Temple Tim",
+      "_id": "69ca84a3cae8d63fcdcd9ecb",
+      "name": "1v1 Winner-Take-All One of each 10-Round Trap Mart",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69c86a3b19ff06810b768395",
-      "name": "50/50 2R + 2E 10-Round Leaf Tori",
+      "_id": "69ca848386b74c52c0bd7da3",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Emblem Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-03-30T17:00:00.000Z",
       "endDate": "2026-03-30T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69ca8471ed7b670a9019353e",
+      "name": "1v1 Winner-Take-All Open 10-Round Fortune Badlands",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-30T17:00:00.000Z",
+      "endDate": "2026-03-30T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69ca845486b74c52c0bd7d83",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Festival Syndicate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-30T17:00:00.000Z",
+      "endDate": "2026-03-30T21:00:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69ca83f0ed7b670a901934f8",
+      "name": "Winner-Take-All Epic Only 10-Round Sora Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-30T17:00:00.000Z",
+      "endDate": "2026-03-30T21:00:00.000Z",
+      "entries": 1,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69ca83dbed7b670a901934d6",
+      "name": "Winner-Take-All Rare Only 10-Round Factory Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-03-30T17:00:00.000Z",
+      "endDate": "2026-03-30T21:00:00.000Z",
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
