@@ -1,93 +1,123 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-31T13:58:04.888Z",
-  "total": 8,
+  "generatedAt": "2026-03-31T17:11:39.494Z",
+  "total": 11,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 11,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69cbbe6dba8f7ef155671bb4",
-      "name": "1v1 Winner-Take-All Open 10-Round Trap Field",
+      "_id": "69cb11293555e30e0d135a01",
+      "name": "50/50 Rare Only 10-Round Lantern Syndicate",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
       "entries": 2,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbe4885c414eb88622a00",
-      "name": "1v1 Winner-Take-All One of each 10-Round Festival Trap",
+      "_id": "69cb117d1ad0f1af3650b9b7",
+      "name": "50/50 2E + 2L 10-Round Gacha Anvil",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 437.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbe25ba8f7ef155671b93",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 10-Round Wart Party",
+      "_id": "69cb11044c03bfc6be729ffe",
+      "name": "50/50 Basic Only 10-Round Hotei Factory",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 1,
+      "prizePool": 437.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbe0864fa31e9f4422756",
-      "name": "1v1 Winner-Take-All Open 10-Round Temple Island",
+      "_id": "69cb10d93555e30e0d1359e6",
+      "name": "50/50 Rare Only 10-Round Lantern Tama",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbde2ba8f7ef155671b72",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Incense Archipelago",
+      "_id": "69cb10bc3555e30e0d1359cd",
+      "name": "50/50 2B + 2R 10-Round Shapeshifter Factory",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 437.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbdc8ba8f7ef155671b58",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Larry Balls",
+      "_id": "69cb10a03555e30e0d1359b6",
+      "name": "50/50 2R + 2E 10-Round Artifact Yaki",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 612.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbdb364fa31e9f4422726",
-      "name": "Winner-Take-All Epic Only 10-Round Fortune Luck",
+      "_id": "69cb10563555e30e0d13599d",
+      "name": "50/50 Epic Only 10-Round Artifact Festival",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cbbd9fba8f7ef155671b3c",
-      "name": "Winner-Take-All Rare Only 10-Round Lantern Party",
+      "_id": "69cb10411ad0f1af3650b96d",
+      "name": "Top 20% 3B + 1R 10-Round Luck Larry",
       "contestStatus": "OPEN",
-      "startDate": "2026-03-31T17:00:00.000Z",
-      "endDate": "2026-03-31T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69cb10083555e30e0d135983",
+      "name": "Free Open 10-Round Anvil Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 52,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69cb0fd83555e30e0d135967",
+      "name": "50/50 Open 10-Round Mart Tama",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 7000,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cb0fc64c03bfc6be729f9d",
+      "name": "50/50 Open 10-Round Archipelago Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-01T01:00:00.000Z",
+      "endDate": "2026-04-01T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
