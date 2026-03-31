@@ -1,0 +1,81 @@
+{
+  "_id": "69cad329577a0504eb09499c",
+  "name": "Free Open 10-Round Koban Yokai",
+  "description": "Free Open 10-Round Koban Yokai",
+  "contestStatus": "OPEN",
+  "format": "FREE_ENTRY",
+  "entryFee": 0,
+  "prizePool": 0,
+  "entries": 25,
+  "maxEntries": 0,
+  "startDate": "2026-03-31T17:00:00.000Z",
+  "endDate": "2026-03-31T21:00:00.000Z",
+  "openDate": "2026-03-31T08:00:00.000Z",
+  "showDate": "2026-03-31T08:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 30
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 70
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W14-2-CW3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-03-31T09:14:31.172Z",
+  "leaderboardFetched": false
+}
