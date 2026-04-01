@@ -1,0 +1,75 @@
+{
+  "_id": "69cc8216fee926c3db97ff95",
+  "name": "Winner-Take-All Rare Only 10-Round Gate Fortune",
+  "description": "Winner-Take-All Rare Only 10-Round Gate Fortune",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 400,
+  "prizePool": 14,
+  "entries": 3,
+  "maxEntries": 4,
+  "startDate": "2026-04-01T09:00:00.000Z",
+  "endDate": "2026-04-01T13:00:00.000Z",
+  "openDate": "2026-04-01T00:00:00.000Z",
+  "showDate": "2026-04-01T00:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W14-3-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-04-01T03:38:14.574Z",
+  "leaderboardFetched": false
+}
