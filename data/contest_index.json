@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-01T09:20:24.692Z",
+  "generatedAt": "2026-04-01T17:08:52.482Z",
   "total": 11,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,113 +10,113 @@
   },
   "contests": [
     {
-      "_id": "69cc88b07ca2774835774e63",
-      "name": "50/50 2E + 2L 10-Round Island Sora",
+      "_id": "69cc8a65ee9fe4e8938773b5",
+      "name": "50/50 2E + 2L 10-Round Badlands Tim",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
       "entries": 0,
       "prizePool": 437.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cc8888ee9fe4e89387729a",
-      "name": "50/50 Open 10-Round Eggu Larry",
+      "_id": "69cc8a4a5301f85ee5dfd4fc",
+      "name": "50/50 Rare Only 10-Round Yaki Warrior",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc8a335301f85ee5dfd4d9",
+      "name": "50/50 Basic Only 10-Round Wart Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc8a181fa1157ae38c5c2d",
+      "name": "50/50 Rare Only 10-Round Sparkle Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 630,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc89d61fa1157ae38c5c0e",
+      "name": "50/50 2B + 2R 10-Round Gacha Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 2,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc89bcee9fe4e893877359",
+      "name": "50/50 2R + 2E 10-Round Bald Tama",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 428.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc89975301f85ee5dfd486",
+      "name": "50/50 Epic Only 10-Round Tori Field",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cc8979ee9fe4e893877332",
+      "name": "Top 20% Basic + Rare Only 10-Round Trap Archipelago",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69cc89565301f85ee5dfd46f",
+      "name": "Free Open 10-Round Warrior Temple",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
+      "entries": 55,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69cc8944ee9fe4e893877315",
+      "name": "50/50 Open 10-Round Luck Tim",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
       "entries": 0,
       "prizePool": 7000,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cc88727ca2774835774e42",
-      "name": "50/50 Open 10-Round Koban Leaf",
+      "_id": "69cc89325301f85ee5dfd44f",
+      "name": "50/50 Open 10-Round Eggu Belly",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
+      "startDate": "2026-04-02T01:00:00.000Z",
+      "endDate": "2026-04-02T05:00:00.000Z",
       "entries": 0,
       "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc88581fa1157ae38c5b81",
-      "name": "50/50 Rare Only 10-Round Teapot Luck",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 918.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc8824ee9fe4e893877279",
-      "name": "50/50 Basic Only 10-Round Tamakin Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc87e3ee9fe4e893877260",
-      "name": "Free Open 10-Round Larry Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 37,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69cc87cd1fa1157ae38c5b39",
-      "name": "50/50 Rare Only 10-Round Syndicate Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 656.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc879e1fa1157ae38c5b1f",
-      "name": "50/50 2B + 2R 10-Round Council Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc87217ca2774835774dd2",
-      "name": "50/50 2R + 2E 10-Round Tama Fortune",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc86f47ca2774835774db7",
-      "name": "Top 20% 2B + 2R 10-Round Teapot Council",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69cc86d71fa1157ae38c5ad3",
-      "name": "50/50 Epic Only 10-Round Eggu Tama",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-01T17:00:00.000Z",
-      "endDate": "2026-04-01T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
       "format": "FIFTY_FIFTY"
     }
   ]
