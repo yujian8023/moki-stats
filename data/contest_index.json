@@ -1,123 +1,113 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-01T17:08:52.482Z",
-  "total": 11,
+  "generatedAt": "2026-04-01T19:18:41.207Z",
+  "total": 10,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 11,
+    "OPEN": 10,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69cc8a65ee9fe4e8938773b5",
-      "name": "50/50 2E + 2L 10-Round Badlands Tim",
+      "_id": "69cd5e4b9d84f8718cb6cea6",
+      "name": "1v1 Winner-Take-All Open 3-Round Festival Island",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc8a4a5301f85ee5dfd4fc",
-      "name": "50/50 Rare Only 10-Round Yaki Warrior",
+      "_id": "69cd5de63ed20f55d3a0f9e3",
+      "name": "1v1 Winner-Take-All Open 3-Round Buff Island",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc8a335301f85ee5dfd4d9",
-      "name": "50/50 Basic Only 10-Round Wart Eggu",
+      "_id": "69cd5d93e9948e1ec4ab691d",
+      "name": "1v1 Winner-Take-All Open 3-Round Mart Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc8a181fa1157ae38c5c2d",
-      "name": "50/50 Rare Only 10-Round Sparkle Shinobu",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T01:00:00.000Z",
-      "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 630,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cc89d61fa1157ae38c5c0e",
-      "name": "50/50 2B + 2R 10-Round Gacha Tori",
+      "_id": "69cd5d703ed20f55d3a0f9c5",
+      "name": "1v1 Winner-Take-All One of each 3-Round Sora Island",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
       "entries": 2,
-      "prizePool": 306.25,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc89bcee9fe4e893877359",
-      "name": "50/50 2R + 2E 10-Round Bald Tama",
+      "_id": "69cd5d3ce9948e1ec4ab68f4",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Eggu Ratz",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 428.75,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc89975301f85ee5dfd486",
-      "name": "50/50 Epic Only 10-Round Tori Field",
+      "_id": "69cd5d0d9d84f8718cb6ce80",
+      "name": "1v1 Winner-Take-All Open 3-Round Emblem Ambrosia",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc8979ee9fe4e893877332",
-      "name": "Top 20% Basic + Rare Only 10-Round Trap Archipelago",
+      "_id": "69cd5cd73ed20f55d3a0f990",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Yokai Snack",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "entries": 1,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc89565301f85ee5dfd46f",
-      "name": "Free Open 10-Round Warrior Temple",
+      "_id": "69cd5ca6e9948e1ec4ab68cf",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Syndicate Festival",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 55,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 1,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc8944ee9fe4e893877315",
-      "name": "50/50 Open 10-Round Luck Tim",
+      "_id": "69cd5c7d9d84f8718cb6ce5e",
+      "name": "Winner-Take-All Epic Only 3-Round Archipelago Tim",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 7000,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cc89325301f85ee5dfd44f",
-      "name": "50/50 Open 10-Round Eggu Belly",
+      "_id": "69cd5c4d9d84f8718cb6ce2e",
+      "name": "Winner-Take-All Rare Only 3-Round Tama Sparkle",
       "contestStatus": "OPEN",
       "startDate": "2026-04-02T01:00:00.000Z",
       "endDate": "2026-04-02T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }

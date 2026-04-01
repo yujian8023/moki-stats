@@ -1,0 +1,77 @@
+{
+  "_id": "69cd5de63ed20f55d3a0f9e3",
+  "name": "1v1 Winner-Take-All Open 3-Round Buff Island",
+  "description": "Winner-Take-All Open 3-Round Buff Island",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 5000,
+  "prizePool": 87.5,
+  "entries": 1,
+  "maxEntries": 2,
+  "startDate": "2026-04-02T01:00:00.000Z",
+  "endDate": "2026-04-02T05:00:00.000Z",
+  "openDate": "2026-04-01T16:00:00.000Z",
+  "showDate": "2026-04-01T16:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W14-4-CW1-R1",
+    "season1-2026-W14-4-CW1-R2",
+    "season1-2026-W14-4-CW1-R3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-04-01T19:18:41.205Z",
+  "leaderboardFetched": false
+}
