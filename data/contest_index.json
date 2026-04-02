@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-02T03:22:32.007Z",
+  "generatedAt": "2026-04-02T09:12:21.641Z",
   "total": 9,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,93 +10,93 @@
   },
   "contests": [
     {
-      "_id": "69cd6a20af42616f0be2c66e",
-      "name": "50/50 Open 10-Round Field Horoki",
+      "_id": "69cd85d3d325a9eb4ff66d91",
+      "name": "50/50 Open 10-Round Ratz Tamakin",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 13,
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 8750,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cd6a915105a2212a32fc0a",
-      "name": "Free Open 10-Round Sora Horoki",
+      "_id": "69cd8579d325a9eb4ff66d78",
+      "name": "Top 20% 2B + 2R 10-Round Takoyaki Sparkle",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 142,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69cd6ad309f870e8b358db19",
-      "name": "50/50 Epic Only 10-Round Temple Horoki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 16,
-      "prizePool": 765.63,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cd6af209f870e8b358db44",
-      "name": "50/50 Rare Only 20-Round Horoki Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
+      "startDate": "2026-04-02T17:00:00.000Z",
       "endDate": "2026-04-02T21:00:00.000Z",
-      "entries": 13,
-      "prizePool": 341.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cd6b095105a2212a32fc46",
-      "name": "50/50 Basic Only 10-Round Sora Trap",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 7,
-      "prizePool": 284.38,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cd6b295105a2212a32fc5e",
-      "name": "50/50 Rare Only 10-Round Party Shinobu",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 45,
-      "prizePool": 1181.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cd6ba15105a2212a32fc76",
-      "name": "Top 20% Basic + Rare Only 10-Round Factory Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 53,
-      "prizePool": 175,
+      "entries": 0,
+      "prizePool": 262.5,
       "format": "TOP_20_PCT"
     },
     {
-      "_id": "69cd6bfa09f870e8b358dba1",
-      "name": "50/50 Basic Only 10-Round Koban Emblem",
+      "_id": "69cd85196bd91eab4c66e891",
+      "name": "50/50 Rare Only 10-Round Hotei Anvil",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 28,
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 12,
+      "prizePool": 875,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cd84e26bd91eab4c66e878",
+      "name": "50/50 Basic Only 10-Round Field Badlands",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
       "prizePool": 393.75,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69cd6d7709f870e8b358dbb7",
-      "name": "50/50 2R + 2E 10-Round Larry Takoyaki",
+      "_id": "69cd84c86bd91eab4c66e85e",
+      "name": "Free Open 10-Round Incense Teapot",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-02T09:00:00.000Z",
-      "endDate": "2026-04-02T13:00:00.000Z",
-      "entries": 10,
-      "prizePool": 175,
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 28,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69cd84aa6bd91eab4c66e838",
+      "name": "50/50 Rare Only 10-Round Gacha Bald",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 708.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cd84916bd91eab4c66e814",
+      "name": "50/50 2B + 2R 10-Round Tamakin Tama",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cd847bd325a9eb4ff66d3a",
+      "name": "50/50 2R + 2E 10-Round Emblem Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 367.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69cd8465c1e3e29dff4d1cb2",
+      "name": "50/50 Epic Only 10-Round Ratz Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-02T17:00:00.000Z",
+      "endDate": "2026-04-02T21:00:00.000Z",
+      "entries": 0,
+      "prizePool": 490,
       "format": "FIFTY_FIFTY"
     }
   ]
