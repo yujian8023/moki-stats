@@ -1,36 +1,5 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-02T22:48:07.978Z",
-  "tasks": [
-    {
-      "id": "task_69ce94b1da14d2acd736d63a",
-      "contestId": "69ce94b1da14d2acd736d63a",
-      "type": "fetchLeaderboard",
-      "executeAt": "2026-04-02T22:49:06.475Z",
-      "status": "pending",
-      "retryCount": 2,
-      "createdAt": "2026-04-02T17:07:03.396Z",
-      "lastError": "竞赛信息不存在"
-    },
-    {
-      "id": "task_69ce949529cb9ae7fd35b978",
-      "contestId": "69ce949529cb9ae7fd35b978",
-      "type": "fetchLeaderboard",
-      "executeAt": "2026-04-02T22:49:06.976Z",
-      "status": "pending",
-      "retryCount": 2,
-      "createdAt": "2026-04-02T17:07:03.396Z",
-      "lastError": "竞赛信息不存在"
-    },
-    {
-      "id": "task_69ce9460da14d2acd736d618",
-      "contestId": "69ce9460da14d2acd736d618",
-      "type": "fetchLeaderboard",
-      "executeAt": "2026-04-02T22:49:07.477Z",
-      "status": "pending",
-      "retryCount": 2,
-      "createdAt": "2026-04-02T17:07:03.396Z",
-      "lastError": "竞赛信息不存在"
-    }
-  ]
+  "updatedAt": "2026-04-02T23:48:14.042Z",
+  "tasks": []
 }
