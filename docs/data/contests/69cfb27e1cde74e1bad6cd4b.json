@@ -1,13 +1,13 @@
 {
-  "_id": "69cf0ed52714b0e98ea5cdce",
-  "name": "50/50 Basic Only 10-Round Party Takoyaki",
-  "description": "50/50 Basic Only 10-Round Party Takoyaki",
+  "_id": "69cfb27e1cde74e1bad6cd4b",
+  "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Luck Trap",
+  "description": "Winner-Take-All Rare Only Star Cap 3-Round Luck Trap",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 200,
-  "prizePool": 402.5,
-  "entries": 1,
-  "maxEntries": 230,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 500,
+  "prizePool": 8.75,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-04-03T17:00:00.000Z",
   "endDate": "2026-04-03T21:00:00.000Z",
   "openDate": "2026-04-03T08:00:00.000Z",
@@ -18,23 +18,23 @@
     "slots": [
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       },
       {
         "cardType": "nftai",
-        "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
       }
     ],
     "schemeSlots": [
@@ -43,21 +43,24 @@
       }
     ],
     "allowDuplicateChampions": false,
-    "cardUsageLimitPerContest": 1
+    "cardUsageLimitPerContest": 1,
+    "totalRankCap": 10
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
     ]
   },
   "matchGroups": [
-    "season1-2026-W14-5-CW3"
+    "season1-2026-W14-5-CW3-R1",
+    "season1-2026-W14-5-CW3-R2",
+    "season1-2026-W14-5-CW3-R3"
   ],
   "gameTypes": [
     "threeways"
@@ -70,6 +73,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-04-03T09:07:32.194Z",
+  "fetchedAt": "2026-04-03T13:36:22.743Z",
   "leaderboardFetched": true
 }

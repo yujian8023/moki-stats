@@ -1,13 +1,13 @@
 {
-  "_id": "69cf0ed52714b0e98ea5cdce",
-  "name": "50/50 Basic Only 10-Round Party Takoyaki",
-  "description": "50/50 Basic Only 10-Round Party Takoyaki",
+  "_id": "69cfb2c61cde74e1bad6cd75",
+  "name": "1v1 Winner-Take-All Open 3-Round Tim Field",
+  "description": "Winner-Take-All Open 3-Round Tim Field",
   "contestStatus": "OPEN",
-  "format": "FIFTY_FIFTY",
-  "entryFee": 200,
-  "prizePool": 402.5,
-  "entries": 1,
-  "maxEntries": 230,
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 5000,
+  "prizePool": 87.5,
+  "entries": 2,
+  "maxEntries": 2,
   "startDate": "2026-04-03T17:00:00.000Z",
   "endDate": "2026-04-03T21:00:00.000Z",
   "openDate": "2026-04-03T08:00:00.000Z",
@@ -19,22 +19,22 @@
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       },
       {
         "cardType": "nftai",
         "minRarity": "COMMON",
-        "maxRarity": "COMMON"
+        "maxRarity": "LEGENDARY"
       }
     ],
     "schemeSlots": [
@@ -46,18 +46,20 @@
     "cardUsageLimitPerContest": 1
   },
   "prizeStructure": {
-    "type": "EQUAL_SPLIT",
+    "type": "WINNER_TAKE_ALL",
     "distribution": [
       {
         "rankStart": 1,
-        "rankEnd": -1,
+        "rankEnd": 1,
         "type": "PERCENTAGE",
         "value": 100
       }
     ]
   },
   "matchGroups": [
-    "season1-2026-W14-5-CW3"
+    "season1-2026-W14-5-CW3-R1",
+    "season1-2026-W14-5-CW3-R2",
+    "season1-2026-W14-5-CW3-R3"
   ],
   "gameTypes": [
     "threeways"
@@ -70,6 +72,6 @@
     }
   ],
   "scoringMethod": "V4",
-  "fetchedAt": "2026-04-03T09:07:32.194Z",
+  "fetchedAt": "2026-04-03T13:36:22.742Z",
   "leaderboardFetched": true
 }

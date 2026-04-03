@@ -1,113 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T09:07:32.195Z",
-  "total": 10,
+  "generatedAt": "2026-04-03T13:36:22.744Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69cf0f74f67cf1d815772e33",
-      "name": "Winner-Take-All Rare Only 10-Round BATTLE ROYALE",
+      "_id": "69cfb2c61cde74e1bad6cd75",
+      "name": "1v1 Winner-Take-All Open 3-Round Tim Field",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
       "entries": 2,
-      "prizePool": 17.5,
+      "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0f26f67cf1d815772e1c",
-      "name": "Top 20% 2B + 2R 10-Round Sora Fortune",
+      "_id": "69cfb2a4069a7879b9600e33",
+      "name": "1v1 Winner-Take-All One of each 3-Round Temple Wart",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 262.5,
-      "format": "TOP_20_PCT"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0f11fbc80f4f50353b7f",
-      "name": "50/50 Open 10-Round Larry Warrior",
+      "_id": "69cfb27e1cde74e1bad6cd4b",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Luck Trap",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0ef6fbc80f4f50353b65",
-      "name": "50/50 Rare Only 10-Round Ambrosia Gate",
+      "_id": "69cfb25b48d11c165f24df3c",
+      "name": "1v1 Winner-Take-All Open 3-Round Field Lantern",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 918.75,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0ed52714b0e98ea5cdce",
-      "name": "50/50 Basic Only 10-Round Party Takoyaki",
+      "_id": "69cfb23a1cde74e1bad6cd29",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Temple Gate",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 402.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0ec0f67cf1d815772df5",
-      "name": "Free Open 10-Round Emblem Yaki",
+      "_id": "69cfb21e1cde74e1bad6cd07",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Party Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 18,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0e652714b0e98ea5cdb6",
-      "name": "50/50 Rare Only 10-Round Sparkle Gate",
+      "_id": "69cfb20448d11c165f24df19",
+      "name": "Winner-Take-All Epic Only 3-Round Island Festival",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 5,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf0e4efbc80f4f50353b0b",
-      "name": "50/50 2B + 2R 10-Round Takoyaki Sora",
+      "_id": "69cfb1e348d11c165f24defc",
+      "name": "Winner-Take-All Rare Only 3-Round Temple Gate",
       "contestStatus": "OPEN",
       "startDate": "2026-04-03T17:00:00.000Z",
       "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 5,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cf0e35f67cf1d815772dda",
-      "name": "50/50 2R + 2E 10-Round Shapeshifter Luck",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-03T17:00:00.000Z",
-      "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 428.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cf0e1cfbc80f4f50353ad6",
-      "name": "50/50 Epic Only 10-Round Island Factory",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-03T17:00:00.000Z",
-      "endDate": "2026-04-03T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 560,
-      "format": "FIFTY_FIFTY"
+      "entries": 3,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
