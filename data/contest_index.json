@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-02T19:12:03.436Z",
+  "generatedAt": "2026-04-03T03:24:02.839Z",
   "total": 8,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,84 +10,84 @@
   },
   "contests": [
     {
-      "_id": "69ceb5912c81a2353a02b5f8",
-      "name": "1v1 Winner-Take-All One of each 3-Round Field Temple",
+      "_id": "69ce9dcd948f18c5c64a61e7",
+      "name": "50/50 Open 10-Round Emblem Shinobu",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 5,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ceb5632a857aa1bd5d6c1b",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Sparkle Tori",
+      "_id": "69ce9deb4083efed92e93c82",
+      "name": "Free Open 10-Round Belly Shinobu",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 193,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
     },
     {
-      "_id": "69ceb51c2a857aa1bd5d6bf9",
-      "name": "1v1 Winner-Take-All Open 3-Round Buff Lantern",
+      "_id": "69ce9e032c81a2353a02b523",
+      "name": "50/50 Epic Only 10-Round Larry Takoyaki",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 18,
+      "prizePool": 765.63,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ceb4c9a777c8af26f939f2",
-      "name": "1v1 Winner-Take-All Epic Only 3-Round Sora Snack",
+      "_id": "69ce9e22948f18c5c64a620d",
+      "name": "50/50 Basic Only 10-Round Fortune Teapot",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ceb493a777c8af26f939d0",
-      "name": "1v1 Winner-Take-All Rare Only 3-Round Snack Ratz",
+      "_id": "69ce9e38948f18c5c64a6234",
+      "name": "50/50 Rare Only 10-Round Tanuki Sora",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 35,
+      "prizePool": 1207.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ceb472a777c8af26f939b1",
-      "name": "Winner-Take-All Epic Only 3-Round Archipelago Sora",
+      "_id": "69ce9e57948f18c5c64a624f",
+      "name": "Top 20% Basic + Rare Only 10-Round Lantern Tanuki",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 20,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69ceb44d2c81a2353a02b5ce",
-      "name": "Winner-Take-All Rare Only 3-Round Fortune Yokai",
+      "_id": "69ce9e7c948f18c5c64a6268",
+      "name": "50/50 Basic Only 10-Round Tama Balls",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 1,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 47,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69ceb5b4a777c8af26f93a14",
-      "name": "1v1 Winner-Take-All Open 3-Round Balls Party",
+      "_id": "69ce9e91948f18c5c64a628c",
+      "name": "50/50 2R + 2E 10-Round Shapeshifter Trap",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-03T01:00:00.000Z",
-      "endDate": "2026-04-03T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-03T09:00:00.000Z",
+      "endDate": "2026-04-03T13:00:00.000Z",
+      "entries": 10,
+      "prizePool": 175,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
