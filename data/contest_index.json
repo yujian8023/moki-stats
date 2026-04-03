@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:55:22.308Z",
-  "total": 9,
+  "generatedAt": "2026-04-03T19:49:49.201Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 9,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69cf11adfbc80f4f50353c35",
-      "name": "50/50 Rare Only 10-Round Gate Snack",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69cf1182f67cf1d815772ed0",
-      "name": "50/50 Basic Only 10-Round Yaki Warrior",
+      "_id": "69d017a8495d8192bb00cf1e",
+      "name": "1v1 Winner-Take-All One of each 3-Round Syndicate Mart",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 385,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf1169fbc80f4f50353c0c",
-      "name": "50/50 Rare Only 10-Round Mart Artifact",
+      "_id": "69d0177d0c9d030d586171b1",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Leaf Tamakin",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 682.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf114b2714b0e98ea5ce5e",
-      "name": "50/50 2B + 2R 10-Round Gacha Island",
+      "_id": "69d017500c9d030d58617192",
+      "name": "1v1 Winner-Take-All Open 3-Round Sparkle Warrior",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf1116fbc80f4f50353bee",
-      "name": "50/50 2R + 2E 10-Round Artifact Buff",
+      "_id": "69d01722495d8192bb00cef7",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Tori Warrior",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf10d0fbc80f4f50353bd7",
-      "name": "50/50 Epic Only 10-Round Fortune Wart",
+      "_id": "69d016e40c9d030d5861716e",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Incense Tim",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 490,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69cf10b0f67cf1d815772e69",
-      "name": "Top 20% Basic + Rare Only 10-Round Field Warrior",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 3,
-      "prizePool": 218.75,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69cf106bfbc80f4f50353bbc",
-      "name": "Free Open 10-Round Archipelago Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 42,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69cf100cf67cf1d815772e4e",
-      "name": "50/50 Open 10-Round Gacha Takoyaki",
+      "_id": "69d0148ebe197ba2b56b7274",
+      "name": "Winner-Take-All Epic Only 3-Round Island Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T01:00:00.000Z",
       "endDate": "2026-04-04T05:00:00.000Z",
       "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0143b0c9d030d58617138",
+      "name": "Winner-Take-All Rare Only 3-Round Tim Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-04T01:00:00.000Z",
+      "endDate": "2026-04-04T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d017dc0c9d030d586171db",
+      "name": "1v1 Winner-Take-All Open 3-Round Leaf Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-04T01:00:00.000Z",
+      "endDate": "2026-04-04T05:00:00.000Z",
+      "entries": 0,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
