@@ -1,0 +1,75 @@
+{
+  "_id": "69d04d6415ef5cc3212bd605",
+  "name": "50/50 Epic Only 10-Round Festival Emblem",
+  "description": "50/50 Epic Only 10-Round Festival Emblem",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 800,
+  "prizePool": 630,
+  "entries": 0,
+  "maxEntries": 90,
+  "startDate": "2026-04-04T17:00:00.000Z",
+  "endDate": "2026-04-04T21:00:00.000Z",
+  "openDate": "2026-04-04T08:00:00.000Z",
+  "showDate": "2026-04-04T08:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W14-6-CW3"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V4",
+  "fetchedAt": "2026-04-04T08:55:38.751Z",
+  "leaderboardFetched": false
+}
