@@ -1,113 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-04T08:55:38.752Z",
-  "total": 10,
+  "generatedAt": "2026-04-04T11:38:40.631Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d06f3dd49fd0e1bc4a9a5b",
-      "name": "50/50 One of each 10-Round Fortune Mart",
+      "_id": "69d0f83dde1740c4c7d0e2df",
+      "name": "1v1 Winner-Take-All Open 3-Round Lantern Gate",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04e7170a7b45a7af8ed6f",
-      "name": "50/50 2B + 2R 10-Round Warrior Balls",
+      "_id": "69d0f81923800863e6de5cd7",
+      "name": "1v1 Winner-Take-All One of each 3-Round Mart Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04e2615ef5cc3212bd68a",
-      "name": "50/50 Rare Only 10-Round Yaki Belly",
+      "_id": "69d0f7f32741f01c792e07a9",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Shinobu Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04e0b70a7b45a7af8ed52",
-      "name": "50/50 Basic Only 10-Round Tori Hotei",
+      "_id": "69d0f7b723800863e6de5cb8",
+      "name": "1v1 Winner-Take-All Open 3-Round Teapot Emblem",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04de315ef5cc3212bd651",
-      "name": "Free Open 10-Round Council Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-04T17:00:00.000Z",
-      "endDate": "2026-04-04T21:00:00.000Z",
-      "entries": 18,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69d04dc470a7b45a7af8ed3b",
-      "name": "50/50 Rare Only 10-Round Teapot Archipelago",
+      "_id": "69d0f75c2741f01c792e0782",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Council Field",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04dafc4cb7eb7147bfb36",
-      "name": "50/50 2R + 2E 10-Round Archipelago Tanuki",
+      "_id": "69d0f7372741f01c792e0760",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Yaki Tanuki",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04d8615ef5cc3212bd61d",
-      "name": "50/50 Open 10-Round Bald Luck",
+      "_id": "69d0f7132741f01c792e073e",
+      "name": "Winner-Take-All Epic Only 3-Round Badlands Leaf",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d04d6415ef5cc3212bd605",
-      "name": "50/50 Epic Only 10-Round Festival Emblem",
+      "_id": "69d0f6f82741f01c792e071c",
+      "name": "Winner-Take-All Rare Only 3-Round Warrior Leaf",
       "contestStatus": "OPEN",
       "startDate": "2026-04-04T17:00:00.000Z",
       "endDate": "2026-04-04T21:00:00.000Z",
       "entries": 0,
-      "prizePool": 630,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d04d4815ef5cc3212bd5e7",
-      "name": "Top 20% 2B + 2R 10-Round Luck Council",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-04T17:00:00.000Z",
-      "endDate": "2026-04-04T21:00:00.000Z",
-      "entries": 1,
-      "prizePool": 236.25,
-      "format": "TOP_20_PCT"
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
