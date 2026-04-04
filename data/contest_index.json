@@ -1,93 +1,103 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T19:49:49.201Z",
-  "total": 8,
+  "generatedAt": "2026-04-04T03:12:17.390Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 9,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d017a8495d8192bb00cf1e",
-      "name": "1v1 Winner-Take-All One of each 3-Round Syndicate Mart",
+      "_id": "69d023230174800ffb4bb1e6",
+      "name": "50/50 2R + 2E 10-Round Yaki Archipelago",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 11,
+      "prizePool": 210,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d0177d0c9d030d586171b1",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Leaf Tamakin",
+      "_id": "69d022a10174800ffb4bb1ce",
+      "name": "50/50 Rare Only 10-Round Lantern Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 19,
+      "prizePool": 918.75,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d017500c9d030d58617192",
-      "name": "1v1 Winner-Take-All Open 3-Round Sparkle Warrior",
+      "_id": "69d0227f0c9d030d5861725e",
+      "name": "50/50 Basic Only 10-Round Anvil Gacha",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 15,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d01722495d8192bb00cef7",
-      "name": "1v1 Winner-Take-All Epic Only 3-Round Tori Warrior",
+      "_id": "69d022564b9a8f5f0d04e25e",
+      "name": "Top 20% Basic + Rare Only 10-Round Emblem Snack",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 13,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69d016e40c9d030d5861716e",
-      "name": "1v1 Winner-Take-All Rare Only 3-Round Incense Tim",
+      "_id": "69d022330174800ffb4bb192",
+      "name": "50/50 Rare Only 10-Round Snack Lantern",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 23,
+      "prizePool": 1207.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d0148ebe197ba2b56b7274",
-      "name": "Winner-Take-All Epic Only 3-Round Island Tama",
+      "_id": "69d0220c4b9a8f5f0d04e21a",
+      "name": "50/50 Basic Only 10-Round Syndicate Yokai",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d0143b0c9d030d58617138",
-      "name": "Winner-Take-All Rare Only 3-Round Tim Luck",
+      "_id": "69d021f10c9d030d58617223",
+      "name": "50/50 Epic Only 10-Round Buff Temple",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 765.63,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d017dc0c9d030d586171db",
-      "name": "1v1 Winner-Take-All Open 3-Round Leaf Party",
+      "_id": "69d021d30174800ffb4bb168",
+      "name": "Free Open 10-Round Buff Artifact",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-04T01:00:00.000Z",
-      "endDate": "2026-04-04T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 101,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69d021bc0c9d030d58617201",
+      "name": "50/50 Open 10-Round Wart Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-04T09:00:00.000Z",
+      "endDate": "2026-04-04T13:00:00.000Z",
+      "entries": 9,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
