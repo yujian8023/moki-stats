@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-04T16:50:33.640Z",
+  "generatedAt": "2026-04-05T03:34:20.266Z",
   "total": 17,
   "byStatus": {
     "COMPLETED": 0,
@@ -10,173 +10,173 @@
   },
   "contests": [
     {
-      "_id": "69d0f9d8de1740c4c7d0e358",
-      "name": "1v1 Winner-Take-All One of each 3-Round Buff Warrior",
+      "_id": "69d0fc608b381e1c2630a2ad",
+      "name": "1v1 Winner-Take-All Open 3-Round Party Tori",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d0f99e2741f01c792e080b",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Ratz Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d0f976de1740c4c7d0e338",
-      "name": "1v1 Winner-Take-All Open 3-Round Badlands Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
       "entries": 2,
       "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d0f9052741f01c792e07ed",
-      "name": "1v1 Winner-Take-All Epic Only 3-Round Tori Lantern",
+      "_id": "69d068d3c1eada5f9854b337",
+      "name": "50/50 Epic Only 10-Round Archipelago Council",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 5,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d0f8afde1740c4c7d0e31c",
-      "name": "1v1 Winner-Take-All Rare Only 3-Round Yokai Festival",
+      "_id": "69d0fb432741f01c792e084e",
+      "name": "1v1 Winner-Take-All Open 10-Round Shapeshifter Teapot",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d0f88fde1740c4c7d0e2fe",
-      "name": "Winner-Take-All Epic Only 3-Round Luck Eggu",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d0f8722741f01c792e07ce",
-      "name": "Winner-Take-All Rare Only 3-Round Mart Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d0fa132741f01c792e0827",
-      "name": "1v1 Winner-Take-All Open 3-Round Field Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
       "entries": 2,
       "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d06e8ca3f54ce9e22ac0de",
-      "name": "50/50 Basic Only 10-Round Incense Snack",
+      "_id": "69d0fb11de1740c4c7d0e3b4",
+      "name": "1v1 Winner-Take-All One of each 3-Round Wart Tamakin",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0faf88b381e1c2630a285",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Yaki Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0fabf8b381e1c2630a268",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Badlands Wart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 1,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0fa8f23800863e6de5d15",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Artifact Council",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0fa58de1740c4c7d0e379",
+      "name": "Winner-Take-All Epic Only 3-Round Ratz Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 3,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d0fa3e23800863e6de5cf8",
+      "name": "Winner-Take-All Rare Only 3-Round Shinobu Tanuki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d068856a7b734dd433520d",
+      "name": "50/50 Open 10-Round Incense Trap",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 12,
+      "prizePool": 8750,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d068562aa004f75b5a83a0",
-      "name": "50/50 Rare Only 10-Round Snack Shinobu",
+      "_id": "69d068bce4c16dc724f8fd64",
+      "name": "Free Open 10-Round Badlands Gacha",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d06826e4c16dc724f8fd30",
-      "name": "50/50 Rare Only 10-Round Snack Island",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 708.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d067e96a7b734dd43351c1",
-      "name": "50/50 2B + 2R 10-Round Luck Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 371.88,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d067ce2aa004f75b5a8361",
-      "name": "50/50 2R + 2E 10-Round Tim Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 428.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d067bb6a7b734dd433519f",
-      "name": "50/50 Epic Only 10-Round Badlands Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 525,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d067a2e4c16dc724f8fcf0",
-      "name": "Top 20% Basic Only 10-Round Koban Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 218.75,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69d067856a7b734dd4335180",
-      "name": "Free Open 10-Round Belly Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 14,
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 93,
       "prizePool": 0,
       "format": "FREE_ENTRY"
     },
     {
-      "_id": "69d0676d6a7b734dd4335152",
-      "name": "50/50 Open 10-Round Badlands Wart",
+      "_id": "69d0696ee4c16dc724f8fdc9",
+      "name": "50/50 Rare Only 10-Round Field Horoki",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-05T01:00:00.000Z",
-      "endDate": "2026-04-05T05:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 5,
+      "prizePool": 218.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d069432aa004f75b5a8436",
+      "name": "50/50 2R + 2E 10-Round Anvil Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 6,
+      "prizePool": 192.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d0692ac1eada5f9854b367",
+      "name": "50/50 Basic Only 10-Round Tim Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 30,
+      "prizePool": 385,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d069132aa004f75b5a8408",
+      "name": "Top 20% Basic + Rare Only 10-Round Field Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 42,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69d06901e4c16dc724f8fd92",
+      "name": "50/50 Rare Only 10-Round Buff Archipelago",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 45,
+      "prizePool": 1207.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d068eb2aa004f75b5a83de",
+      "name": "50/50 Basic Only 10-Round Belly Tim",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-05T09:00:00.000Z",
+      "endDate": "2026-04-05T13:00:00.000Z",
+      "entries": 3,
+      "prizePool": 306.25,
       "format": "FIFTY_FIFTY"
     }
   ]
