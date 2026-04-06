@@ -1,72 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T20:51:48.703Z",
-  "total": 6,
+  "generatedAt": "2026-04-06T21:49:02.947Z",
+  "total": 3,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 6,
+    "OPEN": 3,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d41b9c9b8c01fcec5e4d0c",
-      "name": "50/50 Open 10-Round Warrior Bald",
+      "_id": "69d41cf37993dd0af4349f9a",
+      "name": "50/50 Rare Only 10-Round Bald Eggu",
       "contestStatus": "OPEN",
       "startDate": "2026-04-07T00:00:00.000Z",
       "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
+      "entries": 8,
+      "prizePool": 1050,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d41bd79b8c01fcec5e4d2f",
-      "name": "Free Open 10-Round Wart Takoyaki",
+      "_id": "69d41d1bb21ca34028625684",
+      "name": "50/50 Rare Only 10-Round Emblem Fortune",
       "contestStatus": "OPEN",
       "startDate": "2026-04-07T00:00:00.000Z",
       "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 3,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69d41c5acc1e13f096535905",
-      "name": "Top 20% Basic Only 10-Round Emblem Incense",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 175,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69d41c78b21ca34028625611",
-      "name": "50/50 Epic Only 10-Round Sparkle Larry",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 525,
+      "entries": 10,
+      "prizePool": 708.75,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d41c8ab21ca3402862562e",
-      "name": "50/50 2R + 2E 10-Round Sparkle Island",
+      "_id": "69d41d39b21ca3402862569a",
+      "name": "50/50 Basic Only 10-Round Tim Shapeshifter",
       "contestStatus": "OPEN",
       "startDate": "2026-04-07T00:00:00.000Z",
       "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 428.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d41cbab21ca34028625643",
-      "name": "50/50 2B + 2R 10-Round Shinobu Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 371.88,
+      "entries": 5,
+      "prizePool": 262.5,
       "format": "FIFTY_FIFTY"
     }
   ]
