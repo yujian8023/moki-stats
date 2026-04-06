@@ -1,103 +1,93 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T08:00:37.581Z",
-  "total": 9,
+  "generatedAt": "2026-04-06T13:42:10.889Z",
+  "total": 8,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 9,
+    "OPEN": 8,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d1d82fae206b235b88bdc5",
-      "name": "50/50 2B + 2R 10-Round Field Shapeshifter",
+      "_id": "69d39a270247427188dcd853",
+      "name": "1v1 Winner-Take-All Open 3-Round Yokai Ratz",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d81dae206b235b88bdae",
-      "name": "50/50 Rare Only 10-Round Buff Party",
+      "_id": "69d399f188ed876312593a50",
+      "name": "1v1 Winner-Take-All One of each 3-Round Warrior Balls",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 875,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d8002255616fd4a25ef8",
-      "name": "50/50 Basic Only 10-Round Council Warrior",
+      "_id": "69d399ba88ed876312593a35",
+      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Ratz Tanuki",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d7e42255616fd4a25ee1",
-      "name": "Free Open 10-Round Tori Lantern",
+      "_id": "69d399740606500f3b3645c5",
+      "name": "1v1 Winner-Take-All Open 3-Round Festival Sora",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d7802255616fd4a25eca",
-      "name": "50/50 Rare Only 10-Round Takoyaki Anvil",
+      "_id": "69d3993588ed876312593a10",
+      "name": "1v1 Winner-Take-All Epic Only 3-Round Horoki Trap",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d73cae206b235b88bd50",
-      "name": "50/50 2R + 2E 10-Round Snack Emblem",
+      "_id": "69d399170606500f3b36459e",
+      "name": "1v1 Winner-Take-All Rare Only 3-Round Balls Mart",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d7219b6096afa11cb5cb",
-      "name": "50/50 Open 10-Round Tanuki Mart",
+      "_id": "69d398f088ed8763125939eb",
+      "name": "Winner-Take-All Epic Only 3-Round Temple Bald",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 3,
+      "prizePool": 28,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d1d70b9b6096afa11cb5b3",
-      "name": "50/50 Epic Only 10-Round Teapot Syndicate",
+      "_id": "69d398b388ed8763125939c8",
+      "name": "Winner-Take-All Rare Only 3-Round Tamakin Tama",
       "contestStatus": "OPEN",
       "startDate": "2026-04-06T17:00:00.000Z",
       "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 630,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d1d6c7ae206b235b88bd08",
-      "name": "Top 20% 2B + 2R 10-Round Buff Gacha",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 0,
-      "prizePool": 236.25,
-      "format": "TOP_20_PCT"
+      "entries": 4,
+      "prizePool": 14,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
