@@ -1,43 +1,103 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T21:49:02.947Z",
-  "total": 3,
+  "generatedAt": "2026-04-06T23:48:46.527Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 3,
+    "OPEN": 9,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d41cf37993dd0af4349f9a",
-      "name": "50/50 Rare Only 10-Round Bald Eggu",
+      "_id": "69d43e25a4c37d63fb8a0fac",
+      "name": "50/50 Epic Only 10-Round Sparkle Yokai",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 8,
-      "prizePool": 1050,
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 630,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d41d1bb21ca34028625684",
-      "name": "50/50 Rare Only 10-Round Emblem Fortune",
+      "_id": "69d43dbea4c37d63fb8a0f76",
+      "name": "50/50 2R + 2E 10-Round Emblem Koban",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 10,
-      "prizePool": 708.75,
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 367.5,
       "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d41d39b21ca3402862569a",
-      "name": "50/50 Basic Only 10-Round Tim Shapeshifter",
+      "_id": "69d43d9da4c37d63fb8a0f52",
+      "name": "50/50 Rare Only 10-Round Island Ratz",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-07T00:00:00.000Z",
-      "endDate": "2026-04-07T01:30:00.000Z",
-      "entries": 5,
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d43d62763920cdd86cde6c",
+      "name": "50/50 2B + 2R 10-Round Shapeshifter Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d43d0aa4c37d63fb8a0f20",
+      "name": "50/50 Rare Only 10-Round Wart Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d43b06a4c37d63fb8a0edf",
+      "name": "50/50 Basic Only 10-Round Sparkle Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
       "prizePool": 262.5,
       "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d439d028545cd49c1e4bbb",
+      "name": "Free Open 10-Round Mart Tim",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69d4399c28545cd49c1e4ba4",
+      "name": "50/50 Open 10-Round Festival Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d4394aa4c37d63fb8a0ea6",
+      "name": "Top 20% 2B + 2R 10-Round Shinobu Incense",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T14:00:00.000Z",
+      "endDate": "2026-04-07T15:30:00.000Z",
+      "entries": 2,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
     }
   ]
 }
