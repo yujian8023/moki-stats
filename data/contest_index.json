@@ -1,93 +1,73 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T13:42:10.889Z",
-  "total": 8,
+  "generatedAt": "2026-04-06T20:51:48.703Z",
+  "total": 6,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 6,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d39a270247427188dcd853",
-      "name": "1v1 Winner-Take-All Open 3-Round Yokai Ratz",
+      "_id": "69d41b9c9b8c01fcec5e4d0c",
+      "name": "50/50 Open 10-Round Warrior Bald",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d399f188ed876312593a50",
-      "name": "1v1 Winner-Take-All One of each 3-Round Warrior Balls",
+      "_id": "69d41bd79b8c01fcec5e4d2f",
+      "name": "Free Open 10-Round Wart Takoyaki",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d399ba88ed876312593a35",
-      "name": "1v1 Winner-Take-All Rare Only Star Cap 3-Round Ratz Tanuki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d399740606500f3b3645c5",
-      "name": "1v1 Winner-Take-All Open 3-Round Festival Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d3993588ed876312593a10",
-      "name": "1v1 Winner-Take-All Epic Only 3-Round Horoki Trap",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d399170606500f3b36459e",
-      "name": "1v1 Winner-Take-All Rare Only 3-Round Balls Mart",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d398f088ed8763125939eb",
-      "name": "Winner-Take-All Epic Only 3-Round Temple Bald",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
       "entries": 3,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
     },
     {
-      "_id": "69d398b388ed8763125939c8",
-      "name": "Winner-Take-All Rare Only 3-Round Tamakin Tama",
+      "_id": "69d41c5acc1e13f096535905",
+      "name": "Top 20% Basic Only 10-Round Emblem Incense",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-06T17:00:00.000Z",
-      "endDate": "2026-04-06T21:00:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69d41c78b21ca34028625611",
+      "name": "50/50 Epic Only 10-Round Sparkle Larry",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d41c8ab21ca3402862562e",
+      "name": "50/50 2R + 2E 10-Round Sparkle Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 428.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d41cbab21ca34028625643",
+      "name": "50/50 2B + 2R 10-Round Shinobu Yaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-07T00:00:00.000Z",
+      "endDate": "2026-04-07T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 371.88,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
