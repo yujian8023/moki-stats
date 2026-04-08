@@ -1,37 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-08T19:37:59.614Z",
-  "total": 4,
+  "generatedAt": "2026-04-08T22:57:00.617Z",
+  "total": 2,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 4,
+    "OPEN": 2,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d699d14417ec3c5fa357bc",
-      "name": "Winner-Take-All Highest Non-Win Rare Only 10-Round Luck Tamakin",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 4,
-      "prizePool": 14,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d69a6e4417ec3c5fa357d1",
-      "name": "Winner-Take-All Highest Non-Win Open 10-Round Council Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 3,
-      "prizePool": 70,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d69afaf6af2b8ae2b803d1",
-      "name": "1v1 Winner-Take-All No Win Bonus Rare Only 10-Round Snack Warrior",
+      "_id": "69d6d4310b6a84ce1c67697a",
+      "name": "1v1 Winner-Take-All Highest Non-Win Rare Only 10-Round Festival Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-04-09T00:00:00.000Z",
       "endDate": "2026-04-09T01:30:00.000Z",
@@ -40,13 +20,13 @@
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d69c864417ec3c5fa357f3",
-      "name": "1v1 Winner-Take-All Median Non-Win Open 10-Round Sparkle Badlands",
+      "_id": "69d6d5c83f23f58dffe14a75",
+      "name": "1v1 Winner-Take-All Median Non-Win Rare Only 10-Round Luck Anvil",
       "contestStatus": "OPEN",
       "startDate": "2026-04-09T00:00:00.000Z",
       "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
+      "entries": 1,
+      "prizePool": 8.75,
       "format": "WINNER_TAKE_ALL"
     }
   ]
