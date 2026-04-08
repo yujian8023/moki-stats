@@ -1,0 +1,93 @@
+{
+  "_id": "69d6b5bd704c12dbb780fb23",
+  "name": "Top 20% 2.5k bRON SPONSORED Open 10-Round Ambrosia Council",
+  "description": "Top 20% 2.5k bRON SPONSORED Open 10-Round Ambrosia Council",
+  "contestStatus": "OPEN",
+  "format": "TOP_20_PCT",
+  "entryFee": 300,
+  "prizePool": 210,
+  "entries": 80,
+  "maxEntries": 80,
+  "startDate": "2026-04-09T14:00:00.000Z",
+  "endDate": "2026-04-09T15:30:00.000Z",
+  "openDate": "2026-04-08T23:00:00.000Z",
+  "showDate": "2026-04-08T23:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W15-4-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-08T23:50:44.063Z",
+  "leaderboardFetched": false
+}
