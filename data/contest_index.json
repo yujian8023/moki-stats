@@ -1,142 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-08T13:59:09.141Z",
-  "total": 13,
+  "generatedAt": "2026-04-08T15:44:38.637Z",
+  "total": 1,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 8,
+    "OPEN": 1,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d647a00990d031b1af1b7d",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Wart Belly",
-      "contestStatus": "STARTING_SOON",
-      "startDate": "2026-04-08T14:00:00.000Z",
-      "endDate": "2026-04-08T15:30:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d6475fc4f116cfa090e205",
-      "name": "1v1 Winner-Take-All Open 10-Round Temple Festival",
-      "contestStatus": "STARTING_SOON",
-      "startDate": "2026-04-08T14:00:00.000Z",
-      "endDate": "2026-04-08T15:30:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d646090990d031b1af1b5b",
-      "name": "Winner-Take-All No Win Bonus Epic Only 10-Round Takoyaki Leaf",
-      "contestStatus": "STARTING_SOON",
-      "startDate": "2026-04-08T14:00:00.000Z",
-      "endDate": "2026-04-08T15:30:00.000Z",
-      "entries": 4,
-      "prizePool": 28,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d645a9902727b7561f0171",
-      "name": "Top 20% 2B + 2R 10-Round Gate Festival",
-      "contestStatus": "STARTING_SOON",
-      "startDate": "2026-04-08T14:00:00.000Z",
-      "endDate": "2026-04-08T15:30:00.000Z",
-      "entries": 72,
-      "prizePool": 175,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69d645080990d031b1af1b23",
-      "name": "50/50 Rare Only 10-Round Tamakin Gacha",
-      "contestStatus": "STARTING_SOON",
-      "startDate": "2026-04-08T14:00:00.000Z",
-      "endDate": "2026-04-08T15:30:00.000Z",
-      "entries": 191,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d55924eb06323610e680bd",
-      "name": "Free Open 10-Round Yokai Wart",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 27,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69d58fb95eec99866900449c",
-      "name": "Top 20% Basic Only 10-Round Eggu Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 192.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69d590087140ae5996f75ea6",
-      "name": "50/50 Basic Only 10-Round Teapot Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 306.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d590f57140ae5996f75ec1",
-      "name": "50/50 Rare Only 10-Round Yaki Party",
+      "_id": "69d5925a5f485466219b07b8",
+      "name": "50/50 Rare Only 10-Round Shapeshifter Badlands",
       "contestStatus": "OPEN",
       "startDate": "2026-04-09T00:00:00.000Z",
       "endDate": "2026-04-09T01:30:00.000Z",
       "entries": 5,
-      "prizePool": 1102.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d5923f7140ae5996f75ed7",
-      "name": "50/50 2B + 2R 10-Round Larry Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 393.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d592967140ae5996f75eef",
-      "name": "50/50 2R + 2E 10-Round Temple Snack",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 428.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d5579153c31df4a8c258c3",
-      "name": "50/50 Epic Only 10-Round Tamakin Field",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d5576053c31df4a8c258ab",
-      "name": "50/50 Open 10-Round Gate Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T00:00:00.000Z",
-      "endDate": "2026-04-09T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
+      "prizePool": 735,
       "format": "FIFTY_FIFTY"
     }
   ]
