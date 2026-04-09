@@ -1,0 +1,97 @@
+{
+  "_id": "69d7d9b184ee00cc46465e35",
+  "name": "Top 20% Open 4k bRON NO WIN BONUS 10-Round Koban Wart",
+  "description": "Top 20% Open 4k bRON NO WIN BONUS 10-Round Koban Wart",
+  "contestStatus": "OPEN",
+  "format": "TOP_20_PCT",
+  "entryFee": 300,
+  "prizePool": 393.75,
+  "entries": 93,
+  "maxEntries": 150,
+  "startDate": "2026-04-10T14:00:00.000Z",
+  "endDate": "2026-04-10T15:30:00.000Z",
+  "openDate": "2026-04-09T23:00:00.000Z",
+  "showDate": "2026-04-09T23:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 25
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": 2,
+        "type": "PERCENTAGE",
+        "value": 15
+      },
+      {
+        "rankStart": 3,
+        "rankEnd": 3,
+        "type": "PERCENTAGE",
+        "value": 10
+      },
+      {
+        "rankStart": 4,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 50
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W15-5-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-no-win-bonus",
+      "name": "No win bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-09T23:50:51.895Z",
+  "leaderboardFetched": false
+}

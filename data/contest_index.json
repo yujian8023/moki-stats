@@ -1,63 +1,113 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-09T22:56:49.773Z",
-  "total": 5,
+  "generatedAt": "2026-04-09T23:50:51.896Z",
+  "total": 10,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 5,
+    "OPEN": 10,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d821aa0450370e552515f6",
-      "name": "1v1 Winner-Take-All Open 10-Round Sparkle Koban",
+      "_id": "69d69cff4417ec3c5fa3583a",
+      "name": "Top 20% 2B + 2R 10-Round Warrior Tama",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-10T00:00:00.000Z",
-      "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 1,
+      "prizePool": 227.5,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69d821896299d371b3ef3233",
-      "name": "1v1 Winner-Take-All Open 10-Round Larry Hotei",
+      "_id": "69d7d9b184ee00cc46465e35",
+      "name": "Top 20% Open 4k bRON NO WIN BONUS 10-Round Koban Wart",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-10T00:00:00.000Z",
-      "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 35,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 93,
+      "prizePool": 393.75,
+      "format": "TOP_20_PCT"
     },
     {
-      "_id": "69d821530450370e552515d7",
-      "name": "1v1 Winner-Take-All Open 10-Round Factory Island",
+      "_id": "69d69d65821f0f623ad723fe",
+      "name": "50/50 Basic Only 10-Round Lantern Larry",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-10T00:00:00.000Z",
-      "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 34,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69d8211e6299d371b3ef3215",
-      "name": "1v1 Winner-Take-All Epic Only 10-Round Ratz Emblem",
+      "_id": "69d69d354417ec3c5fa35875",
+      "name": "Free Open 10-Round Yokai Ambrosia",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-10T00:00:00.000Z",
-      "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 21,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
     },
     {
-      "_id": "69d820956299d371b3ef31e2",
-      "name": "1v1 Winner-Take-All Rare Only 10-Round Fortune Gate",
+      "_id": "69d69f044417ec3c5fa358dc",
+      "name": "50/50 2R + 2E 10-Round Festival Emblem",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-10T00:00:00.000Z",
-      "endDate": "2026-04-10T01:30:00.000Z",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 428.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d69ed9821f0f623ad72441",
+      "name": "50/50 Epic Only 10-Round Trap Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d69eb94417ec3c5fa358b1",
+      "name": "50/50 Open 10-Round Wart Temple",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d69e95416948e809d363ec",
+      "name": "50/50 Rare Only 10-Round Ambrosia Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
       "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "prizePool": 918.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d69e70821f0f623ad72415",
+      "name": "50/50 2B + 2R 10-Round Trap Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 437.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d69d81405fef7ca4e9a961",
+      "name": "50/50 Rare Only 10-Round Syndicate Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T14:00:00.000Z",
+      "endDate": "2026-04-10T15:30:00.000Z",
+      "entries": 6,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
