@@ -1,113 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-08T23:50:44.065Z",
-  "total": 10,
+  "generatedAt": "2026-04-09T03:24:46.682Z",
+  "total": 1,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 1,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d596e4490fb4bada852780",
-      "name": "50/50 2R + 2E 10-Round Luck Tama",
+      "_id": "69d708511e17d683dfeb914b",
+      "name": "WTA Basic + Rare Only 100 bRON No Win Bonus 10-Round Lantern Shapeshifter",
       "contestStatus": "OPEN",
       "startDate": "2026-04-09T14:00:00.000Z",
       "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 8,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d6b5bd704c12dbb780fb23",
-      "name": "Top 20% 2.5k bRON SPONSORED Open 10-Round Ambrosia Council",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 80,
-      "prizePool": 210,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69d691a449dc38b00599d208",
-      "name": "50/50 Epic Only 10-Round Wart Anvil",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 13,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d596547140ae5996f75f7c",
-      "name": "50/50 Rare Only 10-Round Eggu Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 18,
-      "prizePool": 787.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d595f70f6af3ee53d2cbcb",
-      "name": "50/50 2B + 2R 10-Round Snack Tama",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 7,
-      "prizePool": 371.88,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d595886f2fe3645b2af944",
-      "name": "50/50 Rare Only 10-Round Gacha Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 34,
-      "prizePool": 735,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d595695f485466219b080d",
-      "name": "50/50 Basic Only 10-Round Snack Warrior",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 15,
-      "prizePool": 306.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d595325f485466219b07f5",
-      "name": "Free Open 10-Round Festival Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 38,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69d594ee6f2fe3645b2af923",
-      "name": "50/50 Open 10-Round Hotei Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d594567140ae5996f75f07",
-      "name": "Top 20% 2B + 2R 10-Round Snack Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-09T14:00:00.000Z",
-      "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 11,
-      "prizePool": 175,
-      "format": "TOP_20_PCT"
+      "entries": 20,
+      "prizePool": 52.5,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
