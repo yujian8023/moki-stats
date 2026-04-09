@@ -1,32 +1,62 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-09T21:55:22.643Z",
-  "total": 2,
+  "generatedAt": "2026-04-09T22:56:49.773Z",
+  "total": 5,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 2,
+    "OPEN": 5,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d82003e771b03f7a140e1c",
-      "name": "Winner-Take-All Rare Highest Non-Win Only 10-Round Tamakin Artifact",
+      "_id": "69d821aa0450370e552515f6",
+      "name": "1v1 Winner-Take-All Open 10-Round Sparkle Koban",
       "contestStatus": "OPEN",
       "startDate": "2026-04-10T00:00:00.000Z",
       "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 14,
+      "entries": 2,
+      "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d820434c1183ae85f1d2db",
-      "name": "Winner-Take-All Highest Non-Win Open 10-Round Koban Emblem",
+      "_id": "69d821896299d371b3ef3233",
+      "name": "1v1 Winner-Take-All Open 10-Round Larry Hotei",
       "contestStatus": "OPEN",
       "startDate": "2026-04-10T00:00:00.000Z",
       "endDate": "2026-04-10T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 70,
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d821530450370e552515d7",
+      "name": "1v1 Winner-Take-All Open 10-Round Factory Island",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d8211e6299d371b3ef3215",
+      "name": "1v1 Winner-Take-All Epic Only 10-Round Ratz Emblem",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69d820956299d371b3ef31e2",
+      "name": "1v1 Winner-Take-All Rare Only 10-Round Fortune Gate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
       "format": "WINNER_TAKE_ALL"
     }
   ]
