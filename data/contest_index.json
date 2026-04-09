@@ -1,23 +1,113 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-09T03:24:46.682Z",
-  "total": 1,
+  "generatedAt": "2026-04-09T14:08:43.955Z",
+  "total": 10,
   "byStatus": {
     "COMPLETED": 0,
-    "LIVE": 0,
-    "OPEN": 1,
+    "LIVE": 1,
+    "OPEN": 9,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d708511e17d683dfeb914b",
-      "name": "WTA Basic + Rare Only 100 bRON No Win Bonus 10-Round Lantern Shapeshifter",
-      "contestStatus": "OPEN",
+      "_id": "69d7957348ecdc9e9e675511",
+      "name": "Top 20% Rare Only 10-Round Gacha Luck",
+      "contestStatus": "LIVE",
       "startDate": "2026-04-09T14:00:00.000Z",
       "endDate": "2026-04-09T15:30:00.000Z",
-      "entries": 20,
-      "prizePool": 52.5,
-      "format": "WINNER_TAKE_ALL"
+      "entries": 76,
+      "prizePool": 133,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69d68d4c49dc38b00599d10e",
+      "name": "50/50 Open 10-Round Snack Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d68de149dc38b00599d138",
+      "name": "Free Open 10-Round Artifact Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 37,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69d68e1e8da19666965bffc9",
+      "name": "Top 20% Basic Only 10-Round Warrior Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 4,
+      "prizePool": 192.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69d68f9b7b8137f6eb41e6d2",
+      "name": "50/50 Rare Only 10-Round Shapeshifter Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 1,
+      "prizePool": 735,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d68fe38da19666965c0014",
+      "name": "50/50 2B + 2R 10-Round Eggu Koban",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 1,
+      "prizePool": 393.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d6909549dc38b00599d1a2",
+      "name": "50/50 2R + 2E 10-Round Factory Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 490,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d690b849dc38b00599d1c3",
+      "name": "50/50 Epic Only 10-Round Syndicate Anvil",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d705d21e17d683dfeb9108",
+      "name": "50/50 Basic Only NO WIN BONUS 10-Round Leaf Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 5,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69d705fbd7adb03b4f31c571",
+      "name": "50/50 Rare Only NO WIN BONUS 10-Round Party Council",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-10T00:00:00.000Z",
+      "endDate": "2026-04-10T01:30:00.000Z",
+      "entries": 6,
+      "prizePool": 1155,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
