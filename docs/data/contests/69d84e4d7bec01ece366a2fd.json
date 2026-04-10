@@ -1,0 +1,79 @@
+{
+  "_id": "69d84e4d7bec01ece366a2fd",
+  "name": "50/50 Rare Only Best Objective 10-Round Badlands Horoki",
+  "description": "50/50 Rare Only Best Objective 10-Round Badlands Horoki",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 600,
+  "prizePool": 892.5,
+  "entries": 0,
+  "maxEntries": 170,
+  "startDate": "2026-04-11T00:00:00.000Z",
+  "endDate": "2026-04-11T01:30:00.000Z",
+  "openDate": "2026-04-10T13:00:00.000Z",
+  "showDate": "2026-04-10T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W15-6-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-highest-non-win-only",
+      "name": "Only highest non-win point total per game"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-10T13:44:36.507Z",
+  "leaderboardFetched": false
+}
