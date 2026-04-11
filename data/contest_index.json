@@ -1,33 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-11T14:50:49.032Z",
-  "total": 2,
+  "generatedAt": "2026-04-11T15:45:28.108Z",
+  "total": 1,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 2,
+    "OPEN": 1,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69da58b260217e13e9dc6c18",
-      "name": "WTA Class Coverage Open 10-Round Wart Tim",
+      "_id": "69da607960217e13e9dc6c88",
+      "name": "WTA Class Coverage Rare Only 10-Round Gate Lantern",
       "contestStatus": "OPEN",
       "startDate": "2026-04-12T00:00:00.000Z",
       "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 70,
+      "entries": 2,
+      "prizePool": 43.75,
       "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69da577a60217e13e9dc6bfa",
-      "name": "50/50 No Scheme Drop Worst Moki 2B + 2R 10-Round Gate Emblem",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 1,
-      "prizePool": 131.25,
-      "format": "FIFTY_FIFTY"
     }
   ]
 }
