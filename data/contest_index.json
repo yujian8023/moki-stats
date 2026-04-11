@@ -1,143 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-11T13:20:03.797Z",
-  "total": 13,
+  "generatedAt": "2026-04-11T14:50:49.032Z",
+  "total": 2,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 13,
+    "OPEN": 2,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69d9e7b83be0f726c05cdd21",
-      "name": "Top 10% 500 bRON Open 10-Round Luck Temple",
+      "_id": "69da58b260217e13e9dc6c18",
+      "name": "WTA Class Coverage Open 10-Round Wart Tim",
       "contestStatus": "OPEN",
       "startDate": "2026-04-12T00:00:00.000Z",
       "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 5,
-      "prizePool": 175,
-      "format": "TOP_10_PCT"
-    },
-    {
-      "_id": "69d9e6cb8cbe7aa54d671bf5",
-      "name": "WTA 300 bRON No Scheme LOWEST SCORE 10-Round Shapeshifter Warrior",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 1,
-      "prizePool": 65.63,
+      "entries": 0,
+      "prizePool": 70,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69d9e11be18594be8d5008fb",
-      "name": "50/50 2k bRON Open 10-Round Artifact Factory",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d9eb6a15aaf5a4ae56ff61",
-      "name": "50/50 One of each 10-Round Lantern Teapot",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 420,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d97bf19ea86909fb4e4b33",
-      "name": "Free Open Best Objective 10-Round Sparkle Party",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 7,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69d97b989ea86909fb4e4b11",
-      "name": "50/50 Rare Only Best Objective 10-Round Trap Sora",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 892.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d97b495ca48d324c8597a5",
-      "name": "WTA Best Objective NO SCHEME 10-Round Party Trap",
+      "_id": "69da577a60217e13e9dc6bfa",
+      "name": "50/50 No Scheme Drop Worst Moki 2B + 2R 10-Round Gate Emblem",
       "contestStatus": "OPEN",
       "startDate": "2026-04-12T00:00:00.000Z",
       "endDate": "2026-04-12T01:30:00.000Z",
       "entries": 1,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69d9788bf29f3d014ec962f2",
-      "name": "50/50 Epic Only Median Cap 10-Round Hotei Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 840,
+      "prizePool": 131.25,
       "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d977eed48c83feaa7f012b",
-      "name": "50/50 2R + 2E Median Cap 10-Round Warrior Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 551.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d975071dedce5731fea653",
-      "name": "50/50 2B + 2R Best Objective 10-Round Takoyaki Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d974be5582605ede2c5e2f",
-      "name": "50/50 Rare Only 10-Round Luck Warrior",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 1207.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d97425034ef24d2a86fd87",
-      "name": "50/50 Basic Only 10-Round Horoki Snack",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 3,
-      "prizePool": 437.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69d974031dedce5731fea629",
-      "name": "Top 20% Basic Only 10-Round Tanuki Archipelago",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-12T00:00:00.000Z",
-      "endDate": "2026-04-12T01:30:00.000Z",
-      "entries": 1,
-      "prizePool": 218.75,
-      "format": "TOP_20_PCT"
     }
   ]
 }
