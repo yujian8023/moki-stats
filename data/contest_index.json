@@ -1,112 +1,102 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-13T14:04:33.821Z",
-  "total": 10,
+  "generatedAt": "2026-04-13T19:36:13.940Z",
+  "total": 9,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 9,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69dc33303669ba82c2390632",
-      "name": "50/50 Open 2k bRON 10-Round Tim Bald",
+      "_id": "69dd35c7b01bce15f44ccec4",
+      "name": "WTA Open 10-Round Snack Anvil",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc34676cf33cca129afa49",
-      "name": "Free Open BEST OBJECTIVE 10-Round Warrior Sparkle",
+      "_id": "69dd3585fba0e84a50d79c7e",
+      "name": "WTA Open 10-Round Shinobu Warrior",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 30,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc34d53669ba82c2390662",
-      "name": "50/50 Epic Only LOWEST SCORE 10-Round Sora Festival",
+      "_id": "69dd34f9b6e6dda45c25f735",
+      "name": "WTA Open Class Coverage 10-Round Festival Field",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 840,
-      "format": "FIFTY_FIFTY"
+      "entries": 1,
+      "prizePool": 70,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc358f3669ba82c239068c",
-      "name": "50/50 2R + 2E LOWEST SCORE 10-Round Sparkle Shapeshifter",
+      "_id": "69dd3494fba0e84a50d79c5f",
+      "name": "WTA Rare Only Class Coverage 10-Round Yokai Sparkle",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 4,
+      "prizePool": 17.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc35e1d6d5e40181102d5a",
-      "name": "50/50 Rare Only LOWEST SCORE 10-Round Koban Shinobu",
+      "_id": "69dd340bfba0e84a50d79c49",
+      "name": "WTA Open 10-Round Shinobu Snack",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 892.5,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc36273669ba82c23906ae",
-      "name": "50/50 2B + 2R LOWEST SCORE 10-Round Emblem Syndicate",
+      "_id": "69dd33e2b6e6dda45c25f713",
+      "name": "WTA Open 10-Round Teapot Shinobu",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 459.38,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc366c3669ba82c23906c5",
-      "name": "50/50 Rare Only 10-Round Teapot Temple",
+      "_id": "69dd33a738593bafa356b27d",
+      "name": "WTA Epic Only 10-Round Party Takoyaki",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 1260,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc36813669ba82c23906dd",
-      "name": "50/50 Basic Only 10-Round Ambrosia Belly",
+      "_id": "69dd336db6e6dda45c25f6f1",
+      "name": "WTA Rare Only 10-Round Shapeshifter Luck",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 481.25,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69dc36ced6d5e40181102d8c",
-      "name": "Top 20% Basic Only 10-Round Tamakin Tim",
+      "_id": "69dd30f16ec0232d5ea8749d",
+      "name": "50/50 Rare Only DROP WORST MOKI 10-Round Shinobu Bald",
       "contestStatus": "OPEN",
       "startDate": "2026-04-14T00:00:00.000Z",
       "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 245,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69dc39e03669ba82c2390771",
-      "name": "50/50 OoE NO SCHEME LOWEST SCORE 10-Round Shinobu Takoyaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-14T00:00:00.000Z",
-      "endDate": "2026-04-14T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
+      "entries": 5,
+      "prizePool": 70,
       "format": "FIFTY_FIFTY"
     }
   ]
