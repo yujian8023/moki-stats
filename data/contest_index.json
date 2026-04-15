@@ -1,113 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-14T23:55:15.784Z",
-  "total": 10,
+  "generatedAt": "2026-04-15T03:35:48.615Z",
+  "total": 1,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 10,
+    "OPEN": 1,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69dd315e38593bafa356b262",
-      "name": "Free Open BEST OBJECTIVE 10-Round Snack Belly",
+      "_id": "69def73e645f8be8fcf9f2c2",
+      "name": "WTA Kyroh vs 2 Others Open Mart Belly",
       "contestStatus": "OPEN",
       "startDate": "2026-04-15T14:00:00.000Z",
       "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 18,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69dd3118fa18c6c318f0f175",
-      "name": "Top 20% Basic Only 10-Round Sora Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 3,
-      "prizePool": 245,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69dd30f638593bafa356b245",
-      "name": "50/50 Basic Only 10-Round Mart Tori",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 3,
-      "prizePool": 481.25,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd30cbfa18c6c318f0f15c",
-      "name": "50/50 Rare Only 10-Round Sparkle Gate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 3,
-      "prizePool": 1260,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd3050fa18c6c318f0f126",
-      "name": "50/50 One of each BEST OBJECTIVE 10-Round Buff Hotei",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 350,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd300538593bafa356b22b",
-      "name": "50/50 2B + 2R BEST OBJECTIVE 10-Round Horoki Badlands",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 459.38,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd2fd838593bafa356b214",
-      "name": "50/50 Rare Only BEST OBJECTIVE 10-Round Council Koban",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 892.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd2fabb6e6dda45c25f675",
-      "name": "50/50 2R + 2E BEST OBJECTIVE 10-Round Tama Lantern",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 612.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd2f7bb6e6dda45c25f65d",
-      "name": "50/50 Epic Only BEST OBJECTIVE 10-Round Horoki Warrior",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 840,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69dd2f2afa18c6c318f0f0dc",
-      "name": "50/50 Open 2k bRON 10-Round Mart Trap",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
     }
   ]
 }
