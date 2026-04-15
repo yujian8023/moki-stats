@@ -1,23 +1,183 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-15T03:35:48.615Z",
-  "total": 1,
+  "generatedAt": "2026-04-15T14:02:16.355Z",
+  "total": 17,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 17,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69def73e645f8be8fcf9f2c2",
-      "name": "WTA Kyroh vs 2 Others Open Mart Belly",
+      "_id": "69dea227c741ff6765c689d3",
+      "name": "50/50 R Only Class Diversity Larry Wart",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-15T14:00:00.000Z",
-      "endDate": "2026-04-15T15:30:00.000Z",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 1,
+      "prizePool": 892.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea581c741ff6765c68a98",
+      "name": "WTA E Only Lowest Score Horoki Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 4,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea551e22fab7ca6ecc2e1",
+      "name": "WTA R Only Lowest Score Ambrosia Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 4,
+      "prizePool": 17.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea427c741ff6765c68a2c",
+      "name": "WTA Open Tanuki Koban",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea3dbc741ff6765c68a13",
+      "name": "WTA Open Hotei Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea395e22fab7ca6ecc2b7",
+      "name": "WTA E Only Sparkle Badlands",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
       "entries": 2,
       "prizePool": 26.25,
       "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea34ce22fab7ca6ecc2a1",
+      "name": "WTA R Only Eggu Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69dea2c5e22fab7ca6ecc289",
+      "name": "50/50 E Only Class Diversity Snack Ratz",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 840,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea292138d8e6a466cf508",
+      "name": "50/50 2R + 2E Class Diversity Snack Anvil",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 612.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea162c741ff6765c689b8",
+      "name": "50/50 2B + 2R Class Diversity Party Warrior",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 459.38,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea138e22fab7ca6ecc261",
+      "name": "50/50 One-of-Each Class Diversity Island Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea0efc741ff6765c6899a",
+      "name": "50/50 R Only Belly Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 7,
+      "prizePool": 1260,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea0cae22fab7ca6ecc237",
+      "name": "50/50 B Only Tim Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 481.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69dea0a7138d8e6a466cf4b5",
+      "name": "Top 20% B Only Tama Leaf",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 245,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69de9f9ae22fab7ca6ecc1d0",
+      "name": "Free Open Class Diversity Lantern Gate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 32,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69de9e43c741ff6765c688d9",
+      "name": "50/50 2K bRON Open Horoki Koban",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-16T00:00:00.000Z",
+      "endDate": "2026-04-16T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69de7986425db915e9d005a3",
+      "name": "Moki Madness Top 20% 20K bRON GUARANTEED",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 136,
+      "prizePool": 1750,
+      "format": "TOP_20_PCT"
     }
   ]
 }

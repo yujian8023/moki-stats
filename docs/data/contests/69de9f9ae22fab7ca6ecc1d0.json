@@ -1,0 +1,85 @@
+{
+  "_id": "69de9f9ae22fab7ca6ecc1d0",
+  "name": "Free Open Class Diversity Lantern Gate",
+  "description": "Free Open Class Diversity Lantern Gate",
+  "contestStatus": "OPEN",
+  "format": "FREE_ENTRY",
+  "entryFee": 0,
+  "prizePool": 0,
+  "entries": 32,
+  "maxEntries": 0,
+  "startDate": "2026-04-16T00:00:00.000Z",
+  "endDate": "2026-04-16T01:30:00.000Z",
+  "openDate": "2026-04-15T13:00:00.000Z",
+  "showDate": "2026-04-15T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 30
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 70
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W16-4-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-class-coverage-bonus",
+      "name": "Class Diversity"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-15T14:02:16.355Z",
+  "leaderboardFetched": false
+}
