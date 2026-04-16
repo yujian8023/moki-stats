@@ -1,33 +1,183 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-16T16:47:27.207Z",
-  "total": 2,
+  "generatedAt": "2026-04-16T23:54:22.015Z",
+  "total": 17,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 2,
+    "OPEN": 17,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69e10a1259d7c9c062e20421",
-      "name": "WTA Open Class Diversity Drop Worst Moki Luck Wart",
+      "_id": "69e11265ce40f4663c61c0f7",
+      "name": "WTA Luks vs 2 Others Open Eggu Field",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-17T00:00:00.000Z",
-      "endDate": "2026-04-17T01:30:00.000Z",
-      "entries": 1,
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 3,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e0145038abb497e41ea175",
+      "name": "WTA Open Shapeshifter Gate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e0142c921e4f0dd5c57b53",
+      "name": "WTA Open Gate Lantern",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 2,
       "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69e109c3ee0533d3e6144f13",
-      "name": "WTA R Only Class Diversity Drop Worst Moki Trap Larry",
+      "_id": "69e013fecb63cc500eb590c9",
+      "name": "WTA E Only Shinobu Horoki",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-17T00:00:00.000Z",
-      "endDate": "2026-04-17T01:30:00.000Z",
-      "entries": 3,
-      "prizePool": 17.5,
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
       "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e013db38abb497e41ea154",
+      "name": "WTA R Only Yokai Shapeshifter",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e013abcb63cc500eb590a1",
+      "name": "50/50 2B + 1R + 1E Best Objective Warrior Buff",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 105,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e0136b38abb497e41ea139",
+      "name": "50/50 2B + 2R Lowest Score Balls Wart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 70,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e01312921e4f0dd5c57b05",
+      "name": "Free Open Warrior Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 21,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69e012e6921e4f0dd5c57aee",
+      "name": "Top 20% B Only Yaki Balls",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69e012bd921e4f0dd5c57ad7",
+      "name": "50/50 B Only Archipelago Council",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 525,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e0129938abb497e41ea103",
+      "name": "50/50 R Only Field Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 1312.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e0126d921e4f0dd5c57ab7",
+      "name": "50/50 One-of-Each Yaki Eggu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 350,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e0122b921e4f0dd5c57a9e",
+      "name": "50/50 2B + 2R Tamakin Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 459.38,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e011f2921e4f0dd5c57a86",
+      "name": "50/50 R Only Ambrosia Incense",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 892.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e011d3c67c0e99398d49fa",
+      "name": "50/50 2R + 2E Mart Leaf",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 612.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e011b3c67c0e99398d49e3",
+      "name": "50/50 E Only Luck Tama",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 840,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e01161921e4f0dd5c57a5d",
+      "name": "50/50 2K bRON Open Horoki Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-17T14:00:00.000Z",
+      "endDate": "2026-04-17T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }
