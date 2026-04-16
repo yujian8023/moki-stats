@@ -1,0 +1,83 @@
+{
+  "_id": "69e10a1259d7c9c062e20421",
+  "name": "WTA Open Class Diversity Drop Worst Moki Luck Wart",
+  "description": "WTA Open Class Diversity Drop Worst Moki Luck Wart",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 1000,
+  "prizePool": 35,
+  "entries": 1,
+  "maxEntries": 4,
+  "startDate": "2026-04-17T00:00:00.000Z",
+  "endDate": "2026-04-17T01:30:00.000Z",
+  "openDate": "2026-04-16T13:00:00.000Z",
+  "showDate": "2026-04-16T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W16-5-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-class-coverage-bonus",
+      "name": "Class Diversity"
+    },
+    {
+      "ruleId": "contest-modifier-drop-worst-moki",
+      "name": "Drop Worst Moki"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-16T16:47:27.206Z",
+  "leaderboardFetched": false
+}
