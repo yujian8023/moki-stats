@@ -1,0 +1,27 @@
+{
+  "contestId": "69e2a382a184eea76c031629",
+  "contestName": "WTA Open Tim Gate",
+  "endDate": "2026-04-19T01:30:00.000Z",
+  "fetchedAt": "2026-04-18T17:51:54.638Z",
+  "totalEntries": 2,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "anonymous:69e38093d9a67a3942e0a5f3",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    },
+    {
+      "rank": 1,
+      "playerId": "anonymous:69e38099d9a67a3942e0a60f",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    }
+  ]
+}
