@@ -1,0 +1,75 @@
+{
+  "_id": "69e3d61da12caf25c7e1ba21",
+  "name": "WTA R Only Yokai Badlands",
+  "description": "WTA R Only Yokai Badlands",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 400,
+  "prizePool": 35,
+  "entries": 0,
+  "maxEntries": 10,
+  "startDate": "2026-04-19T00:00:00.000Z",
+  "endDate": "2026-04-19T01:30:00.000Z",
+  "openDate": "2026-04-18T13:00:00.000Z",
+  "showDate": "2026-04-18T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W16-7-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-18T19:06:13.617Z",
+  "leaderboardFetched": false
+}

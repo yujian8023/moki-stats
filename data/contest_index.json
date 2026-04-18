@@ -1,173 +1,23 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18T13:23:22.124Z",
-  "total": 16,
+  "generatedAt": "2026-04-18T19:06:13.618Z",
+  "total": 1,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 16,
+    "OPEN": 1,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69e2a382a184eea76c031629",
-      "name": "WTA Open Tim Gate",
+      "_id": "69e3d61da12caf25c7e1ba21",
+      "name": "WTA R Only Yokai Badlands",
       "contestStatus": "OPEN",
       "startDate": "2026-04-19T00:00:00.000Z",
       "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 87.5,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69e2a3542fb48c9874fbd40f",
-      "name": "WTA Open Buff Ambrosia",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 2,
+      "entries": 0,
       "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69e2a3242fb48c9874fbd3f6",
-      "name": "WTA E Only Trap Belly",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 26.25,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69e2a2fd2fb48c9874fbd3de",
-      "name": "WTA R Only Lantern Teapot",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
-    },
-    {
-      "_id": "69e2a2ba2fb48c9874fbd3c6",
-      "name": "50/50 2B + 2R Best Objective Eggu Emblem",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 52.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e2a232a184eea76c0315e6",
-      "name": "50/50 3R + 1E Class Diversity Buff Festival",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 78.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e2a17a2fb48c9874fbd3ab",
-      "name": "Free Open Trap Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 6,
-      "prizePool": 0,
-      "format": "FREE_ENTRY"
-    },
-    {
-      "_id": "69e2a0f42fb48c9874fbd393",
-      "name": "Top 20% B Only Tama Council",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 192.5,
-      "format": "TOP_20_PCT"
-    },
-    {
-      "_id": "69e2a09aa184eea76c0315c3",
-      "name": "50/50 B Only Bald Factory",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 490,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e2a0572fb48c9874fbd360",
-      "name": "50/50 R Only Party Artifact",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 1155,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29fea2fb48c9874fbd348",
-      "name": "50/50 One-of-Each Sora Yaki",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 315,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29f7e2fb48c9874fbd330",
-      "name": "50/50 2B + 2R Tamakin Balls",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 393.75,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29ede2fb48c9874fbd319",
-      "name": "50/50 R Only Gate Tamakin",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 892.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29eba1c4f8e05b8336c54",
-      "name": "50/50 2R + 2E Sparkle Lantern",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 367.5,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29d4fa184eea76c03152b",
-      "name": "50/50 E Only Yaki Syndicate",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 700,
-      "format": "FIFTY_FIFTY"
-    },
-    {
-      "_id": "69e29c572fb48c9874fbd2a5",
-      "name": "50/50 3K bRON Open Anvil Balls",
-      "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
-      "prizePool": 8750,
-      "format": "FIFTY_FIFTY"
     }
   ]
 }
