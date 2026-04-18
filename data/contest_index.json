@@ -1,53 +1,173 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18T19:51:52.666Z",
-  "total": 4,
+  "generatedAt": "2026-04-18T23:48:20.201Z",
+  "total": 16,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 4,
+    "OPEN": 16,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69e3d6a3a12caf25c7e1ba67",
-      "name": "WTA R Only Buff Emblem",
+      "_id": "69e2a76ba184eea76c0316f4",
+      "name": "50/50 2B + 2R Best Objective Gacha Belly",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 2,
-      "prizePool": 8.75,
-      "format": "WINNER_TAKE_ALL"
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 52.5,
+      "format": "FIFTY_FIFTY"
     },
     {
-      "_id": "69e3d6740a8254fd16fc4e47",
-      "name": "WTA Open Yokai Artifact",
+      "_id": "69e2a3ff1c4f8e05b8336d16",
+      "name": "50/50 3K bRON Open Lantern Koban",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 8750,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a7f81c4f8e05b8336dfc",
+      "name": "WTA Open Tori Tanuki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
       "entries": 2,
       "prizePool": 87.5,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69e3d656a12caf25c7e1ba4a",
-      "name": "WTA Open Eggu Tanuki",
+      "_id": "69e2a7da2fb48c9874fbd500",
+      "name": "WTA Open Gate Koban",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
       "entries": 2,
       "prizePool": 35,
       "format": "WINNER_TAKE_ALL"
     },
     {
-      "_id": "69e3d6460a8254fd16fc4e1a",
-      "name": "WTA E Only Tama Sora",
+      "_id": "69e2a7ada184eea76c031722",
+      "name": "WTA E Only Ratz Gate",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-19T00:00:00.000Z",
-      "endDate": "2026-04-19T01:30:00.000Z",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
       "entries": 2,
       "prizePool": 26.25,
       "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e2a794a184eea76c03170a",
+      "name": "WTA R Only Fortune Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e2a44fa184eea76c031651",
+      "name": "50/50 E Only Badlands Hotei",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a72e1c4f8e05b8336db4",
+      "name": "50/50 3R + 1E Class Diversity Larry Belly",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 78.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a7032fb48c9874fbd4c6",
+      "name": "Free Open Sora Factory",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 13,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69e2a6e32fb48c9874fbd4ae",
+      "name": "Top 20% B Only Koban Syndicate",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 192.5,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69e2a6971c4f8e05b8336d96",
+      "name": "50/50 B Only Tama Fortune",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 490,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a6542fb48c9874fbd47b",
+      "name": "50/50 R Only Takoyaki Mart",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 1155,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a5b61c4f8e05b8336d7b",
+      "name": "50/50 One-of-Each Lantern Luck",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 315,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a547a184eea76c031698",
+      "name": "50/50 2B + 2R Tamakin Horoki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a4e5a184eea76c031682",
+      "name": "50/50 R Only Island Badlands",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 787.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69e2a4992fb48c9874fbd432",
+      "name": "50/50 2R + 2E Tanuki Takoyaki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T14:00:00.000Z",
+      "endDate": "2026-04-19T15:30:00.000Z",
+      "entries": 0,
+      "prizePool": 367.5,
+      "format": "FIFTY_FIFTY"
     }
   ]
 }

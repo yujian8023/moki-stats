@@ -1,0 +1,79 @@
+{
+  "_id": "69e2a76ba184eea76c0316f4",
+  "name": "50/50 2B + 2R Best Objective Gacha Belly",
+  "description": "50/50 2B + 2R Best Objective Gacha Belly",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 200,
+  "prizePool": 52.5,
+  "entries": 0,
+  "maxEntries": 30,
+  "startDate": "2026-04-19T14:00:00.000Z",
+  "endDate": "2026-04-19T15:30:00.000Z",
+  "openDate": "2026-04-18T23:00:00.000Z",
+  "showDate": "2026-04-18T23:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W16-7-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-highest-non-win-only",
+      "name": "Best Objective"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-18T23:48:20.197Z",
+  "leaderboardFetched": false
+}
