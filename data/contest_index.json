@@ -1,22 +1,52 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18T19:06:13.618Z",
-  "total": 1,
+  "generatedAt": "2026-04-18T19:51:52.666Z",
+  "total": 4,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 4,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69e3d61da12caf25c7e1ba21",
-      "name": "WTA R Only Yokai Badlands",
+      "_id": "69e3d6a3a12caf25c7e1ba67",
+      "name": "WTA R Only Buff Emblem",
       "contestStatus": "OPEN",
       "startDate": "2026-04-19T00:00:00.000Z",
       "endDate": "2026-04-19T01:30:00.000Z",
-      "entries": 0,
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e3d6740a8254fd16fc4e47",
+      "name": "WTA Open Yokai Artifact",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T00:00:00.000Z",
+      "endDate": "2026-04-19T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e3d656a12caf25c7e1ba4a",
+      "name": "WTA Open Eggu Tanuki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T00:00:00.000Z",
+      "endDate": "2026-04-19T01:30:00.000Z",
+      "entries": 2,
       "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69e3d6460a8254fd16fc4e1a",
+      "name": "WTA E Only Tama Sora",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-19T00:00:00.000Z",
+      "endDate": "2026-04-19T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
       "format": "WINNER_TAKE_ALL"
     }
   ]
