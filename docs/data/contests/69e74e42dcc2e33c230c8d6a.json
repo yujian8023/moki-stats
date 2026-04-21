@@ -1,0 +1,75 @@
+{
+  "_id": "69e74e42dcc2e33c230c8d6a",
+  "name": "50/50 2B + 2R Archipelago Wart",
+  "description": "50/50 2B + 2R Archipelago Wart",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 500,
+  "prizePool": 262.5,
+  "entries": 0,
+  "maxEntries": 60,
+  "startDate": "2026-04-22T00:00:00.000Z",
+  "endDate": "2026-04-22T01:30:00.000Z",
+  "openDate": "2026-04-21T13:00:00.000Z",
+  "showDate": "2026-04-21T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W17-3-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-21T14:52:49.604Z",
+  "leaderboardFetched": false
+}
