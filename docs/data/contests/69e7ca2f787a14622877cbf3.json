@@ -1,0 +1,75 @@
+{
+  "_id": "69e7ca2f787a14622877cbf3",
+  "name": "50/50 E Only Archipelago Island",
+  "description": "50/50 E Only Archipelago Island",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 800,
+  "prizePool": 700,
+  "entries": 0,
+  "maxEntries": 100,
+  "startDate": "2026-04-22T14:00:00.000Z",
+  "endDate": "2026-04-22T15:30:00.000Z",
+  "openDate": "2026-04-21T23:00:00.000Z",
+  "showDate": "2026-04-21T23:00:00.000Z",
+  "featured": true,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W17-3-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-21T23:49:17.759Z",
+  "leaderboardFetched": false
+}
