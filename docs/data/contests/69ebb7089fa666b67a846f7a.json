@@ -1,0 +1,75 @@
+{
+  "_id": "69ebb7089fa666b67a846f7a",
+  "name": "WTA Open Tamakin Eggu",
+  "description": "WTA Open Tamakin Eggu",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 2000,
+  "prizePool": 35,
+  "entries": 2,
+  "maxEntries": 2,
+  "startDate": "2026-04-25T14:00:00.000Z",
+  "endDate": "2026-04-25T15:30:00.000Z",
+  "openDate": "2026-04-24T23:00:00.000Z",
+  "showDate": "2026-04-24T23:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W17-6-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-24T23:53:13.837Z",
+  "leaderboardFetched": false
+}
