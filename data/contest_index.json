@@ -1,20 +1,170 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-23T23:58:20.085Z",
-  "total": 1,
+  "generatedAt": "2026-04-24T14:02:23.778Z",
+  "total": 16,
   "byStatus": {
     "COMPLETED": 0,
     "LIVE": 0,
-    "OPEN": 1,
+    "OPEN": 16,
     "UPCOMING": 0
   },
   "contests": [
     {
-      "_id": "69eab01198c8ed910b205842",
-      "name": "50/50 3K bRON Open Artifact Horoki",
+      "_id": "69eb5b6915d813bb0170059c",
+      "name": "WTA Open Larry Koban",
       "contestStatus": "OPEN",
-      "startDate": "2026-04-24T14:00:00.000Z",
-      "endDate": "2026-04-24T15:30:00.000Z",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 87.5,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69eb5b4a3b996656d4ee7509",
+      "name": "WTA Open Artifact Ambrosia",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 35,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69eb5b25b087ab1c8bada774",
+      "name": "WTA E Only Warrior Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 26.25,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69eb5ab03b996656d4ee74de",
+      "name": "WTA R Only Festival Party",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 8.75,
+      "format": "WINNER_TAKE_ALL"
+    },
+    {
+      "_id": "69eb5a7c15d813bb0170057a",
+      "name": "50/50 2B + 2R Class Diversity Larry Emblem",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 52.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb59fab087ab1c8bada734",
+      "name": "50/50 3R + 1E Lowest Score Shapeshifter Yokai",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 78.75,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb593f15d813bb0170055b",
+      "name": "Free Open Takoyaki Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 19,
+      "prizePool": 0,
+      "format": "FREE_ENTRY"
+    },
+    {
+      "_id": "69eb591fb087ab1c8bada70c",
+      "name": "Top 20% B Only Bald Tori",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 175,
+      "format": "TOP_20_PCT"
+    },
+    {
+      "_id": "69eb58e83b996656d4ee748c",
+      "name": "50/50 B Only Bald Shinobu",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 1,
+      "prizePool": 420,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb57e815d813bb01700522",
+      "name": "50/50 R Only Field Tanuki",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 2,
+      "prizePool": 1050,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb576f3b996656d4ee7463",
+      "name": "50/50 One-of-Each Hotei Temple",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 175,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb572f3b996656d4ee7449",
+      "name": "50/50 2B + 2R Tori Sparkle",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 262.5,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb566b3b996656d4ee741c",
+      "name": "50/50 R Only Temple Leaf",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 840,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb53bba46e02b49e386241",
+      "name": "50/50 2R + 2E Field Archipelago",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 306.25,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb53973b996656d4ee73f3",
+      "name": "50/50 E Only Mart Ambrosia",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
+      "entries": 0,
+      "prizePool": 700,
+      "format": "FIFTY_FIFTY"
+    },
+    {
+      "_id": "69eb51d763d702379f6c7b1a",
+      "name": "50/50 6K bRON Open Island Snack",
+      "contestStatus": "OPEN",
+      "startDate": "2026-04-25T00:00:00.000Z",
+      "endDate": "2026-04-25T01:30:00.000Z",
       "entries": 0,
       "prizePool": 8750,
       "format": "FIFTY_FIFTY"
