@@ -1,0 +1,27 @@
+{
+  "contestId": "69eca5ce7a131bb0d701e4e7",
+  "contestName": "WTA R Only Tim Gate",
+  "endDate": "2026-04-26T01:30:00.000Z",
+  "fetchedAt": "2026-04-25T17:54:05.024Z",
+  "totalEntries": 2,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "anonymous:69ecbb5096dce1895ab41412",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    },
+    {
+      "rank": 1,
+      "playerId": "anonymous:69ecbb58a2b67ca8ba00d9c4",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    }
+  ]
+}
