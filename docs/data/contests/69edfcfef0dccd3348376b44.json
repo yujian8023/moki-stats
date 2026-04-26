@@ -1,0 +1,79 @@
+{
+  "_id": "69edfcfef0dccd3348376b44",
+  "name": "50/50 2B + 2R Class Diversity Buff Archipelago",
+  "description": "50/50 2B + 2R Class Diversity Buff Archipelago",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 200,
+  "prizePool": 52.5,
+  "entries": 0,
+  "maxEntries": 30,
+  "startDate": "2026-04-27T00:00:00.000Z",
+  "endDate": "2026-04-27T01:30:00.000Z",
+  "openDate": "2026-04-26T13:00:00.000Z",
+  "showDate": "2026-04-26T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W18-1-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-class-coverage-bonus",
+      "name": "Class Diversity"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-26T13:37:39.447Z",
+  "leaderboardFetched": false
+}
