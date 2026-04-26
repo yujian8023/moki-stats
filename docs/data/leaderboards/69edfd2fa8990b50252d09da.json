@@ -1,0 +1,27 @@
+{
+  "contestId": "69edfd2fa8990b50252d09da",
+  "contestName": "WTA E Only Tori Field",
+  "endDate": "2026-04-27T01:30:00.000Z",
+  "fetchedAt": "2026-04-26T17:54:56.114Z",
+  "totalEntries": 2,
+  "top50": [
+    {
+      "rank": 1,
+      "playerId": "anonymous:69ee0c61ce932c9a0a58cc61",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    },
+    {
+      "rank": 1,
+      "playerId": "anonymous:69ee0c69ce932c9a0a58cca4",
+      "playerName": "Anonymous",
+      "score": 0,
+      "cardImages": [],
+      "entryNumber": 1,
+      "matchesCompleted": 0
+    }
+  ]
+}
