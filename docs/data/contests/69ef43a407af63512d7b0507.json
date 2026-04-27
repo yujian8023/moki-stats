@@ -1,0 +1,74 @@
+{
+  "_id": "69ef43a407af63512d7b0507",
+  "name": "50/50 3R + 1E Lowest Score Archipelago Snack",
+  "description": "50/50 3R + 1E Lowest Score Archipelago Snack",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 300,
+  "prizePool": 52.5,
+  "entries": 0,
+  "maxEntries": 20,
+  "startDate": "2026-04-28T14:00:00.000Z",
+  "endDate": "2026-04-28T15:30:00.000Z",
+  "openDate": "2026-04-27T23:00:00.000Z",
+  "showDate": "2026-04-27T23:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "RARE",
+        "maxRarity": "RARE"
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W18-2-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    },
+    {
+      "ruleId": "contest-modifier-lowest-score-wins",
+      "name": "Lowest Score"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-04-27T23:08:13.326Z",
+  "leaderboardFetched": false
+}
