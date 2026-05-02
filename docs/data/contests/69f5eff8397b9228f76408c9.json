@@ -1,0 +1,75 @@
+{
+  "_id": "69f5eff8397b9228f76408c9",
+  "name": "50/50 B Only Hotei Tamakin",
+  "description": "50/50 B Only Hotei Tamakin",
+  "contestStatus": "OPEN",
+  "format": "FIFTY_FIFTY",
+  "entryFee": 200,
+  "prizePool": 350,
+  "entries": 0,
+  "maxEntries": 200,
+  "startDate": "2026-05-03T14:00:00.000Z",
+  "endDate": "2026-05-03T15:30:00.000Z",
+  "openDate": "2026-05-02T23:00:00.000Z",
+  "showDate": "2026-05-02T23:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "COMMON"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "EQUAL_SPLIT",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W18-7-CW2"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-05-02T23:56:59.071Z",
+  "leaderboardFetched": false
+}
