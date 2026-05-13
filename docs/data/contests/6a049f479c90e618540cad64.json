@@ -1,0 +1,75 @@
+{
+  "_id": "6a049f479c90e618540cad64",
+  "name": "WTA E Only Tanuki Bald",
+  "description": "WTA E Only Tanuki Bald",
+  "contestStatus": "OPEN",
+  "format": "WINNER_TAKE_ALL",
+  "entryFee": 1500,
+  "prizePool": 131.25,
+  "entries": 10,
+  "maxEntries": 10,
+  "startDate": "2026-05-14T00:00:00.000Z",
+  "endDate": "2026-05-14T01:30:00.000Z",
+  "openDate": "2026-05-13T13:00:00.000Z",
+  "showDate": "2026-05-13T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "EPIC",
+        "maxRarity": "EPIC"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "WINNER_TAKE_ALL",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 100
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W20-4-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-05-13T18:11:31.952Z",
+  "leaderboardFetched": true
+}
