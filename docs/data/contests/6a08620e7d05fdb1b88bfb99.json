@@ -1,0 +1,81 @@
+{
+  "_id": "6a08620e7d05fdb1b88bfb99",
+  "name": "Free Open Anvil Badlands",
+  "description": "Free Open Anvil Badlands",
+  "contestStatus": "OPEN",
+  "format": "FREE_ENTRY",
+  "entryFee": 0,
+  "prizePool": 0,
+  "entries": 9,
+  "maxEntries": 0,
+  "startDate": "2026-05-17T00:00:00.000Z",
+  "endDate": "2026-05-17T01:30:00.000Z",
+  "openDate": "2026-05-16T13:00:00.000Z",
+  "showDate": "2026-05-16T13:00:00.000Z",
+  "featured": false,
+  "isPrivate": false,
+  "lineupConfig": {
+    "slots": [
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      },
+      {
+        "cardType": "nftai",
+        "minRarity": "COMMON",
+        "maxRarity": "LEGENDARY"
+      }
+    ],
+    "schemeSlots": [
+      {
+        "required": false
+      }
+    ],
+    "allowDuplicateChampions": false,
+    "cardUsageLimitPerContest": 1
+  },
+  "prizeStructure": {
+    "type": "TIERED",
+    "distribution": [
+      {
+        "rankStart": 1,
+        "rankEnd": 1,
+        "type": "PERCENTAGE",
+        "value": 30
+      },
+      {
+        "rankStart": 2,
+        "rankEnd": -1,
+        "type": "PERCENTAGE",
+        "value": 70
+      }
+    ]
+  },
+  "matchGroups": [
+    "season1-2026-W20-7-CW1"
+  ],
+  "gameTypes": [
+    "threeways"
+  ],
+  "contestGroup": "season1",
+  "scoringRules": [
+    {
+      "ruleId": "rarity-bonus",
+      "name": "Rarity Bonus"
+    }
+  ],
+  "scoringMethod": "V5",
+  "fetchedAt": "2026-05-16T13:54:49.675Z",
+  "leaderboardFetched": false
+}
